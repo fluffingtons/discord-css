@@ -30531,6 +30531,11 @@ to {
 	font-weight: 700
 }
 
+.user-settings-voice .preview-container {
+	position: relative;
+	overflow: hidden
+}
+
 .user-settings-voice .media-engine-video {
 	background-color: #000;
 	border-radius: 3px;
@@ -30538,6 +30543,49 @@ to {
 	transform: scaleX(-1);
 	-o-object-fit: cover;
 	object-fit: cover
+}
+
+.user-settings-voice .preview-overlay {
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	width: 320px;
+	height: 180px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0
+}
+
+.user-settings-voice .preview-overlay.dismiss {
+	-webkit-transform: scale(2);
+	transform: scale(2);
+	transition: background-color .4s ease-in,-webkit-transform .4s ease-in;
+	transition: transform .4s ease-in,background-color .4s ease-in
+}
+
+.user-settings-voice .preview-overlay .preview-overlay-inner.dismiss {
+	opacity: 0;
+	transition: opacity .1s ease-in
+}
+
+.theme-light .user-settings-voice .preview-overlay {
+	background-color: #f6f6f7;
+	border-color: #dcddde
+}
+
+.theme-light .user-settings-voice .preview-overlay.dismiss {
+	background-color: transparent
+}
+
+.theme-dark .user-settings-voice .preview-overlay {
+	background-color: #2f3136;
+	border-color: #202225
+}
+
+.theme-dark .user-settings-voice .preview-overlay.dismiss {
+	background-color: transparent
 }
 
 .btn-stroked {
@@ -40534,4 +40582,4 @@ to {
 }
 
 
-/*# sourceMappingURL=8fbb8a57dad046910b62.css.map*/
+/*# sourceMappingURL=103d56680a1de621476d.css.map*/
