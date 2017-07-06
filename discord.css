@@ -19,7 +19,8 @@
 	min-height: 1px;
 	-webkit-box-flex: 1;
 	-ms-flex: 1;
-	flex: 1
+	flex: 1;
+	contain: layout
 }
 
 .scroller-fzNley: : -webkit-scrollbar {
@@ -604,7 +605,8 @@
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
-	flex-direction: column
+	flex-direction: column;
+	contain: layout
 }
 
 .content-1Cut5s,.modal-3HOjGZ {
@@ -6147,7 +6149,8 @@ to {
 }
 
 .scroller-wrap .scroller {
-	overflow-y: scroll
+	overflow-y: scroll;
+	contain: layout
 }
 
 .scroller-wrap .scroller.scrolling>* {
@@ -8642,6 +8645,24 @@ to {
 	opacity: .2
 }
 
+.theme-dark .radio .radio-inner {
+	background-color: #4f545c;
+	border-color: #1c242b
+}
+
+.theme-dark .radio .radio-inner.default span: after {
+	opacity: .4
+}
+
+.theme-dark .radio .radio-inner span: after {
+	background-color: #7289da
+}
+
+.theme-dark .radio: hover span: after {
+	background-color: #7289da;
+	opacity: .6
+}
+
 .radioImage-FH04lI {
 	cursor: pointer;
 	position: relative
@@ -9777,7 +9798,8 @@ to {
 	box-shadow: 0 2px 4px rgba(0,0,0,.16);
 	position: absolute;
 	z-index: 1000;
-	-webkit-filter: blur(0)
+	-webkit-filter: blur(0);
+	contain: layout
 }
 
 .popout.no-shadow {
@@ -11998,7 +12020,8 @@ to {
 	z-index: 1002;
 	max-width: 160px;
 	box-sizing: border-box;
-	word-wrap: break-word
+	word-wrap: break-word;
+	contain: layout
 }
 
 .tooltip h1 {
@@ -12788,7 +12811,8 @@ to {
 	-ms-flex-direction: column;
 	flex-direction: column;
 	position: relative;
-	color: #fff
+	color: #fff;
+	contain: layout size
 }
 
 .chat.empty {
@@ -22722,7 +22746,7 @@ to {
 
 .ui-popout-list {
 	border-radius: 5px;
-	padding: 10px
+	padding: 10px 10px 0
 }
 
 .ui-popout-list-input {
@@ -22754,7 +22778,8 @@ to {
 }
 
 .scroller-3J0bdT {
-	max-height: 300px
+	max-height: 300px;
+	padding-bottom: 10px
 }
 
 .instant-invite-modal {
@@ -23789,6 +23814,7 @@ to {
 }
 
 .guild-settings-members-member {
+	contain: content;
 	padding: 16px 0
 }
 
@@ -26729,7 +26755,8 @@ to {
 	opacity: 0;
 	pointer-events: none;
 	box-sizing: border-box;
-	min-height: 340px
+	min-height: 340px;
+	contain: content
 }
 
 .inner-1_1f7b,.modal-2LIEKY {
@@ -26743,7 +26770,8 @@ to {
 .inner-1_1f7b {
 	pointer-events: auto;
 	-ms-flex-direction: column;
-	flex-direction: column
+	flex-direction: column;
+	contain: layout
 }
 
 @-webkit-keyframes outgoing-call-pulse {
@@ -27541,27 +27569,14 @@ a {
 	position: relative
 }
 
-#modal-mount,#popout-mount,#tooltip-mount {
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	overflow: hidden;
-	pointer-events: none
-}
-
-#modal-mount>*,#popout-mount>*,#tooltip-mount>* {
-	pointer-events: auto
-}
-
 .app,.connecting {
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	text-rendering: optimizeLegibility
+	text-rendering: optimizeLegibility;
+	contain: layout size
 }
 
 .app a,.connecting a {
@@ -27589,7 +27604,8 @@ a {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 3000
+	z-index: 3000;
+	contain: layout size
 }
 
 .titlebar button {
@@ -27603,7 +27619,8 @@ a {
 	bottom: 0;
 	left: 0;
 	z-index: 1000;
-	opacity: 0
+	opacity: 0;
+	contain: strict
 }
 
 .theme-dark .friends-table,.theme-dark .messages-wrapper {
@@ -28767,7 +28784,8 @@ form.auth-form footer {
 	background: #1e2124;
 	-ms-flex-negative: 0;
 	flex-shrink: 0;
-	position: relative
+	position: relative;
+	contain: strict
 }
 
 .guilds-wrapper .scroller-wrap {
@@ -29037,7 +29055,7 @@ form.auth-form footer {
 }
 
 .customWidth-1r5loa {
-	width: 500px
+	width: 520px
 }
 
 .divider-2zF9y8 {
@@ -30360,6 +30378,67 @@ to {
 
 .theme-dark .user-settings-voice .preview-overlay.dismiss {
 	background-color: transparent
+}
+
+.entity-37j2qr {
+	
+}
+
+.disabled-3U0Ywy {
+	pointer-events: none;
+	opacity: .3
+}
+
+.tableHeaderRow-1dg-Tp {
+	
+}
+
+.resetButton-3rvDWf {
+	background: url(/assets/7078340df4a046143feb20b58fc710ac.svg) 50% no-repeat;
+	width: 14px;
+	height: 14px;
+	background-size: 14px 14px;
+	cursor: pointer;
+	margin-left: 4px
+}
+
+.resetContainer-3FoD-S {
+	margin-left: 10px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.radioContainer-U0yMH4 {
+	width: 190px;
+	margin-left: 20px;
+	margin-right: 10px;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.switchDescription-1FP9-x {
+	font-size: 14px
+}
+
+.theme-light .switchDescription-1FP9-x {
+	color: #b9bbbe
+}
+
+.theme-light .entity-37j2qr,.theme-light .tableHeaderRow-1dg-Tp {
+	color: #000
+}
+
+.theme-dark .switchDescription-1FP9-x {
+	color: #72767d
+}
+
+.theme-dark .entity-37j2qr,.theme-dark .tableHeaderRow-1dg-Tp {
+	color: #fff
 }
 
 .btn-stroked {
@@ -32361,6 +32440,10 @@ to {
 
 .ui-phone-field-popout .scroller-wrap {
 	height: 196px
+}
+
+.ui-phone-field-popout .phone-field-scroller {
+	padding-bottom: 10px
 }
 
 .ui-phone-field-popout .country-item {
@@ -35373,7 +35456,8 @@ to {
 .container-RYiLUQ {
 	position: relative;
 	background-color: #2f3136;
-	min-height: 0
+	min-height: 0;
+	contain: layout size style
 }
 
 .scroller-NXV0-d {
@@ -36328,7 +36412,8 @@ to {
 }
 
 .layers,.layers>.layer {
-	overflow: hidden
+	overflow: hidden;
+	contain: layout size
 }
 
 .layers>.layer {
@@ -40731,4 +40816,4 @@ to {
 }
 
 
-/*# sourceMappingURL=b7c6947753efd01fa907.css.map*/
+/*# sourceMappingURL=361c20ecc9fa2296ff0b.css.map*/
