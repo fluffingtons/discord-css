@@ -9893,20 +9893,24 @@ to {
 	width: 300px
 }
 
-.instant-invite-popout form {
+.instant-invite-popout .form.deprecated {
 	width: auto
 }
 
-.instant-invite-popout form .btn {
+.instant-invite-popout .form.deprecated .btn {
 	width: 100%
 }
 
-.instant-invite-popout form .checkbox-group {
+.instant-invite-popout .form.deprecated .checkbox-group {
 	margin-bottom: 10px
 }
 
-.instant-invite-popout form .checkbox .checkbox-inner span {
+.instant-invite-popout .form.deprecated .checkbox .checkbox-inner span {
 	border-color: #cdcdcd
+}
+
+.instant-invite-popout .form.deprecated .Select-control {
+	height: auto
 }
 
 .instant-invite-popout section {
@@ -20765,11 +20769,11 @@ $border-radius:  calc($scrollbar-width / 2);
 .invite-button-icon.expired: after,.invite-button-icon.expired: before {
 	content: "";
 	position: absolute;
-	top: 13px;
-	left: 23px;
+	top: 10px;
+	left: 22px;
 	display: table;
 	width: 0;
-	height: 24px;
+	height: 25px;
 	border: 0 solid #fff;
 	border-right: solid #fff;
 	border-width: 3px
@@ -42140,4 +42144,4 @@ to {
 }
 
 
-/*# sourceMappingURL=b2043da99e03b3ab290f.css.map*/
+/*# sourceMappingURL=c3bb6288adc8536fe0b0.css.map*/
