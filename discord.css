@@ -5112,6 +5112,11 @@ to {
 	margin-right: 8px
 }
 
+.actionButtonTooltip-3jjwLm {
+	width: 100%;
+	height: 100%
+}
+
 .actionError-1MNYPU {
 	font-size: 11px;
 	line-height: 20px
@@ -12160,7 +12165,7 @@ to {
 	color: #f6f6f7
 }
 
-.ui-popout {
+.ui-popout-menu {
 	background-color: #fff;
 	border: 1px solid rgba(0,0,0,.05);
 	-webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
@@ -12169,15 +12174,15 @@ to {
 	padding: 5px 10px
 }
 
-.ui-popout.large {
+.ui-popout-menu.large {
 	width: 230px
 }
 
-.ui-popout.medium {
+.ui-popout-menu.medium {
 	width: 136px
 }
 
-.ui-popout .title {
+.ui-popout-menu .title {
 	font-weight: 600;
 	color: #b9bbbe;
 	margin: 10px;
@@ -12185,7 +12190,7 @@ to {
 	text-transform: uppercase
 }
 
-.ui-popout .item {
+.ui-popout-menu .item {
 	padding: 0 10px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -12200,35 +12205,35 @@ to {
 	cursor: pointer
 }
 
-.ui-popout .item.large {
+.ui-popout-menu .item.large {
 	height: 34px
 }
 
-.ui-popout .item.medium {
+.ui-popout-menu .item.medium {
 	height: 32px
 }
 
-.ui-popout .item .name {
+.ui-popout-menu .item .name {
 	font-weight: 600;
 	color: #4f545c;
 	-ms-flex-negative: 1;
 	flex-shrink: 1
 }
 
-.ui-popout .item .name.large {
+.ui-popout-menu .item .name.large {
 	font-size: 16px
 }
 
-.ui-popout .item .name.medium {
+.ui-popout-menu .item .name.medium {
 	font-size: 13px
 }
 
-.ui-popout .item .image {
+.ui-popout-menu .item .image {
 	width: 24px;
 	height: 24px
 }
 
-.ui-popout .item: hover {
+.ui-popout-menu .item: hover {
 	background-color: #f6f6f7
 }
 
@@ -12694,7 +12699,6 @@ to {
 
 .tooltip {
 	position: absolute;
-	background-color: #7289da;
 	-webkit-box-shadow: 0 2px 4px 1px rgba(0,0,0,.1);
 	box-shadow: 0 2px 4px 1px rgba(0,0,0,.1);
 	border-radius: 3px;
@@ -12734,8 +12738,7 @@ to {
 	position: absolute;
 	top: 100%;
 	left: 50%;
-	margin-left: -5px;
-	border-top-color: #7289da
+	margin-left: -5px
 }
 
 .tooltip.tooltip-bottom {
@@ -12746,7 +12749,6 @@ to {
 	position: absolute;
 	bottom: 100%;
 	left: 50%;
-	border-bottom-color: #7289da;
 	margin-left: -5px
 }
 
@@ -12758,7 +12760,6 @@ to {
 	position: absolute;
 	left: 100%;
 	top: 50%;
-	border-left-color: #7289da;
 	margin-top: -5px
 }
 
@@ -12770,67 +12771,86 @@ to {
 	position: absolute;
 	right: 100%;
 	top: 50%;
-	border-right-color: #7289da;
 	margin-top: -5px
 }
 
-.tooltip.tooltip-error {
+.tooltip.tooltip-brand {
+	background-color: #7289da
+}
+
+.tooltip.tooltip-brand.tooltip-top: after {
+	border-top-color: #7289da
+}
+
+.tooltip.tooltip-brand.tooltip-bottom: after {
+	border-bottom-color: #7289da
+}
+
+.tooltip.tooltip-brand.tooltip-left: after {
+	border-left-color: #7289da
+}
+
+.tooltip.tooltip-brand.tooltip-right: after {
+	border-right-color: #7289da
+}
+
+.tooltip.tooltip-red {
 	background-color: #f04747
 }
 
-.tooltip.tooltip-error.tooltip-top: after {
+.tooltip.tooltip-red.tooltip-top: after {
 	border-top-color: #f04747
 }
 
-.tooltip.tooltip-error.tooltip-bottom: after {
+.tooltip.tooltip-red.tooltip-bottom: after {
 	border-bottom-color: #f04747
 }
 
-.tooltip.tooltip-error.tooltip-left: after {
+.tooltip.tooltip-red.tooltip-left: after {
 	border-left-color: #f04747
 }
 
-.tooltip.tooltip-error.tooltip-right: after {
+.tooltip.tooltip-red.tooltip-right: after {
 	border-right-color: #f04747
 }
 
-.tooltip.tooltip-success {
+.tooltip.tooltip-green {
 	background-color: #43b581
 }
 
-.tooltip.tooltip-success.tooltip-top: after {
+.tooltip.tooltip-green.tooltip-top: after {
 	border-top-color: #43b581
 }
 
-.tooltip.tooltip-success.tooltip-bottom: after {
+.tooltip.tooltip-green.tooltip-bottom: after {
 	border-bottom-color: #43b581
 }
 
-.tooltip.tooltip-success.tooltip-left: after {
+.tooltip.tooltip-green.tooltip-left: after {
 	border-left-color: #43b581
 }
 
-.tooltip.tooltip-success.tooltip-right: after {
+.tooltip.tooltip-green.tooltip-right: after {
 	border-right-color: #43b581
 }
 
-.tooltip.tooltip-warning {
+.tooltip.tooltip-yellow {
 	background-color: #faa61a
 }
 
-.tooltip.tooltip-warning.tooltip-top: after {
+.tooltip.tooltip-yellow.tooltip-top: after {
 	border-top-color: #faa61a
 }
 
-.tooltip.tooltip-warning.tooltip-bottom: after {
+.tooltip.tooltip-yellow.tooltip-bottom: after {
 	border-bottom-color: #faa61a
 }
 
-.tooltip.tooltip-warning.tooltip-left: after {
+.tooltip.tooltip-yellow.tooltip-left: after {
 	border-left-color: #faa61a
 }
 
-.tooltip.tooltip-warning.tooltip-right: after {
+.tooltip.tooltip-yellow.tooltip-right: after {
 	border-right-color: #faa61a
 }
 
@@ -27209,6 +27229,7 @@ form.auth-form footer {
 	appearance: none;
 	font-weight: 400;
 	font-size: 0.9375rem;
+	line-height: 1.25rem;
 	letter-spacing: -0.025rem;
 	max-height: 144px;
 	width: 100%;
@@ -42976,4 +42997,4 @@ to {
 }
 
 
-/*# sourceMappingURL=f1f62908e65effbd2518.css.map*/
+/*# sourceMappingURL=a5bdc9d6d0d7f7d1ae6f.css.map*/
