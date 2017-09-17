@@ -8026,10 +8026,7 @@ to {
 
 .avatar-small .avatar-verified {
 	width: 14px;
-	height: 14px;
-	background-size: 14px;
-	-webkit-box-shadow: 0 0 0 1.3px #fff inset;
-	box-shadow: inset 0 0 0 1.3px #fff
+	height: 14px
 }
 
 .avatar-verified {
@@ -24025,6 +24022,46 @@ to {
 	contain: layout
 }
 
+.wrapper-2G6bx_ {
+	position: relative;
+	overflow: hidden
+}
+
+.video-2vmmgZ,.wrapper-2G6bx_ {
+	width: 100%;
+	height: 100%
+}
+
+.video-2vmmgZ {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #000
+}
+
+.videoCover-12myFQ {
+	-o-object-fit: cover;
+	object-fit: cover
+}
+
+.videoContain-2dz7JX {
+	-o-object-fit: contain;
+	object-fit: contain
+}
+
+.mirror-1x7lBr {
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1)
+}
+
+.spinner-3468k_ {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.8)
+}
+
 @-webkit-keyframes outgoing-call-pulse {
 	0% {
 	opacity: .6;
@@ -24130,8 +24167,7 @@ to {
 }
 
 .ui-call-avatar-wrapper {
-	position: relative;
-	margin: 4px
+	position: relative
 }
 
 .ui-call-avatar-wrapper .ripple {
@@ -24237,37 +24273,23 @@ to {
 	position: relative
 }
 
+.ui-call-avatar .ui-call-avatar-status {
+	background-clip: padding-box;
+	border-radius: 50%;
+	padding: 4px
+}
+
 .ui-call-avatar.voice {
 	border-radius: 50%
 }
 
 .ui-call-avatar.voice .ui-call-avatar-status {
-	opacity: 0;
-	background-clip: padding-box;
 	position: absolute;
-	pointer-events: none;
-	width: 32px;
-	height: 32px;
-	border-radius: 50%;
 	right: -4px;
 	bottom: -4px;
 	background-color: #f04747;
-	background-position: 50%;
-	background-repeat: no-repeat;
 	border-width: 4px;
 	border-style: solid
-}
-
-.ui-call-avatar.voice .ui-call-avatar-status.muted {
-	opacity: 1;
-	background-image: url(data: image/svg+xml;
-	base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0ibWF0cml4KC0xIDAgMCAxIDI0IDApIj4KICAgIDxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIvPgogICAgPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE2LDkgQzE2LDEwLjE5IDE1LjY2LDExLjMgMTUuMSwxMi4yOCBMMTMuODcsMTEuMDUgQzE0LjE0LDEwLjQzIDE0LjMsOS43NCAxNC4zLDkgTDE2LDkgTDE2LDkgWiBNMTIsOS4xNiBMNiwzLjE4IEw2LDMgQzYsMS4zNDMxNDU3NSA3LjM0MzE0NTc1LDQuNDQwODkyMWUtMTYgOSwwIEMxMC42NTY4NTQyLDAgMTIsMS4zNDMxNDU3NSAxMiwzIEwxMiw5IEwxMiw5LjE2IEwxMiw5LjE2IFogTTEuMjcsMSBMMTgsMTcuNzMgTDE2LjczLDE5IEwxMi41NCwxNC44MSBDMTEuNzcsMTUuMjcgMTAuOTEsMTUuNTggMTAsMTUuNzIgTDEwLDE5IEw4LDE5IEw4LDE1LjcyIEM0LjcyLDE1LjIzIDIsMTIuNDEgMiw5IEwzLjcsOSBDMy43LDEyIDYuMjQsMTQuMSA5LDE0LjEgQzkuODEsMTQuMSAxMC42LDEzLjkxIDExLjMxLDEzLjU4IEw5LjY1LDExLjkyIEw5LDEyIEM3LjM0MzE0NTc1LDEyIDYsMTAuNjU2ODU0MiA2LDkgTDYsOC4yOCBMMCwyLjI3IEwxLjI3LDEgWiIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgMjEgMykiLz4KICA8L2c+Cjwvc3ZnPgo=)
-}
-
-.ui-call-avatar.voice .ui-call-avatar-status.deafen {
-	opacity: 1;
-	background-image: url(data: image/svg+xml;
-	base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHRyYW5zZm9ybT0ibWF0cml4KC0xIDAgMCAxIDI0IDApIj4KICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yMC40Myw3Ljg0IEMyMC44LDguODIgMjEsOS44OSAyMSwxMSBMMjEsMTkgQzIxLDIwLjY1Njg1NDIgMTksMjEgMTksMjEgTDE1LDIxIEwxNSwxMy4yNyBMOSwxOS4yNyBMOSwyMSBMNy4yNywyMSBMNC43NywyMy41IEwzLjUsMjIuMjIgTDIxLjIyLDQuNSBMMjIuNSw1Ljc3IEwyMC40Myw3Ljg0IFogTTEyLDIgQzE0LjUzLDIgMTYuODIsMy4wNCAxOC40NSw0LjcyIEwxNy4wNCw2LjE0IEMxNS43Nyw0LjgyIDE0LDQgMTIsNCBDOC4xMzQwMDY3NSw0IDUsNy4xMzQwMDY3NSA1LDExIEw1LDEzIEw5LDEzIEw5LDE0LjE4IEwzLjUsMTkuNjcgQzMuMTksMTkuMTkgMywxOC42MiAzLDE4IEwzLDExIEMzLDYuMDI5NDM3MjUgNy4wMjk0MzcyNSwyIDEyLDIgTDEyLDIgWiBNMTksMTMgTDE5LDExIEMxOSwxMC40NiAxOC45NCw5Ljk0IDE4LjgzLDkuNDQgTDE1LjI3LDEzIEwxOSwxMyBaIi8+CiAgICA8cmVjdCB3aWR0aD0iMjQiIGhlaWdodD0iMjQiLz4KICA8L2c+Cjwvc3ZnPgo=)
 }
 
 .ui-call-avatar.video {
@@ -24279,43 +24301,24 @@ to {
 }
 
 .ui-call-avatar.video: not(.disabled) {
-	cursor: pointer
+	cursor: pointer;
+	-webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.6);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.6)
 }
 
 .ui-call-avatar.video .ui-call-avatar-video {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	overflow: hidden
-}
-
-.ui-call-avatar.video .ui-call-avatar-video.mirror {
-	-webkit-transform: scaleX(-1);
-	transform: scaleX(-1)
-}
-
-.ui-call-avatar.video .media-engine-video {
-	border-radius: 3px;
-	width: 100%;
-	height: 100%;
-	-o-object-fit: cover;
-	object-fit: cover
+	border-radius: 3px
 }
 
 .ui-call-avatar.video .ui-call-avatar-status {
-	background-clip: padding-box;
 	position: absolute;
 	top: 2px;
 	right: 2px;
-	border-radius: 50%;
 	cursor: pointer;
-	padding: 4px;
 	background-color: rgba(0,0,0,.3)
 }
 
-.ui-call-avatar-border.voice {
+.ui-call-avatar-border {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -24329,24 +24332,10 @@ to {
 	box-shadow: inset 0 0 0 3px #43b581
 }
 
-.ui-call-avatar-border.voice.video.selected {
+.ui-call-avatar-border.video.speaking {
 	border-radius: 3px;
-	-webkit-box-shadow: inset 0 0 0 2px #7289da;
-	box-shadow: inset 0 0 0 2px #7289da
-}
-
-.ui-call-avatar-border.voice.video.speaking: not(.selected) {
-	border-radius: 3px;
-	-webkit-box-shadow: inset 0 0 0 4px #43b581;
-	box-shadow: inset 0 0 0 4px #43b581
-}
-
-.ui-call-avatar-border.video {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0
+	-webkit-box-shadow: inset 0 0 0 2px #43b581;
+	box-shadow: inset 0 0 0 2px #43b581
 }
 
 .ui-call-avatar-border.video.selected: not(.speaking) {
@@ -24355,14 +24344,7 @@ to {
 	box-shadow: inset 0 0 0 2px #7289da
 }
 
-.ui-call-avatar-border.video.speaking {
-	border-radius: 3px;
-	-webkit-box-shadow: inset 0 0 0 4px #43b581;
-	box-shadow: inset 0 0 0 4px #43b581
-}
-
 .ui-call-avatar-overlay {
-	border-radius: 3px;
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0,0,0,.8)
@@ -34848,12 +34830,12 @@ to {
 	-ms-flex-item-align: stretch;
 	align-self: stretch;
 	padding: 60px 0;
-	background-color: #18191c
+	background-color: #000
 }
 
-.private-channel-call.no-chat .private-channel-call-video {
-	border-radius: 3px;
-	overflow: hidden
+.private-channel-call .private-channel-call-video {
+	width: 100%;
+	height: 100%
 }
 
 .private-channel-call.no-chat .private-channel-call-info {
@@ -34899,8 +34881,8 @@ to {
 }
 
 .private-channel-call.full-screen .private-channel-call-actions .center,.private-channel-call.full-screen .private-channel-call-actions .side,.private-channel-call.no-chat .center,.private-channel-call.no-chat .side,.private-channel-call.normal .center,.private-channel-call.normal .side {
-	border-color: rgba(4,4,5,.9);
-	background-color: #040405
+	border-color: rgba(0,0,0,.9);
+	background-color: rgba(0,0,0,.8)
 }
 
 .private-channel-call .icon-button {
@@ -34996,6 +34978,10 @@ to {
 
 .private-channel-call-participants .avatar-transition {
 	position: relative
+}
+
+.private-channel-call-participants .avatar-margin {
+	margin: 4px 8px
 }
 
 .private-channel-call-participants .sprite-wrapper {
@@ -35359,20 +35345,7 @@ to {
 }
 
 .video-30TWsj {
-	border-radius: 3px;
-	width: 100%;
-	height: 100%;
-	-o-object-fit: cover;
-	object-fit: cover
-}
-
-.mirror-1zmX_c {
-	-webkit-transform: scaleX(-1);
-	transform: scaleX(-1)
-}
-
-.loading-3Tn9sh {
-	background-color: rgba(0,0,0,.8)
+	border-radius: 3px
 }
 
 .region-select-popout {
@@ -37311,7 +37284,7 @@ to {
 	font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 	color: #fff;
 	font-weight: 500;
-	padding: 0 16px 0 24px;
+	padding: 0 16px;
 	height: 56px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -43131,4 +43104,4 @@ to {
 }
 
 
-/*# sourceMappingURL=6fbdd31ba4eb0383a026eef8efe64601.css.map*/
+/*# sourceMappingURL=e191ba2b2330214b2db449df9dcd3a85.css.map*/
