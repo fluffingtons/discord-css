@@ -7720,6 +7720,12 @@ to {
 
 }
 
+.avatar-verified {
+	bottom: -2px;
+	position: absolute;
+	right: -2px
+}
+
 .avatar-large,.avatar-profile,.avatar-small,.avatar-xlarge,.avatar-xsmall,.avatar-xxlarge {
 	background-clip: padding-box;
 	background-color: none;
@@ -7755,6 +7761,11 @@ to {
 	width: 30px
 }
 
+.avatar-profile .avatar-verified {
+	bottom: 4px;
+	right: 12px
+}
+
 .avatar-popout {
 	background-size: 90px 90px;
 	border-radius: 50%;
@@ -7773,6 +7784,11 @@ to {
 	background-size: 128px 128px;
 	height: 128px;
 	width: 128px
+}
+
+.avatar-xxxlarge .avatar-verified {
+	bottom: 4px;
+	right: 12px
 }
 
 .avatar-xxlarge {
@@ -7844,12 +7860,6 @@ to {
 .avatar-small .avatar-verified {
 	height: 14px;
 	width: 14px
-}
-
-.avatar-verified {
-	bottom: -2px;
-	position: absolute;
-	right: -2px
 }
 
 .online {
@@ -31040,6 +31050,298 @@ to {
 	margin: 20px 0 30px
 }
 
+.button-25MJ3e {
+	border: none;
+	font-size: 12px;
+	padding: 3px 10px
+}
+
+.buttonContents-1jnNjf {
+	background: transparent;
+	border-radius: 3px;
+	bottom: 0;
+	color: #fff;
+	left: 0;
+	overflow: hidden;
+	padding: 1px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0
+}
+
+.buttonBorder-1hsmVx {
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-name: RotateGradient-36MArU;
+	-webkit-animation-timing-function: linear;
+	-webkit-transition: background-image .17s ease,opacity .17s ease;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-name: RotateGradient-36MArU;
+	animation-timing-function: linear;
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(40%,hsla(0,0%,100%,.4)),color-stop(60%,#fff));
+	background-image: linear-gradient(0deg,hsla(0,0%,100%,.4) 40%,#fff 60%);
+	left: 50%;
+	opacity: .5;
+	position: absolute;
+	top: 50%;
+	transition: background-image .17s ease,opacity .17s ease;
+	z-index: -1
+}
+
+.button-25MJ3e: hover .buttonBorder-1hsmVx {
+	opacity: 1
+}
+
+.button-25MJ3e: active .buttonBorder-1hsmVx {
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(40%,#fff),color-stop(60%,#fff));
+	background-image: linear-gradient(0deg,#fff 40%,#fff 60%);
+	opacity: 1
+}
+
+.buttonInner-2iK3OX {
+	-webkit-transition: background-color .17s ease;
+	background-color: #202225;
+	border-radius: 2px;
+	height: 100%;
+	transition: background-color .17s ease
+}
+
+.button-25MJ3e: active .buttonInner-2iK3OX {
+	background-color: #36393f
+}
+
+@-webkit-keyframes RotateGradient-36MArU {
+	0% {
+	-webkit-transform: rotate(-25deg);
+	transform: rotate(-25deg)
+}
+
+5% {
+	-webkit-transform: rotate(-20deg);
+	transform: rotate(-20deg)
+}
+
+10% {
+	-webkit-transform: rotate(-5deg);
+	transform: rotate(-5deg)
+}
+
+18% {
+	-webkit-transform: rotate(5deg);
+	transform: rotate(5deg)
+}
+
+50% {
+	-webkit-transform: rotate(155deg);
+	transform: rotate(155deg)
+}
+
+55% {
+	-webkit-transform: rotate(160deg);
+	transform: rotate(160deg)
+}
+
+60% {
+	-webkit-transform: rotate(175deg);
+	transform: rotate(175deg)
+}
+
+68% {
+	-webkit-transform: rotate(185deg);
+	transform: rotate(185deg)
+}
+
+to {
+	-webkit-transform: rotate(335deg);
+	transform: rotate(335deg)
+}
+
+
+}
+
+@keyframes RotateGradient-36MArU {
+	0% {
+	-webkit-transform: rotate(-25deg);
+	transform: rotate(-25deg)
+}
+
+5% {
+	-webkit-transform: rotate(-20deg);
+	transform: rotate(-20deg)
+}
+
+10% {
+	-webkit-transform: rotate(-5deg);
+	transform: rotate(-5deg)
+}
+
+18% {
+	-webkit-transform: rotate(5deg);
+	transform: rotate(5deg)
+}
+
+50% {
+	-webkit-transform: rotate(155deg);
+	transform: rotate(155deg)
+}
+
+55% {
+	-webkit-transform: rotate(160deg);
+	transform: rotate(160deg)
+}
+
+60% {
+	-webkit-transform: rotate(175deg);
+	transform: rotate(175deg)
+}
+
+68% {
+	-webkit-transform: rotate(185deg);
+	transform: rotate(185deg)
+}
+
+to {
+	-webkit-transform: rotate(335deg);
+	transform: rotate(335deg)
+}
+
+
+}
+
+.shinyButton-2KAUcw {
+	overflow: hidden
+}
+
+.shinyButtonShineContainer-3vOrzz {
+	-webkit-animation-delay: .75s;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-name: Shine-2cbOZB;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-delay: .75s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-name: Shine-2cbOZB;
+	animation-timing-function: ease-in-out;
+	bottom: 0;
+	left: -50%;
+	position: absolute;
+	right: 0;
+	top: -50%
+}
+
+.shinyButtonShine-2RDaez {
+	-webkit-transform: rotate(30deg);
+	background-color: hsla(0,0%,100%,.1);
+	height: 300%;
+	position: relative;
+	top: -100%;
+	transform: rotate(30deg);
+	width: 56px
+}
+
+.shinyButtonShineInner-fAb9pZ {
+	background-color: hsla(0,0%,100%,.1);
+	height: 100%;
+	width: 16px
+}
+
+@-webkit-keyframes Shine-2cbOZB {
+	0% {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0)
+}
+
+to {
+	-webkit-transform: translate3d(200%,0,0);
+	transform: translate3d(200%,0,0)
+}
+
+
+}
+
+@keyframes Shine-2cbOZB {
+	0% {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0)
+}
+
+to {
+	-webkit-transform: translate3d(200%,0,0);
+	transform: translate3d(200%,0,0)
+}
+
+
+}
+
+.animationWrapper-RUf2mE {
+	position: relative
+}
+
+.notice-2Q2b6H {
+	background-color: #202225;
+	bottom: 0;
+	color: #fff;
+	height: 40px;
+	left: 0;
+	position: absolute;
+	right: 0
+}
+
+.noticeBody-2g_jPx {
+	-ms-flex: 1;
+	-webkit-box-flex: 1;
+	flex: 1
+}
+
+.gameBackground-Twm-5S {
+	-webkit-filter: grayscale(100%);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: grayscale(100%);
+	width: 50%
+}
+
+.gameBackground-Twm-5S,.gameBackgroundOverlay-1UB_hZ {
+	bottom: 0;
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.gameBackgroundOverlay-1UB_hZ {
+	background-image: -webkit-gradient(linear,left top,right top,from(rgba(32,34,37,100%)),to(rgba(32,34,37,70%)));
+	background-image: linear-gradient(90deg,#202225,rgba(32,34,37,.7));
+	left: 0
+}
+
+.gameIcon-akWdkj {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 20px;
+	margin-right: 8px;
+	width: 20px
+}
+
+.message-1hFl_j {
+	font-size: 14px
+}
+
+.buttonContainer-J9G2zt {
+	margin-left: 20px;
+	margin-right: -8px
+}
+
+.button-8D9Mus {
+	font-size: 12px;
+	margin-right: 8px;
+	padding: 3px 10px
+}
+
 .download-apps-modal {
 	-ms-flex-align: center;
 	-ms-flex-direction: column;
@@ -36830,6 +37132,7 @@ to {
 	color: #fff;
 	line-height: 128px;
 	margin: 0 auto;
+	position: relative;
 	text-align: center
 }
 
@@ -43357,4 +43660,4 @@ a {
 }
 
 
-/*# sourceMappingURL=68d6ecc9fdbc9147f7e0b01953c1f9d8.css.map*/
+/*# sourceMappingURL=bbd9fab21779a54269578956de5923f2.css.map*/
