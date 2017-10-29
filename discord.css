@@ -24210,18 +24210,18 @@ to {
 }
 
 .message-group .btn-option,.message-group .btn-reaction {
-	-webkit-transition: opacity .2s ease;
 	background-size: 16px 16px;
 	cursor: pointer;
 	float: right;
 	height: 16px;
-	opacity: 0;
-	transition: opacity .2s ease;
+	opacity: .4;
+	visibility: hidden;
 	width: 16px
 }
 
 .message-group .btn-option.popout-open,.message-group .btn-option: hover,.message-group .btn-reaction.popout-open,.message-group .btn-reaction: hover {
-	opacity: 1!important
+	opacity: 1!important;
+	visibility: visible!important
 }
 
 .message-group .btn-option {
@@ -24234,7 +24234,7 @@ to {
 }
 
 .message-group .comment>div: hover .btn-option,.message-group .comment>div: hover .btn-reaction,.message-group .system-message>div: hover .btn-option,.message-group .system-message>div: hover .btn-reaction {
-	opacity: .4
+	visibility: visible!important
 }
 
 .message-group .accessory {
@@ -35233,8 +35233,7 @@ form.auth-form footer {
 	background-color: #36393f;
 	bottom: 0;
 	left: 0;
-	padding-top: 20px;
-	position: absolute;
+	position: fixed;
 	right: 0;
 	top: 0
 }
@@ -45046,4 +45045,4 @@ code {
 }
 
 
-/*# sourceMappingURL=aa07bba36b2c5b0db7ad286cb027455e.css.map*/
+/*# sourceMappingURL=1ef05bbe7e011ed7457c8f837ee42b36.css.map*/
