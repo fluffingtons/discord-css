@@ -13112,6 +13112,56 @@ to {
 	width: 136px
 }
 
+.connect-account-btn {
+	position: relative
+}
+
+.connect-account-btn .connect-account-btn-inner {
+	-ms-flex-pack: center;
+	-webkit-box-pack: center;
+	background-color: transparent;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: 36px 36px;
+	border: 1px solid rgba(153,170,181,.3);
+	border-radius: 5px;
+	height: 52px;
+	justify-content: center;
+	width: 52px
+}
+
+.connect-account-btn .connect-account-btn-inner: hover {
+	background-color: rgba(153,170,181,.3);
+	border-color: transparent;
+	cursor: pointer
+}
+
+.connect-account-btn .connect-account-btn-inner: disabled {
+	opacity: .3;
+	pointer-events: none
+}
+
+.connect-account-btn .ellipsis {
+	-ms-flex-align: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	align-items: center;
+	bottom: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.connect-account-btn .ellipsis .spinner-item {
+	background-color: #4f545c
+}
+
 .notice {
 	-ms-flex-negative: 0;
 	-ms-flex-positive: 0;
@@ -13173,6 +13223,14 @@ to {
 
 .notice.notice-streamer-mode .btn: hover {
 	color: #593695
+}
+
+.notice.notice-facebook {
+	background-color: #355089
+}
+
+.notice.notice-facebook .btn: hover {
+	color: #355089
 }
 
 .notice.notice-brand {
@@ -18522,56 +18580,6 @@ to {
 
 .theme-dark .user-settings-account .view-body {
 	color: #b9bbbe
-}
-
-.connect-account-btn {
-	position: relative
-}
-
-.connect-account-btn .connect-account-btn-inner {
-	-ms-flex-pack: center;
-	-webkit-box-pack: center;
-	background-color: transparent;
-	background-position: 50%;
-	background-repeat: no-repeat;
-	background-size: 36px 36px;
-	border: 1px solid rgba(153,170,181,.3);
-	border-radius: 5px;
-	height: 52px;
-	justify-content: center;
-	width: 52px
-}
-
-.connect-account-btn .connect-account-btn-inner: hover {
-	background-color: rgba(153,170,181,.3);
-	border-color: transparent;
-	cursor: pointer
-}
-
-.connect-account-btn .connect-account-btn-inner: disabled {
-	opacity: .3;
-	pointer-events: none
-}
-
-.connect-account-btn .ellipsis {
-	-ms-flex-align: center;
-	-ms-flex-pack: center;
-	-webkit-box-align: center;
-	-webkit-box-pack: center;
-	align-items: center;
-	bottom: 0;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	justify-content: center;
-	left: 0;
-	position: absolute;
-	right: 0;
-	top: 0
-}
-
-.connect-account-btn .ellipsis .spinner-item {
-	background-color: #4f545c
 }
 
 .user-settings-connections .connect-account-list {
@@ -31559,6 +31567,67 @@ to {
 
 .container-3dgtdN {
 	padding-left: 16px
+}
+
+.notice-3w3nb0 {
+	-ms-flex-negative: 0;
+	-webkit-box-shadow: inset 0 -1px 0 rgba(32,34,37,.3);
+	background: rgba(32,34,37,.3) url(/assets/b3592399790b5beef2fbc9bb5a091d86.svg) no-repeat 50% 20px;
+	box-shadow: inset 0 -1px 0 rgba(32,34,37,.3);
+	color: #fff;
+	flex-shrink: 0;
+	padding: 90px 20px 20px;
+	position: relative
+}
+
+.text-2z4O2f {
+	opacity: .6;
+	text-align: center
+}
+
+.textSize-1999XJ {
+	font-size: 14px;
+	line-height: 18px
+}
+
+.button-2P2dgR {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6);
+	-webkit-box-sizing: border-box;
+	appearance: none;
+	background-color: #36393f;
+	border-radius: 3px;
+	box-shadow: 0 0 0 1px rgba(32,34,37,.6);
+	box-sizing: border-box;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	height: 32px;
+	line-height: 32px;
+	margin: 0;
+	padding: 0;
+	text-align: center
+}
+
+.button-2P2dgR: hover {
+	background-color: #3a3d43
+}
+
+.button-2P2dgR: active {
+	background-color: #35383e
+}
+
+.close-2Uu7XM {
+	background: url(data: image/svg+xml;
+	base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMTh2MThIMCIvPgogICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTE0LjI1IDQuODA3NUwxMy4xOTI1IDMuNzUgOSA3Ljk0MjUgNC44MDc1IDMuNzUgMy43NSA0LjgwNzUgNy45NDI1IDkgMy43NSAxMy4xOTI1IDQuODA3NSAxNC4yNSA5IDEwLjA1NzVsNC4xOTI1IDQuMTkyNSAxLjA1NzUtMS4wNTc1TDEwLjA1NzUgOSIvPgogIDwvZz4KPC9zdmc+);
+	cursor: pointer;
+	height: 18px;
+	opacity: .3;
+	position: absolute;
+	right: 16px;
+	top: 12px;
+	width: 18px
 }
 
 .channel-notices .channel-notice {
@@ -45055,4 +45124,4 @@ code {
 }
 
 
-/*# sourceMappingURL=f286b1f639d73309c122143b38ec560f.css.map*/
+/*# sourceMappingURL=8cf90a7005cdcf41fad674a981fbfb0d.css.map*/
