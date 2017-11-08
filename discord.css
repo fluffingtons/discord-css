@@ -5930,7 +5930,7 @@ to {
 }
 
 .assetsActivityFeed-3Vwh_5 {
-	max-height: 100px
+	max-height: 90px
 }
 
 .assetsLargeMaskUserPopout-14rwc_ {
@@ -5939,8 +5939,8 @@ to {
 }
 
 .assetsLargeMaskActivityFeed-o7F47L {
-	-webkit-mask: url(/assets/29adb86586a7dd1636635d7b163f9fcb.svg);
-	mask: url(/assets/29adb86586a7dd1636635d7b163f9fcb.svg)
+	-webkit-mask: url(/assets/9394ae87730d71ce748ae324bff3dd32.svg);
+	mask: url(/assets/9394ae87730d71ce748ae324bff3dd32.svg)
 }
 
 .assetsLargeMaskProfile-2u315x {
@@ -5962,8 +5962,8 @@ to {
 }
 
 .assetsLargeImageActivityFeed-IurGz8 {
-	height: 100px;
-	width: 100px
+	height: 90px;
+	width: 90px
 }
 
 .assetsLargeImageProfile-2VlsXC {
@@ -5976,18 +5976,18 @@ to {
 }
 
 .assetsSmallImageUserPopout-dXG26U {
-	bottom: -4px;
 	height: 22px;
-	position: absolute;
-	right: -4px;
 	width: 22px
 }
 
-.assetsSmallImageActivityFeed-2CaztB {
-	bottom: -6px;
-	height: 32px;
+.assetsSmallImageActivityFeed-2CaztB,.assetsSmallImageUserPopout-dXG26U {
+	bottom: -4px;
 	position: absolute;
-	right: -6px;
+	right: -4px
+}
+
+.assetsSmallImageActivityFeed-2CaztB {
+	height: 32px;
 	width: 32px
 }
 
@@ -6047,7 +6047,7 @@ to {
 }
 
 .activityActivityFeed-2gIGSa .details-vSFjFG {
-	font-weight: 500
+	font-weight: 600
 }
 
 .actions-KtSKFK {
@@ -37283,7 +37283,7 @@ to {
 	transition: opacity .1s ease-in-out,color .1s ease-in-out,background-color .1s ease-in-out
 }
 
-.article-35d_yp {
+.article-35d_yp,.newsIconCircle-2mzNOD {
 	position: relative
 }
 
@@ -37295,6 +37295,17 @@ to {
 .newsIcon-oVO1GI {
 	height: 24px;
 	width: 24px
+}
+
+.unreadIndicator-3-i9eE {
+	background-color: #00b0f4;
+	border: 4px solid transparent;
+	border-radius: 50%;
+	height: 8px;
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	width: 8px
 }
 
 .content-1RjmSK {
@@ -37334,16 +37345,6 @@ to {
 	width: 50%
 }
 
-.unreadIndicator-3-i9eE {
-	-ms-flex-negative: 0;
-	background-color: #00b0f4;
-	border-radius: 50%;
-	flex-shrink: 0;
-	height: 8px;
-	margin-right: 8px;
-	width: 8px
-}
-
 .title-154w9v {
 	-ms-flex: 1;
 	-webkit-box-flex: 1;
@@ -37381,6 +37382,10 @@ to {
 	color: #4f545c
 }
 
+.theme-dark .unreadIndicator-3-i9eE {
+	border-color: #36393f
+}
+
 .theme-dark .content-1RjmSK {
 	background-color: #2f3136;
 	color: #b9bbbe
@@ -37400,6 +37405,10 @@ to {
 
 .theme-light .newsIconForeground-2HM1xc {
 	color: #dcddde
+}
+
+.theme-light .unreadIndicator-3-i9eE {
+	border-color: #f6f6f7
 }
 
 .theme-light .content-1RjmSK {
@@ -37469,6 +37478,14 @@ to {
 
 .playTime-1sIPBr {
 	
+}
+
+.afk-2lHsky {
+	background-color: #747f8d;
+	border-radius: 3px;
+	margin-right: 8px;
+	padding: 2px 4px;
+	text-transform: uppercase
 }
 
 .partyInfo-3EoDZ3 {
@@ -37811,7 +37828,13 @@ to {
 }
 
 .section-3Jhv7p {
-	padding-bottom: 20px
+	-ms-flex: 1 0 calc(50% - 20px);
+	-webkit-box-flex: 1;
+	flex: 1 0 calc(50% - 20px)
+}
+
+.sectionGutter-XPwZmU {
+	margin-left: 40px
 }
 
 .sectionTitle-2oSr2p {
@@ -37828,15 +37851,7 @@ to {
 	margin-left: 20px
 }
 
-.partyRecentlyPlayed-2pZu4O {
-	opacity: .5
-}
-
-.partyRecentlyPlayed-2pZu4O: hover {
-	opacity: 1
-}
-
-.soloParties-jeRS5f {
+.overflowParties-2oTp2H {
 	
 }
 
@@ -37881,48 +37896,54 @@ to {
 	background-color: hsla(210,3%,87%,.6)
 }
 
-.footer-_Jwa4q {
+.divider-uC3wuZ {
 	
 }
 
-.title-3gegwE {
-	font-size: 16px;
-	font-weight: 600;
-	line-height: 20px
+.title-1-NYWp {
+	
 }
 
-.subtitle-1IWbpK {
-	font-size: 14px;
-	line-height: 20px
+.subtitle-3bwm9n {
+	text-align: center
 }
 
-.image-3Xac3c {
+.image-3lskgc {
 	background-repeat: no-repeat;
+	background-size: 100%
+}
+
+.imageSmall-3nAvrv {
+	height: 72px;
+	width: 128px
+}
+
+.imageLarge-1zb95u {
 	height: 138px;
 	width: 258px
 }
 
-.theme-dark .title-3gegwE {
-	color: #f6f6f7
+.theme-dark .title-1-NYWp {
+	color: #dcddde
 }
 
-.theme-dark .subtitle-1IWbpK {
+.theme-dark .subtitle-3bwm9n {
 	color: #72767d
 }
 
-.theme-dark .image-3Xac3c {
+.theme-dark .image-3lskgc {
 	background-image: url(/assets/04a630b57cd24393a189eb37de3ade9c.svg)
 }
 
-.theme-light .title-3gegwE {
+.theme-light .title-1-NYWp {
 	color: #36393f
 }
 
-.theme-light .subtitle-1IWbpK {
+.theme-light .subtitle-3bwm9n {
 	color: #72767d
 }
 
-.theme-light .image-3Xac3c {
+.theme-light .image-3lskgc {
 	background-image: url(/assets/04a630b57cd24393a189eb37de3ade9c.svg)
 }
 
@@ -37931,7 +37952,7 @@ to {
 	position: relative
 }
 
-.footer-PF25fC {
+.divider-1tZXQS {
 	
 }
 
@@ -45156,4 +45177,4 @@ code {
 }
 
 
-/*# sourceMappingURL=8fc3be7fdf1c385aa3578085ed313571.css.map*/
+/*# sourceMappingURL=6f941b24a7a9290dc600d6671e17a8b4.css.map*/
