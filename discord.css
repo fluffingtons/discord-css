@@ -26812,8 +26812,25 @@ $border-radius:  calc($scrollbar-width / 2);
 }
 
 .content-18hQ5Y {
-	display: grid;
-	grid-template-columns: 60px 1fr auto
+	-ms-flex-flow: row nowrap;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: row nowrap
+}
+
+.guildIcon-KMiSsu {
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	height: 50px;
+	margin-right: 10px;
+	width: 50px
+}
+
+.guildIconImage-12ar3e {
+	
 }
 
 .guildName-C1hTEs {
@@ -26860,7 +26877,8 @@ $border-radius:  calc($scrollbar-width / 2);
 	-ms-flex-item-align: center;
 	align-self: center;
 	height: 40px;
-	margin-left: 10px
+	margin-left: 10px;
+	min-width: 0
 }
 
 .buttonIcon-3jPc5f {
@@ -26872,9 +26890,7 @@ $border-radius:  calc($scrollbar-width / 2);
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: 50px 26px;
-	border-radius: 15px;
-	height: 50px;
-	width: 50px
+	border-radius: 15px
 }
 
 .guildNameExpired-3OXvVV {
@@ -45470,4 +45486,4 @@ code {
 }
 
 
-/*# sourceMappingURL=258f8fba57d8ecea74b9585710af723d.css.map*/
+/*# sourceMappingURL=4120961c54eb2b4449ec74488bd87995.css.map*/
