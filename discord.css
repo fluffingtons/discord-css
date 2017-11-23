@@ -22599,12 +22599,12 @@ to {
 
 .notice .platform-icon {
 	display: inline-block;
-	height: 32px;
-	margin-right: 16px;
+	height: 28px;
+	margin-right: 10px;
 	margin-top: -4px;
 	position: relative;
 	vertical-align: middle;
-	width: 32px
+	width: 28px
 }
 
 .notice .platform-icon+.platform-icon {
@@ -22675,6 +22675,14 @@ to {
 	background: #fff;
 	border-color: #fff;
 	color: #f26522
+}
+
+.notice a.text-link {
+	-webkit-app-region: no-drag;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 10px;
+	text-decoration: underline
 }
 
 .notice .icon+.btn {
@@ -23427,6 +23435,7 @@ to {
 	border: 1px solid transparent;
 	border-radius: 5px;
 	box-sizing: border-box;
+	cursor: default;
 	height: 145px;
 	max-width: 360px;
 	overflow: hidden;
@@ -36439,6 +36448,51 @@ to {
 	overflow: hidden
 }
 
+.wrapper-2PXjeM {
+	height: 385px
+}
+
+.modal-_aE5JX {
+	max-height: 455px
+}
+
+.inviteRow-1OabNn {
+	-webkit-box-sizing: border-box;
+	border-radius: 3px;
+	box-sizing: border-box;
+	height: 44px;
+	margin-right: -10px;
+	padding: 7px 10px
+}
+
+.inviteRowAvatar-1_gJxs {
+	margin-top: 0
+}
+
+.inviteRowInfo-3TXWjG {
+	
+}
+
+.inviteRowButton-2nAzPY {
+	height: 32px
+}
+
+.theme-light .inviteRow-1OabNn: hover {
+	background-color: #f6f6f7
+}
+
+.theme-light .inviteRowName-uHzNmr {
+	color: #4f545c
+}
+
+.theme-dark .inviteRow-1OabNn: hover {
+	background-color: #4f545c
+}
+
+.theme-dark .inviteRowName-uHzNmr {
+	color: #f6f6f7
+}
+
 .button {
 	-webkit-transition: background-color .2s ease;
 	background-color: #7289da;
@@ -43454,4 +43508,4 @@ code {
 }
 
 
-/*# sourceMappingURL=92a93bca6f2d8f1feb252085c85a9359.css.map*/
+/*# sourceMappingURL=d078cbf728592294b9b01aa4a703ec39.css.map*/
