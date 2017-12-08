@@ -5595,6 +5595,44 @@ to {
 	top: 0
 }
 
+#autocomplete-popout .autocomplete-arrow-wrapper {
+	height: 12px;
+	margin-left: -8px;
+	overflow: hidden;
+	width: 16px
+}
+
+#autocomplete-popout .autocomplete-arrow {
+	-webkit-transform: rotate(45deg);
+	height: 8px;
+	transform: rotate(45deg);
+	width: 8px
+}
+
+.popout-bottom #autocomplete-popout .autocomplete-arrow-wrapper {
+	bottom: 100%;
+	left: 50%;
+	position: absolute
+}
+
+.popout-bottom #autocomplete-popout .autocomplete-arrow {
+	bottom: -4px;
+	left: 4px;
+	position: absolute
+}
+
+.popout-top #autocomplete-popout .autocomplete-arrow-wrapper {
+	left: 50%;
+	position: absolute;
+	top: 100%
+}
+
+.popout-top #autocomplete-popout .autocomplete-arrow {
+	left: 4px;
+	position: absolute;
+	top: -4px
+}
+
 #autocomplete-popout button,#autocomplete-popout input: focus,#autocomplete-popout textarea {
 	outline: none
 }
@@ -5624,9 +5662,12 @@ to {
 	position: relative
 }
 
+#autocomplete-popout header: before {
+	display: none
+}
+
 #autocomplete-popout .autocomplete-header-background {
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	border-radius: 5px 5px 0 0;
 	bottom: 0;
 	left: 0;
 	overflow: hidden;
@@ -5636,8 +5677,16 @@ to {
 	z-index: -1
 }
 
+.popout-top #autocomplete-popout .autocomplete-header-background {
+	border-radius: 0 0 5px 5px
+}
+
 #autocomplete-popout section {
 	padding: 0
+}
+
+#autocomplete-popout section: before {
+	display: none
 }
 
 #autocomplete-popout h3 {
@@ -5704,17 +5753,13 @@ to {
 	text-align: center
 }
 
-.theme-dark #autocomplete-popout .autocomplete-shadow {
+.theme-dark #autocomplete-popout .autocomplete-arrow,.theme-dark #autocomplete-popout .autocomplete-shadow {
 	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6);
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6)
 }
 
-.theme-dark #autocomplete-popout .autocomplete-header-background {
+.theme-dark #autocomplete-popout .autocomplete-arrow,.theme-dark #autocomplete-popout .autocomplete-header-background {
 	background-color: #202225
-}
-
-.theme-dark #autocomplete-popout header: before {
-	border-bottom-color: #202225
 }
 
 .theme-dark #autocomplete-popout h3 {
@@ -5763,17 +5808,13 @@ to {
 	color: #72767d
 }
 
-.theme-light #autocomplete-popout .autocomplete-shadow {
+.theme-light #autocomplete-popout .autocomplete-arrow,.theme-light #autocomplete-popout .autocomplete-shadow {
 	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.1),0 0 0 1px hsla(216,4%,74%,.3);
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.1),0 0 0 1px hsla(216,4%,74%,.3)
 }
 
-.theme-light #autocomplete-popout .autocomplete-header-background {
+.theme-light #autocomplete-popout .autocomplete-arrow,.theme-light #autocomplete-popout .autocomplete-header-background {
 	background-color: #f6f6f7
-}
-
-.theme-light #autocomplete-popout header: before {
-	border-bottom-color: #f6f6f7
 }
 
 .theme-light #autocomplete-popout h3 {
@@ -44451,4 +44492,4 @@ code {
 }
 
 
-/*# sourceMappingURL=b69f20bff7f955e60395ce3cbd7c914b.css.map*/
+/*# sourceMappingURL=da3a7a2548ab93ff8ac40be30d6f6685.css.map*/
