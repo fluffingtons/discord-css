@@ -31808,6 +31808,31 @@ to {
 	border-color: #f3f3f3
 }
 
+.card-MdjsU4 {
+	padding: 10px
+}
+
+.iconContainer-3ntXwY {
+	margin-right: 5px
+}
+
+.noticeText-3yN3qk {
+	font-size: 13px;
+	line-height: 18px
+}
+
+.noticeText-3yN3qk strong {
+	font-weight: 600
+}
+
+.button-yZBPFS {
+	
+}
+
+.notice-_Rc4eu {
+	margin-left: 15px
+}
+
 .private-channel-call {
 	margin-bottom: -49px;
 	position: relative;
@@ -34504,10 +34529,6 @@ to {
 	z-index: 1
 }
 
-.platform-osx .header-3lpf0u {
-	-webkit-app-region: drag
-}
-
 .headerText-1r7YO4 {
 	margin-left: 20px;
 	margin-right: 20px
@@ -34712,8 +34733,15 @@ to {
 	position: relative
 }
 
-.platform-osx .lfg-3xoFkI {
-	-webkit-app-region: drag
+.platform-osx .lfg-3xoFkI: before {
+	-webkit-app-region: drag;
+	content: "";
+	display: block;
+	height: 22px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0
 }
 
 .theme-dark .lfg-3xoFkI {
@@ -36017,7 +36045,7 @@ to {
 	margin: 10px
 }
 
-.channel-notices .channel-notice.invite {
+.channel-notices .channel-notice.invite,.channel-notices .channel-notice.lfg {
 	background: #282b30 url(/assets/bf625d222187f542b9d7179109422e2c.svg) no-repeat center 20px
 }
 
@@ -39378,53 +39406,6 @@ to {
 
 .button-2RjRbd {
 	margin: 0 auto
-}
-
-.syncLockLink-1eRT-4 a,.syncLockLink-1eRT-4 a: link,.syncLockLink-1eRT-4 a: visited {
-	color: inherit;
-	text-decoration: underline
-}
-
-.lockedSize-1WRVlN {
-	font-size: 14px;
-	line-height: 16px
-}
-
-.lockedStatus-vwSFhx {
-	-ms-flex-align: stretch;
-	-ms-flex-direction: column;
-	-webkit-box-align: stretch;
-	-webkit-box-direction: normal;
-	-webkit-box-orient: vertical;
-	align-items: stretch;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	flex-direction: column;
-	font-size: 13px;
-	font-weight: 300;
-	line-height: 18px;
-	padding: 10px
-}
-
-.lockedStatus-vwSFhx strong {
-	font-weight: 600
-}
-
-.buttonSync-2NdVfZ {
-	
-}
-
-.lockIcon-2c5uwz {
-	color: #43b581
-}
-
-.unlockIcon-2zE-PJ {
-	color: #faa61a
-}
-
-.iconContainer-2MOgOi {
-	margin-right: 5px
 }
 
 .category-1yRcQ0 {
@@ -45080,4 +45061,4 @@ code {
 }
 
 
-/*# sourceMappingURL=5510a5de5c26111db85c1b12aa0dea31.css.map*/
+/*# sourceMappingURL=84087da94b461b774ae587d38c4b4ed2.css.map*/
