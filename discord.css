@@ -4915,10 +4915,9 @@ to {
 }
 
 .listenAlongIcon-2-IZ4V {
-	background: url(/assets/a5a20e354097b073e8178bd6bea8df32.svg) 50% no-repeat;
-	height: 16px;
-	padding: 3px 3px 0 0;
-	width: 20px
+	color: #fff;
+	height: 24px;
+	width: 24px
 }
 
 .text-38ELUs {
@@ -9659,7 +9658,7 @@ to {
 	background: linear-gradient(90deg,hsla(0,0%,100%,0),#fff);
 	content: "";
 	height: 100%;
-	left: -30px;
+	left: -31px;
 	pointer-events: none;
 	position: absolute;
 	top: 0;
@@ -19874,7 +19873,6 @@ to {
 }
 
 .container-3IULEB {
-	height: 34px;
 	position: relative
 }
 
@@ -33537,6 +33535,10 @@ to {
 	opacity: .1
 }
 
+.voiceUserSummaryItem-3LnijG {
+	height: 34px
+}
+
 .theme-light .wrapper-33pNYY {
 	border-bottom-color: rgba(79,84,92,.3)
 }
@@ -35069,6 +35071,10 @@ to {
 
 .container-3dgtdN {
 	padding-left: 16px
+}
+
+.voiceUserSummaryItem-9OrlHw {
+	height: 34px
 }
 
 .channelNotices-3AUnoM .channelNotice-cQsVXw {
@@ -37090,6 +37096,204 @@ to {
 	display: -ms-flexbox;
 	display: flex;
 	margin-top: 14px
+}
+
+.listeningAlong-13-Udx {
+	-ms-flex-negative: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	flex-shrink: 0;
+	margin-bottom: 2px;
+	padding: 12px 10px;
+	width: 100%
+}
+
+.albumArt-2tA-hd {
+	border-radius: 2px;
+	height: 30px;
+	margin-right: 10px;
+	width: 30px
+}
+
+.artist-1jy3pP {
+	color: #dcddde
+}
+
+.textWrap-3N6IUC {
+	
+}
+
+.title-WW3neA {
+	
+}
+
+.subtitle-2BzAeG {
+	
+}
+
+.party-crmygl {
+	margin-left: 8px
+}
+
+.clickable-3_1wEB {
+	cursor: pointer
+}
+
+.icons-2d4ZT1 {
+	margin-left: 4px
+}
+
+.iconLink-2ClDw6,.icons-2d4ZT1 {
+	
+}
+
+.actionIcon-JJUStF {
+	border-radius: 3px;
+	height: 20px;
+	padding: 6px;
+	width: 20px
+}
+
+.theme-light .listeningAlong-13-Udx {
+	background-color: rgba(32,34,37,.3)
+}
+
+.theme-light .title-WW3neA {
+	color: #fff
+}
+
+.theme-light .subtitle-2BzAeG {
+	color: hsla(0,0%,100%,.3)
+}
+
+.theme-light .actionIcon-JJUStF {
+	color: #fff;
+	opacity: .6
+}
+
+.theme-light .actionIcon-JJUStF: hover {
+	background-color: rgba(24,25,28,.3);
+	opacity: 1
+}
+
+.theme-dark .listeningAlong-13-Udx {
+	background-color: rgba(32,34,37,.3)
+}
+
+.theme-dark .title-WW3neA {
+	color: #fff
+}
+
+.theme-dark .subtitle-2BzAeG {
+	color: hsla(0,0%,100%,.3)
+}
+
+.theme-dark .actionIcon-JJUStF {
+	color: #fff;
+	opacity: .6
+}
+
+.theme-dark .actionIcon-JJUStF: hover {
+	background-color: rgba(24,25,28,.3);
+	opacity: 1
+}
+
+.listeningAlongList-ESfwTE {
+	border: 1px solid transparent;
+	border-radius: 3px;
+	min-width: 250px;
+	position: relative
+}
+
+.listeningAlongList-ESfwTE: before {
+	-webkit-box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+	-webkit-transform: translate3d(4px,-4px,0) rotate(45deg);
+	border: 1px solid transparent;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+	content: "";
+	height: 8px;
+	left: 50%;
+	margin-left: -8px;
+	position: absolute;
+	top: 100%;
+	transform: translate3d(4px,-4px,0) rotate(45deg);
+	width: 8px
+}
+
+.header-9Qyhnu {
+	padding: 12px;
+	text-align: center;
+	text-transform: uppercase
+}
+
+.content-1EHejo {
+	max-height: 260px
+}
+
+.user-2BX_XG {
+	padding: 10px
+}
+
+.discriminator-3kG9yL,.user-2BX_XG {
+	
+}
+
+.tag-2pi26z {
+	margin-left: 8px
+}
+
+.theme-dark .listeningAlongList-ESfwTE {
+	border-color: #202225
+}
+
+.theme-dark .listeningAlongList-ESfwTE: before {
+	background-color: #2f3136;
+	border-bottom-color: #202225;
+	border-right-color: #202225
+}
+
+.theme-dark .header-9Qyhnu {
+	background-color: #202225;
+	color: #fff
+}
+
+.theme-dark .content-1EHejo {
+	background-color: #2f3136
+}
+
+.theme-dark .username-lF3rQo {
+	color: #dcddde
+}
+
+.theme-dark .discriminator-3kG9yL {
+	color: #4f545c
+}
+
+.theme-light .listeningAlongList-ESfwTE {
+	border-color: #f6f6f7
+}
+
+.theme-light .listeningAlongList-ESfwTE: before {
+	background-color: #fff;
+	border-bottom-color: #f6f6f7;
+	border-right-color: #f6f6f7
+}
+
+.theme-light .header-9Qyhnu {
+	background-color: #f6f6f7;
+	color: #4f545c
+}
+
+.theme-light .content-1EHejo {
+	background-color: #fff
+}
+
+.theme-light .username-lF3rQo {
+	color: #4f545c
+}
+
+.theme-light .discriminator-3kG9yL {
+	color: #dcddde
 }
 
 .spacer-3Dkonz {
@@ -42179,4 +42383,4 @@ code {
 }
 
 
-/*# sourceMappingURL=07941c6bc20e41cee630d8f62bdb2945.css.map*/
+/*# sourceMappingURL=21581c42f9341052d040400e46e591e3.css.map*/
