@@ -35876,9 +35876,11 @@ to {
 }
 
 .partyMemberBackground-2fL5nF {
+	-ms-flex-negative: 0;
 	-webkit-box-sizing: border-box;
 	border-radius: 50%;
 	box-sizing: border-box;
+	flex-shrink: 0;
 	height: 30px;
 	width: 30px
 }
@@ -36122,7 +36124,8 @@ to {
 	-ms-flex: 1;
 	-webkit-box-flex: 1;
 	flex: 1;
-	margin-left: 10px
+	margin-left: 10px;
+	min-width: 0
 }
 
 .channelName-ubhBrT {
@@ -36438,6 +36441,7 @@ to {
 
 .description-1PaS9z,.title-2xL5qS {
 	color: #fff;
+	display: block;
 	overflow: hidden
 }
 
@@ -41977,4 +41981,4 @@ code {
 }
 
 
-/*# sourceMappingURL=8688e263f2f507fabd7c21b723804807.css.map*/
+/*# sourceMappingURL=cbe8e58e8f8d6539165fffff99fdcb00.css.map*/
