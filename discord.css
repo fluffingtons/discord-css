@@ -35734,7 +35734,8 @@ to {
 
 .playersHeader-3eAXeI {
 	font-size: 12px;
-	margin-bottom: 20px
+	margin-bottom: 20px;
+	text-transform: uppercase
 }
 
 .playersHeaderLine-1NQM6k {
@@ -35950,8 +35951,10 @@ to {
 	padding: 20px 20px 0
 }
 
-.cardHeader-2POKgE: hover .headerActions-XP80_l,.headerOverflowOpen-1mMmAd .headerActions-XP80_l {
-	display: block
+.cardHeader-2POKgE: hover .headerActions-XP80_l,.headerContent-aVHtmm,.headerOverflowOpen-1mMmAd .headerActions-XP80_l {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
 }
 
 .headerContent-aVHtmm {
@@ -35960,9 +35963,6 @@ to {
 	-webkit-box-align: center;
 	-webkit-box-flex: 1;
 	align-items: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	flex: 1;
 	overflow: hidden
 }
@@ -36485,19 +36485,21 @@ to {
 }
 
 .gameInfoRich-1XjnpM {
-	
-}
-
-.gameInfoRich-1XjnpM,.gameName-Ivkyss {
 	-ms-flex: 1;
 	-webkit-box-flex: 1;
 	flex: 1
 }
 
+.gameName-Ivkyss,.gameNameWrapper-18wwsq {
+	overflow: hidden
+}
+
 .gameName-Ivkyss {
+	-ms-flex: 1;
+	-webkit-box-flex: 1;
 	cursor: pointer;
+	flex: 1;
 	margin-right: 10px;
-	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap
 }
@@ -42163,4 +42165,4 @@ code {
 }
 
 
-/*# sourceMappingURL=29a640adfd800c987601ee4d6d94a3f5.css.map*/
+/*# sourceMappingURL=24cfd050a820092e88717a7b474a1087.css.map*/
