@@ -35551,9 +35551,6 @@ to {
 .background-cBzfUc {
 	-webkit-mask: -webkit-gradient(linear,left top,left bottom,from(#000),to(transparent));
 	-webkit-mask: linear-gradient(#000,transparent);
-	background-position: top;
-	background-repeat: no-repeat;
-	background-size: cover;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 	height: 80%;
@@ -35563,6 +35560,17 @@ to {
 	position: absolute;
 	right: 0;
 	top: 0
+}
+
+.splash-2lsvg9 {
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.splashBackup-2FTF_g {
+	background-repeat: repeat;
+	background-size: 300px
 }
 
 .news-2GF5Ir: hover {
@@ -35601,8 +35609,15 @@ to {
 	text-transform: uppercase
 }
 
+.theme-dark .splashBackup-2FTF_g {
+	background-image: url(/assets/976b56da8d86af63aef4f55afb553a9f.png)
+}
+
+.theme-light .splashBackup-2FTF_g {
+	background-image: url(/assets/171a53265b4d807b208e80f1acba3762.png)
+}
+
 .gamePopout-1rWPXV {
-	background-color: #202225;
 	border-radius: 5px
 }
 
@@ -35638,7 +35653,7 @@ to {
 .news-2speFs {
 	-ms-flex: 1;
 	-webkit-box-flex: 1;
-	background-color: #36393f;
+	background-color: #202225;
 	flex: 1
 }
 
@@ -35660,12 +35675,9 @@ to {
 	position: relative
 }
 
-.splashOverlay-3V9v5H {
+.overlay-2vXqFB {
 	-webkit-mask: -webkit-gradient(linear,left top,left bottom,from(#000),to(transparent));
 	-webkit-mask: linear-gradient(#000,transparent);
-	background-position: top;
-	background-repeat: no-repeat;
-	background-size: cover;
 	bottom: 0;
 	left: 0;
 	mask: -webkit-gradient(linear,left top,left bottom,from(#000),to(transparent));
@@ -35675,13 +35687,23 @@ to {
 	top: 0
 }
 
+.splash-1rBn4p {
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.splashBackup-oTT4Du {
+	background-repeat: repeat;
+	background-size: 300px
+}
+
 .summary-3gkQm7 {
 	color: hsla(240,6%,97%,.8);
 	margin-top: 10px
 }
 
 .gameName-OGPSKf {
-	color: #dcddde;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 20px;
@@ -35690,7 +35712,6 @@ to {
 
 .publisher-16jX0X {
 	border-bottom: 1px solid rgba(47,49,54,.6);
-	color: #72767d;
 	display: block;
 	margin-top: 8px;
 	padding-bottom: 20px
@@ -35771,7 +35792,20 @@ to {
 
 .theme-dark .gamePopout-1rWPXV {
 	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6);
+	background-color: #202225;
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6)
+}
+
+.theme-dark .gameName-OGPSKf {
+	color: #dcddde
+}
+
+.theme-dark .publisher-16jX0X {
+	color: #72767d
+}
+
+.theme-dark .splashBackup-oTT4Du {
+	background-image: url(/assets/976b56da8d86af63aef4f55afb553a9f.png)
 }
 
 .theme-dark .body-35FeGh {
@@ -35793,7 +35827,16 @@ to {
 
 .theme-light .gamePopout-1rWPXV {
 	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.1),0 0 0 1px hsla(216,4%,74%,.3);
+	background-color: #fff;
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.1),0 0 0 1px hsla(216,4%,74%,.3)
+}
+
+.theme-light .gameName-OGPSKf,.theme-light .publisher-16jX0X {
+	color: #4f545c
+}
+
+.theme-light .splashBackup-oTT4Du {
+	background-image: url(/assets/171a53265b4d807b208e80f1acba3762.png)
 }
 
 .theme-light .body-35FeGh {
@@ -35869,7 +35912,7 @@ to {
 }
 
 .theme-dark .splashArt-va7TI- {
-	background-image: url(/assets/a1031f1566d7b7a64c1ee32b63c6485f.svg)
+	background-image: url(/assets/976b56da8d86af63aef4f55afb553a9f.png)
 }
 
 .theme-dark .body-8pBSC7 {
@@ -35892,7 +35935,7 @@ to {
 }
 
 .theme-light .splashArt-va7TI- {
-	background-image: url(/assets/82d8291110233bf0f2ca27668974b084.svg)
+	background-image: url(/assets/171a53265b4d807b208e80f1acba3762.png)
 }
 
 .theme-light .body-8pBSC7 {
@@ -36141,8 +36184,16 @@ to {
 }
 
 .column-15htTH {
+	-ms-flex: 1;
+	-webkit-box-flex: 1;
 	display: inline-block;
+	flex: 1;
+	margin-left: 20px;
 	vertical-align: top
+}
+
+.column-15htTH: first-child {
+	margin-left: 0
 }
 
 .measureWrapper-2kf33G {
@@ -36172,8 +36223,6 @@ to {
 .header-2e8b8j {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	margin-left: 20px;
-	margin-right: 20px;
 	padding-right: 20px;
 	width: 100%
 }
@@ -36270,8 +36319,6 @@ to {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	margin-left: 20px;
-	margin-right: 20px;
 	margin-top: 20px;
 	padding-top: 28px;
 	width: 100%
@@ -42165,4 +42212,4 @@ code {
 }
 
 
-/*# sourceMappingURL=24cfd050a820092e88717a7b474a1087.css.map*/
+/*# sourceMappingURL=3c95388bc79ff0d8edcb83688bcb73e2.css.map*/
