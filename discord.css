@@ -25342,7 +25342,13 @@ to {
 	color: hsla(218,5%,47%,.6)
 }
 
-a.filenameLink-2WwQH1: hover {
+.filenameLinkWrapper-3y3Hx0 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.fileNameLink-342ZEF: hover {
 	text-decoration: underline
 }
 
@@ -25352,6 +25358,10 @@ a.filenameLink-2WwQH1: hover {
 
 .theme-light .filename-13hhfJ {
 	color: #4f545c
+}
+
+.theme-light .filenameLinkWrapper-3y3Hx0 {
+	color: #00b0f4
 }
 
 .theme-light .size-22vab7 {
@@ -25365,6 +25375,10 @@ a.filenameLink-2WwQH1: hover {
 
 .theme-dark .filename-13hhfJ {
 	color: #fff
+}
+
+.theme-dark .filenameLinkWrapper-3y3Hx0 {
+	color: rgba(0,176,244,.85)
 }
 
 .theme-dark .size-22vab7 {
@@ -42267,4 +42281,4 @@ code {
 }
 
 
-/*# sourceMappingURL=71309acb642fe98a1de88002878aba1e.css.map*/
+/*# sourceMappingURL=f8aef5db251539ceddd4e1710a45098b.css.map*/
