@@ -23826,11 +23826,21 @@ to {
 }
 
 .nameTag-3F0z_i {
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	line-height: 17px
 }
 
 .username-MwOsla {
-	font-size: 16px
+	font-size: 16px;
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
 }
 
 .usernameOnline-jN8ojx {
@@ -42981,4 +42991,4 @@ code {
 }
 
 
-/*# sourceMappingURL=d39358916158484e5eb41fc8eccd2a8b.css.map*/
+/*# sourceMappingURL=0decf41f8a1c4d0fa87b06bfc4138a93.css.map*/
