@@ -5152,12 +5152,14 @@ to {
 }
 
 .dot-2Ih-4D {
+	-webkit-transform: translateZ(0);
 	background-color: #fff;
 	border-radius: 2px;
 	cursor: pointer;
 	height: 8px;
 	margin-right: 8px;
 	pointer-events: all;
+	transform: translateZ(0);
 	width: 8px
 }
 
@@ -5878,6 +5880,13 @@ to {
 	min-width: 32px
 }
 
+.xboxButtonLogo-150G5m {
+	height: 16px;
+	margin-right: 8px;
+	min-width: 16px;
+	width: 16px
+}
+
 .text-38ELUs {
 	color: hsla(0,0%,100%,.8)
 }
@@ -5957,14 +5966,19 @@ to {
 	object-fit: cover
 }
 
-.assetsLargeImageUserPopout-1rupnL {
+.assetsLargeImageUserPopout-1rupnL,.assetsLargeImageUserPopoutXbox-3r5jqI {
 	height: 60px;
 	width: 60px
 }
 
-.assetsLargeImageActivityFeed-IurGz8,.assetsLargeImageProfile-2VlsXC {
+.assetsLargeImageActivityFeed-IurGz8,.assetsLargeImageActivityFeedXbox-fm3_KH,.assetsLargeImageProfile-2VlsXC {
 	height: 90px;
 	width: 90px
+}
+
+.assetsLargeImageProfileXbox-1oU2xO {
+	height: 60px;
+	width: 60px
 }
 
 .assetsLargeImageProfileTwitch-2QDcQm {
@@ -6941,6 +6955,10 @@ to {
 
 .headerSpotify-26yUf5 {
 	background: #1db954
+}
+
+.headerXbox-2Xz74J {
+	background: #107c10
 }
 
 .headerPlaying-2Q7mBy {
@@ -17046,10 +17064,6 @@ to {
 	background-color: #f6f6f7
 }
 
-.theme-light .inviteRowName-17D8Nk {
-	color: #4f545c
-}
-
 .theme-light .footer-C1XUrR {
 	background-color: #fff
 }
@@ -17058,16 +17072,12 @@ to {
 	background-color: rgba(54,57,63,.1)
 }
 
-.theme-light .checkBoxLabel-2XGyJf {
-	color: #4f545c
-}
-
 .theme-light .copied-3F0NUg {
 	border-color: #43b581
 }
 
-.theme-light .subText-QqyOhk {
-	color: #b9bbbe
+.theme-light .checkBoxLabel-2XGyJf,.theme-light .inviteRowName-17D8Nk,.theme-light .subText-QqyOhk {
+	color: #4f545c
 }
 
 .theme-dark .inviteRow-1V_uzW: hover {
@@ -17086,15 +17096,11 @@ to {
 	background-color: hsla(0,0%,100%,.1)
 }
 
-.theme-dark .checkBoxLabel-2XGyJf,.theme-dark .footerText-2-dHt5 {
-	color: #b9bbbe
-}
-
 .theme-dark .copied-3F0NUg {
 	border-color: #43b581
 }
 
-.theme-dark .subText-QqyOhk {
+.theme-dark .checkBoxLabel-2XGyJf,.theme-dark .footerText-2-dHt5,.theme-dark .subText-QqyOhk {
 	color: #b9bbbe
 }
 
@@ -32636,13 +32642,20 @@ to {
 }
 
 .header-1qcq0D {
-	border-top: 1px solid transparent;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	margin-top: 20px;
-	padding-top: 28px;
 	width: 100%
+}
+
+.headerWithNowPlaying-pk028P {
+	border-top: 1px solid transparent;
+	margin-top: 20px;
+	padding-top: 28px
+}
+
+.headerWithoutNowPlaying-Wd4WWQ {
+	padding-top: 40px
 }
 
 .theme-dark .header-1qcq0D {
@@ -35831,6 +35844,10 @@ to {
 
 .topSectionSpotify-3744IX {
 	background: #1db954
+}
+
+.topSectionXbox-6O1UlP {
+	background: #107c10
 }
 
 .topSectionPlaying-3jAH9b {
@@ -40785,4 +40802,4 @@ code {
 }
 
 
-/*# sourceMappingURL=0a8e06078ca3cb55adfc3dfb7dd00f1b.css.map*/
+/*# sourceMappingURL=a1c2bc9cade85c14c398833864c51e18.css.map*/
