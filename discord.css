@@ -21638,17 +21638,6 @@ to {
 	border-color: #f6f6f7
 }
 
-.errorPlaceholder-1QYc0U {
-	background-image: url(/assets/b5d0fabb4afdf0666f3785f8c1d3beff.svg);
-	background-position: 50%;
-	background-repeat: no-repeat;
-	background-size: contain
-}
-
-.theme-dark .errorPlaceholder-1QYc0U {
-	background-image: url(/assets/e0c782560fd96acd7f01fda1f8c6ff24.svg)
-}
-
 .icon-3o6xvg {
 	background-clip: padding-box;
 	background-color: none;
@@ -39729,6 +39718,34 @@ to {
 	width: 30px
 }
 
+.errorMessageContainer-3tPaYl {
+	-ms-flex-align: center;
+	-ms-flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	align-items: center;
+	background-color: #f6f6f7;
+	border: 1px solid #dcddde;
+	border-radius: 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	padding: 20px
+}
+
+.errorMessage-3H97Nb {
+	color: #4f545c
+}
+
+.errorMessageIcon-1ToWng {
+	color: #f04747;
+	height: 24px;
+	margin-right: 8px;
+	width: 24px
+}
+
 @media (max-height: 720px) {
 	.logo-2apZa6 {
 	height: 46px
@@ -39742,6 +39759,11 @@ to {
 .gamepadButton-_uzDVK {
 	height: 30px;
 	width: 30px
+}
+
+.errorMessageIcon-1ToWng {
+	height: 24px;
+	width: 24px
 }
 
 
@@ -40024,66 +40046,19 @@ to {
 	vertical-align: bottom
 }
 
-.invite-KI7ctd {
-	background-color: #36393f;
-	bottom: 0;
-	left: 0;
-	position: fixed;
-	right: 0;
-	top: 0
-}
-
-.logo-236POo {
-	height: 52px;
-	opacity: .3;
-	width: 155px
-}
-
-.maxWidth-2Nc-lt {
-	max-width: 400px
-}
-
-.info-14fqOA {
-	overflow: auto;
-	padding: 0 20px
-}
-
-.header-dQULjL {
-	margin: 12vh 16px 8px
-}
-
-.upsellImage-1Dacab {
-	margin: 12vh 16px 24px
-}
-
-.upsellDescription-2nK2LO {
-	margin: 4px 24px 0
-}
-
-.centerText-3uuF23 {
-	text-align: center
-}
-
-.buttonTitle-1JFmjq {
-	margin: 20px 20px 0
-}
-
 .elevated-KVh7nN {
 	-webkit-box-shadow: 0 2px 10px 0 rgba(4,4,5,.2),0 0 0 1px #202225;
 	box-shadow: 0 2px 10px 0 rgba(4,4,5,.2),0 0 0 1px #202225
 }
 
 .button-3wt5OC {
-	margin: 12px 20px 16px
-}
-
-.buttonNew-3TdixR {
 	margin: 12px auto 20px;
 	width: 85%
 }
 
-.buttonNew-3TdixR,.card-1YzUI1 {
-	
+.buttonTitle-1JFmjq {
+	margin: 20px 20px 0;
+	text-align: center
 }
 
 .card-1YzUI1 {
@@ -40093,7 +40068,8 @@ to {
 }
 
 .cardContents-1tCPL_ {
-	margin: 0 auto
+	margin: 0 auto;
+	max-width: 400px
 }
 
 .cardAccentLeft-3uQuki {
@@ -40215,6 +40191,7 @@ to {
 }
 
 .platform-win .splashBackground-1FRCko: before {
+	-webkit-transition: background .4s ease .4s;
 	background: rgba(0,0,0,.3);
 	border-bottom-left-radius: 3px;
 	content: "";
@@ -40222,8 +40199,13 @@ to {
 	position: fixed;
 	right: 0;
 	top: 0;
+	transition: background .4s ease .4s;
 	width: 84px;
 	z-index: 1
+}
+
+.platform-win .splashBackground-1FRCko.loggingIn-3Hi-BU: before {
+	background: transparent
 }
 
 @font-face {
@@ -40764,4 +40746,4 @@ code {
 }
 
 
-/*# sourceMappingURL=0fa736c11972cde9f218bd1b50472323.css.map*/
+/*# sourceMappingURL=8c1bafffca42d38bb326c1f591c2c757.css.map*/
