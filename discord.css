@@ -1,3 +1,12 @@
+.anchor-3Z-8Bb {
+	color: #00b0f4;
+	text-decoration: none
+}
+
+.anchor-3Z-8Bb: hover {
+	text-decoration: underline
+}
+
 .wrapper-1prNyd {
 	background-size: cover;
 	min-height: 100vh;
@@ -4913,6 +4922,10 @@ to {
 	width: 14px
 }
 
+.avatar-large: hover,.avatar-profile: hover,.avatar-small: hover,.avatar-xlarge: hover,.avatar-xsmall: hover,.avatar-xxlarge: hover {
+	text-decoration: none
+}
+
 .avatar-profile {
 	background-size: 128px 128px;
 	height: 128px;
@@ -6984,7 +6997,7 @@ to {
 	color: #72767d
 }
 
-.theme-dark #autocomplete-popout .row,.theme-dark #autocomplete-popout .row a {
+.theme-dark #autocomplete-popout .row,.theme-dark #autocomplete-popout .row span {
 	color: #b9bbbe
 }
 
@@ -6993,7 +7006,7 @@ to {
 	background: linear-gradient(90deg,rgba(40,43,48,.8),#2f3136)
 }
 
-.theme-dark #autocomplete-popout .row.selected a,.theme-dark #autocomplete-popout .row: hover a {
+.theme-dark #autocomplete-popout .row.selected span,.theme-dark #autocomplete-popout .row: hover span {
 	color: #f6f6f7
 }
 
@@ -7039,7 +7052,7 @@ to {
 	color: #72767d
 }
 
-.theme-light #autocomplete-popout .row,.theme-light #autocomplete-popout .row a {
+.theme-light #autocomplete-popout .row,.theme-light #autocomplete-popout .row span {
 	color: #72767d
 }
 
@@ -7048,7 +7061,7 @@ to {
 	background: linear-gradient(90deg,hsla(240,6%,97%,.8),#fff)
 }
 
-.theme-light #autocomplete-popout .row.selected a,.theme-light #autocomplete-popout .row: hover a {
+.theme-light #autocomplete-popout .row.selected span,.theme-light #autocomplete-popout .row: hover span {
 	color: #4f545c
 }
 
@@ -13592,6 +13605,8 @@ to {
 	box-shadow: 0 1px 0 rgba(0,0,0,.1);
 	flex-grow: 0;
 	flex-shrink: 0;
+	padding-left: 4px;
+	padding-right: 28px;
 	position: relative;
 	text-align: center;
 	z-index: 101
@@ -18200,9 +18215,9 @@ to {
 	width: 150px
 }
 
-.prune-red-link: link {
+.prune-red-link {
 	color: #f04747;
-	opacity: .6
+	opacity: .9
 }
 
 .guild-settings-members-count {
@@ -40746,4 +40761,4 @@ code {
 }
 
 
-/*# sourceMappingURL=8c1bafffca42d38bb326c1f591c2c757.css.map*/
+/*# sourceMappingURL=2eb47facfbf0e20f9b48547298bb6adf.css.map*/
