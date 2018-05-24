@@ -6771,6 +6771,155 @@ to {
 	background: #f3f3f3
 }
 
+.everyonePopout-nEbJY3 {
+	-ms-flex-direction: column;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	border-radius: 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	min-height: 198px;
+	width: 440px
+}
+
+.header-3_S6dz {
+	font-weight: 700;
+	letter-spacing: .6px;
+	margin-bottom: 4px;
+	text-transform: uppercase
+}
+
+.body-2iXqIL {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	min-height: 128px;
+	padding: 20px
+}
+
+.body-2iXqIL strong {
+	font-weight: 600
+}
+
+.animation-3GofIz {
+	width: 210px
+}
+
+.buttonWrapper-rQnAjG {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 20px
+}
+
+.buttonContainer-1BodPZ: last-child {
+	margin-left: 8px
+}
+
+.button-1VQp89 {
+	max-width: 120px
+}
+
+.buttonHint-2OxJB8 {
+	font-size: 12px;
+	line-height: 16px;
+	margin-top: 4px
+}
+
+.buttonHint-2OxJB8 strong {
+	text-transform: uppercase
+}
+
+.content-L5mYq4 {
+	-ms-flex-direction: column;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	flex-direction: column;
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 20px
+}
+
+.content-L5mYq4,.footer-2aTx0s {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.footer-2aTx0s {
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+	font-size: 12px;
+	min-height: 14px;
+	padding: 8px
+}
+
+.footer-2aTx0s strong {
+	font-weight: 700
+}
+
+.icon-2qOzDL {
+	margin-right: 4px
+}
+
+.theme-dark .everyonePopout-nEbJY3 {
+	-webkit-box-shadow: 0 2px 10px 0 rgba(28,36,43,.6);
+	background-color: #36393f;
+	box-shadow: 0 2px 10px 0 rgba(28,36,43,.6)
+}
+
+.theme-dark .header-3_S6dz {
+	color: #fff
+}
+
+.theme-dark .body-2iXqIL {
+	color: #b9bbbe
+}
+
+.theme-dark .buttonHint-2OxJB8 {
+	color: #72767d
+}
+
+.theme-dark .buttonHint-2OxJB8 strong {
+	color: #b9bbbe
+}
+
+.theme-dark .footer-2aTx0s {
+	background-color: rgba(32,34,37,.4);
+	color: #72767d
+}
+
+.theme-dark .footer-2aTx0s strong {
+	color: #b9bbbe
+}
+
+.theme-light .everyonePopout-nEbJY3 {
+	-webkit-box-shadow: 0 2px 10px 0 rgba(28,36,43,.6);
+	background-color: #fff;
+	box-shadow: 0 2px 10px 0 rgba(28,36,43,.6)
+}
+
+.theme-light .header-3_S6dz {
+	color: #4f545c
+}
+
+.theme-light .body-2iXqIL,.theme-light .buttonHint-2OxJB8,.theme-light .buttonHint-2OxJB8 strong {
+	color: #72767d
+}
+
+.theme-light .footer-2aTx0s {
+	background-color: #f6f6f7;
+	border-radius: 0 0 5px 5px;
+	color: #72767d
+}
+
+.theme-light .footer-2aTx0s strong {
+	color: #72767d
+}
+
 .quickMessage-2XpSaN {
 	-webkit-box-sizing: border-box;
 	background: #fbfbfb;
@@ -20350,6 +20499,7 @@ to {
 	max-height: 144px;
 	min-height: 20px;
 	outline: none;
+	padding: 10px 38px 10px 0;
 	resize: none;
 	width: 100%
 }
@@ -20380,19 +20530,11 @@ to {
 	white-space: nowrap
 }
 
-.textAreaEnabled-3vQ5WZ {
-	padding: 10px 38px 10px 0
-}
-
-.textAreaEnabled-3vQ5WZ,.textAreaEnabledNoAttach-1WxUwj {
-	
-}
-
-.textAreaDisabled-2_o-kZ {
+.textAreaDisabled-2_o-kZ,.textAreaEnabledSubmitting-1cJX-K {
 	pointer-events: none
 }
 
-.textAreaDisabled-2_o-kZ,.textAreaEdit-bNLDk3,.textAreaEnabledNoAttach-1WxUwj,.textAreaForm-18s4EO {
+.textAreaEdit-bNLDk3,.textAreaEnabledNoAttach-1WxUwj,.textAreaForm-18s4EO {
 	padding: 10px 38px 10px 12px
 }
 
@@ -40717,18 +40859,15 @@ code {
 }
 
 html: lang(ja) : : -webkit-input-placeholder,html: lang(ja) body,html: lang(ja) button,html: lang(ja) input,html: lang(ja) select,html: lang(ja) textarea,html: lang(ja-JP) : : -webkit-input-placeholder,html: lang(ja-JP) body,html: lang(ja-JP) button,html: lang(ja-JP) input,html: lang(ja-JP) select,html: lang(ja-JP) textarea {
-	-webkit-font-smoothing: antialiased;
-	font-family: Whitney,Yu Gothic,Meiryo,メイリオ,Hiragino Kaku Gothic ProN,ヒラギノ角ゴ Pro W3,MS PGothic,ＭＳ\ Ｐゴシック,Helvetica Neue,Helvetica,Arial,sans-serif
+	font-family: Whitney,Hiragino Sans,ヒラギノ角ゴ ProN W3,Hiragino Kaku Gothic ProN,メイリオ,Meiryo,Osaka,MS PGothic,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 html: lang(ja) : -ms-input-placeholder,html: lang(ja) body,html: lang(ja) button,html: lang(ja) input,html: lang(ja) select,html: lang(ja) textarea,html: lang(ja-JP) : -ms-input-placeholder,html: lang(ja-JP) body,html: lang(ja-JP) button,html: lang(ja-JP) input,html: lang(ja-JP) select,html: lang(ja-JP) textarea {
-	-webkit-font-smoothing: antialiased;
-	font-family: Whitney,Yu Gothic,Meiryo,メイリオ,Hiragino Kaku Gothic ProN,ヒラギノ角ゴ Pro W3,MS PGothic,ＭＳ\ Ｐゴシック,Helvetica Neue,Helvetica,Arial,sans-serif
+	font-family: Whitney,Hiragino Sans,ヒラギノ角ゴ ProN W3,Hiragino Kaku Gothic ProN,メイリオ,Meiryo,Osaka,MS PGothic,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 html: lang(ja) : : placeholder,html: lang(ja) body,html: lang(ja) button,html: lang(ja) input,html: lang(ja) select,html: lang(ja) textarea,html: lang(ja-JP) : : placeholder,html: lang(ja-JP) body,html: lang(ja-JP) button,html: lang(ja-JP) input,html: lang(ja-JP) select,html: lang(ja-JP) textarea {
-	-webkit-font-smoothing: antialiased;
-	font-family: Whitney,Yu Gothic,Meiryo,メイリオ,Hiragino Kaku Gothic ProN,ヒラギノ角ゴ Pro W3,MS PGothic,ＭＳ\ Ｐゴシック,Helvetica Neue,Helvetica,Arial,sans-serif
+	font-family: Whitney,Hiragino Sans,ヒラギノ角ゴ ProN W3,Hiragino Kaku Gothic ProN,メイリオ,Meiryo,Osaka,MS PGothic,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 html: lang(ko) : : -webkit-input-placeholder,html: lang(ko) body,html: lang(ko) button,html: lang(ko) input,html: lang(ko) select,html: lang(ko) textarea {
@@ -40744,34 +40883,28 @@ html: lang(ko) : : placeholder,html: lang(ko) body,html: lang(ko) button,html: l
 }
 
 html: lang(zh-CN) : : -webkit-input-placeholder,html: lang(zh-CN) body,html: lang(zh-CN) button,html: lang(zh-CN) input,html: lang(zh-CN) select,html: lang(zh-CN) textarea {
-	-webkit-font-smoothing: antialiased;
 	font-family: Whitney,Microsoft YaHei New,微软雅黑,Microsoft Yahei,Microsoft JhengHei,宋体,SimSun,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 html: lang(zh-CN) : -ms-input-placeholder,html: lang(zh-CN) body,html: lang(zh-CN) button,html: lang(zh-CN) input,html: lang(zh-CN) select,html: lang(zh-CN) textarea {
-	-webkit-font-smoothing: antialiased;
 	font-family: Whitney,Microsoft YaHei New,微软雅黑,Microsoft Yahei,Microsoft JhengHei,宋体,SimSun,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 html: lang(zh-CN) : : placeholder,html: lang(zh-CN) body,html: lang(zh-CN) button,html: lang(zh-CN) input,html: lang(zh-CN) select,html: lang(zh-CN) textarea {
-	-webkit-font-smoothing: antialiased;
 	font-family: Whitney,Microsoft YaHei New,微软雅黑,Microsoft Yahei,Microsoft JhengHei,宋体,SimSun,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 html: lang(zh-HK) : : -webkit-input-placeholder,html: lang(zh-HK) body,html: lang(zh-HK) button,html: lang(zh-HK) input,html: lang(zh-HK) select,html: lang(zh-HK) textarea,html: lang(zh-TW) : : -webkit-input-placeholder,html: lang(zh-TW) body,html: lang(zh-TW) button,html: lang(zh-TW) input,html: lang(zh-TW) select,html: lang(zh-TW) textarea {
-	-webkit-font-smoothing: antialiased;
 	font-family: Whitney,Microsoft JhengHei,微軟正黑體,Microsoft JhengHei UI,Microsoft YaHei,微軟雅黑,宋体,SimSun,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 html: lang(zh-HK) : -ms-input-placeholder,html: lang(zh-HK) body,html: lang(zh-HK) button,html: lang(zh-HK) input,html: lang(zh-HK) select,html: lang(zh-HK) textarea,html: lang(zh-TW) : -ms-input-placeholder,html: lang(zh-TW) body,html: lang(zh-TW) button,html: lang(zh-TW) input,html: lang(zh-TW) select,html: lang(zh-TW) textarea {
-	-webkit-font-smoothing: antialiased;
 	font-family: Whitney,Microsoft JhengHei,微軟正黑體,Microsoft JhengHei UI,Microsoft YaHei,微軟雅黑,宋体,SimSun,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 html: lang(zh-HK) : : placeholder,html: lang(zh-HK) body,html: lang(zh-HK) button,html: lang(zh-HK) input,html: lang(zh-HK) select,html: lang(zh-HK) textarea,html: lang(zh-TW) : : placeholder,html: lang(zh-TW) body,html: lang(zh-TW) button,html: lang(zh-TW) input,html: lang(zh-TW) select,html: lang(zh-TW) textarea {
-	-webkit-font-smoothing: antialiased;
 	font-family: Whitney,Microsoft JhengHei,微軟正黑體,Microsoft JhengHei UI,Microsoft YaHei,微軟雅黑,宋体,SimSun,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 
-/*# sourceMappingURL=1ea1563e70b42574b152ac09c30c9ef1.css.map*/
+/*# sourceMappingURL=57bf2ad0bc6113fe55352c3139ae4179.css.map*/
