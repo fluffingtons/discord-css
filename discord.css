@@ -5860,10 +5860,13 @@ to {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	height: 270px;
 	overflow: hidden;
 	padding: 20px;
 	position: relative
+}
+
+.fixedHeight-3l4ciN {
+	height: 270px
 }
 
 .newsLink-38Naqi {
@@ -5871,7 +5874,8 @@ to {
 }
 
 .newsLink-38Naqi: hover {
-	background-color: #18191c
+	background-color: #18191c;
+	text-decoration: none
 }
 
 .newsPlayingVideo-Xj1Xnj {
@@ -5881,8 +5885,6 @@ to {
 .background-3zYSQO {
 	-webkit-mask: -webkit-gradient(linear,left top,left bottom,from(#000),to(transparent));
 	-webkit-mask: linear-gradient(#000,transparent);
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
 	height: 80%;
 	left: 0;
 	mask: -webkit-gradient(linear,left top,left bottom,from(#000),to(transparent));
@@ -6003,7 +6005,8 @@ to {
 	-ms-flex: 1;
 	-webkit-box-flex: 1;
 	background-color: #202225;
-	flex: 1
+	flex: 1;
+	height: 270px
 }
 
 .trailerImage-3RPb4R {
@@ -6143,6 +6146,10 @@ to {
 	min-width: 30px;
 	padding: 0 8px;
 	position: relative
+}
+
+html .gamePreviewTrailer-3ZmZKP {
+	border-radius: 0
 }
 
 .theme-dark .gamePreview-9weYR2 {
@@ -6429,6 +6436,16 @@ to {
 	width: 90px
 }
 
+.assetsLargeImageActivityFeedTwitch-35IZuj {
+	-webkit-mask: -webkit-gradient(linear,left top,left bottom,from(0),color-stop(10%,transparent),color-stop(80%,#000));
+	-webkit-mask: linear-gradient(0,transparent 10%,#000 80%);
+	border-radius: 5px;
+	height: 260px;
+	mask: -webkit-gradient(linear,left top,left bottom,from(0),color-stop(10%,transparent),color-stop(80%,#000));
+	mask: linear-gradient(0,transparent 10%,#000 80%);
+	width: 100%
+}
+
 .assetsLargeImageProfileXbox-1t6G2m {
 	height: 60px;
 	width: 60px
@@ -6537,6 +6554,42 @@ to {
 
 .bodyLink-3A8Buv: hover {
 	text-decoration: underline
+}
+
+.twitchImageContainer-hVw_dv {
+	background: #18191c;
+	border-radius: 5px;
+	position: relative
+}
+
+.twitchImageOverlay-CXCd19 {
+	bottom: 0;
+	left: 0;
+	padding: 16px;
+	position: absolute;
+	right: 0
+}
+
+.streamUsername-eO7oss {
+	color: #dcddde;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.25
+}
+
+.streamName-1q4JEo {
+	color: #b9bbbe;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 8px
+}
+
+.streamGame-2odMhn {
+	color: #72767d;
+	font-size: 12px;
+	font-weight: 600;
+	margin-top: 24px;
+	text-transform: uppercase
 }
 
 .theme-light .activityActivityFeed-3xysim .content-3JfFJh,.theme-light .activityActivityFeed-3xysim .details-38sfDr {
@@ -21977,7 +22030,7 @@ to {
 }
 
 .guildInfo-1STtYi {
-	max-width: 218px
+	max-width: 213px
 }
 
 .guildDetail-1nRKNE {
@@ -32685,7 +32738,6 @@ to {
 .card-7JP0BX {
 	-webkit-box-sizing: border-box;
 	-webkit-transform: translateZ(0);
-	border: 1px solid transparent;
 	border-radius: 5px;
 	box-sizing: border-box;
 	cursor: default;
@@ -32694,7 +32746,6 @@ to {
 }
 
 .header-1RC2Wb {
-	border-bottom: 1px solid transparent;
 	padding: 20px;
 	position: relative
 }
@@ -32727,13 +32778,11 @@ to {
 
 .theme-dark .card-7JP0BX {
 	background-color: #36393f;
-	border-color: rgba(32,34,37,.6);
 	color: #f6f6f7
 }
 
 .theme-dark .header-1RC2Wb {
-	background-color: #2f3136;
-	border-bottom-color: rgba(32,34,37,.6)
+	background-color: #2f3136
 }
 
 .theme-dark .header-1RC2Wb: hover {
@@ -32750,13 +32799,11 @@ to {
 
 .theme-light .card-7JP0BX {
 	background-color: #f6f6f7;
-	border-color: hsla(216,4%,74%,.6);
 	color: #36393f
 }
 
 .theme-light .header-1RC2Wb {
-	background-color: hsla(210,3%,87%,.6);
-	border-bottom-color: hsla(216,4%,74%,.6)
+	background-color: hsla(210,3%,87%,.6)
 }
 
 .theme-light .header-1RC2Wb: hover {
@@ -32890,15 +32937,9 @@ to {
 
 .soloAvatar-aJT3Eq {
 	cursor: pointer;
-	margin-right: -6px
-}
-
-.soloAvatarNotLast-3eNEn0 {
-	
-}
-
-.soloAvatarLast-2ZrTCm {
-	
+	height: 30px;
+	margin-right: 8px;
+	width: 30px
 }
 
 .soloAvatarTooltip-3uT1Ix {
@@ -32960,6 +33001,7 @@ to {
 
 .playTime-1laRtO {
 	font-size: 12px;
+	font-weight: 500;
 	line-height: 14px;
 	margin-top: 4px;
 	overflow: hidden;
@@ -33053,6 +33095,7 @@ to {
 	-webkit-box-flex: 1;
 	flex: 1;
 	font-size: 18px;
+	font-weight: 500;
 	line-height: 22px;
 	width: 100%
 }
@@ -33343,8 +33386,7 @@ to {
 }
 
 .bottomSeparator-3cIFah {
-	border-bottom: 1px solid transparent;
-	padding-bottom: 20px
+	border-bottom: 1px solid transparent
 }
 
 .gameIcon-1oKIfq {
@@ -33391,8 +33433,14 @@ to {
 	white-space: nowrap
 }
 
+.streamInfo-1tlQMf {
+	-ms-flex: 1;
+	-webkit-box-flex: 1;
+	flex: 1
+}
+
 .playTime-2SuPqW {
-	
+	font-weight: 500
 }
 
 .richActivity-20JO62 {
@@ -33437,7 +33485,7 @@ to {
 }
 
 .voiceChannel-3uy4i9 {
-	padding-top: 20px
+	padding: 20px 0
 }
 
 .voiceChannelIcon-17tW8N {
@@ -33556,23 +33604,28 @@ to {
 	-webkit-box-sizing: border-box;
 	background-color: #202225;
 	border-radius: 5px;
+	bottom: 0;
 	box-sizing: border-box;
 	height: 100%;
+	left: 0;
 	overflow: hidden;
 	padding: 20px;
-	position: relative
+	position: relative;
+	position: absolute;
+	right: 0;
+	top: 0
 }
 
 .background-17WUpK {
-	-webkit-mask: -webkit-gradient(linear,left top,left bottom,from(0),color-stop(0,transparent),to(#000));
-	-webkit-mask: linear-gradient(0,transparent,#000);
+	-webkit-mask: -webkit-gradient(linear,left top,left bottom,from(0),color-stop(0,transparent),to(rgba(0,0,0,.8)));
+	-webkit-mask: linear-gradient(0,transparent,rgba(0,0,0,.8));
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 90%;
+	bottom: 5%;
 	left: 0;
-	mask: -webkit-gradient(linear,left top,left bottom,from(0),color-stop(0,transparent),to(#000));
-	mask: linear-gradient(0,transparent,#000);
+	mask: -webkit-gradient(linear,left top,left bottom,from(0),color-stop(0,transparent),to(rgba(0,0,0,.8)));
+	mask: linear-gradient(0,transparent,rgba(0,0,0,.8));
 	min-width: 300px;
 	position: absolute;
 	right: 0;
@@ -33590,6 +33643,7 @@ to {
 
 .gameName-ZXDRa6 {
 	color: #b9bbbe;
+	font-weight: 600;
 	text-transform: uppercase
 }
 
@@ -33615,6 +33669,14 @@ to {
 
 .readLink-LAwJqy {
 	display: inline-block
+}
+
+.theme-dark .backgroundBackup-3EhCqM {
+	background-image: url(/assets/976b56da8d86af63aef4f55afb553a9f.png)
+}
+
+.theme-light .backgroundBackup-3EhCqM {
+	background-image: url(/assets/171a53265b4d807b208e80f1acba3762.png)
 }
 
 .horizontalPaginationItemContainer-26FwrR {
@@ -33666,11 +33728,12 @@ to {
 	-webkit-box-flex: 1;
 	-webkit-transform: translateZ(0);
 	background-color: #202225;
-	border-radius: 3px;
+	border-radius: 5px;
 	flex: 1 1 75%;
 	height: 430px;
 	margin-right: 20px;
-	overflow-x: hidden;
+	overflow: hidden;
+	position: relative;
 	transform: translateZ(0)
 }
 
@@ -33686,11 +33749,16 @@ to {
 }
 
 .paginationItem-3-MBTL {
+	-ms-flex-align: center;
+	-webkit-box-align: center;
 	-webkit-box-sizing: border-box;
-	background: #18191c;
-	border-radius: 3px;
+	align-items: center;
+	border-radius: 5px;
 	box-sizing: border-box;
 	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	height: 100px;
 	margin-top: 10px;
 	overflow: hidden;
@@ -33698,21 +33766,66 @@ to {
 	position: relative
 }
 
-.paginationItem-3-MBTL: first-child {
-	margin-top: 0
+.paginationItem-3-MBTL,.paginationItem-3-MBTL: before {
+	-webkit-transition: all .2s ease;
+	transition: all .2s ease
 }
 
-.selectedPage-2JQS2s: before {
-	-webkit-transform: translateY(-50%);
+.paginationItem-3-MBTL: before {
+	-webkit-transform: translateY(-50%) translateX(-100%);
+	-webkit-transition-delay: .2s;
 	background: #fff;
 	border-radius: 20px;
-	content: " ";
+	content: "";
 	height: 40px;
 	left: -5px;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%);
-	width: 10px
+	transform: translateY(-50%) translateX(-100%);
+	transition-delay: .2s;
+	width: 10px;
+	z-index: 1
+}
+
+.paginationItem-3-MBTL: after {
+	background: -webkit-gradient(linear,right top,left top,from(transparent),to(#202225));
+	background: linear-gradient(270deg,transparent 0,#202225);
+	background-blend-mode: color;
+	border-radius: 5px;
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.paginationItem-3-MBTL: first-child {
+	margin-top: 0
+}
+
+.paginationItem-3-MBTL: hover {
+	background: #202225
+}
+
+.paginationItem-3-MBTL: hover .splashArt-1anaP9 {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0)
+}
+
+.selectedPage-2JQS2s {
+	background: #202225;
+	cursor: default
+}
+
+.selectedPage-2JQS2s: before {
+	-webkit-transform: translateY(-50%) translateX(0);
+	transform: translateY(-50%) translateX(0)
+}
+
+.selectedPage-2JQS2s .splashArt-1anaP9 {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0)
 }
 
 .feedCarousel-21He9p {
@@ -33723,9 +33836,13 @@ to {
 
 .splashArt-1anaP9 {
 	-webkit-filter: grayscale(100%);
+	-webkit-transition: -webkit-filter .2s ease;
 	filter: grayscale(100%);
 	height: 100%;
-	opacity: .15;
+	opacity: .2;
+	transition: -webkit-filter .2s ease;
+	transition: filter .2s ease;
+	transition: filter .2s ease,-webkit-filter .2s ease;
 	width: 100%
 }
 
@@ -33738,19 +33855,29 @@ to {
 .paginationTitle-1XtEga {
 	color: #f6f6f7;
 	font-size: 16px;
-	font-weight: 600;
 	line-height: 1.25;
 	max-height: 40px
+}
+
+.paginationGameName-3Fd-qy,.paginationTitle-1XtEga {
+	font-weight: 600
 }
 
 .paginationGameName-3Fd-qy {
 	color: #72767d;
 	font-size: 12px;
-	font-weight: 500;
 	margin-top: 4px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap
+}
+
+.theme-dark .splashBackup-1sfIkL {
+	background-image: url(/assets/976b56da8d86af63aef4f55afb553a9f.png)
+}
+
+.theme-light .splashBackup-1sfIkL {
+	background-image: url(/assets/171a53265b4d807b208e80f1acba3762.png)
 }
 
 .dock-1-sUKH {
@@ -33771,14 +33898,14 @@ to {
 }
 
 .dockItemText-3qYREY {
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 2;
-	display: -webkit-box;
 	font-weight: 500;
 	height: 32px;
 	line-height: normal;
 	overflow: hidden;
 	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	white-space: normal;
 	width: 100%
 }
 
@@ -33929,10 +34056,6 @@ to {
 	flex: 1 1 auto;
 	flex-direction: column;
 	overflow: hidden
-}
-
-.header-1qLJGp {
-	margin-left: 8px
 }
 
 .theme-dark .activityFeed-28jde9 {
@@ -40935,4 +41058,4 @@ html: lang(zh-HK) : : placeholder,html: lang(zh-HK) body,html: lang(zh-HK) butto
 }
 
 
-/*# sourceMappingURL=301333766ef86a2c2790432ea9aed431.css.map*/
+/*# sourceMappingURL=58f4c97c906a12138cfbf7ebbfb47b44.css.map*/
