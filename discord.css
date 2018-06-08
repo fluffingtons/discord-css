@@ -5613,9 +5613,13 @@ to {
 }
 
 
-.carousel-22Gq5X {
+.root-3tU4d2 {
 	overflow: hidden;
 	position: relative
+}
+
+.carousel-22Gq5X {
+	z-index: 0
 }
 
 .carouselItem-RHizth {
@@ -6116,7 +6120,8 @@ to {
 
 .summary-2pfBY6 {
 	color: hsla(240,6%,97%,.8);
-	margin-top: 10px
+	margin-top: 10px;
+	z-index: 1
 }
 
 .gameName-1W6Ym- {
@@ -23788,14 +23793,9 @@ to {
 
 .deviceOptionCertified-38nQb8 {
 	-ms-flex-negative: 0;
-	border-radius: 3px;
 	flex-shrink: 0;
-	font-size: 12px;
-	font-weight: 700;
-	letter-spacing: .5px;
-	line-height: 12px;
-	padding: 3px 4px;
-	text-transform: uppercase
+	height: 20px;
+	width: 84px
 }
 
 .Select-value-label .deviceOptionLabel-22FM_u {
@@ -23818,11 +23818,6 @@ to {
 	background-color: transparent
 }
 
-.theme-light .deviceOptionCertified-38nQb8 {
-	background-color: #7289da;
-	color: #fff
-}
-
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
 	background-color: #2f3136;
 	border-color: #202225
@@ -23830,11 +23825,6 @@ to {
 
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC.dismiss-3tPbRc {
 	background-color: transparent
-}
-
-.theme-dark .deviceOptionCertified-38nQb8 {
-	background-color: #fff;
-	color: #2f3136
 }
 
 
@@ -33367,7 +33357,7 @@ to {
 }
 
 .quickLauncher-1cRAKX {
-	margin-top: 29px
+	margin-top: 20px
 }
 
 .headerManageIcon-3fX3Jq {
@@ -33385,15 +33375,8 @@ to {
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 22px;
+	margin-top: 20px;
 	width: 100%
-}
-
-.headerTextWithQuickLaunch-1Hc7Iv {
-	padding-top: 30px
-}
-
-.headerTextWithoutQuickLaunch-xxOFLx {
-	padding-top: 40px
 }
 
 .emptyImage-3JcMno {
@@ -33483,12 +33466,11 @@ to {
 
 .headerWithNowPlaying-1ka0In {
 	border-top: 1px solid transparent;
-	margin-top: 20px;
-	padding-top: 28px
+	margin-top: 20px
 }
 
-.headerWithoutNowPlaying-3TXETw {
-	padding-top: 40px
+.headerWithNowPlaying-1ka0In,.headerWithoutNowPlaying-3TXETw {
+	padding-top: 20px
 }
 
 .theme-dark .emptyImage-1Y1gHr {
@@ -33924,10 +33906,6 @@ to {
 	top: 0
 }
 
-.iconArea-H73zLV {
-	
-}
-
 .gameArea-Lbc4xZ {
 	color: #b9bbbe;
 	position: relative
@@ -33944,19 +33922,28 @@ to {
 }
 
 .title-bYqmgP {
+	color: #fff;
+	display: block
+}
+
+.standardTitle-keyykd {
+	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap
 }
 
-.description-12ntlD,.title-bYqmgP {
-	color: #fff;
-	display: block;
-	overflow: hidden
+.simpleTitle-dbEOw7 {
+	color: #f6f6f7;
+	font-size: 28px;
+	position: relative
 }
 
 .description-12ntlD {
+	color: #fff;
+	display: block;
 	max-height: 80px;
-	opacity: .8
+	opacity: .8;
+	overflow: hidden
 }
 
 .readLink-LAwJqy {
@@ -34019,16 +34006,32 @@ to {
 
 .carousel-JbsNzL {
 	-ms-flex: 1 1 75%;
-	-webkit-box-flex: 1;
 	-webkit-transform: translateZ(0);
 	background-color: #202225;
 	border-radius: 5px;
 	flex: 1 1 75%;
-	height: 430px;
+	height: 388px;
 	margin-right: 20px;
 	overflow: hidden;
-	position: relative;
 	transform: translateZ(0)
+}
+
+.carousel-JbsNzL,.smallCarousel-1GzgrC {
+	-webkit-box-flex: 1;
+	position: relative
+}
+
+.smallCarousel-1GzgrC {
+	-ms-flex: 1;
+	flex: 1;
+	height: 220px
+}
+
+.simpleHeader-qJB1wE {
+	-ms-flex-pack: center;
+	-webkit-box-pack: center;
+	height: 220px;
+	justify-content: center
 }
 
 .article-TRD45- {
@@ -34053,10 +34056,10 @@ to {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	height: 100px;
-	margin-top: 10px;
+	height: 91px;
+	margin-top: 8px;
 	overflow: hidden;
-	padding: 20px;
+	padding: 16px;
 	position: relative
 }
 
@@ -34130,14 +34133,14 @@ to {
 
 .splashArt-1anaP9 {
 	-webkit-filter: grayscale(100%);
-	-webkit-transition: -webkit-filter .2s ease;
 	filter: grayscale(100%);
 	height: 100%;
 	opacity: .2;
-	transition: -webkit-filter .2s ease;
-	transition: filter .2s ease;
-	transition: filter .2s ease,-webkit-filter .2s ease;
 	width: 100%
+}
+
+.paginationText-30Kp6m {
+	overflow: hidden
 }
 
 .paginationContent-3VqvbO {
@@ -41418,5 +41421,20 @@ a,button,div,input,select,span,textarea {
 }
 
 
+.undefined {
+	background: red!important;
+	outline: 4px dashed #ff0!important
+}
 
-/*# sourceMappingURL=0.9cbe66830642e8d5c377.css.map*/
+.undefined: before {
+	color: orange!important;
+	content: 'This -moz-element has an `undefined` class. Classes:  "' attr(class) '"'!important;
+	content: 'This element has an `undefined` class. Classes:  "' attr(class) '"'!important;
+	float: right!important;
+	font-size: 1rem!important;
+	font-weight: 800!important
+}
+
+
+
+/*# sourceMappingURL=0.a8aa4c6ecec3eba4dd6b.css.map*/
