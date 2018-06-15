@@ -2476,6 +2476,30 @@ to {
 }
 
 
+.flyingFocus-1dpIRc {
+	-webkit-box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4;
+	-webkit-transition-duration: 150ms;
+	-webkit-transition-property: left,top,width,height;
+	-webkit-transition-timing-function: cubic-bezier(0,1,0,1);
+	background: transparent;
+	border-radius: 3px;
+	box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4;
+	contain: strict;
+	margin: 0;
+	pointer-events: none;
+	position: absolute;
+	transition-duration: 150ms;
+	transition-property: left,top,width,height;
+	transition-timing-function: cubic-bezier(0,1,0,1);
+	visibility: hidden
+}
+
+.visible-25LNNh {
+	visibility: visible;
+	z-index: 9999
+}
+
+
 .contextMenu-HLZMGh {
 	border-radius: 5px;
 	display: inline-block;
@@ -21495,16 +21519,17 @@ to {
 }
 
 
-.downloadLink-2oSgiF {
+.downloadLink-1ywL9o {
 	-webkit-transition: opacity .15s ease;
 	color: #fff;
+	display: block;
 	line-height: 30px;
 	opacity: .5;
 	text-decoration: none;
 	transition: opacity .15s ease
 }
 
-.downloadLink-2oSgiF: hover {
+.downloadLink-1ywL9o: hover {
 	opacity: 1
 }
 
@@ -33928,7 +33953,7 @@ to {
 }
 
 .title-bYqmgP {
-	color: #fff;
+	color: #dcddde;
 	display: block
 }
 
@@ -33945,15 +33970,22 @@ to {
 }
 
 .description-12ntlD {
-	color: #fff;
+	color: #b9bbbe;
 	display: block;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.2;
+	margin-top: 8px;
 	max-height: 80px;
-	opacity: .8;
 	overflow: hidden
 }
 
-.readLink-LAwJqy {
-	display: inline-block
+.timestamp-2TSQfJ {
+	color: #72767d;
+	font-size: 12px;
+	font-weight: 600;
+	margin-top: 8px;
+	text-transform: uppercase
 }
 
 .theme-dark .backgroundBackup-3EhCqM {
@@ -41419,11 +41451,33 @@ a,button,div,input,select,span,textarea {
 	outline: 0
 }
 
-.keyboardMode a: focus,.keyboardMode button: focus,.keyboardMode div: focus,.keyboardMode input: focus,.keyboardMode select: focus,.keyboardMode span: focus,.keyboardMode textarea: focus {
+.keyboardMode button: focus,.keyboardMode div: focus,.keyboardMode input: focus,.keyboardMode select: focus,.keyboardMode span: focus,.keyboardMode textarea: focus {
 	-webkit-box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4;
-	box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4
+	-webkit-transition: -webkit-box-shadow 0s ease .15s;
+	box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4;
+	transition: -webkit-box-shadow 0s ease .15s;
+	transition: box-shadow 0s ease .15s
+}
+
+.keyboardMode a: focus {
+	-webkit-transition: outline 0s ease .15s;
+	outline: 5px auto #00b0f4;
+	transition: outline 0s ease .15s
+}
+
+@supports (-moz-appearance: none) {
+	.keyboardMode a: focus {
+	-webkit-box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4;
+	-webkit-transition: -webkit-box-shadow 0s ease .15s;
+	box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4;
+	outline: 0;
+	transition: -webkit-box-shadow 0s ease .15s;
+	transition: box-shadow 0s ease .15s
+}
+
+
 }
 
 
 
-/*# sourceMappingURL=0.5a29aff4847befdb60e4.css.map*/
+/*# sourceMappingURL=0.633c2b8c52856214f3d7.css.map*/
