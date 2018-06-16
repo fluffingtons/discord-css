@@ -14173,6 +14173,98 @@ to {
 }
 
 
+.icon-3o6xvg {
+	background-clip: padding-box;
+	background-color: none;
+	background-position: 50%;
+	background-size: 100% 100%;
+	position: relative
+}
+
+.iconInactive-98JN5i {
+	border-radius: 50%
+}
+
+.iconActiveMini-3PzjMn {
+	border-radius: 6px
+}
+
+.iconActiveSmall-3IUUtn {
+	border-radius: 9px
+}
+
+.iconActiveMedium-1UaEIR {
+	border-radius: 12px
+}
+
+.iconActiveLarge-2nzn9z {
+	border-radius: 15px
+}
+
+.iconActiveXLarge-_qKvKn {
+	border-radius: 30px
+}
+
+.iconSizeMini-3dKErj {
+	height: 20px;
+	width: 20px
+}
+
+.iconSizeSmall-3aWgx9 {
+	height: 30px;
+	width: 30px
+}
+
+.iconSizeMedium-2OqPjI {
+	height: 40px;
+	width: 40px
+}
+
+.iconSizeLarge-161qtT {
+	height: 50px;
+	width: 50px
+}
+
+.iconSizeXLarge-1AvWOw {
+	height: 100px;
+	width: 100px
+}
+
+.noIcon-1a_FrS {
+	background-color: #2f3136;
+	color: #fff;
+	text-align: center
+}
+
+.noIcon-1a_FrS.iconSizeMini-3dKErj {
+	line-height: 20px
+}
+
+.noIcon-1a_FrS.iconSizeSmall-3aWgx9 {
+	line-height: 30px
+}
+
+.noIcon-1a_FrS.iconSizeMedium-2OqPjI {
+	line-height: 40px
+}
+
+.noIcon-1a_FrS.iconSizeLarge-161qtT {
+	line-height: 50px
+}
+
+.noIcon-1a_FrS.iconSizeXLarge-1AvWOw {
+	line-height: 100px
+}
+
+.verifiedIcon-2TCIsJ {
+	bottom: -2px;
+	height: 14px;
+	position: absolute;
+	right: -2px;
+	width: 14px
+}
+
+
 .container-35XQWE {
 	height: 20px;
 	overflow: hidden;
@@ -19066,6 +19158,10 @@ to {
 	user-select: none
 }
 
+.guilds-wrapper .guilds .guild-icon {
+	border-radius: 0
+}
+
 .guilds-wrapper .guilds .friends-icon {
 	background-image: url(/assets/89576a4bb71f927eb20e8aef987b499b.svg);
 	background-position: 50%;
@@ -19999,7 +20095,8 @@ to {
 	padding: 10px
 }
 
-.integration-3kMeY4 .avatar-1nTDnh {
+.integration-3kMeY4 .guildIcon-YCs9He {
+	float: left;
 	margin: 0 10px 0 0
 }
 
@@ -22073,98 +22170,6 @@ to {
 .theme-light .wrapperAudio-1jDe0Q {
 	background-color: #fff;
 	border-color: #f6f6f7
-}
-
-
-.icon-3o6xvg {
-	background-clip: padding-box;
-	background-color: none;
-	background-position: 50%;
-	background-size: 100% 100%;
-	position: relative
-}
-
-.iconInactive-98JN5i {
-	border-radius: 50%
-}
-
-.iconActivieMini-1ft9Vy {
-	border-radius: 6px
-}
-
-.iconActiveSmall-3IUUtn {
-	border-radius: 9px
-}
-
-.iconActiveMedium-1UaEIR {
-	border-radius: 12px
-}
-
-.iconActiveLarge-2nzn9z {
-	border-radius: 15px
-}
-
-.iconActiveXLarge-_qKvKn {
-	border-radius: 30px
-}
-
-.iconSizeMini-3dKErj {
-	height: 20px;
-	width: 20px
-}
-
-.iconSizeSmall-3aWgx9 {
-	height: 30px;
-	width: 30px
-}
-
-.iconSizeMedium-2OqPjI {
-	height: 40px;
-	width: 40px
-}
-
-.iconSizeLarge-161qtT {
-	height: 50px;
-	width: 50px
-}
-
-.iconSizeXLarge-1AvWOw {
-	height: 100px;
-	width: 100px
-}
-
-.noIcon-1a_FrS {
-	background-color: #2f3136;
-	color: #fff;
-	text-align: center
-}
-
-.noIcon-1a_FrS.iconSizeMini-3dKErj {
-	line-height: 20px
-}
-
-.noIcon-1a_FrS.iconSizeSmall-3aWgx9 {
-	line-height: 30px
-}
-
-.noIcon-1a_FrS.iconSizeMedium-2OqPjI {
-	line-height: 40px
-}
-
-.noIcon-1a_FrS.iconSizeLarge-161qtT {
-	line-height: 50px
-}
-
-.noIcon-1a_FrS.iconSizeXLarge-1AvWOw {
-	line-height: 100px
-}
-
-.verifiedIcon-2TCIsJ {
-	bottom: -2px;
-	height: 14px;
-	position: absolute;
-	right: -2px;
-	width: 14px
 }
 
 
@@ -31843,35 +31848,27 @@ to {
 	fill: rgba(115,127,141,.6)
 }
 
-#friends .friends-table .friends-row .friends-column-guilds .avatar-small {
-	background-color: #7289da;
-	color: #fff
-}
-
-#friends .friends-table .friends-row .friends-column-guilds .avatar-small,#friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
+#friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
 	-ms-flex-align: center;
 	-ms-flex-negative: 0;
 	-ms-flex-pack: center;
 	-webkit-box-align: center;
 	-webkit-box-pack: center;
-	align-items: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	flex-shrink: 0;
-	justify-content: center
-}
-
-#friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
 	-webkit-box-sizing: border-box;
+	align-items: center;
 	border: 2px solid rgba(0,0,0,.2);
 	border-radius: 50%;
 	box-sizing: border-box;
 	color: rgba(0,0,0,.6);
 	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-shrink: 0;
 	font-size: 11px;
 	font-weight: 700;
 	height: 30px;
+	justify-content: center;
 	margin-left: 6px;
 	width: 30px
 }
@@ -41480,4 +41477,4 @@ a,button,div,input,select,span,textarea {
 
 
 
-/*# sourceMappingURL=0.633c2b8c52856214f3d7.css.map*/
+/*# sourceMappingURL=0.0544ecd4ca20d5881e1a.css.map*/
