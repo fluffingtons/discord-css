@@ -19227,6 +19227,15 @@ to {
 	width: 50px
 }
 
+.guilds-wrapper .guilds .home-icon {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #fff;
+	height: 100%;
+	padding: 5px;
+	width: 100%
+}
+
 .guilds-wrapper .guilds .friends-online {
 	color: hsla(0,0%,100%,.3);
 	font-size: 10px;
@@ -28213,7 +28222,7 @@ to {
 .public-DraftEditorPlaceholder-root {
 	color: #9197a3;
 	position: absolute;
-	z-index: 0
+	z-index: 1
 }
 
 .public-DraftEditorPlaceholder-hasFocus {
@@ -32999,14 +33008,18 @@ to {
 	width: 24px
 }
 
-.personalizationNoticeText-19aln5 {
+.personalizationNoticeBody-SbbbgQ {
 	-ms-flex-positive: 1;
 	-webkit-box-flex: 1;
 	flex-grow: 1;
+	margin-right: 20px
+}
+
+.personalizationNoticeText-19aln5 {
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 16px;
-	margin-right: 20px
+	max-width: 580px
 }
 
 .personalizationNoticeButtons-2s7soE {
@@ -41558,4 +41571,4 @@ a,button,div,input,select,span,textarea {
 
 
 
-/*# sourceMappingURL=0.ad74d027f6038198019c.css.map*/
+/*# sourceMappingURL=0.13b4c007f9a37d771098.css.map*/
