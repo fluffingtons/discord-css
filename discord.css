@@ -2674,7 +2674,7 @@ to {
 }
 
 
-.backdrop-1ocfXc {
+.backdrop-1wrmKB {
 	bottom: 0;
 	contain: strict;
 	left: 0;
@@ -5347,7 +5347,8 @@ to {
 .imageAccessory-3uSIjZ {
 	position: absolute;
 	right: 4px;
-	top: 4px
+	top: 4px;
+	z-index: 1
 }
 
 .imageZoom-1n-ADA {
@@ -37915,12 +37916,14 @@ to {
 }
 
 .reset-2ikQ30 {
+	cursor: pointer;
 	opacity: .6;
+	padding-left: 1px;
+	padding-right: 1px;
 	text-transform: capitalize
 }
 
 .reset-2ikQ30: hover {
-	cursor: pointer;
 	opacity: 1;
 	text-decoration: underline
 }
@@ -41836,4 +41839,4 @@ a,button,div,input,select,span,textarea {
 
 
 
-/*# sourceMappingURL=0.cc39f7740a6a8254504e.css.map*/
+/*# sourceMappingURL=0.22588afd029ac14f9e84.css.map*/
