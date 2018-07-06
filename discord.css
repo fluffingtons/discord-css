@@ -3052,8 +3052,8 @@ to {
 }
 
 .checkbox .checkbox-inner input[type=checkbox]: checked: disabled+span {
-	background-color: #c9d2f0;
-	border-color: #c9d2f0
+	background-color: #c7d0f0;
+	border-color: #c7d0f0
 }
 
 .checkbox .checkbox-inner.alt input[type=checkbox]+span {
@@ -4898,7 +4898,7 @@ to {
 }
 
 .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ p {
-	color: #697ec4
+	color: #7289da
 }
 
 .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ .downloadButton-1bWXpg {
@@ -5270,11 +5270,6 @@ to {
 	vertical-align: middle
 }
 
-.channel-members .botTag-2WPJ74 {
-	height: 14px;
-	line-height: 15px
-}
-
 
 .nameTag-m8r81H {
 	overflow: hidden;
@@ -5612,7 +5607,7 @@ to {
 }
 
 .embedFields-2IPs5Z {
-	color: #36393e
+	color: #36393f
 }
 
 .embedField-1v-Pnh {
@@ -10310,7 +10305,7 @@ to {
 }
 
 #oauth2-authorize .authorize-inner footer button.primary: hover {
-	background: #697ec4;
+	background: #4e5d94;
 	border-bottom: none
 }
 
@@ -11065,7 +11060,7 @@ to {
 }
 
 .discriminator-1LGHAl {
-	color: #c9d2f0;
+	color: #c7d0f0;
 	font-size: 12px;
 	font-weight: 400;
 	margin-top: 2px
@@ -11158,23 +11153,6 @@ to {
 
 .bigBtn-R5m1Y3: first-of-type {
 	margin-top: 0
-}
-
-.bigBtnRegular-3-Eza0 {
-	background-color: #7289da;
-	border-color: #697ec4;
-	color: #fff;
-	padding: 7px
-}
-
-.bigBtnRegular-3-Eza0: hover {
-	background-color: #697ec4
-}
-
-.bigBtnRegular-3-Eza0: active {
-	background-color: #6478ba;
-	border-color: background-color;
-	color: #fff
 }
 
 .bigBtnServer-1pDYSN {
@@ -11652,7 +11630,7 @@ to {
 
 .theme-dark .number-3ceIrJ {
 	-webkit-box-shadow: none;
-	background: #36393e;
+	background: #36393f;
 	border-color: hsla(0,0%,100%,.04);
 	box-shadow: none
 }
@@ -11925,13 +11903,13 @@ to {
 }
 
 .form-deprecated .control-group label a,.form.deprecated .control-group label a {
-	color: #697ec4;
+	color: #7289da;
 	cursor: pointer;
 	text-decoration: none
 }
 
 .form-deprecated .control-group label a: hover,.form.deprecated .control-group label a: hover {
-	color: #4f5f93
+	color: #4e5d94
 }
 
 .form-deprecated .control-group.help-text.error,.form.deprecated .control-group.help-text.error {
@@ -12173,7 +12151,7 @@ to {
 }
 
 .form-deprecated .btn-primary: hover,.form.deprecated .btn-primary: hover {
-	background-color: #697ec4
+	background-color: #4e5d94
 }
 
 .form-deprecated .btn-default,.form.deprecated .btn-default {
@@ -12609,7 +12587,7 @@ to {
 }
 
 .audio-2eyFBU .guildInner-8UFXi4: after,.video-3kbBtV .guildInner-8UFXi4: after {
-	background-color: #1e2124;
+	background-color: #202225;
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: 16px;
@@ -12700,7 +12678,7 @@ to {
 
 .audio-3BpihO .guildInner-1SgG-J: after {
 	background: url(/assets/2a78f3f87ce01e509ce8f9cfb9916680.svg) 50% no-repeat;
-	background-color: #1e2124;
+	background-color: #202225;
 	background-size: 16px;
 	border-radius: 12px;
 	content: " ";
@@ -13120,7 +13098,7 @@ to {
 }
 
 .guildsWrapper-3xM813 {
-	background: #1e2124;
+	background: #202225;
 	overflow-x: hidden;
 	width: 56px
 }
@@ -13756,17 +13734,8 @@ to {
 
 .verifyConnectedAccount-3WFmtE .btn-3HQv6W {
 	-webkit-transition: background-color .2s ease;
-	background-color: #7289da;
-	border-radius: 3px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 400;
 	height: 60px;
-	line-height: 16px;
 	margin-top: 22px;
-	padding: 10px 20px;
-	position: relative;
 	transition: background-color .2s ease;
 	width: 400px
 }
@@ -13776,13 +13745,10 @@ to {
 	opacity: .25
 }
 
-.verifyConnectedAccount-3WFmtE .btn-3HQv6W: hover {
-	background-color: #697ec4
-}
-
 .verifyConnectedAccount-3WFmtE .btn-3HQv6W: disabled {
 	background-color: #2f3136;
-	cursor: not-allowed
+	cursor: not-allowed;
+	opacity: 1
 }
 
 
@@ -19582,7 +19548,7 @@ to {
 }
 
 .guilds-wrapper .guilds .guild.audio .guild-inner: after,.guilds-wrapper .guilds .guild.video .guild-inner: after {
-	background-color: #1e2124;
+	background-color: #202225;
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: 16px;
@@ -19656,7 +19622,7 @@ to {
 
 .guilds-wrapper .guilds-add {
 	-webkit-transition: border-color .25s ease,color .25s ease;
-	background: #1e2124;
+	background: #202225;
 	border: 1px dashed #535559;
 	border-radius: 50%;
 	color: #535559;
@@ -21595,7 +21561,7 @@ to {
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
-	border-bottom-color: #697ec4
+	border-bottom-color: #7289da
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S: hover {
@@ -21708,24 +21674,6 @@ to {
 	top: 0;
 	width: 100%;
 	z-index: 101
-}
-
-.premiumPromo-yVfLiA .btn {
-	-webkit-transition: background-color .2s ease;
-	background-color: #7289da;
-	border-radius: 3px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 16px;
-	padding: 10px 20px;
-	position: relative;
-	transition: background-color .2s ease
-}
-
-.premiumPromo-yVfLiA .btn: hover {
-	background-color: #697ec4
 }
 
 .premiumPromoClose-2sqoIR {
@@ -26020,11 +25968,11 @@ to {
 }
 
 .theme-dark .message-group.is-local-bot-message {
-	-webkit-box-shadow: -20px 0 #33373b,20px 0 #36393e,-20px -1px 0 0 #3e4146,-20px 1px 0 #3e4146,20px 1px 0 #3e4146,20px -1px 0 #3e4146;
-	background-image: -webkit-gradient(linear,left top,right top,color-stop(80%,rgba(47,49,54,30%)),to(#36393e));
-	background-image: linear-gradient(90deg,rgba(47,49,54,.3) 80%,#36393e);
+	-webkit-box-shadow: -20px 0 #33373b,20px 0 #36393f,-20px -1px 0 0 #3e4146,-20px 1px 0 #3e4146,20px 1px 0 #3e4146,20px -1px 0 #3e4146;
+	background-image: -webkit-gradient(linear,left top,right top,color-stop(80%,rgba(47,49,54,30%)),to(#36393f));
+	background-image: linear-gradient(90deg,rgba(47,49,54,.3) 80%,#36393f);
 	border-color: transparent;
-	box-shadow: -20px 0 #33373b,20px 0 #36393e,-20px -1px 0 0 #3e4146,-20px 1px 0 #3e4146,20px 1px 0 #3e4146,20px -1px 0 #3e4146
+	box-shadow: -20px 0 #33373b,20px 0 #36393f,-20px -1px 0 0 #3e4146,-20px 1px 0 #3e4146,20px 1px 0 #3e4146,20px -1px 0 #3e4146
 }
 
 .theme-dark .message-group h2 strong {
@@ -26184,7 +26132,7 @@ to {
 }
 
 .theme-dark .typing-2GQL18 {
-	background-color: #36393e
+	background-color: #36393f
 }
 
 .theme-dark .typing-2GQL18 .ellipsis-19qdx6 div {
@@ -26229,21 +26177,8 @@ to {
 	width: 100%
 }
 
-.wrapper-39oAo3 button {
-	-webkit-transition: background-color .2s ease;
-	background-color: #7289da;
-	border-radius: 3px;
-	color: #fff;
-	font-size: 14px;
-	font-weight: 500;
-	line-height: 30px;
-	margin-top: 9px;
-	padding: 0 23px;
-	transition: background-color .2s ease
-}
-
-.wrapper-39oAo3 button: hover {
-	background-color: #697ec4
+.button-1YxJv4 {
+	margin-top: 8px
 }
 
 .theme-dark .wrapper-39oAo3 {
@@ -26309,11 +26244,11 @@ to {
 }
 
 .need-help-modal.deprecated .header input[type=text] {
-	-webkit-box-shadow: 0 2px 1px #697ec4;
+	-webkit-box-shadow: 0 2px 1px rgba(78,93,148,.6);
 	-webkit-box-sizing: border-box;
 	background-color: #fff;
 	border-radius: 20px;
-	box-shadow: 0 2px 1px #697ec4;
+	box-shadow: 0 2px 1px rgba(78,93,148,.6);
 	box-sizing: border-box;
 	color: #555;
 	font-size: 14px;
@@ -26767,7 +26702,7 @@ to {
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .hasMore-sul95G button {
-	background: #32353a;
+	background: #32353b;
 	border: 1px solid #2f3136
 }
 
@@ -26791,7 +26726,7 @@ to {
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
-	background-color: #36393e;
+	background-color: #36393f;
 	border-color: rgba(28,36,43,.6)
 }
 
@@ -26800,9 +26735,9 @@ to {
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group: hover .actionButtons-1sUUug {
-	-webkit-box-shadow: 0 0 6px 4px #36393e;
-	background-color: #36393e;
-	box-shadow: 0 0 6px 4px #36393e
+	-webkit-box-shadow: 0 0 6px 4px #36393f;
+	background-color: #36393f;
+	box-shadow: 0 0 6px 4px #36393f
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
@@ -28739,7 +28674,7 @@ to {
 .search .DraftEditor-root {
 	-ms-flex: 1;
 	-webkit-box-flex: 1;
-	color: #36393e;
+	color: #36393f;
 	flex: 1;
 	font-size: 14px;
 	font-weight: 500;
@@ -28932,7 +28867,7 @@ to {
 }
 
 .theme-dark .iconBadge-2dji3k {
-	border-color: #36393e
+	border-color: #36393f
 }
 
 .theme-dark .divider-2PMBlV {
@@ -29281,7 +29216,7 @@ to {
 	pointer-events: all
 }
 
-.videoBackground-3AY_fu {
+.videoBackground-3AY_fu,.videoBackgroundTransition-3wpOSl {
 	bottom: 0;
 	height: 100%;
 	left: 0;
@@ -29298,9 +29233,7 @@ to {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	height: 100%;
-	overflow: hidden;
-	width: 100%
+	overflow: hidden
 }
 
 .theme-light .video-1FfuMD.minimum-1pRSEN {
@@ -30967,7 +30900,7 @@ to {
 }
 
 .theme-dark .search-results-wrap .scroller-wrap .scroller: : -webkit-scrollbar-thumb {
-	background-color: #1e2124!important;
+	background-color: #202225!important;
 	border: 3px solid #2f3136!important
 }
 
@@ -31030,7 +30963,7 @@ to {
 
 .theme-dark .search-results-wrap .search-result .hit {
 	-webkit-box-shadow: 0 0 10px 6px #2f3136;
-	background-color: #36393e;
+	background-color: #36393f;
 	box-shadow: 0 0 10px 6px #2f3136
 }
 
@@ -31046,7 +30979,7 @@ to {
 
 .theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
 	-webkit-box-sizing: border-box;
-	background-color: #36393e;
+	background-color: #36393f;
 	border-bottom: 2px solid rgba(28,36,43,.6);
 	border-top: 2px solid rgba(28,36,43,.6);
 	box-sizing: border-box
@@ -31075,12 +31008,12 @@ to {
 }
 
 .theme-dark .search-results-wrap .results-blocked {
-	border-color: #1e2124;
+	border-color: #202225;
 	color: hsla(0,0%,100%,.3)
 }
 
 .theme-dark .search-results-wrap .results-blocked: hover {
-	background-color: rgba(30,33,36,.3)
+	background-color: rgba(32,34,37,.3)
 }
 
 .theme-dark .search-results-wrap .results-blocked .results-blocked-image {
@@ -31676,21 +31609,6 @@ to {
 	width: 100%
 }
 
-#friends .btn {
-	background-color: #7289da;
-	border-radius: 3px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 14px;
-	font-weight: 500;
-	margin-right: 10px;
-	padding: 4px 8px
-}
-
-#friends .btn: hover {
-	background-color: #697ec4
-}
-
 #friends .add-friend {
 	-ms-flex-negative: 0;
 	flex-shrink: 0
@@ -31738,7 +31656,7 @@ to {
 }
 
 #friends .tab-bar .tab-bar-item.tab-bar-item-primary: hover: not(.selected) {
-	background-color: #697ec4
+	background-color: #6a7fcb
 }
 
 #friends .tab-bar .tab-bar-item .badge {
@@ -32369,45 +32287,8 @@ to {
 	margin: 20px 50px
 }
 
-#friends .friends-empty .btn {
-	font-size: 16px;
-	padding: 8px 20px
-}
-
-#friends .experiment-title {
-	font-size: 14px;
-	font-weight: 600;
-	line-height: 24px;
-	margin-bottom: 6px;
-	text-transform: uppercase
-}
-
-#friends .experiment-description {
-	font-size: 16px;
-	line-height: 20px;
-	margin: 0 0 20px;
-	width: 300px
-}
-
-#friends .btn.experiment {
-	background-color: rgba(0,0,0,.05);
-	background-image: url(/assets/8184269cedf5d60b32020823397fc8c1.png);
-	background-position: 8px 50%;
-	background-repeat: no-repeat;
-	background-size: 22px 22px;
-	color: #2d3283;
-	cursor: pointer;
-	font-size: 14px;
-	line-height: 22px;
-	margin: 0 5px 20px;
-	padding-left: 38px;
-	padding-right: 0;
-	text-align: left;
-	width: 164px
-}
-
 .theme-dark #friends {
-	background-color: #36393e
+	background-color: #36393f
 }
 
 .theme-dark #friends .tab-bar.tab-bar-desktop .tab-bar-item {
@@ -32420,12 +32301,12 @@ to {
 
 .theme-dark #friends .tab-bar .tab-bar-item .badge {
 	background-color: hsla(0,0%,100%,.6);
-	color: #36393e
+	color: #36393f
 }
 
 .theme-dark #friends .tab-bar .tab-bar-item.selected {
 	background-color: #fff;
-	color: #36393e
+	color: #36393f
 }
 
 .theme-dark #friends .tab-bar .tab-bar-item.selected .badge {
@@ -32452,11 +32333,11 @@ to {
 }
 
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary: hover: not(.selected) {
-	background-color: #697ec4
+	background-color: rgba(114,137,218,.9)
 }
 
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary: hover: not(.selected) .badge {
-	color: #697ec4
+	color: rgba(114,137,218,.9)
 }
 
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
@@ -32478,8 +32359,8 @@ to {
 }
 
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
-	background: -webkit-gradient(linear,left top,left bottom,from(rgba(54,57,62,.3)),to(rgba(47,49,54,.3)));
-	background: linear-gradient(-180deg,rgba(54,57,62,.3),rgba(47,49,54,.3));
+	background: -webkit-gradient(linear,left top,left bottom,from(rgba(54,57,63,.3)),to(rgba(47,49,54,.3)));
+	background: linear-gradient(-180deg,rgba(54,57,63,.3),rgba(47,49,54,.3));
 	border-bottom: 1px solid rgba(0,0,0,.2)
 }
 
@@ -32589,18 +32470,6 @@ to {
 
 .theme-dark #friends .friends-empty p {
 	color: hsla(0,0%,100%,.4)
-}
-
-.theme-dark #friends .experiment-title {
-	color: #b9bbbe
-}
-
-.theme-dark #friends .experiment-description {
-	color: hsla(0,0%,100%,.4)
-}
-
-.theme-dark #friends .btn.experiment {
-	background-color: #fff
 }
 
 
@@ -32908,7 +32777,7 @@ to {
 }
 
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
-	background-color: #36393e;
+	background-color: #36393f;
 	border: 1px solid rgba(0,0,0,.6);
 	border-radius: 3px;
 	color: #fff;
@@ -32919,7 +32788,7 @@ to {
 }
 
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u: active {
-	background-color: #313338
+	background-color: #313339
 }
 
 .channelNotices-41mJbj .channelNotice-1-XFjC a {
@@ -35122,7 +34991,7 @@ to {
 }
 
 .button: hover {
-	background-color: #697ec4
+	background-color: #4e5d94
 }
 
 .tutorial-indicators .indicator {
@@ -35873,7 +35742,7 @@ to {
 
 .chat .new-messages-bar button: last-child {
 	-webkit-transition: color .2s;
-	color: #c9d2f0;
+	color: #c7d0f0;
 	font-size: 12px;
 	text-transform: uppercase;
 	transition: color .2s
@@ -35963,7 +35832,7 @@ to {
 }
 
 .theme-dark .chat {
-	background-color: #36393e
+	background-color: #36393f
 }
 
 .theme-dark .chat .jump-to-present-bar {
@@ -35975,7 +35844,7 @@ to {
 }
 
 .theme-dark .chat .has-more button {
-	background: #32353a;
+	background: #32353b;
 	border: 1px solid #2f3136
 }
 
@@ -35986,12 +35855,11 @@ to {
 
 .theme-dark .chat form {
 	-webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
-	background-color: #36393f;
 	box-shadow: 0 -1px 0 hsla(0,0%,100%,.06)
 }
 
-.theme-dark .chat>.content {
-	background-color: #36393e
+.theme-dark .chat>.content,.theme-dark .chat form {
+	background-color: #36393f
 }
 
 .theme-dark .btn-option {
@@ -38076,7 +37944,7 @@ to {
 .fancy-credit-input .expiration-placeholder,.fancy-credit-input input {
 	background: transparent;
 	border: none;
-	color: #36393e;
+	color: #36393f;
 	display: block;
 	font-family: SourceCodePro,Consolas,Liberation Mono,Menlo,Courier,monospace;
 	font-size: 17px;
@@ -38184,7 +38052,7 @@ to {
 .fancy-credit-input .cc-number-wrapper .cc-number-placeholder {
 	-webkit-transition: opacity .1s ease-in-out;
 	color: #000;
-	color: rgba(54,57,62,.2);
+	color: rgba(54,57,63,.2);
 	font-family: SourceCodePro,Consolas,Liberation Mono,Menlo,Courier,monospace;
 	font-size: 17px;
 	font-weight: 500;
@@ -38269,19 +38137,19 @@ to {
 }
 
 .fancy-credit-input .cc-info-wrapper input: : -webkit-input-placeholder {
-	color: rgba(54,57,62,.2)
+	color: rgba(54,57,63,.2)
 }
 
 .fancy-credit-input .cc-info-wrapper input: : -moz-placeholder {
-	color: rgba(54,57,62,.2)
+	color: rgba(54,57,63,.2)
 }
 
 .fancy-credit-input .cc-info-wrapper input: -ms-input-placeholder {
-	color: rgba(54,57,62,.2)
+	color: rgba(54,57,63,.2)
 }
 
 .fancy-credit-input .cc-info-wrapper input: -moz-placeholder {
-	color: rgba(54,57,62,.2)
+	color: rgba(54,57,63,.2)
 }
 
 .fancy-credit-input .cc-info-wrapper .expiration-wrapper {
@@ -38297,7 +38165,7 @@ to {
 }
 
 .fancy-credit-input .cc-info-wrapper .expiration-placeholder {
-	color: rgba(54,57,62,.2);
+	color: rgba(54,57,63,.2);
 	left: 0;
 	margin-left: 0;
 	padding-top: 1px;
@@ -38454,7 +38322,7 @@ to {
 }
 
 .premiumPaymentModal-3SpIbo .premiumPaymentForm-1LJy1l: before {
-	background-color: #697ec4;
+	background-color: rgba(78,93,148,.3);
 	border-radius: 22px;
 	content: "";
 	display: block;
@@ -39954,7 +39822,7 @@ to {
 }
 
 .detected-platform-accounts-modal .btn-group .btn-primary: hover: not(: disabled) {
-	background-color: #697ec4
+	background-color: #4e5d94
 }
 
 .detected-platform-accounts-modal .divider {
@@ -41690,7 +41558,7 @@ code {
 
 
 .theme-dark .friends-table,.theme-dark .messages-wrapper {
-	background-color: #36393e
+	background-color: #36393f
 }
 
 .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar,.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb,.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar: after,.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar,.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb,.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar: after {
@@ -41706,35 +41574,35 @@ code {
 }
 
 .theme-dark .friends-table .scroller-wrap : : -webkit-scrollbar-thumb,.theme-dark .messages-wrapper .scroller-wrap : : -webkit-scrollbar-thumb {
-	background-color: #1e2124;
-	border-color: #36393e
+	background-color: #202225;
+	border-color: #36393f
 }
 
 .theme-dark .friends-table .scroller-wrap : : -webkit-scrollbar-track-piece,.theme-dark .messages-wrapper .scroller-wrap : : -webkit-scrollbar-track-piece {
 	background-color: #2f3136;
-	border-color: #36393e
+	border-color: #36393f
 }
 
 .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar,.theme-dark .friends-table .scroller-wrap.polyfill .scrollbar: after,.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar,.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar: after {
-	background-color: #36393e
+	background-color: #36393f
 }
 
 .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb,.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb {
-	background-color: #36393e;
-	border-color: #36393e
+	background-color: #36393f;
+	border-color: #36393f
 }
 
 .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb: after,.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb: after {
-	background-color: #1e2124
+	background-color: #202225
 }
 
 .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .track,.theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .track {
 	background-color: #2f3136;
-	border-color: #36393e
+	border-color: #36393f
 }
 
 .theme-dark .friends-table .messages .divider: before,.theme-dark .friends-table .messages .divider span,.theme-dark .messages-wrapper .messages .divider: before,.theme-dark .messages-wrapper .messages .divider span {
-	background-color: #36393e
+	background-color: #36393f
 }
 
 .theme-dark .friends-table .messages .divider: not(.red) span,.theme-dark .messages-wrapper .messages .divider: not(.red) span {
@@ -41765,12 +41633,12 @@ code {
 }
 
 .theme-dark .friends-table .messages .message-group-blocked.revealed,.theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
-	background: #32353a;
+	background: #32353b;
 	border-color: #2f3136
 }
 
 .theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn,.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
-	background: #32353a;
+	background: #32353b;
 	color: #8a8e94
 }
 
@@ -41887,4 +41755,4 @@ a,button,div,input,select,span,textarea {
 
 
 
-/*# sourceMappingURL=0.cb17fbf2fc80faae3b15.css.map*/
+/*# sourceMappingURL=0.38836ae30f109fd73f28.css.map*/
