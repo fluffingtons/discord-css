@@ -3399,7 +3399,7 @@ html: lang(zh-HK) : : placeholder,html: lang(zh-HK) body,html: lang(zh-HK) butto
 	font-family: Whitney,Microsoft JhengHei,微軟正黑體,Microsoft JhengHei UI,Microsoft YaHei,微軟雅黑,宋体,SimSun,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
-a,button,div,input,select,span,textarea {
+a,button,div,input,select,span,strong,textarea {
 	outline: 0
 }
 
@@ -3587,31 +3587,34 @@ a,button,div,input,select,span,textarea {
 }
 
 .wrapper-129saQ a: link,.wrapper-129saQ a: visited {
-	color: #fff!important
-}
-
-.icon-3ZFEtL,.wrapper-129saQ a: link,.wrapper-129saQ a: visited {
+	color: #fff!important;
 	cursor: pointer;
 	display: block;
 	pointer-events: auto
 }
 
-.icon-3ZFEtL {
+.iconWrapper-21idzA {
 	-ms-flex: 0 0 auto;
 	-webkit-box-flex: 0;
+	cursor: pointer;
 	flex: 0 0 auto;
-	height: 24px;
 	opacity: .6;
-	width: 24px
+	pointer-events: auto
 }
 
-.icon-3ZFEtL: hover {
+.iconWrapper-21idzA: hover {
 	opacity: 1
 }
 
-.icon-3ZFEtL: active {
+.iconWrapper-21idzA: active {
 	-webkit-transform: translateY(1px);
 	transform: translateY(1px)
+}
+
+.icon-3ZFEtL {
+	display: block;
+	height: 24px;
+	width: 24px
 }
 
 .iconPlay-2kgvwV {
@@ -4078,6 +4081,7 @@ a,button,div,input,select,span,textarea {
 }
 
 .arrowHitbox-2_hxtQ {
+	background: transparent;
 	cursor: pointer;
 	pointer-events: all
 }
@@ -4116,6 +4120,7 @@ a,button,div,input,select,span,textarea {
 	cursor: pointer;
 	height: 8px;
 	margin-right: 8px;
+	padding: 0;
 	pointer-events: all;
 	transform: translateZ(0);
 	width: 8px
@@ -11824,6 +11829,12 @@ to {
 	opacity: 1
 }
 
+.buttonInner-LmnaN_ {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
 
 .container-1UB9sr {
 	-ms-flex-align: center;
@@ -11991,11 +12002,11 @@ to {
 }
 
 
-.guildWidgetContent-2CnB6W {
+.guildWidgetSidebar-ZsmPr0 {
 	width: 240px
 }
 
-.header-1QczlI {
+.header-2ZdCft {
 	-ms-flex-negative: 0;
 	-webkit-box-shadow: inset 0 -1px 0 0 rgba(0,0,0,.1);
 	background-color: #2f3136;
@@ -12003,20 +12014,20 @@ to {
 	flex-shrink: 0
 }
 
-.draggableStartArea-OZ85Xw {
+.draggableStartArea-_2VSFf {
 	cursor: move
 }
 
-.icon-3lzA9d {
+.icon-UKb1Zl {
 	color: #fff;
 	opacity: .6
 }
 
-.icon-3lzA9d: hover {
+.icon-UKb1Zl: hover {
 	opacity: 1
 }
 
-.headerTitle-3IhLQK {
+.headerTitle-1rvR6P {
 	-ms-flex-negative: 1;
 	display: block;
 	flex-shrink: 1;
@@ -12359,27 +12370,6 @@ to {
 	height: 16px;
 	line-height: 16px;
 	padding: 0 4px
-}
-
-
-.icon-1792kv {
-	cursor: pointer;
-	display: block;
-	fill: #fff;
-	height: 18px;
-	left: 2px;
-	opacity: .3;
-	position: relative;
-	width: 18px
-}
-
-.icon-1792kv: active {
-	-webkit-transform: translateY(.5px);
-	transform: translateY(.5px)
-}
-
-.icon-1792kv: hover {
-	opacity: .6
 }
 
 
@@ -23934,7 +23924,7 @@ to {
 
 
 .container-1rPqdX {
-	border-radius: 3px;
+	border-radius: 5px;
 	display: inline-block;
 	min-width: 3.8rem;
 	padding: 2px 0;
@@ -23953,7 +23943,11 @@ to {
 	background: transparent;
 	font-size: 0.75rem;
 	font-weight: 500;
-	padding: 4px 2px;
+	line-height: 1rem;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-bottom: 2px;
+	padding-top: 2px;
 	text-align: center;
 	width: calc(100% - 4px)
 }
@@ -33101,25 +33095,6 @@ to {
 }
 
 
-.icon-1KK5se {
-	cursor: pointer;
-	display: block;
-	fill: #fff;
-	height: 18px;
-	opacity: .3;
-	width: 18px
-}
-
-.icon-1KK5se: active {
-	-webkit-transform: translateY(.5px);
-	transform: translateY(.5px)
-}
-
-.icon-1KK5se: hover {
-	opacity: .6
-}
-
-
 .containerDefault-3GGEv_,.containerDragAfter-3TEhpe,.containerDragBefore-3Dzc5x,.containerUserOver-1Tcb7l {
 	-webkit-transition: opacity .2s ease-in-out;
 	padding-top: 28px;
@@ -33179,6 +33154,24 @@ to {
 
 .disabled-1yCgME>div {
 	opacity: .3
+}
+
+.addButton-1BORro {
+	height: 18px;
+	width: 18px
+}
+
+.addButtonIcon-3u-3Hu {
+	opacity: .3
+}
+
+.addButtonIcon-3u-3Hu: hover {
+	opacity: .6
+}
+
+.addButtonIcon-3u-3Hu: active {
+	-webkit-transform: translateY(.5px);
+	transform: translateY(.5px)
 }
 
 
@@ -34831,6 +34824,7 @@ to {
 
 .arrowContainer-10m4Cy {
 	-webkit-transform: translateY(-50%);
+	color: #f6f6f7;
 	cursor: pointer;
 	font-size: 0;
 	position: absolute;
@@ -36429,16 +36423,16 @@ to {
 	transition: opacity .2s ease
 }
 
-.iconButton-l-Ul_r: hover {
-	opacity: 1
-}
-
 .iconButtonDisabled-kjL2M8 {
 	opacity: .3
 }
 
-.iconButtonMargin-YGyBRC {
+.iconButtonWrapper-1ROgCd {
 	margin-left: 8px
+}
+
+.iconButtonWrapper-1ROgCd: hover .iconButton-l-Ul_r {
+	opacity: 1
 }
 
 .iconButtonForeground-JKUp3t {
@@ -41608,4 +41602,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.14676eebfb85fd49a51a.css.map*/
+/*# sourceMappingURL=0.856512598cc24ca477a1.css.map*/
