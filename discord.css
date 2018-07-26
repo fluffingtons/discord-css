@@ -2419,7 +2419,7 @@ to {
 .emoji {
 	-o-object-fit: contain;
 	height: 1.45em;
-	margin: -.1em .05em -.4em .1em;
+	margin: -.1em .05em -.2em .1em;
 	object-fit: contain;
 	width: 1.45em
 }
@@ -4008,7 +4008,7 @@ a,button,div,input,select,span,strong,textarea {
 	-ms-user-select: text;
 	-webkit-user-select: text;
 	font-size: 0.9375rem;
-	line-height: 1.125rem;
+	line-height: 1.3;
 	user-select: text;
 	white-space: pre-wrap;
 	word-wrap: break-word
@@ -4100,10 +4100,6 @@ a,button,div,input,select,span,strong,textarea {
 
 .theme-dark .markup-2BOw-j code,.theme-dark .markup-2BOw-j code.inline {
 	background: #2f3136
-}
-
-.a11y-font-scaled-down .markup-2BOw-j {
-	line-height: 1.3
 }
 
 
@@ -11512,6 +11508,66 @@ to {
 
 .icon-15v2QJ.toggledIconOn-1A0KDh {
 	opacity: 1
+}
+
+
+.title-EWUIl5 {
+	height: 44px;
+	padding: 0 8px 0 12px
+}
+
+.channelNameWrapper-2vQGWw,.title-EWUIl5 {
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.channelNameWrapper-2vQGWw {
+	-ms-flex-direction: row;
+	-ms-flex-negative: 1;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	color: #f6f6f7;
+	flex-direction: row;
+	flex-shrink: 1;
+	font-size: 16px;
+	font-weight: 600;
+	min-width: 0
+}
+
+.channelName-3Q7F-T {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.titleIcon-2ciH3G {
+	color: #fff;
+	display: inline-block;
+	line-height: 20px;
+	margin-right: 3px;
+	opacity: .6
+}
+
+.dragIcon-2JTLdo {
+	color: #b9bbbe;
+	margin-right: 4px
+}
+
+
+.widgetWrapper-1EaQdn {
+	width: 500px
+}
+
+.verticalWrapper-F0Wc2s {
+	height: 500px
+}
+
+.solidBackground-3741fr {
+	background-color: #36393f
 }
 
 
@@ -22296,7 +22352,8 @@ to {
 }
 
 .containerCozy-jafyvG {
-	padding: 20px 0
+	margin-bottom: 20px;
+	padding-top: 20px
 }
 
 .containerCompact-3V0ioj {
@@ -23970,6 +24027,9 @@ to {
 	-ms-user-select: text;
 	-webkit-box-flex: 1;
 	-webkit-user-select: text;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	flex: 1;
 	font-size: 16px;
 	font-weight: 400;
@@ -23978,7 +24038,11 @@ to {
 	user-select: text
 }
 
-.name-1ug6d4,.tag-Xzwvn_ {
+.nickname-miBZxb {
+	line-height: 17px
+}
+
+.tag-Xzwvn_ {
 	display: inline
 }
 
@@ -41790,4 +41854,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.928c5cd751956211d2fa.css.map*/
+/*# sourceMappingURL=0.195e9395518649b0ebb5.css.map*/
