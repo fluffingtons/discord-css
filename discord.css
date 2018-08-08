@@ -16790,7 +16790,6 @@ to {
 	-webkit-box-sizing: border-box;
 	-webkit-user-select: text;
 	box-sizing: border-box;
-	overflow: hidden;
 	user-select: text;
 	word-wrap: break-word
 }
@@ -16800,8 +16799,16 @@ to {
 	padding-top: 20px
 }
 
+.containerCozyBounded-1rKFAn {
+	overflow: hidden
+}
+
 .containerCompact-3V0ioj {
 	padding: 10px 0
+}
+
+.containerCompactBounded-cYR5cW {
+	overflow: hidden
 }
 
 .containerCozy-jafyvG .divider-32i8lo {
@@ -27686,7 +27693,7 @@ to {
 }
 
 
-.need-help-modal.deprecated {
+.need-help-modal.form.deprecated {
 	-ms-flex: 1;
 	-ms-flex-direction: column;
 	-webkit-box-direction: normal;
@@ -27699,18 +27706,18 @@ to {
 	flex-direction: column
 }
 
-.need-help-modal.deprecated a {
+.need-help-modal.form.deprecated a {
 	-webkit-transition: color .2s ease-in-out;
 	color: #00b0f4;
 	text-decoration: none;
 	transition: color .2s ease-in-out
 }
 
-.need-help-modal.deprecated a: hover {
+.need-help-modal.form.deprecated a: hover {
 	color: #009edc
 }
 
-.need-help-modal.deprecated .header {
+.need-help-modal.form.deprecated .header {
 	-ms-flex-align: center;
 	-ms-flex-direction: column;
 	-ms-flex-pack: center;
@@ -27730,14 +27737,14 @@ to {
 	padding: 0
 }
 
-.need-help-modal.deprecated .header h1 {
+.need-help-modal.form.deprecated .header h1 {
 	color: #fff;
 	font-size: 18px;
 	font-weight: 700;
 	margin: 38px 0 0
 }
 
-.need-help-modal.deprecated .header input[type=text] {
+.need-help-modal.form.deprecated .header input[type=text] {
 	-webkit-box-shadow: 0 2px 1px rgba(78,93,148,.6);
 	-webkit-box-sizing: border-box;
 	background-color: #fff;
@@ -27752,16 +27759,16 @@ to {
 	width: 460px
 }
 
-.need-help-modal.deprecated .header input[type=text]: : -webkit-input-placeholder {
+.need-help-modal.form.deprecated .header input[type=text]: : -webkit-input-placeholder {
 	color: #c2ccd3
 }
 
-.need-help-modal.deprecated .header input[type=text]: focus {
+.need-help-modal.form.deprecated .header input[type=text]: focus {
 	border-bottom: 1px solid #f0f0f0;
 	margin: 15px 0
 }
 
-.need-help-modal.deprecated .form-inner {
+.need-help-modal.form.deprecated .form-inner {
 	-ms-flex-align: start;
 	-ms-flex-direction: column;
 	-webkit-box-align: start;
@@ -27776,7 +27783,7 @@ to {
 	padding: 38px
 }
 
-.need-help-modal.deprecated .form-inner.loading {
+.need-help-modal.form.deprecated .form-inner.loading {
 	-ms-flex-align: center;
 	-ms-flex-pack: center;
 	-webkit-box-align: center;
@@ -27785,7 +27792,7 @@ to {
 	justify-content: center
 }
 
-.need-help-modal.deprecated .form-inner .failed {
+.need-help-modal.form.deprecated .form-inner .failed {
 	-ms-flex-align: center;
 	-ms-flex-direction: column;
 	-webkit-box-align: center;
@@ -27798,7 +27805,7 @@ to {
 	flex-direction: column
 }
 
-.need-help-modal.deprecated .form-inner .failed .poop {
+.need-help-modal.form.deprecated .form-inner .failed .poop {
 	background-image: url(/assets/34476a09f00a19a187555d005898081d.svg);
 	background-repeat: no-repeat;
 	background-size: 78px 79px;
@@ -27807,28 +27814,28 @@ to {
 	width: 78px
 }
 
-.need-help-modal.deprecated .form-inner .failed p {
+.need-help-modal.form.deprecated .form-inner .failed p {
 	color: #dbdde1;
 	font-size: 14px;
 	font-weight: 700;
 	margin: 0
 }
 
-.need-help-modal.deprecated .form-inner .failed p+p {
+.need-help-modal.form.deprecated .form-inner .failed p+p {
 	margin-top: 2px
 }
 
-.need-help-modal.deprecated ul li {
+.need-help-modal.form.deprecated ul li {
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 22px
 }
 
-.need-help-modal.deprecated ul li+li {
+.need-help-modal.form.deprecated ul li+li {
 	margin-top: 12px
 }
 
-.need-help-modal.deprecated .footer {
+.need-help-modal.form.deprecated .footer {
 	-ms-flex: 1;
 	-webkit-box-flex: 1;
 	background-color: #fff;
@@ -27844,7 +27851,7 @@ to {
 	padding: 20px 0 20px 38px
 }
 
-.need-help-modal.deprecated .footer a {
+.need-help-modal.form.deprecated .footer a {
 	margin-left: 4px
 }
 
@@ -42438,4 +42445,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.f5206b1d3c5dc5769bb0.css.map*/
+/*# sourceMappingURL=0.4859e3cdfef2b2c146ce.css.map*/
