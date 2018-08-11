@@ -34217,7 +34217,7 @@ to {
 
 .premiumHeader-3SwLEp {
 	font-size: 36px;
-	font-weight: 700;
+	font-weight: 600;
 	letter-spacing: .2px;
 	line-height: 44px;
 	margin: 60px 16px 8px
@@ -34437,7 +34437,7 @@ to {
 	right: 0;
 	transition: opacity .4s ease;
 	width: 24px;
-	z-index: 1
+	z-index: 2
 }
 
 .muteContainerPlaying-YRMEea {
@@ -34450,12 +34450,24 @@ to {
 	width: 20px
 }
 
-.theme-dark .tileMedia-24cT6_,.theme-light .tileMedia-24cT6_ {
+.theme-dark .tileMedia-24cT6_ {
 	background-color: #202225
 }
 
-.theme-dark .loadingContainer-138F59,.theme-light .loadingContainer-138F59 {
+.theme-dark .loadingContainer-138F59 {
 	background-color: rgba(0,0,0,.4)
+}
+
+.theme-light .tileMedia-24cT6_ {
+	background-color: #dcddde
+}
+
+.theme-light .loadingContainer-138F59 {
+	background-color: hsla(0,0%,100%,.4)
+}
+
+.theme-light .spinnerItem-3RXrSb {
+	background-color: #18191c
 }
 
 
@@ -34535,13 +34547,9 @@ to {
 }
 
 .mediaSplashContainer-1NhbEG {
-	-webkit-mask: -webkit-gradient(linear,left top,left bottom,from(0),color-stop(0,transparent),color-stop(50%,#000));
-	-webkit-mask: linear-gradient(0,transparent,#000 50%);
 	bottom: 0;
 	left: 0;
 	margin: 0;
-	mask: -webkit-gradient(linear,left top,left bottom,from(0),color-stop(0,transparent),color-stop(50%,#000));
-	mask: linear-gradient(0,transparent,#000 50%);
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -34565,15 +34573,14 @@ to {
 
 .mediaDescription-3VIUb6 {
 	-webkit-transition: opacity .4s ease;
-	background: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(35%,rgba(32,34,37,.7)),color-stop(75%,#202225));
-	background: linear-gradient(180deg,transparent,rgba(32,34,37,.7) 35%,#202225 75%);
 	bottom: 0;
 	left: 0;
 	opacity: 1;
-	padding-top: 24px;
+	padding-top: 72px;
 	position: absolute;
 	right: 0;
-	transition: opacity .4s ease
+	transition: opacity .4s ease;
+	z-index: 1
 }
 
 .gameTitle-1GKhmx {
@@ -34635,22 +34642,13 @@ to {
 }
 
 .platform-1FGzi6 {
-	-webkit-transition: opacity .2 ease;
+	-webkit-transition: opacity .2s ease;
 	opacity: 1;
-	transition: opacity .2 ease
+	transition: opacity .2s ease
 }
 
 .tileMedia-9UNSXC: hover .platform-1FGzi6 {
 	opacity: 0
-}
-
-.tileMedia-9UNSXC: hover .gameTitle-1GKhmx,.tileMedia-9UNSXC: hover .summary-39uPwy {
-	opacity: .8
-}
-
-.tileMedia-9UNSXC: hover .mediaSplashContainer-1NhbEG {
-	-webkit-mask: none;
-	mask: none
 }
 
 .blog-2ptG92 {
@@ -34683,8 +34681,9 @@ to {
 
 .blogTitle-1fgLUs {
 	font-size: 28px;
-	font-weight: 700;
-	height: 34px
+	font-weight: 600;
+	height: 34px;
+	letter-spacing: .2
 }
 
 .blogDescription-3Oh4_O {
@@ -34724,6 +34723,18 @@ to {
 	box-shadow: 0 6px 18px rgba(32,34,37,.3)
 }
 
+.theme-dark .mediaDescription-3VIUb6 {
+	background: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(45%,rgba(32,34,37,.75)),to(#202225));
+	background: linear-gradient(180deg,transparent,rgba(32,34,37,.75) 45%,#202225)
+}
+
+.theme-dark .mediaFade-2DGFbT {
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(90%,transparent),to(#202225));
+	background: linear-gradient(180deg,transparent 90%,#202225);
+	padding-top: 56.5%;
+	z-index: 1
+}
+
 .theme-dark .gridHeader-2ra89P {
 	color: #f6f6f7
 }
@@ -34751,12 +34762,44 @@ to {
 	box-shadow: 0 6px 18px rgba(32,34,37,.3)
 }
 
-.theme-light .description-2pk7fj,.theme-light .gridHeader-2ra89P {
+.theme-light .mediaDescription-3VIUb6 {
+	background: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(45%,rgba(79,84,92,.7)),to(#4f545c));
+	background: linear-gradient(180deg,transparent,rgba(79,84,92,.7) 45%,#4f545c)
+}
+
+.theme-light .mediaSplashContainer-1NhbEG {
+	background: #72767d
+}
+
+.theme-light .tileMedia-9UNSXC .description-2pk7fj {
+	color: #fff
+}
+
+.theme-light .tileMedia-9UNSXC .freeWithNitro-S4pnzZ,.theme-light .tileMedia-9UNSXC .summary-39uPwy {
+	color: #dcddde
+}
+
+.theme-light .tileMedia-9UNSXC .osIcon-30fNia {
+	color: #f6f6f7
+}
+
+.theme-light .mediaFade-2DGFbT {
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(90%,transparent),to(#72767d));
+	background: linear-gradient(180deg,transparent 90%,#72767d);
+	padding-top: 56.5%;
+	z-index: 1
+}
+
+.theme-light .gridHeader-2ra89P {
 	color: #4f545c
 }
 
+.theme-light .description-2pk7fj {
+	color: #202225
+}
+
 .theme-light .summary-39uPwy {
-	color: #72767d
+	color: #36393f
 }
 
 .theme-light .freeWithNitro-S4pnzZ {
@@ -47099,4 +47142,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.ab4bce4f42949844e94e.css.map*/
+/*# sourceMappingURL=0.569f0878c0622c913154.css.map*/
