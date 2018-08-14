@@ -21650,23 +21650,7 @@ to {
 }
 
 
-.btn-reaction {
-	-webkit-transition: opacity .2s ease;
-	background-image: url(/assets/fcf4e109bf6d561ae3cc2d52a5a88936.svg);
-	background-size: 16px 16px;
-	cursor: pointer;
-	height: 16px;
-	margin-left: 6px;
-	opacity: .4;
-	transition: opacity .2s ease;
-	width: 16px
-}
-
-.btn-reaction.popout-open,.btn-reaction: hover {
-	opacity: 1
-}
-
-.reactions {
+.reactions-1xb2Ex {
 	-ms-flex: 1;
 	-ms-flex-align: center;
 	-ms-flex-wrap: wrap;
@@ -21681,48 +21665,75 @@ to {
 	margin-left: -2px
 }
 
-.reactions .btn-reaction {
+.reactions-1xb2Ex .reactionBtn-2na4rd {
 	opacity: 0!important
 }
 
-.reactions .btn-reaction.popout-open,.reactions .btn-reaction: hover {
+.reactions-1xb2Ex .reactionBtn-2na4rd.popout-open,.reactions-1xb2Ex .reactionBtn-2na4rd: hover {
 	opacity: 1!important;
 	visibility: visible!important
 }
 
-.reactions: hover .btn-reaction {
+.reactions-1xb2Ex: hover .reactionBtn-2na4rd {
 	opacity: .4!important
 }
 
-.reactions: hover .btn-reaction: hover {
+.reactions-1xb2Ex: hover .reactionBtn-2na4rd: hover {
 	opacity: 1!important
 }
 
-.reaction {
+.reactionBtn-2na4rd {
+	-webkit-transition: opacity .2s ease;
+	background-image: url(/assets/fcf4e109bf6d561ae3cc2d52a5a88936.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+	height: 1rem;
+	margin-left: 6px;
+	opacity: .4;
+	transition: opacity .2s ease;
+	width: 1rem
+}
+
+.reactionBtn-2na4rd.popout-open,.reactionBtn-2na4rd: hover {
+	opacity: 1
+}
+
+.reaction-1ELvT8 {
 	-moz-user-select: none;
-	-ms-flex-align: center;
 	-ms-flex-negative: 0;
 	-ms-user-select: none;
-	-webkit-box-align: center;
 	-webkit-box-sizing: border-box;
 	-webkit-transition: background-color .1s ease;
 	-webkit-user-select: none;
-	align-items: center;
-	background: rgba(79,84,92,.06);
 	border-radius: 3px;
 	box-sizing: border-box;
 	cursor: pointer;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	flex-shrink: 0;
 	margin: 2px;
-	padding: 0 6px;
 	transition: background-color .1s ease;
 	user-select: none
 }
 
-.reaction .emoji {
+.reaction-1ELvT8.reactionReadOnly-VBNG8M {
+	cursor: not-allowed
+}
+
+.reaction-1ELvT8.reactionMe-23mbRf {
+	cursor: pointer
+}
+
+.reactionInner-rRPZdY {
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 0 6px
+}
+
+.emoji {
 	height: 1rem;
 	margin: 3px 0!important;
 	min-height: auto;
@@ -21730,13 +21741,13 @@ to {
 	width: 1rem
 }
 
-.reaction .emoji-text {
+.emoji-text {
 	display: inline-block;
 	vertical-align: -3px
 }
 
-.reaction .reaction-count {
-	color: rgba(79,84,92,.3);
+.reactionCount-2ddRoS {
+	font-family: SourceCodePro,Consolas,Liberation Mono,Menlo,Courier,monospace;
 	font-size: 0.875rem;
 	font-weight: 500;
 	letter-spacing: 0.00813rem;
@@ -21744,37 +21755,36 @@ to {
 	text-align: center
 }
 
-.reaction.reaction-read-only {
-	cursor: not-allowed
+.theme-light .reaction-1ELvT8 {
+	background: rgba(220,221,222,.3)
 }
 
-.reaction.reaction-me {
-	background: rgba(173,183,220,.3);
-	cursor: pointer
+.theme-light .reaction-1ELvT8.reactionMe-23mbRf {
+	background: rgba(227,231,248,.6)
 }
 
-.reaction.reaction-me .reaction-count {
+.theme-light .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {
 	color: #7289da
 }
 
-.theme-dark .reaction {
+.theme-light .reactionCount-2ddRoS {
+	color: #72767d
+}
+
+.theme-dark .reaction-1ELvT8 {
 	background: hsla(0,0%,100%,.04)
 }
 
-.theme-dark .reaction .reaction-count {
-	color: hsla(0,0%,100%,.3)
-}
-
-.theme-dark .reaction.reaction-me {
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf {
 	background: rgba(92,106,158,.3)
 }
 
-.theme-dark .reaction.reaction-me .reaction-count {
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {
 	color: #7289da
 }
 
-.a11y-font-scaled-down .reaction .reaction-count,.a11y-font-scaled-up .reaction .reaction-count {
-	height: auto
+.theme-dark .reactionCount-2ddRoS {
+	color: hsla(0,0%,100%,.3)
 }
 
 
@@ -22903,11 +22913,14 @@ to {
 
 
 .button-3Jq0g9 {
-	background: url(/assets/2dd15212a5145d5d3f68ac0d76fe7165.svg) 50% no-repeat;
+	background-image: url(/assets/2dd15212a5145d5d3f68ac0d76fe7165.svg);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: 100%;
 	cursor: pointer;
-	height: 16px;
+	height: 1rem;
 	opacity: .4;
-	width: 16px
+	width: 1rem
 }
 
 .button-3Jq0g9: hover {
@@ -30317,10 +30330,12 @@ to {
 	color: #f6f6f7;
 	cursor: pointer;
 	font-size: 0;
+	height: 50px;
 	line-height: 0;
 	position: absolute;
 	top: 50%;
-	transform: translateY(-50%)
+	transform: translateY(-50%);
+	width: 50px
 }
 
 .prevButtonContainer-Rc83MJ {
@@ -41539,7 +41554,7 @@ to {
 	transition: opacity .2s ease
 }
 
-.overlay-1NmNEg: hover {
+.overlay-1NmNEg: hover,.keyboardMode .overlay-1NmNEg {
 	opacity: 1
 }
 
@@ -47145,4 +47160,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.99e0bd5c6b716f354e29.css.map*/
+/*# sourceMappingURL=0.e060856b67e688b1c6ad.css.map*/
