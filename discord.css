@@ -2419,8 +2419,10 @@ to {
 .emoji {
 	-o-object-fit: contain;
 	height: 1.45em;
-	margin: -.1em .05em -.2em .1em;
+	margin-left: .05em;
+	margin-right: .1em;
 	object-fit: contain;
+	vertical-align: -.4em;
 	width: 1.45em
 }
 
@@ -21723,6 +21725,19 @@ to {
 	cursor: pointer
 }
 
+.reaction-1ELvT8 .emoji {
+	height: 1rem;
+	margin: 3px 0!important;
+	min-height: auto;
+	min-width: auto;
+	width: 1rem
+}
+
+.reaction-1ELvT8 .emoji-text {
+	display: inline-block;
+	vertical-align: -3px
+}
+
 .reactionInner-rRPZdY {
 	-ms-flex-align: center;
 	-webkit-box-align: center;
@@ -21731,19 +21746,6 @@ to {
 	display: -ms-flexbox;
 	display: flex;
 	padding: 0 6px
-}
-
-.emoji {
-	height: 1rem;
-	margin: 3px 0!important;
-	min-height: auto;
-	min-width: auto;
-	width: 1rem
-}
-
-.emoji-text {
-	display: inline-block;
-	vertical-align: -3px
 }
 
 .reactionCount-2ddRoS {
@@ -25375,20 +25377,28 @@ to {
 
 .iconContainer-3UxHn2 {
 	-ms-flex-align: center;
-	-ms-flex-negative: 0;
 	-ms-flex-pack: center;
-	-ms-flex-positive: 0;
 	-webkit-box-align: center;
-	-webkit-box-flex: 0;
 	-webkit-box-pack: center;
 	align-items: center;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	flex-grow: 0;
-	flex-shrink: 0;
 	justify-content: center;
 	margin-right: 5px;
+	width: 20px
+}
+
+.gameIcon-2hcrAo,.iconContainer-3UxHn2 {
+	-ms-flex-negative: 0;
+	-ms-flex-positive: 0;
+	-webkit-box-flex: 0;
+	flex-grow: 0;
+	flex-shrink: 0
+}
+
+.gameIconSize-1Kq-T4 {
+	height: 20px;
 	width: 20px
 }
 
@@ -47160,4 +47170,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.e060856b67e688b1c6ad.css.map*/
+/*# sourceMappingURL=0.2233b86cd3b34388c87e.css.map*/
