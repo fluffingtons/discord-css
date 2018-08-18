@@ -26752,15 +26752,19 @@ to {
 }
 
 .coverArtPosition-1EkmxA {
+	-webkit-transform: translateZ(0);
 	background-position-x: 50%;
 	background-position-y: 40%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	border-radius: 5px;
 	bottom: 0;
 	left: 0;
+	overflow: hidden;
 	pointer-events: none;
 	position: absolute;
-	top: 0
+	top: 0;
+	transform: translateZ(0)
 }
 
 .splashArt-3yFzRe {
@@ -30398,6 +30402,7 @@ to {
 	-ms-flex-align: center;
 	-webkit-box-align: center;
 	-webkit-box-sizing: border-box;
+	-webkit-transform: translateZ(0);
 	align-items: center;
 	background: #18191c;
 	border-radius: 5px;
@@ -30410,7 +30415,8 @@ to {
 	margin-top: 8px;
 	overflow: hidden;
 	padding: 16px;
-	position: relative
+	position: relative;
+	transform: translateZ(0)
 }
 
 .paginationItem-3-MBTL,.paginationItem-3-MBTL: before {
@@ -30541,11 +30547,13 @@ to {
 .smallCarousel-3UDi9v {
 	-ms-flex: 1;
 	-webkit-box-flex: 1;
+	-webkit-transform: translateZ(0);
 	border-radius: 5px;
 	flex: 1;
 	height: 220px;
 	overflow: hidden;
-	position: relative
+	position: relative;
+	transform: translateZ(0)
 }
 
 .header-3l0ZQE {
@@ -47537,4 +47545,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.ceba408bc8ad6511524a.css.map*/
+/*# sourceMappingURL=0.251f2affbbd231f8513f.css.map*/
