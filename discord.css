@@ -48267,22 +48267,80 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 }
 
 
+.header-2Fr7dn {
+	border-radius: 3px 3px 0 0;
+	font-size: 20px;
+	font-weight: 500
+}
+
 .entitledHeader-3LRNDT {
 	-ms-flex-align: center;
 	-webkit-box-align: center;
 	align-items: center;
-	border-radius: 3px 3px 0 0;
 	cursor: pointer;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	font-size: 20px;
-	font-weight: 500;
 	padding: 20px
 }
 
 .entitledHeaderIcon-nxWD70 {
 	margin-right: 10px
+}
+
+.headerFancy-1AcCLF {
+	
+}
+
+.exclusiveHeader-1vnEtm {
+	-ms-flex-align: start;
+	-ms-flex-direction: column;
+	-webkit-box-align: start;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	align-items: flex-start;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	padding: 16px
+}
+
+.exclusiveHeaderExclusive-2pT9JV {
+	font-size: 8px;
+	font-weight: 500;
+	text-transform: uppercase
+}
+
+.exclusiveHeaderIcon-1v3uvk {
+	height: 24px;
+	width: auto
+}
+
+.premiumHeader-3aB1ow {
+	-ms-flex-align: center;
+	-ms-flex-pack: justify;
+	-webkit-box-align: center;
+	-webkit-box-pack: justify;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px
+}
+
+.premiumHeaderIcon-bTc_nQ {
+	height: 24px;
+	width: auto
+}
+
+.premiumHeaderPrice-1F1CMD {
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.7;
+	padding: 0 8px
 }
 
 .body-1CAT0- {
@@ -48324,7 +48382,22 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 
 .theme-dark .entitledHeader-3LRNDT,.theme-light .entitledHeader-3LRNDT {
 	background-color: #4f545c;
+	color: #dcddde
+}
+
+.theme-dark .entitledHeader-3LRNDT: hover,.theme-light .entitledHeader-3LRNDT: hover {
 	color: #fff
+}
+
+.theme-dark .headerFancy-1AcCLF,.theme-light .headerFancy-1AcCLF {
+	background-image: url(/assets/b44da97e40cc628c39b0a0441c356e2d.svg),-webkit-gradient(linear,right top,left top,from(#b3aeff),to(#738ef5));
+	background-image: url(/assets/b44da97e40cc628c39b0a0441c356e2d.svg),linear-gradient(270deg,#b3aeff,#738ef5);
+	color: #fff
+}
+
+.theme-dark .premiumHeaderPrice-1F1CMD,.theme-light .premiumHeaderPrice-1F1CMD {
+	background-color: #fff;
+	color: #7289da
 }
 
 .theme-dark .body-1CAT0-,.theme-light .body-1CAT0- {
@@ -50678,4 +50751,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.de855d6470822df3d412.css.map*/
+/*# sourceMappingURL=0.bede8cadb919a4a489b2.css.map*/
