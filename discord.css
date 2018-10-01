@@ -26580,10 +26580,30 @@ to {
 	width: 30%
 }
 
+.nameCellTextWrapper-2MTsbx {
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
 .nameCellText-1mpqtF {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap
+}
+
+.icon-1IKq3C {
+	height: 20px;
+	width: 20px
+}
+
+.nitroIcon-2_2ZKS {
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	margin-left: 8px
 }
 
 .lastPlayedCell-2arbtc,.platformCell-XyBBs6 {
@@ -26741,10 +26761,8 @@ to {
 }
 
 .settingIcon-1nXguX {
-	height: 20px;
 	margin-right: 20px;
-	min-width: 20px;
-	width: 20px
+	min-width: 20px
 }
 
 .settingIcon-1nXguX: last-child {
@@ -26854,7 +26872,7 @@ to {
 	color: #fff
 }
 
-.theme-dark .settingIcon-1nXguX,.theme-dark .textCell-1aBIUP {
+.theme-dark .icon-1IKq3C,.theme-dark .textCell-1aBIUP {
 	color: #72767d
 }
 
@@ -26914,7 +26932,7 @@ to {
 	color: #4f545c
 }
 
-.theme-light .settingIcon-1nXguX,.theme-light .textCell-1aBIUP {
+.theme-light .icon-1IKq3C,.theme-light .textCell-1aBIUP {
 	color: #b9bbbe
 }
 
@@ -31466,6 +31484,10 @@ to {
 	transition: -webkit-box-shadow .2s ease;
 	transition: box-shadow .2s ease;
 	width: 169px
+}
+
+.carouselPlaceholder-M7jCn5 {
+	height: 244px
 }
 
 .carousel-tQMSVK {
@@ -51372,4 +51394,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.8860f6ea0c454c9f8af4.css.map*/
+/*# sourceMappingURL=0.25fc3502f839999dcc39.css.map*/
