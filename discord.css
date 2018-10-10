@@ -31852,24 +31852,15 @@ to {
 }
 
 .carousel-tQMSVK {
-	margin-top: 32px;
-	position: relative
+	-webkit-mask: -webkit-gradient(linear,left top,right top,from(transparent),color-stop(10%,#000),color-stop(90%,#000),to(transparent));
+	-webkit-mask: linear-gradient(90deg,transparent 0,#000 10%,#000 90%,transparent);
+	margin-top: 22px;
+	mask: -webkit-gradient(linear,left top,right top,from(transparent),color-stop(10%,#000),color-stop(90%,#000),to(transparent));
+	mask: linear-gradient(90deg,transparent 0,#000 10%,#000 90%,transparent);
+	padding-top: 10px
 }
 
-.carousel-tQMSVK: before {
-	bottom: 0;
-	content: "";
-	height: 160px;
-	left: 0;
-	pointer-events: none;
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 100%;
-	z-index: 1
-}
-
-.carouselButtonsContainer-3cUPUm {
+.carousel-tQMSVK,.carouselButtonsContainer-3cUPUm {
 	position: relative
 }
 
@@ -31916,11 +31907,6 @@ to {
 .theme-dark .learnMoreButton-1OUyxs: hover,.theme-light .learnMoreButton-1OUyxs: hover {
 	-webkit-box-shadow: 0 6px 18px rgba(32,34,37,.15);
 	box-shadow: 0 6px 18px rgba(32,34,37,.15)
-}
-
-.theme-dark .carousel-tQMSVK: before,.theme-light .carousel-tQMSVK: before {
-	background: -webkit-gradient(linear,left top,right top,from(#7d93f7),color-stop(10%,transparent),color-stop(90%,transparent),to(#7d93f7));
-	background: linear-gradient(90deg,#7d93f7 0,transparent 10%,transparent 90%,#7d93f7)
 }
 
 .theme-dark .premium-39U29H,.theme-light .premium-39U29H {
@@ -47799,7 +47785,7 @@ to {
 
 .popoutWrapperRight-3y4lwm {
 	left: 100%;
-	margin-left: 4px
+	margin-left: 10px
 }
 
 .popoutWrapperLeft-2U6Gch,.popoutWrapperRight-3y4lwm {
@@ -47809,13 +47795,13 @@ to {
 }
 
 .popoutWrapperLeft-2U6Gch {
-	margin-right: 4px;
+	margin-right: 10px;
 	right: 100%
 }
 
 .popoutWrapperTop-3oaSug {
 	bottom: 100%;
-	margin-bottom: 4px
+	margin-bottom: 10px
 }
 
 .popoutWrapperBottom-I6pICH,.popoutWrapperTop-3oaSug {
@@ -47825,7 +47811,7 @@ to {
 }
 
 .popoutWrapperBottom-I6pICH {
-	margin-top: 4px;
+	margin-top: 10px;
 	top: 100%
 }
 
@@ -53237,4 +53223,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.6b4724456a6273f04cf0.css.map*/
+/*# sourceMappingURL=0.ca42f11d2b57e04dafe4.css.map*/
