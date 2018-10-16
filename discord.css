@@ -2704,6 +2704,10 @@ to {
 	border-width: initial
 }
 
+.momentum-2CXCBH {
+	-webkit-overflow-scrolling: touch
+}
+
 .scrollerWrapPolyfill-DBQCMm {
 	position: relative
 }
@@ -21740,6 +21744,7 @@ to {
 
 .videoControls-2kcYic {
 	bottom: -10px;
+	height: 32px;
 	left: 0;
 	padding-bottom: 10px;
 	position: absolute;
@@ -21766,6 +21771,7 @@ to {
 	-ms-flex: 0 0 auto;
 	-webkit-box-flex: 0;
 	cursor: pointer;
+	display: block;
 	flex: 0 0 auto;
 	height: 24px;
 	margin: 4px;
@@ -25409,30 +25415,18 @@ to {
 }
 
 .applicationArea-2uu5xp {
-	color: #b9bbbe;
-	position: relative
-}
-
-.applicationAreaNormal-OgqExf {
 	-ms-flex-direction: column;
 	-ms-flex-pack: center;
 	-webkit-box-direction: normal;
 	-webkit-box-orient: vertical;
 	-webkit-box-pack: center;
-	flex-direction: column;
-	justify-content: center
-}
-
-.applicationAreaNormal-OgqExf,.applicationAreaSimple-253eab {
+	color: #b9bbbe;
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex-1O1GKY
-}
-
-.applicationAreaSimple-253eab {
-	-ms-flex-align: center;
-	-webkit-box-align: center;
-	align-items: center
+	display: flex-1O1GKY;
+	flex-direction: column;
+	justify-content: center;
+	position: relative
 }
 
 .applicationName-c6BdnK {
@@ -25478,23 +25472,12 @@ to {
 	overflow: hidden
 }
 
-.promoted-2PsP0p,.timestamp-JB3BQ5 {
+.timestamp-JB3BQ5 {
 	color: #72767d;
 	font-size: 12px;
 	font-weight: 600;
+	margin-top: 8px;
 	text-transform: uppercase
-}
-
-.timestamp-JB3BQ5 {
-	margin-top: 8px
-}
-
-.promotedNormal-k4zWTi {
-	margin-top: 8px
-}
-
-.promotedNormal-k4zWTi,.promotedSimple-Ers9k5 {
-	
 }
 
 .theme-dark .backgroundBackup-mN_wI8 {
@@ -49971,7 +49954,7 @@ a.tileWrapper-2khh-w {
 }
 
 .theme-dark .filterBackground-QanGTJ: before {
-	background-image: url(/assets/4c3d1b2fb3deef7ec8166efb3c5f8002.svg);
+	background-image: url(/assets/4699af7bed6f8dc09678c7058a273fed.svg);
 	opacity: .4
 }
 
@@ -49985,7 +49968,7 @@ a.tileWrapper-2khh-w {
 }
 
 .theme-light .filterBackground-QanGTJ: before {
-	background-image: url(/assets/1e8f56216c3a70f627fa28c2c445dcf8.svg);
+	background-image: url(/assets/74b9da342c47ebf0570fccbaa304c400.svg);
 	opacity: .6
 }
 
@@ -52168,14 +52151,6 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 	background-color: #f6f6f7
 }
 
-@media screen and (max-width: 768px) {
-	.applicationStore-1pNvnv {
-	-webkit-overflow-scrolling: touch
-}
-
-
-}
-
 
 .btnHamburger-3grAP3 {
 	-webkit-transform: scale(.3);
@@ -53376,4 +53351,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.cc564abd9e2142548f60.css.map*/
+/*# sourceMappingURL=0.27df17ab93c47716766c.css.map*/
