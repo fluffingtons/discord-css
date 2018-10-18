@@ -31862,6 +31862,40 @@ to {
 }
 
 
+.container-2mdxGH {
+	-ms-flex-direction: column;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	padding: 20px 40px;
+	position: relative
+}
+
+.theme-dark .container-2mdxGH {
+	border-color: hsla(0,0%,100%,.3);
+	color: #fff
+}
+
+.theme-dark .shine-KMI5j7 {
+	color: hsla(0,0%,100%,.5)
+}
+
+.theme-light .container-2mdxGH {
+	border-color: rgba(114,137,218,.3);
+	color: #7289da
+}
+
+.theme-light .shine-KMI5j7 {
+	color: rgba(114,137,218,.2)
+}
+
+
 .modal-1AmYk8 {
 	overflow: hidden
 }
@@ -31887,6 +31921,26 @@ to {
 	font-size: 16px;
 	line-height: 1.44;
 	margin-bottom: 20px
+}
+
+.doneContainer-2ZLtHt {
+	-ms-flex-align: center;
+	-ms-flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	text-align: center
+}
+
+.doneUpgraded-2sAYXR {
+	width: 226px
 }
 
 .theme-dark .message-28kr8r {
@@ -43321,21 +43375,6 @@ to {
 	width: 280px
 }
 
-.activated-KjWeLP {
-	-ms-flex-direction: column;
-	-webkit-box-direction: normal;
-	-webkit-box-orient: vertical;
-	border: 1px solid transparent;
-	border-radius: 5px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	flex-direction: column;
-	overflow: hidden;
-	padding: 20px 40px;
-	position: relative
-}
-
 .confirmationBlurb-2pUik2 {
 	line-height: 1.44;
 	margin-top: 40px;
@@ -43350,30 +43389,12 @@ to {
 	color: #b9bbbe
 }
 
-.theme-dark .activated-KjWeLP {
-	border-color: hsla(0,0%,100%,.3);
-	color: #fff
-}
-
-.theme-dark .activatedShine-3JgAvN {
-	color: hsla(0,0%,100%,.5)
-}
-
 .theme-dark .warningBlock-2Uh4SY {
 	color: #faa61a
 }
 
 .theme-light .confirmationBlurb-2pUik2 {
 	color: #72767d
-}
-
-.theme-light .activated-KjWeLP {
-	border-color: rgba(114,137,218,.3);
-	color: #7289da
-}
-
-.theme-light .activatedShine-3JgAvN {
-	color: rgba(114,137,218,.2)
 }
 
 .theme-light .warningBlock-2Uh4SY {
@@ -53367,4 +53388,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.1c097a0be8a48841180e.css.map*/
+/*# sourceMappingURL=0.220dd9ae02578cd8b6a8.css.map*/
