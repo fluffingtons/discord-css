@@ -26022,24 +26022,46 @@ to {
 .background-1ri_HN {
 	-webkit-mask: -webkit-gradient(linear,left bottom,left top,from(transparent),to(#000));
 	-webkit-mask: linear-gradient(0deg,transparent,#000);
-	background-position: top;
-	background-repeat: no-repeat;
-	background-size: cover;
 	bottom: 7.5%;
-	left: 0;
 	mask: -webkit-gradient(linear,left bottom,left top,from(transparent),to(#000));
 	mask: linear-gradient(0deg,transparent,#000);
-	min-width: 300px;
+	min-width: 300px
+}
+
+.background-1ri_HN,.backgroundImage-dOYlay {
+	left: 0;
 	position: absolute;
 	right: 0;
 	top: 0
 }
 
+.backgroundImage-dOYlay {
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	bottom: 0
+}
+
+.backgroundImageInvisible-2Q83cJ {
+	visibility: hidden
+}
+
 .backgroundVideo-2cbjMA {
 	-o-object-fit: cover;
+	-webkit-transition: opacity .3s;
+	bottom: 0;
 	height: 100%;
+	left: 0;
 	object-fit: cover;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: opacity .3s;
 	width: 100%
+}
+
+.backgroundVideoInvisible-3ySZkX {
+	opacity: 0
 }
 
 .applicationArea-2uu5xp {
@@ -27062,15 +27084,6 @@ to {
 	width: 30%
 }
 
-.nameCellTextWrapper-2MTsbx {
-	-ms-flex-align: center;
-	-webkit-box-align: center;
-	align-items: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex
-}
-
 .nameCellText-1mpqtF {
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -27258,16 +27271,20 @@ to {
 }
 
 .nameCellInfo-11WjkQ {
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap
 }
 
-.nameCellNew-3SokLB {
+.lastPlayedCellNew-3twqHQ {
 	color: #faa61a;
-	font-size: 12px;
 	font-weight: 600;
-	margin-top: 4px;
 	text-transform: uppercase
 }
 
@@ -28092,7 +28109,8 @@ to {
 	font-weight: 500;
 	line-height: 12px;
 	padding: 3px 6px;
-	text-shadow: 0 1px 0 rgba(0,0,0,.25)
+	text-shadow: 0 1px 0 rgba(0,0,0,.25);
+	text-transform: uppercase
 }
 
 
@@ -32352,7 +32370,13 @@ to {
 }
 
 .viewAllButton-31gira {
+	-ms-flex-pack: center;
+	-webkit-box-pack: center;
 	-webkit-transition: -webkit-transform .2s ease;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
 	margin: 24px auto 0;
 	transition: -webkit-transform .2s ease;
 	transition: transform .2s ease;
@@ -48403,7 +48427,9 @@ a.tileWrapper-2khh-w {
 }
 
 .learnMoreButton-1VrFxX {
-	display: inline-block;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
 	font-weight: 600;
 	height: 32px;
 	margin-left: 16px;
@@ -48964,6 +48990,12 @@ a.tileWrapper-2khh-w {
 }
 
 .viewAllGamesButton-bY6nOl {
+	-ms-flex-pack: center;
+	-webkit-box-pack: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
 	margin: 20px auto 40px
 }
 
@@ -52842,4 +52874,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.e9620cb5321ab4511a39.css.map*/
+/*# sourceMappingURL=0.9c8dacd9edba8666cde5.css.map*/
