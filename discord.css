@@ -42206,18 +42206,26 @@ to {
 
 .welcomeImage-2srQnZ {
 	bottom: 0;
-	height: 186px;
+	height: 227px;
 	position: absolute;
 	right: 60px;
-	width: 208px
+	width: 251px
 }
 
 .theme-dark .content-GFAGrH {
 	background-image: url(/assets/df0c2df2a0b02c2a82c6912ff0c27433.svg)
 }
 
+.theme-dark .welcomeImage-2srQnZ {
+	background-image: url(/assets/a58b9d5d97523e8584326d14419a18dd.svg)
+}
+
 .theme-light .content-GFAGrH {
 	background-image: url(/assets/5af90af0a902a28d255fed5d5c56c1a3.svg)
+}
+
+.theme-light .welcomeImage-2srQnZ {
+	background-image: url(/assets/eab8aee3a27139f17ca6ae80c41e8a8e.svg)
 }
 
 
@@ -48087,6 +48095,10 @@ a.tileWrapper-2khh-w {
 	margin-top: 8px
 }
 
+.taglineMedia-3LFF5I {
+	padding-bottom: 4px
+}
+
 .priceOSSection-1uhTom {
 	-ms-flex: 0 1 auto;
 	-ms-flex-align: center;
@@ -48204,6 +48216,34 @@ a.tileWrapper-2khh-w {
 }
 
 .tileMedia-2POU7V: hover .platform-1bSyGO {
+	opacity: 0
+}
+
+.tileBuyButton-1WQa_G {
+	-webkit-transform: translate3d(0,12px,0);
+	-webkit-transition: opacity .2s,-webkit-transform .2s ease;
+	bottom: 12px;
+	left: 12px;
+	opacity: 0;
+	position: absolute;
+	transform: translate3d(0,12px,0);
+	transition: opacity .2s,-webkit-transform .2s ease;
+	transition: opacity .2s,transform .2s ease;
+	transition: opacity .2s,transform .2s ease,-webkit-transform .2s ease
+}
+
+.tileBuyButtonVisible-ItQif9 {
+	-webkit-transform: translateZ(0);
+	opacity: 1;
+	transform: translateZ(0)
+}
+
+.tilePrice-LDhfTz {
+	-webkit-transition: opacity .2s;
+	transition: opacity .2s
+}
+
+.tilePriceWithVisibleBuyButton-1HhICa {
 	opacity: 0
 }
 
@@ -53526,4 +53566,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.cad0dfab2a93d3700163.css.map*/
+/*# sourceMappingURL=0.4a4d5a34e1a87d0d9542.css.map*/
