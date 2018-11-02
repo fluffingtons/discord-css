@@ -31916,17 +31916,18 @@ to {
 	flex-direction: row;
 	height: 100px;
 	max-width: 660px;
-	padding: 16px
+	padding: 16px;
+	position: relative
 }
 
-.banner-3Kac2g,.image-S2twTr {
-	position: relative
+.premiumCodeBanner-XH3XCe {
+	border-radius: 5px;
+	height: 97px
 }
 
 .image-S2twTr {
 	background-size: 100% 100%;
-	margin-right: 16px;
-	top: 16px
+	position: relative
 }
 
 .tierGrandfathered-R6zrrD.banner-3Kac2g {
@@ -31936,6 +31937,8 @@ to {
 .tierGrandfathered-R6zrrD.image-S2twTr {
 	background-image: url(/assets/a1ca92c6b5215c377573061c962c8983.svg);
 	height: 100px;
+	margin-right: 16px;
+	top: 8px;
 	width: 87px
 }
 
@@ -31951,6 +31954,8 @@ to {
 .tier1-1ttHRY.image-S2twTr {
 	background-image: url(/assets/a1ca92c6b5215c377573061c962c8983.svg);
 	height: 100px;
+	margin-right: 16px;
+	top: 8px;
 	width: 87px
 }
 
@@ -31959,38 +31964,41 @@ to {
 	width: 143px
 }
 
+.tier1-1ttHRY .details-nLuvoA {
+	-ms-flex: 1 1 auto;
+	-ms-flex-direction: column;
+	-webkit-box-direction: normal;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction: column;
+	height: 100%
+}
+
 .tier1-1ttHRY .periodInfo-2mik6K {
 	position: relative;
 	top: 4px
 }
 
 .tier2-3hSil0.banner-3Kac2g {
-	background-image: url(/assets/1a0604d07c3169a6599358e8dacb6c5a.svg)
+	background-image: url(/assets/24b26f51a172c933f35d5f2f4dde3a16.svg)
 }
 
 .tier2-3hSil0.image-S2twTr {
+	-webkit-transform: scaleX(-1);
 	background-image: url(/assets/07ad21890e394c2d8f6abb3a9792e92a.svg);
 	height: 100px;
+	left: -30px;
+	margin-right: -14px;
+	top: 8px;
+	transform: scaleX(-1);
 	width: 134px
 }
 
 .tier2-3hSil0.planName-1SYoJ1 {
-	height: 26px;
-	width: 106px
-}
-
-.tierPremiumCode-16sCKZ.banner-3Kac2g {
-	background-image: url(/assets/1a0604d07c3169a6599358e8dacb6c5a.svg);
-	border-radius: 5px
-}
-
-.tierPremiumCode-16sCKZ.image-S2twTr {
-	background-image: url(/assets/07ad21890e394c2d8f6abb3a9792e92a.svg);
-	height: 100px;
-	width: 134px
-}
-
-.tierPremiumCode-16sCKZ.planName-1SYoJ1 {
 	height: 26px;
 	width: 106px
 }
@@ -32016,24 +32024,10 @@ to {
 	width: 134px
 }
 
-.details-nLuvoA {
-	-ms-flex: 1 1 auto;
-	-ms-flex-direction: column;
-	-webkit-box-direction: normal;
-	-webkit-box-flex: 1;
-	-webkit-box-orient: vertical;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	flex: 1 1 auto;
-	flex-direction: column;
-	height: 100%
-}
-
 .periodInfo-2mik6K {
 	font-size: 16px;
 	line-height: 20px;
-	margin-top: auto
+	margin-top: 8px
 }
 
 .buttons-2FmDnk {
@@ -32145,7 +32139,7 @@ to {
 
 .finePrint-xGGTK5 {
 	line-height: 1.4;
-	margin-top: 16px
+	margin-top: 8px
 }
 
 .theme-dark .grandfatheredMessage-1BnHtv {
@@ -42206,26 +42200,18 @@ to {
 
 .welcomeImage-2srQnZ {
 	bottom: 0;
-	height: 227px;
+	height: 186px;
 	position: absolute;
 	right: 60px;
-	width: 251px
+	width: 208px
 }
 
 .theme-dark .content-GFAGrH {
 	background-image: url(/assets/df0c2df2a0b02c2a82c6912ff0c27433.svg)
 }
 
-.theme-dark .welcomeImage-2srQnZ {
-	background-image: url(/assets/a58b9d5d97523e8584326d14419a18dd.svg)
-}
-
 .theme-light .content-GFAGrH {
 	background-image: url(/assets/5af90af0a902a28d255fed5d5c56c1a3.svg)
-}
-
-.theme-light .welcomeImage-2srQnZ {
-	background-image: url(/assets/eab8aee3a27139f17ca6ae80c41e8a8e.svg)
 }
 
 
@@ -53566,4 +53552,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.4a4d5a34e1a87d0d9542.css.map*/
+/*# sourceMappingURL=0.0e5c91c20035e5bf5a5c.css.map*/
