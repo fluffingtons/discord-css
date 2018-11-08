@@ -2664,6 +2664,11 @@ to {
 	min-height: 0
 }
 
+.fixClipping-3qAKRb {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0)
+}
+
 
 .scrollerWrap-2lJEkd {
 	-ms-flex: 1;
@@ -13524,7 +13529,6 @@ a,button,div,input,select,span,strong,textarea {
 	-ms-flex-pack: center;
 	-webkit-box-align: center;
 	-webkit-box-pack: center;
-	-webkit-transform: translateZ(0);
 	align-items: center;
 	background-color: #2f3136;
 	bottom: 0;
@@ -13539,7 +13543,6 @@ a,button,div,input,select,span,strong,textarea {
 	right: 0;
 	text-rendering: optimizeLegibility;
 	top: 0;
-	transform: translateZ(0);
 	z-index: 3000
 }
 
@@ -23410,9 +23413,7 @@ to {
 }
 
 .theme-dark .applicationTile-1Goy1W: hover {
-	-webkit-box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
-	background-color: #18191c;
-	box-shadow: 0 9px 20px 0 rgba(0,0,0,.32)
+	background-color: #18191c
 }
 
 .theme-light .description-2XMjXn {
@@ -23429,15 +23430,6 @@ to {
 	box-shadow: 0 0 0 rgba(32,34,37,.15)
 }
 
-.theme-light .applicationTile-1Goy1W: hover {
-	-webkit-box-shadow: 0 6px 18px rgba(32,34,37,.3);
-	box-shadow: 0 6px 18px rgba(32,34,37,.3)
-}
-
-
-.storeEmbed-1-MFul {
-	cursor: pointer
-}
 
 .verticalTile-PbA3Ax {
 	height: 370px;
@@ -35505,6 +35497,20 @@ to {
 	background: #303237
 }
 
+.theme-dark .messageGroupBlocked-3wrQQX.highBackgroundOpacity-3jOag9,.theme-dark .messageGroupBlocked-3wrQQX.lowBackgroundOpacity-3fM3UP,.theme-dark .messageGroupBlocked-3wrQQX.mediumBackgroundOpacity-3rMHHl {
+	background-color: rgba(54,57,63,.3);
+	border-color: rgba(47,49,54,.2)
+}
+
+.theme-dark .messageGroupBlocked-3wrQQX.highBackgroundOpacity-3jOag9 .messageGroupBlockedBtn-1PBBh-,.theme-dark .messageGroupBlocked-3wrQQX.lowBackgroundOpacity-3fM3UP .messageGroupBlockedBtn-1PBBh-,.theme-dark .messageGroupBlocked-3wrQQX.mediumBackgroundOpacity-3rMHHl .messageGroupBlockedBtn-1PBBh- {
+	background-color: transparent;
+	color: #f6f6f7
+}
+
+.theme-dark .messageGroupBlocked-3wrQQX.highBackgroundOpacity-3jOag9 .messageGroupBlockedBtn-1PBBh-: hover,.theme-dark .messageGroupBlocked-3wrQQX.lowBackgroundOpacity-3fM3UP .messageGroupBlockedBtn-1PBBh-: hover,.theme-dark .messageGroupBlocked-3wrQQX.mediumBackgroundOpacity-3rMHHl .messageGroupBlockedBtn-1PBBh-: hover {
+	background: rgba(54,57,63,.4)
+}
+
 .theme-dark .hasMore-3e72_v button {
 	background: #32353b;
 	border: 1px solid #2f3136
@@ -42800,11 +42806,9 @@ to {
 
 
 .wrapper-2ZbzR9 {
-	-webkit-transform: translateZ(0);
 	border-radius: 5px;
 	height: 420px;
 	overflow: hidden;
-	transform: translateZ(0);
 	width: 540px
 }
 
@@ -43027,11 +43031,9 @@ to {
 
 
 .slideContainer-2Xi81u {
-	-webkit-transform: translateZ(0);
 	border-radius: 5px;
 	height: 420px;
 	overflow: hidden;
-	transform: translateZ(0);
 	width: 540px
 }
 
@@ -46259,6 +46261,24 @@ to {
 }
 
 
+.neverShow-3xJo1l,.options-1ppfW- {
+	margin-top: 20px
+}
+
+.neverShow-3xJo1l {
+	margin-bottom: 8px;
+	padding: 0
+}
+
+.cancelButton-3F-H2t {
+	margin-right: 20px
+}
+
+.theme-dark .neverShow-3xJo1l,.theme-light .neverShow-3xJo1l {
+	color: #00b0f4
+}
+
+
 .gamepadButtonText-3oiVZ3 {
 	color: #fff;
 	font-size: 20px;
@@ -48619,6 +48639,16 @@ to {
 
 .popoutWrapper-36A-2i {
 	z-index: 1
+}
+
+.theme-dark .tile-367QuY: hover {
+	-webkit-box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
+	box-shadow: 0 9px 20px 0 rgba(0,0,0,.32)
+}
+
+.theme-light .tile-367QuY: hover {
+	-webkit-box-shadow: 0 6px 18px rgba(32,34,37,.3);
+	box-shadow: 0 6px 18px rgba(32,34,37,.3)
 }
 
 
@@ -53854,4 +53884,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.48e9ff9d5de8640cad5f.css.map*/
+/*# sourceMappingURL=0.fe4f395468722657fe1b.css.map*/
