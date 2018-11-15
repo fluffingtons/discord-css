@@ -2641,6 +2641,7 @@ to {
 	-webkit-transition-duration: .15s;
 	-webkit-transition-property: left,top,width,height;
 	-webkit-transition-timing-function: cubic-bezier(0,1,0,1);
+	background: none;
 	border-radius: 3px;
 	box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4;
 	contain: strict;
@@ -2656,10 +2657,6 @@ to {
 .visible-25LNNh {
 	visibility: visible;
 	z-index: 9999
-}
-
-.theme-dark .flyingFocus-1dpIRc,.theme-light .flyingFocus-1dpIRc {
-	background: transparent
 }
 
 
@@ -30220,6 +30217,11 @@ to {
 	box-shadow: 0 2px 8px rgba(0,0,0,.6)
 }
 
+.keyboardMode .guildsWrapper-5TJh6A .guildInner-3DSoA4: focus-within {
+	-webkit-box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4;
+	box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4
+}
+
 
 .progressCircle-1hzs_b {
 	height: 100%;
@@ -52231,6 +52233,10 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 	padding: 20px
 }
 
+.warning-n1YvYR: not(: first-child) {
+	margin-top: 20px
+}
+
 .title-3zfWaO {
 	font-size: 20px;
 	font-weight: 600;
@@ -54486,4 +54492,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.a797b9a13fc9d8cfe552.css.map*/
+/*# sourceMappingURL=0.81b3af9c052360671a2b.css.map*/
