@@ -31684,13 +31684,11 @@ to {
 }
 
 .button-1MICoQ {
-	-webkit-app-region: no-drag;
 	-webkit-box-sizing: border-box;
 	-webkit-transition: background-color .2s ease,color .2s ease,border-color .2s ease;
 	border: 1px solid hsla(0,0%,100%,.25);
 	border-radius: 3px;
 	box-sizing: border-box;
-	color: #fff;
 	display: inline-block;
 	height: 24px;
 	line-height: 22px;
@@ -31702,14 +31700,12 @@ to {
 	vertical-align: top
 }
 
-.button-1MICoQ: hover {
-	background: #fff;
-	border-color: #fff
+.button-1MICoQ,.textLink-27KAGV {
+	-webkit-app-region: no-drag;
+	color: #fff
 }
 
 .textLink-27KAGV {
-	-webkit-app-region: no-drag;
-	color: #fff;
 	padding-left: 10px;
 	text-decoration: underline
 }
@@ -31749,6 +31745,11 @@ to {
 
 .theme-dark .button-1MICoQ,.theme-light .button-1MICoQ {
 	background-color: transparent
+}
+
+.theme-dark .button-1MICoQ: hover,.theme-light .button-1MICoQ: hover {
+	background-color: #fff;
+	border-color: #fff
 }
 
 
@@ -41799,6 +41800,196 @@ html .tabBadge-3smxHS {
 }
 
 
+.content-1nP7fx {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px
+}
+
+.contentNoMedia-1yP2hn {
+	border-top: 4px solid #7289da
+}
+
+.contentNoMedia-1yP2hn,.contentWithMedia-3YF06_ {
+	
+}
+
+.contentNarrowWithMedia--qMz0o {
+	width: 340px
+}
+
+.contentNarrowNoMedia-Il01H1 {
+	width: 340px
+}
+
+.contentWideWithMedia-2q24e5 {
+	width: 400px
+}
+
+.contentWideNoMedia-22TIu6 {
+	width: 400px
+}
+
+.contentNarrowNoMedia-Il01H1.topArrow-1B63md: before,.contentWideNoMedia-22TIu6.topArrow-1B63md: before {
+	margin-bottom: 4px
+}
+
+.theme-dark .content-1nP7fx {
+	background-color: #18191c
+}
+
+.theme-dark .leftArrow-fNTiNn: before {
+	border-right-color: #18191c
+}
+
+.theme-dark .rightArrow-1u-p-_: before {
+	border-left-color: #18191c
+}
+
+.theme-dark .contentNarrowNoMedia-Il01H1.topArrow-1B63md: before,.theme-dark .contentWideNoMedia-22TIu6.topArrow-1B63md: before {
+	border-bottom-color: #7289da
+}
+
+.theme-light .content-1nP7fx {
+	background-color: #fff
+}
+
+.theme-light .leftArrow-fNTiNn: before {
+	border-right-color: #fff
+}
+
+.theme-light .rightArrow-1u-p-_: before {
+	border-left-color: #fff
+}
+
+.theme-light .contentNarrowNoMedia-Il01H1.topArrow-1B63md: before,.theme-light .contentWideNoMedia-22TIu6.topArrow-1B63md: before {
+	border-bottom-color: #7289da
+}
+
+.mediaContainer-1H1Z_r {
+	position: absolute;
+	top: -40px;
+	width: calc(100% - 40px)
+}
+
+.background-2lsEHp {
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.theme-dark .background-2lsEHp {
+	color: #fff
+}
+
+.theme-light .background-2lsEHp {
+	color: #000
+}
+
+.mediaContainer-1H1Z_r+.title-eQ0ZMf {
+	margin-top: 40px
+}
+
+.title-eQ0ZMf {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 16px
+}
+
+.theme-dark .title-eQ0ZMf {
+	color: #fff
+}
+
+.theme-light .title-eQ0ZMf {
+	color: #36393f
+}
+
+.titleCenter-2bwbDI {
+	text-align: center
+}
+
+.titleLeft-2erkAr {
+	text-align: left
+}
+
+.body-2awMwV p,p.body-2awMwV {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.38;
+	margin-bottom: 8px
+}
+
+.theme-dark .body-2awMwV p,.theme-dark div.body-2awMwV,.theme-dark p.body-2awMwV {
+	color: #dcddde
+}
+
+.theme-light .body-2awMwV p,.theme-light div.body-2awMwV,.theme-light p.body-2awMwV {
+	color: #72767d
+}
+
+.bodyCenter-1ilK3X {
+	text-align: center
+}
+
+.bodyLeft-3Dnrhp {
+	text-align: left
+}
+
+.buttonContainer-lZQm0q {
+	margin-top: 20px
+}
+
+.theme-dark .buttonContainer-lZQm0q {
+	color: #f6f6f7
+}
+
+.theme-light .buttonContainer-lZQm0q {
+	color: #18191c
+}
+
+.buttonSkipLeftAlign-2Oe1kC {
+	-ms-flex-pack: start;
+	-webkit-box-pack: start;
+	justify-content: flex-start
+}
+
+.buttonSkipCenterAlign-2kUfCH {
+	margin-right: 20px
+}
+
+
+.container-3ywCkA {
+	position: relative
+}
+
+.avatar-2Xetls {
+	left: 14px;
+	position: absolute;
+	top: 20px
+}
+
+
+.container-om6VJQ {
+	position: relative
+}
+
+.personAvatar-2_BWgA {
+	margin-top: 20px
+}
+
+.guildAvatar-335csq {
+	margin-left: 193px;
+	margin-top: -38px
+}
+
+.illustration-6eULCC {
+	left: 50px;
+	position: absolute;
+	top: 0
+}
+
+
 .button {
 	-webkit-transition: background-color .2s ease;
 	background-color: #7289da;
@@ -41938,6 +42129,11 @@ html .tabBadge-3smxHS {
 .tutorial-popout {
 	line-height: 120%;
 	width: 400px
+}
+
+.tutorial-popout .content {
+	color: #8a8e94;
+	font-size: 14px
 }
 
 .tutorial-popout .content em {
@@ -42291,137 +42487,6 @@ to {
 }
 
 
-}
-
-
-.content-1nP7fx {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 20px
-}
-
-.contentNoMedia-1yP2hn {
-	border-top: 4px solid #7289da
-}
-
-.contentNoMedia-1yP2hn,.contentWithMedia-3YF06_ {
-	
-}
-
-.contentNarrowWithMedia--qMz0o {
-	width: 340px
-}
-
-.contentNarrowNoMedia-Il01H1 {
-	width: 340px
-}
-
-.contentWideWithMedia-2q24e5 {
-	width: 400px
-}
-
-.contentWideNoMedia-22TIu6 {
-	width: 400px
-}
-
-.theme-dark .content-1nP7fx {
-	background-color: #18191c
-}
-
-.theme-light .content-1nP7fx {
-	background-color: #fff
-}
-
-.mediaContainer-1H1Z_r {
-	position: absolute;
-	top: -40px;
-	width: calc(100% - 40px)
-}
-
-.background-2lsEHp {
-	left: 0;
-	position: absolute;
-	right: 0;
-	top: 0
-}
-
-.theme-dark .background-2lsEHp {
-	color: #fff
-}
-
-.theme-light .background-2lsEHp {
-	color: #000
-}
-
-.mediaContainer-1H1Z_r+.title-eQ0ZMf {
-	margin-top: 40px
-}
-
-.title-eQ0ZMf {
-	font-size: 20px;
-	font-weight: 600;
-	margin-bottom: 16px
-}
-
-.theme-dark .title-eQ0ZMf {
-	color: #fff
-}
-
-.theme-light .title-eQ0ZMf {
-	color: #36393f
-}
-
-.titleCenter-2bwbDI {
-	text-align: center
-}
-
-.titleLeft-2erkAr {
-	text-align: left
-}
-
-.body-2awMwV p,p.body-2awMwV {
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 1.38;
-	margin-bottom: 8px
-}
-
-.theme-dark .body-2awMwV p,.theme-dark p.body-2awMwV {
-	color: #dcddde
-}
-
-.theme-light .body-2awMwV p,.theme-light p.body-2awMwV {
-	color: #72767d
-}
-
-.bodyCenter-1ilK3X {
-	text-align: center
-}
-
-.bodyLeft-3Dnrhp {
-	text-align: left
-}
-
-.buttonContainer-lZQm0q {
-	margin-top: 20px
-}
-
-.theme-dark .buttonContainer-lZQm0q {
-	color: #f6f6f7
-}
-
-.theme-light .buttonContainer-lZQm0q {
-	color: #18191c
-}
-
-.buttonSkipLeftAlign-2Oe1kC {
-	-ms-flex-pack: start;
-	-webkit-box-pack: start;
-	justify-content: flex-start
-}
-
-.buttonSkipCenterAlign-2kUfCH {
-	margin-right: 20px
 }
 
 
@@ -54368,4 +54433,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.3032db9b4367806323d9.css.map*/
+/*# sourceMappingURL=0.395b07e8e4d0e3d517c3.css.map*/
