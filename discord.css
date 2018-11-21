@@ -13194,6 +13194,11 @@ a,button,div,input,select,span,strong,textarea {
 	margin-bottom: 10px
 }
 
+.theme-light .popout-3sVMXz {
+	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,.1)
+}
+
 .theme-light .popoutRight-2ZVwL-.arrowAlignmentMiddle-136iao: before {
 	border-right-color: #fff
 }
@@ -41807,10 +41812,23 @@ html .tabBadge-3smxHS {
 }
 
 .contentNoMedia-1yP2hn {
-	border-top: 4px solid #7289da
+	
 }
 
-.contentNoMedia-1yP2hn,.contentWithMedia-3YF06_ {
+.contentNoMedia-1yP2hn: after {
+	background-image: -webkit-gradient(linear,left top,right top,from(#aaa5ff),to(#6883f3));
+	background-image: linear-gradient(90deg,#aaa5ff,#6883f3);
+	border: none;
+	border-radius: 5px 5px 0 0;
+	content: "";
+	height: 4px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%
+}
+
+.contentWithMedia-3YF06_ {
 	
 }
 
@@ -41830,10 +41848,6 @@ html .tabBadge-3smxHS {
 	width: 400px
 }
 
-.contentNarrowNoMedia-Il01H1.topArrow-1B63md: before,.contentWideNoMedia-22TIu6.topArrow-1B63md: before {
-	margin-bottom: 4px
-}
-
 .theme-dark .content-1nP7fx {
 	background-color: #18191c
 }
@@ -41847,11 +41861,15 @@ html .tabBadge-3smxHS {
 }
 
 .theme-dark .contentNarrowNoMedia-Il01H1.topArrow-1B63md: before,.theme-dark .contentWideNoMedia-22TIu6.topArrow-1B63md: before {
-	border-bottom-color: #7289da
+	border-bottom-color: #8994f9
 }
 
 .theme-light .content-1nP7fx {
 	background-color: #fff
+}
+
+.theme-light .contentWithMedia-3YF06_ {
+	border: 1px solid rgba(185,187,190,.3)
 }
 
 .theme-light .leftArrow-fNTiNn: before {
@@ -41893,8 +41911,8 @@ html .tabBadge-3smxHS {
 
 .title-eQ0ZMf {
 	font-size: 20px;
-	font-weight: 600;
-	margin-bottom: 16px
+	font-weight: 500;
+	margin-bottom: 8px
 }
 
 .theme-dark .title-eQ0ZMf {
@@ -41913,7 +41931,7 @@ html .tabBadge-3smxHS {
 	text-align: left
 }
 
-.body-2awMwV p,p.body-2awMwV {
+.body-2awMwV p,div.body-2awMwV,p.body-2awMwV {
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 1.38;
@@ -54433,4 +54451,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.395b07e8e4d0e3d517c3.css.map*/
+/*# sourceMappingURL=0.70665db0488ad7b90f5a.css.map*/
