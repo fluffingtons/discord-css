@@ -23337,16 +23337,15 @@ to {
 }
 
 .originalAmount-3RtnBh {
-	color: #b9bbbe;
 	text-decoration: line-through
 }
 
-.directoryTilePrice-kxTe16,.directoryTilePriceRow-1JtJvp {
+.directoryTilePrice-kxTe16 {
 	font-size: 16px;
 	font-weight: 500
 }
 
-.directoryTilePrice-kxTe16 .originalAmount-3RtnBh,.directoryTilePrice-kxTe16 .salePercentage-TXZz3H,.directoryTilePriceRow-1JtJvp .originalAmount-3RtnBh,.directoryTilePriceRow-1JtJvp .salePercentage-TXZz3H {
+.directoryTilePrice-kxTe16 .originalAmount-3RtnBh,.directoryTilePrice-kxTe16 .salePercentage-TXZz3H {
 	margin-right: 6px
 }
 
@@ -23403,6 +23402,15 @@ to {
 	font-size: 15px
 }
 
+.embedPrice-Xy8zoS {
+	font-size: 16px;
+	font-weight: 500
+}
+
+.embedPrice-Xy8zoS .originalAmount-3RtnBh,.embedPrice-Xy8zoS .salePercentage-TXZz3H {
+	margin-right: 6px
+}
+
 .theme-dark .directoryHeroPrice-1_MqzA,.theme-dark .directoryHeroPricePremium-tR0nU8 {
 	color: #fff
 }
@@ -23415,16 +23423,40 @@ to {
 	color: #f6f6f7
 }
 
-.theme-light .directoryHeroPrice-1_MqzA,.theme-light .directoryHeroPricePremium-tR0nU8 {
-	color: #4f545c
+.theme-dark .originalAmount-3RtnBh {
+	color: #b9bbbe
 }
 
-.theme-light .directorySearchPrice-2Spatv {
+.theme-dark .embedPrice-Xy8zoS {
+	color: #fff
+}
+
+.theme-dark .embedPrice-Xy8zoS .salePercentage-TXZz3H {
+	background-color: #2f3136
+}
+
+.theme-light .directoryHeroPrice-1_MqzA,.theme-light .directoryHeroPricePremium-tR0nU8 {
+	color: #36393f
+}
+
+.theme-light .directoryHeroPrice-1_MqzA .originalAmount-3RtnBh,.theme-light .directoryHeroPricePremium-tR0nU8 .originalAmount-3RtnBh,.theme-light .directorySearchPrice-2Spatv {
 	color: #72767d
 }
 
 .theme-light .listingPrice-2GiDSc {
 	color: #f6f6f7
+}
+
+.theme-light .originalAmount-3RtnBh {
+	color: #b9bbbe
+}
+
+.theme-light .embedPrice-Xy8zoS {
+	color: #4f545c
+}
+
+.theme-light .embedPrice-Xy8zoS .salePercentage-TXZz3H {
+	background-color: #b9bbbe
 }
 
 
@@ -23650,55 +23682,6 @@ to {
 	-webkit-box-shadow: 0 0 0 rgba(32,34,37,.15);
 	background-color: #fff;
 	box-shadow: 0 0 0 rgba(32,34,37,.15)
-}
-
-
-.freeWithNitro-2bbCTS,.inLibrary-2JnVkV {
-	-ms-flex-align: center;
-	-webkit-box-align: center;
-	align-items: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	font-size: 16px;
-	font-weight: 500
-}
-
-.inLibraryIcon-2WBbuv,.nitroWheel-3Zi8Ke {
-	height: 20px;
-	margin-right: 6px;
-	width: 20px
-}
-
-.priceSale-2qOiWc {
-	-ms-flex-align: center;
-	-webkit-box-align: center;
-	align-items: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex
-}
-
-.priceSalePercentage-AqGkYF {
-	background-color: #43b581;
-	border-radius: 3px;
-	color: #fff;
-	margin-right: 6px;
-	padding: 4px 6px
-}
-
-.priceOriginalAmount-3YD-j2 {
-	color: #b9bbbe;
-	margin-right: 6px;
-	text-decoration: line-through
-}
-
-.theme-dark .freeWithNitro-2bbCTS,.theme-dark .inLibrary-2JnVkV {
-	color: #fff
-}
-
-.theme-light .freeWithNitro-2bbCTS,.theme-light .inLibrary-2JnVkV {
-	color: #4f545c
 }
 
 
@@ -28728,26 +28711,29 @@ to {
 	transition: opacity .4s ease
 }
 
-.theme-light .splashContainer-2t8Fci {
-	background: #72767d
-}
-
-.theme-light .description-3rB3Rp {
-	background: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(45%,rgba(79,84,92,.7)),to(#4f545c));
-	background: linear-gradient(180deg,transparent,rgba(79,84,92,.7) 45%,#4f545c);
-	color: #202225
-}
-
-.theme-light .mediaFade-1SdEfL {
-	background: -webkit-gradient(linear,left top,left bottom,color-stop(90%,transparent),to(#72767d));
-	background: linear-gradient(180deg,transparent 90%,#72767d);
+.mediaFade-1SdEfL {
 	padding-top: 56.5%;
 	position: relative;
 	z-index: 1
 }
 
-.theme-light .tagline-2iew42 {
+.theme-light .splashContainer-2t8Fci {
+	background: #72767d
+}
+
+.theme-light .gameTitle-8njhLq {
+	color: #fff
+}
+
+.theme-light .description-3rB3Rp {
+	background: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(45%,rgba(79,84,92,.7)),to(#4f545c));
+	background: linear-gradient(180deg,transparent,rgba(79,84,92,.7) 45%,#4f545c);
 	color: #dcddde
+}
+
+.theme-light .mediaFade-1SdEfL {
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(90%,transparent),to(#72767d));
+	background: linear-gradient(180deg,transparent 90%,#72767d)
 }
 
 .theme-light .osIcon-2dlWv7 {
@@ -54547,4 +54533,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.7cd8c860564863f1d463.css.map*/
+/*# sourceMappingURL=0.b1687727743b20a59520.css.map*/
