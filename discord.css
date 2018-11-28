@@ -12818,6 +12818,10 @@ a,button,div,input,select,span,strong,textarea {
 	outline: 0
 }
 
+img[alt] {
+	text-indent: -9999px
+}
+
 .keyboardMode button: focus,.keyboardMode div: focus,.keyboardMode input: focus,.keyboardMode select: focus,.keyboardMode span: focus,.keyboardMode textarea: focus {
 	-webkit-box-shadow: 0 0 0 3px #00b0f4,0 0 10px #00b0f4;
 	-webkit-transition: -webkit-box-shadow 0s ease .15s;
@@ -13239,43 +13243,43 @@ a,button,div,input,select,span,strong,textarea {
 	border-top-color: #18191c
 }
 
-.forceThemeLight-25mBVj.popoutRight-2ZVwL-.arrowAlignmentMiddle-136iao: before {
+.theme-light.popoutRight-2ZVwL-.arrowAlignmentMiddle-136iao: before {
 	border-right-color: #fff
 }
 
-.forceThemeLight-25mBVj.popoutLeft-30WmrD.arrowAlignmentMiddle-136iao: before {
+.theme-light.popoutLeft-30WmrD.arrowAlignmentMiddle-136iao: before {
 	border-left-color: #fff
 }
 
-.forceThemeLight-25mBVj.popoutBottom-1YbShG.arrowAlignmentMiddle-136iao: before,.forceThemeLight-25mBVj.popoutBottom-1YbShG.arrowAlignmentTop-iGQczz: before,.forceThemeLight-25mBVj.popoutBottomLeft-JehOp2.arrowAlignmentMiddle-136iao: before,.forceThemeLight-25mBVj.popoutBottomLeft-JehOp2.arrowAlignmentTop-iGQczz: before,.forceThemeLight-25mBVj.popoutBottomRight-2JrySt.arrowAlignmentMiddle-136iao: before,.forceThemeLight-25mBVj.popoutBottomRight-2JrySt.arrowAlignmentTop-iGQczz: before {
+.theme-light.popoutBottom-1YbShG.arrowAlignmentMiddle-136iao: before,.theme-light.popoutBottom-1YbShG.arrowAlignmentTop-iGQczz: before,.theme-light.popoutBottomLeft-JehOp2.arrowAlignmentMiddle-136iao: before,.theme-light.popoutBottomLeft-JehOp2.arrowAlignmentTop-iGQczz: before,.theme-light.popoutBottomRight-2JrySt.arrowAlignmentMiddle-136iao: before,.theme-light.popoutBottomRight-2JrySt.arrowAlignmentTop-iGQczz: before {
 	border-bottom-color: #7289da
 }
 
-.forceThemeLight-25mBVj.popoutTop-3uu9vG: before,.forceThemeLight-25mBVj.popoutTopLeft-b5Eb3O: before,.forceThemeLight-25mBVj.popoutTopRight-3BzFIE: before {
+.theme-light.popoutTop-3uu9vG: before,.theme-light.popoutTopLeft-b5Eb3O: before,.theme-light.popoutTopRight-3BzFIE: before {
 	border-top-color: rgba(0,0,0,.08)
 }
 
-.forceThemeLight-25mBVj.popoutTop-3uu9vG: after,.forceThemeLight-25mBVj.popoutTopLeft-b5Eb3O: after,.forceThemeLight-25mBVj.popoutTopRight-3BzFIE: after {
+.theme-light.popoutTop-3uu9vG: after,.theme-light.popoutTopLeft-b5Eb3O: after,.theme-light.popoutTopRight-3BzFIE: after {
 	border-top-color: #fff
 }
 
-.forceThemeDark-2OWfqA.popoutRight-2ZVwL-.arrowAlignmentMiddle-136iao: before {
+.theme-dark.popoutRight-2ZVwL-.arrowAlignmentMiddle-136iao: before {
 	border-right-color: #18191c
 }
 
-.forceThemeDark-2OWfqA.popoutLeft-30WmrD.arrowAlignmentMiddle-136iao: before {
+.theme-dark.popoutLeft-30WmrD.arrowAlignmentMiddle-136iao: before {
 	border-left-color: #18191c
 }
 
-.forceThemeDark-2OWfqA.popoutBottom-1YbShG.arrowAlignmentMiddle-136iao: before,.forceThemeDark-2OWfqA.popoutBottom-1YbShG.arrowAlignmentTop-iGQczz: before,.forceThemeDark-2OWfqA.popoutBottomLeft-JehOp2.arrowAlignmentMiddle-136iao: before,.forceThemeDark-2OWfqA.popoutBottomLeft-JehOp2.arrowAlignmentTop-iGQczz: before,.forceThemeDark-2OWfqA.popoutBottomRight-2JrySt.arrowAlignmentMiddle-136iao: before,.forceThemeDark-2OWfqA.popoutBottomRight-2JrySt.arrowAlignmentTop-iGQczz: before {
+.theme-dark.popoutBottom-1YbShG.arrowAlignmentMiddle-136iao: before,.theme-dark.popoutBottom-1YbShG.arrowAlignmentTop-iGQczz: before,.theme-dark.popoutBottomLeft-JehOp2.arrowAlignmentMiddle-136iao: before,.theme-dark.popoutBottomLeft-JehOp2.arrowAlignmentTop-iGQczz: before,.theme-dark.popoutBottomRight-2JrySt.arrowAlignmentMiddle-136iao: before,.theme-dark.popoutBottomRight-2JrySt.arrowAlignmentTop-iGQczz: before {
 	border-bottom-color: #18191c
 }
 
-.forceThemeDark-2OWfqA.popoutTop-3uu9vG: before,.forceThemeDark-2OWfqA.popoutTopLeft-b5Eb3O: before,.forceThemeDark-2OWfqA.popoutTopRight-3BzFIE: before {
+.theme-dark.popoutTop-3uu9vG: before,.theme-dark.popoutTopLeft-b5Eb3O: before,.theme-dark.popoutTopRight-3BzFIE: before {
 	border-top-color: rgba(0,0,0,.1)
 }
 
-.forceThemeDark-2OWfqA.popoutTop-3uu9vG: after,.forceThemeDark-2OWfqA.popoutTopLeft-b5Eb3O: after,.forceThemeDark-2OWfqA.popoutTopRight-3BzFIE: after {
+.theme-dark.popoutTop-3uu9vG: after,.theme-dark.popoutTopLeft-b5Eb3O: after,.theme-dark.popoutTopRight-3BzFIE: after {
 	border-top-color: #18191c
 }
 
@@ -18152,13 +18156,7 @@ to {
 }
 
 
-.emoji-slots {
-	font-weight: 400;
-	margin-left: 5px;
-	opacity: .6
-}
-
-.emoji-alias-placeholder {
+.emojiAliasPlaceholder-3H_iZA {
 	font-size: 16px;
 	left: 0;
 	line-height: 16px;
@@ -18169,58 +18167,58 @@ to {
 	z-index: 0
 }
 
-.emoji-alias-placeholder: after,.emoji-alias-placeholder: before {
+.emojiAliasPlaceholder-3H_iZA: after,.emojiAliasPlaceholder-3H_iZA: before {
 	content: ": ";
 	font-weight: 500;
 	opacity: .3;
 	position: absolute
 }
 
-.emoji-alias-placeholder: before {
+.emojiAliasPlaceholder-3H_iZA: before {
 	margin-left: -6px
 }
 
-.emoji-alias-placeholder: after {
+.emojiAliasPlaceholder-3H_iZA: after {
 	margin-left: 3px
 }
 
-.emoji-alias-input {
+.emojiAliasInput-1y-NBz {
 	position: relative;
 	z-index: 1
 }
 
-.emoji-alias-offset {
+.emojiAliasOffset-3y9w1z {
 	margin-left: 7px
 }
 
-.emoji-row {
+.emojiRow-zIc7ZX {
 	height: 64px;
 	position: relative
 }
 
-.emoji-row .emoji-alias-input .emoji-input {
+.emojiRow-zIc7ZX .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
 	-webkit-transition: opacity .1s ease-in-out;
 	opacity: 0;
 	transition: opacity .1s ease-in-out
 }
 
-.emoji-row .emoji-alias-input .emoji-input: focus {
+.emojiRow-zIc7ZX .emojiAliasInput-1y-NBz .emojiInput-1aLNse: focus {
 	opacity: 1
 }
 
-.emoji-row .emoji-uploader {
+.emojiRow-zIc7ZX .emojiUploader-1f0pVx {
 	margin-left: 10px;
 	position: relative
 }
 
-.emoji-row .emoji-remove {
+.emojiRow-zIc7ZX .emojiRemove-1k6MlJ {
 	opacity: 0;
 	position: absolute;
 	right: -31px;
 	top: -12px
 }
 
-.emoji-row .emoji-image {
+.emojiRow-zIc7ZX .emojiImage-1hZi2F {
 	background-position: 0 50%;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -18228,39 +18226,42 @@ to {
 	width: 32px
 }
 
-.emoji-row .emoji-alias-input,.emoji-row .emoji-image {
+.emojiRow-zIc7ZX .emojiAliasInput-1y-NBz,.emojiRow-zIc7ZX .emojiImage-1hZi2F {
 	position: relative
 }
 
-.emoji-row .emoji-row-text {
+.emojiRow-zIc7ZX .emojiRowText-2j4TNM {
 	left: 28px;
+	overflow: hidden;
 	position: absolute;
 	right: 0;
-	top: 0
+	text-overflow: ellipsis;
+	top: 0;
+	white-space: nowrap
 }
 
-.emoji-row: hover .emoji-alias-input .emoji-input,.emoji-row: hover .emoji-remove {
+.emojiRow-zIc7ZX: hover .emojiAliasInput-1y-NBz .emojiInput-1aLNse,.emojiRow-zIc7ZX: hover .emojiRemove-1k6MlJ {
 	opacity: 1
 }
 
-.theme-dark .emoji-alias-input .emoji-input {
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
 	background-color: #2d2f32
 }
 
-.theme-dark .emoji-alias-placeholder {
+.theme-dark .emojiAliasPlaceholder-3H_iZA {
 	color: #fff
 }
 
-.theme-dark .emoji-row {
+.theme-dark .emojiRow-zIc7ZX {
 	-webkit-box-shadow: 0 1px 0 0 hsla(0,0%,100%,.04);
 	box-shadow: 0 1px 0 0 hsla(0,0%,100%,.04)
 }
 
-.theme-light .emoji-alias-input .emoji-input {
+.theme-light .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
 	background-color: #efeff0
 }
 
-.theme-light .emoji-row {
+.theme-light .emojiRow-zIc7ZX {
 	-webkit-box-shadow: 0 1px 0 0 rgba(79,84,92,.04);
 	box-shadow: 0 1px 0 0 rgba(79,84,92,.04)
 }
@@ -41894,6 +41895,7 @@ html .tabBadge-3smxHS {
 
 .content-1nP7fx {
 	-webkit-box-sizing: border-box;
+	border-radius: 5px;
 	box-sizing: border-box;
 	padding: 20px
 }
@@ -41951,23 +41953,23 @@ html .tabBadge-3smxHS {
 	border-bottom-color: #8994f9
 }
 
-.theme-light .content-1nP7fx {
+.theme-light.content-1nP7fx,.theme-light .content-1nP7fx {
 	background-color: #fff
 }
 
-.theme-light .contentWithMedia-3YF06_ {
+.theme-light.contentWithMedia-3YF06_,.theme-light .contentWithMedia-3YF06_ {
 	border: 1px solid rgba(185,187,190,.3)
 }
 
-.theme-light .leftArrow-fNTiNn: before {
+.theme-light.leftArrow-fNTiNn: before,.theme-light .leftArrow-fNTiNn: before {
 	border-right-color: #fff
 }
 
-.theme-light .rightArrow-1u-p-_: before {
+.theme-light.rightArrow-1u-p-_: before,.theme-light .rightArrow-1u-p-_: before {
 	border-left-color: #fff
 }
 
-.theme-light .contentNarrowNoMedia-Il01H1.topArrow-1B63md: before,.theme-light .contentWideNoMedia-22TIu6.topArrow-1B63md: before {
+.theme-light.contentNarrowMedia-W7SHxH.topArrow-1B63md: before,.theme-light .contentNarrowNoMedia-Il01H1.topArrow-1B63md: before,.theme-light.contentWideNoMedia-22TIu6.topArrow-1B63md: before,.theme-light .contentWideNoMedia-22TIu6.topArrow-1B63md: before {
 	border-bottom-color: #7289da
 }
 
@@ -41988,7 +41990,7 @@ html .tabBadge-3smxHS {
 	color: #fff
 }
 
-.theme-light .background-2lsEHp {
+.theme-light.background-2lsEHp,.theme-light .background-2lsEHp {
 	color: #000
 }
 
@@ -42006,7 +42008,7 @@ html .tabBadge-3smxHS {
 	color: #fff
 }
 
-.theme-light .title-eQ0ZMf {
+.theme-light.title-eQ0ZMf,.theme-light .title-eQ0ZMf {
 	color: #36393f
 }
 
@@ -42049,7 +42051,7 @@ html .tabBadge-3smxHS {
 	color: #f6f6f7
 }
 
-.theme-light .buttonContainer-lZQm0q {
+.buttonContainer-lZQm0q. .theme-light.buttonContainer-lZQm0q {
 	color: #18191c
 }
 
@@ -46528,10 +46530,13 @@ to {
 }
 
 .theme-dark .input-2VB9rf {
-	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,.2),0 0 0 1px rgba(0,0,0,.1);
 	background-color: #72767d;
-	box-shadow: 0 2px 5px rgba(0,0,0,.2),0 0 0 1px rgba(0,0,0,.1);
 	color: #fff
+}
+
+.theme-dark .input-2VB9rf,.theme-dark .input-2VB9rf: focus {
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,.2),0 0 0 1px rgba(0,0,0,.1);
+	box-shadow: 0 2px 5px rgba(0,0,0,.2),0 0 0 1px rgba(0,0,0,.1)
 }
 
 .theme-dark .input-2VB9rf: : -webkit-input-placeholder {
@@ -46573,10 +46578,13 @@ to {
 }
 
 .theme-light .input-2VB9rf {
-	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,.1),0 0 0 1px rgba(185,187,190,.3);
 	background-color: #fff;
-	box-shadow: 0 2px 5px rgba(0,0,0,.1),0 0 0 1px rgba(185,187,190,.3);
 	color: #4f545c
+}
+
+.theme-light .input-2VB9rf,.theme-light .input-2VB9rf: focus {
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,.1),0 0 0 1px rgba(185,187,190,.3);
+	box-shadow: 0 2px 5px rgba(0,0,0,.1),0 0 0 1px rgba(185,187,190,.3)
 }
 
 .theme-light .input-2VB9rf: : -webkit-input-placeholder {
@@ -54533,4 +54541,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.b1687727743b20a59520.css.map*/
+/*# sourceMappingURL=0.ee88632dfc979360292f.css.map*/
