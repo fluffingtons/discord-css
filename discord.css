@@ -633,6 +633,19 @@ to {
 	opacity: .5
 }
 
+.disabledButtonWrapper-3wH6-b {
+	display: inline-block;
+	position: relative
+}
+
+.disabledButtonOverlay-2DA5FI {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
 	background-color: #7289da;
 	color: #fff
@@ -4034,12 +4047,12 @@ to {
 	position: relative
 }
 
-.card-3Qj_Yx a {
-	font-weight: 700
-}
-
 .card-3Qj_Yx a: hover {
 	text-decoration: underline
+}
+
+.cardBrand-39zmMQ a,.cardDanger-ZurOv3 a,.cardSuccess-3uEYjj a,.cardWarning-2yPNAa a {
+	font-weight: 700
 }
 
 .cardDanger-ZurOv3 {
@@ -4089,7 +4102,7 @@ to {
 }
 
 .theme-light .cardPrimary-1Hv-to a {
-	color: #4f545c
+	color: #00b0f4
 }
 
 .theme-light .cardPrimaryEditable-3KtE4g {
@@ -4102,7 +4115,7 @@ to {
 }
 
 .theme-dark .card-3Qj_Yx a {
-	color: #fff
+	color: #00b0f4
 }
 
 .theme-dark .cardPrimary-1Hv-to {
@@ -41881,6 +41894,10 @@ html .tabBadge-3smxHS {
 	width: 100%
 }
 
+.contentNoMedia-1yP2hn .title-eQ0ZMf {
+	margin-top: 8px
+}
+
 .contentWithMedia-3YF06_ {
 	
 }
@@ -42008,15 +42025,7 @@ html .tabBadge-3smxHS {
 }
 
 .buttonContainer-lZQm0q {
-	margin-top: 20px
-}
-
-.theme-dark .buttonContainer-lZQm0q {
-	color: #f6f6f7
-}
-
-.buttonContainer-lZQm0q. .theme-light.buttonContainer-lZQm0q {
-	color: #18191c
+	margin-top: 24px
 }
 
 .buttonSkipLeftAlign-2Oe1kC {
@@ -54505,4 +54514,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.e1042a17c147b7a811b8.css.map*/
+/*# sourceMappingURL=0.bf21a549206d1c4b6dbf.css.map*/
