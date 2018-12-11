@@ -27160,11 +27160,11 @@ to {
 }
 
 .background-1ri_HN {
-	-webkit-mask: -webkit-gradient(linear,left bottom,left top,from(transparent),to(#000));
-	-webkit-mask: linear-gradient(0deg,transparent,#000);
+	-webkit-mask: -webkit-gradient(linear,left bottom,left top,from(transparent),color-stop(50%,#000));
+	-webkit-mask: linear-gradient(0deg,transparent,#000 50%);
 	bottom: 7.5%;
-	mask: -webkit-gradient(linear,left bottom,left top,from(transparent),to(#000));
-	mask: linear-gradient(0deg,transparent,#000);
+	mask: -webkit-gradient(linear,left bottom,left top,from(transparent),color-stop(50%,#000));
+	mask: linear-gradient(0deg,transparent,#000 50%);
 	min-width: 300px
 }
 
@@ -27242,8 +27242,9 @@ to {
 }
 
 .title-3gWYEg {
-	color: #dcddde;
-	display: block
+	color: #f6f6f7;
+	display: block;
+	font-weight: 500
 }
 
 .titleStandard-dNSpij {
@@ -27282,7 +27283,7 @@ to {
 	font-weight: 500;
 	line-height: 1.2;
 	margin-top: 8px;
-	max-height: 80px;
+	max-height: 40px;
 	overflow: hidden
 }
 
@@ -54866,4 +54867,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.b5a85d19a56b2387e75b.css.map*/
+/*# sourceMappingURL=0.9acb76e9255922788676.css.map*/
