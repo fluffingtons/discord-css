@@ -20884,7 +20884,7 @@ to {
 	margin: 2px 2px 2px 0;
 	max-height: 144px;
 	min-height: 20px;
-	padding: 10px 38px 10px 10px;
+	padding: 10px;
 	resize: none;
 	width: 100%
 }
@@ -20931,9 +20931,8 @@ to {
 	display: -ms-flexbox;
 	display: flex-1O1GKY;
 	flex-direction: row;
-	position: absolute;
-	right: 6px;
-	top: 5px
+	height: 44px;
+	padding-right: 6px
 }
 
 .pickerButton-3JlQT1 {
@@ -21147,8 +21146,8 @@ to {
 }
 
 .result-3w1ZcL: hover: after {
-	-webkit-box-shadow: inset 0 0 0 3px #7289da,inset 0 0 0 4px #2f3136;
-	box-shadow: inset 0 0 0 3px #7289da,inset 0 0 0 4px #2f3136
+	-webkit-box-shadow: inset 0 0 0 2px #7289da,inset 0 0 0 3px #2f3136;
+	box-shadow: inset 0 0 0 2px #7289da,inset 0 0 0 3px #2f3136
 }
 
 .gif-1TcNIB {
@@ -21183,12 +21182,10 @@ to {
 }
 
 .categoryFade-2ybR1J {
-	-webkit-box-shadow: inset 0 0 0 1px #18191c;
 	-webkit-transition: background-color .15s ease-out;
 	background-color: rgba(0,0,0,.4);
 	border-radius: 4px;
 	bottom: 0;
-	box-shadow: inset 0 0 0 1px #18191c;
 	left: 0;
 	position: absolute;
 	right: 0;
@@ -21198,7 +21195,7 @@ to {
 }
 
 .categoryFade-2ybR1J: hover {
-	background-color: rgba(0,0,0,.8)
+	background-color: rgba(0,0,0,.7)
 }
 
 .categoryText-2-8pri {
@@ -23623,6 +23620,36 @@ to {
 
 .theme-dark .tag-HanR-9: before,.theme-light .tag-HanR-9: before {
 	background-image: url(/assets/04a2e1509ad72be575b1529b51ea3977.svg)
+}
+
+
+.tag-1mL0R5 {
+	padding: 6px 12px
+}
+
+.tag-1mL0R5: before {
+	background-image: url(/assets/4fd13d0ae5ddd4d5d3be4568b2090c1a.png);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.text-1bqXwz {
+	display: block;
+	font-size: 13px;
+	font-weight: 600;
+	position: relative;
+	text-transform: uppercase
+}
+
+.theme-dark .text-1bqXwz,.theme-light .text-1bqXwz {
+	color: #fff
 }
 
 
@@ -45883,6 +45910,18 @@ to {
 	background-image: url(/assets/2a085ed9c86f3613935a6a8667ba8b89.svg)
 }
 
+.profileBadgeHypeSquadOnlineHouse1Snowsgiving-23VGiT {
+	background-image: url(/assets/6aa23cd830d6c5f5aa6370c83c05ffa7.svg)
+}
+
+.profileBadgeHypeSquadOnlineHouse2Snowsgiving-2F-pV8 {
+	background-image: url(/assets/838f2a59aa496bdc2ec076cee2a17134.svg)
+}
+
+.profileBadgeHypeSquadOnlineHouse3Snowsgiving-3lFxrG {
+	background-image: url(/assets/203fa36d9f5989ee9c262108b34e6a59.svg)
+}
+
 .profileBadgeEarlySupporter-PQB_0a {
 	background-image: url(/assets/ce15562552e3d70c56d5408cfeed2ffd.svg);
 	width: 28px
@@ -49942,7 +49981,9 @@ to {
 	-webkit-box-orient: vertical;
 	background-color: #36393f;
 	flex: 1 1 auto;
-	flex-direction: column
+	flex-direction: column;
+	min-width: 0;
+	overflow: hidden
 }
 
 .contained-1li2eZ,.header-2yGCVu {
@@ -55325,4 +55366,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.466f367dd373401facdb.css.map*/
+/*# sourceMappingURL=0.bce730463b11136a648f.css.map*/
