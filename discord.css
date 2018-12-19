@@ -4233,14 +4233,14 @@ to {
 	-webkit-transition: all .15s ease;
 	-webkit-user-select: none;
 	align-items: center;
-	border-radius: 3px;
+	border-radius: 20px;
 	cursor: pointer;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: column;
 	font-size: 15px;
-	font-weight: 700;
+	font-weight: 600;
 	left: 50%;
 	letter-spacing: .5px;
 	padding: 8px 12px;
@@ -4286,16 +4286,13 @@ to {
 }
 
 .theme-dark .spoilerWarning-2aAZq1 {
-	background-color: rgba(54,57,63,.6);
-	color: #b9bbbe
-}
-
-.theme-dark .spoilerWarning-2aAZq1: hover {
-	background-color: rgba(32,34,37,.7)
+	background-color: rgba(0,0,0,.6);
+	color: #dcddde
 }
 
 .theme-dark .spoilerContainer-331r0R: hover .spoilerWarning-2aAZq1 {
-	background-color: #36393f
+	background-color: rgba(0,0,0,.9);
+	color: #fff
 }
 
 .theme-light .spoilerText-3p6IlD {
@@ -4311,16 +4308,13 @@ to {
 }
 
 .theme-light .spoilerWarning-2aAZq1 {
-	background-color: rgba(54,57,63,.6);
-	color: #b9bbbe
-}
-
-.theme-light .spoilerWarning-2aAZq1: hover {
-	background-color: rgba(32,34,37,.7)
+	background-color: rgba(0,0,0,.6);
+	color: #dcddde
 }
 
 .theme-light .spoilerContainer-331r0R: hover .spoilerWarning-2aAZq1 {
-	background-color: #36393f
+	background-color: rgba(0,0,0,.9);
+	color: #fff
 }
 
 
@@ -56053,4 +56047,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.506132fac30424d464d9.css.map*/
+/*# sourceMappingURL=0.ff7ec47b5de21d0a2295.css.map*/
