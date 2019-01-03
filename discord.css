@@ -20477,12 +20477,12 @@ to {
 .icon-3D60ES {
 	-webkit-transform: scale(.85714);
 	-webkit-transition: -webkit-transform .1s ease;
-	height: 21px;
+	height: 22px;
 	transform: scale(.85714);
 	transition: -webkit-transform .1s ease;
 	transition: transform .1s ease;
 	transition: transform .1s ease,-webkit-transform .1s ease;
-	width: 28px
+	width: 22px
 }
 
 .active-23Nm0T .icon-3D60ES,.buttonWrapper-1ZmCpA: hover .icon-3D60ES {
@@ -20700,7 +20700,7 @@ to {
 	pointer-events: none
 }
 
-.pickerButtons-v-PPYK {
+.buttons-205you {
 	-ms-flex-direction: row;
 	-webkit-box-direction: normal;
 	-webkit-box-orient: horizontal;
@@ -20712,8 +20712,13 @@ to {
 	padding-right: 6px
 }
 
-.pickerButton-3JlQT1 {
+.button-2vd_v_ {
 	padding: 6px
+}
+
+.gifPickerIcon-132le6 {
+	height: 21px;
+	width: 28px
 }
 
 .attachPopout-1n-ZKM {
@@ -46225,7 +46230,12 @@ to {
 }
 
 
+.wrapper-1WA4pN {
+	cursor: pointer
+}
+
 .icon-1IKc4C {
+	display: block;
 	height: 24px;
 	width: 24px
 }
@@ -46898,6 +46908,7 @@ to {
 
 .subtext-2QfZHv {
 	font-size: 12px;
+	line-height: 14px;
 	margin-top: 8px
 }
 
@@ -56286,4 +56297,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.a974f4008ceeafdc1b65.css.map*/
+/*# sourceMappingURL=0.9517528f376fb7c3175d.css.map*/
