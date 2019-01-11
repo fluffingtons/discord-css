@@ -21165,42 +21165,43 @@ to {
 	-ms-flex-align: center;
 	-ms-flex-pack: distribute;
 	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	justify-content: space-around
-}
-
-.emptyHint-2ZHXNQ,.emptyHints-1EYR-5 {
 	-webkit-box-align: center;
 	align-items: center;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	margin: 6px
 }
 
 .emptyHint-2ZHXNQ {
-	-ms-flex: 1 1 200px;
+	-ms-flex: 1 1 33.33%;
+	-webkit-box-flex: 1;
+	flex: 1 1 33.33%
+}
+
+.emptyHintCard-2mUdMe {
 	-ms-flex-align: center;
 	-ms-flex-pack: center;
-	-webkit-box-flex: 1;
+	-webkit-box-align: center;
 	-webkit-box-pack: center;
 	-webkit-box-sizing: border-box;
+	align-items: center;
 	border-radius: 5px;
 	box-sizing: border-box;
-	flex: 1 1 200px;
-	height: 100px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 160px;
 	justify-content: center;
+	margin: 6px;
 	padding: 20px;
 	position: relative
 }
 
 .emptyHintSpacer-XKHTzr {
-	-ms-flex: 1 1 200px;
-	-webkit-box-flex: 1;
-	flex: 1 1 200px;
-	height: 0;
-	margin-left: 6px;
-	margin-right: 6px
+	height: 160px
 }
 
 .emptyHintText-1QDF9N {
@@ -21238,7 +21239,7 @@ to {
 	color: #fff
 }
 
-.theme-dark .emptyHint-2ZHXNQ {
+.theme-dark .emptyHintCard-2mUdMe {
 	background-color: #36393f;
 	color: #b9bbbe
 }
@@ -56258,4 +56259,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.3bc98078c555520f89bf.css.map*/
+/*# sourceMappingURL=0.97daea535df7fe2c9ab7.css.map*/
