@@ -638,6 +638,7 @@ to {
 
 .disabledButtonOverlay-2DA5FI {
 	bottom: 0;
+	cursor: not-allowed;
 	left: 0;
 	position: absolute;
 	right: 0;
@@ -7970,6 +7971,11 @@ html .gamePreviewTrailer-3ZmZKP {
 }
 
 
+.buttonSize-2Pmk-w {
+	height: 32px;
+	min-height: 32px
+}
+
 .actionsUserPopout-2MrzCa,.listeningActionsUserPopout-Ga2V_N {
 	
 }
@@ -7979,23 +7985,21 @@ html .gamePreviewTrailer-3ZmZKP {
 }
 
 .button-1Pkqso {
-	font-size: 14px;
-	height: 32px;
-	min-height: 32px
+	font-size: 14px
 }
 
-.actionsUserPopout-2MrzCa .button-1Pkqso,.listeningActionsUserPopout-Ga2V_N .button-1Pkqso {
+.actionsUserPopout-2MrzCa .buttonSize-2Pmk-w,.listeningActionsUserPopout-Ga2V_N .buttonSize-2Pmk-w {
 	-ms-flex: 1;
 	-webkit-box-flex: 1;
 	flex: 1;
 	width: 100%
 }
 
-.actionsActivityFeed-34rO2n .button-1Pkqso: not(: first-child),.actionsUserPopout-2MrzCa .button-1Pkqso: not(: first-child),.listeningActionsActivityFeed-3IMH0t .button-1Pkqso: not(: first-child),.listeningActionsProfile-1fYwru .button-1Pkqso: not(: first-child),.listeningActionsUserPopout-Ga2V_N .button-1Pkqso: not(: first-child) {
+.actionsActivityFeed-34rO2n .buttonSize-2Pmk-w: not(: first-child),.actionsUserPopout-2MrzCa .buttonSize-2Pmk-w: not(: first-child),.listeningActionsActivityFeed-3IMH0t .buttonSize-2Pmk-w: not(: first-child),.listeningActionsProfile-1fYwru .buttonSize-2Pmk-w: not(: first-child),.listeningActionsUserPopout-Ga2V_N .buttonSize-2Pmk-w: not(: first-child) {
 	margin-left: 8px
 }
 
-.actionsProfile-1QS4n- .button-1Pkqso: not(: first-child) {
+.actionsProfile-1QS4n- .buttonSize-2Pmk-w: not(: first-child) {
 	margin-top: 8px
 }
 
@@ -54880,4 +54884,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.8e3dbe690b11d2f026be.css.map*/
+/*# sourceMappingURL=0.b658ada7a9522709057a.css.map*/
