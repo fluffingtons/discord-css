@@ -4388,7 +4388,7 @@ to {
 	color: #fff
 }
 
-.theme-dark .spoilerContainer-331r0R.hidden-HHr2R9 {
+.theme-dark .spoilerContainer-331r0R.hidden-HHr2R9: not(: focus) {
 	-webkit-box-shadow: .5px .5px 1px 1px rgba(0,0,0,.1);
 	box-shadow: .5px .5px 1px 1px rgba(0,0,0,.1)
 }
@@ -4415,7 +4415,7 @@ to {
 	color: #fff
 }
 
-.theme-light .spoilerContainer-331r0R.hidden-HHr2R9 {
+.theme-light .spoilerContainer-331r0R.hidden-HHr2R9: not(: focus) {
 	-webkit-box-shadow: .5px .5px 1px 1px rgba(0,0,0,.1);
 	box-shadow: .5px .5px 1px 1px rgba(0,0,0,.1)
 }
@@ -5345,6 +5345,12 @@ to {
 
 .imageWrapper-2p5ogY img {
 	position: absolute
+}
+
+.imageWrapper-2p5ogY: focus {
+	-webkit-transition: outline 0s ease .15s;
+	outline: 5px auto #00b0f4;
+	transition: outline 0s ease .15s
 }
 
 .imageWrapperBackground-E_M6Nu {
@@ -9035,107 +9041,6 @@ html .gamePreviewTrailer-3ZmZKP {
 
 .inline-136HKr .pro-1T8RK7 {
 	margin-right: 3px
-}
-
-
-.container-3Oxjrj {
-	-ms-flex-align: center;
-	-ms-flex-direction: column;
-	-webkit-box-align: center;
-	-webkit-box-direction: normal;
-	-webkit-box-orient: vertical;
-	align-items: center;
-	border-radius: 5px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	flex-direction: column;
-	height: 200px;
-	padding: 40px;
-	position: relative;
-	width: 402px
-}
-
-.container-3Oxjrj,.mobileImage-1avdnr {
-	background-size: 100% 100%
-}
-
-.mobileImage-1avdnr {
-	height: 224px;
-	position: absolute;
-	top: -132px;
-	width: 320px
-}
-
-.header-15DlI7 {
-	margin-top: 80px
-}
-
-.closeButton-2yvz8S {
-	margin: 16px;
-	position: absolute;
-	right: 4px;
-	top: 4px
-}
-
-.description-2CV4UT {
-	font-size: 16px
-}
-
-.linksContainer-3Gw_My {
-	-ms-flex-pack: justify;
-	-webkit-box-pack: justify;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	height: 100px;
-	justify-content: space-between;
-	margin-top: 16px;
-	width: 260px
-}
-
-.theme-dark .container-3Oxjrj {
-	background-color: #36393f;
-	background-image: url(/assets/af3355f993bf0e967a386eac7609251e.svg)
-}
-
-.theme-dark .mobileImage-1avdnr {
-	background-image: url(/assets/9d861f9dbf96fac021bdb29e76086f15.svg)
-}
-
-.theme-dark .header-15DlI7 {
-	color: #fff
-}
-
-.theme-dark .description-2CV4UT strong {
-	color: #fff;
-	font-weight: 500
-}
-
-.theme-dark .description-2CV4UT {
-	color: #b9bbbe
-}
-
-.theme-light .container-3Oxjrj {
-	background-color: #fff;
-	background-image: url(/assets/921ddb96b3ddea5eb4c884a1547c136b.svg)
-}
-
-.theme-light .mobileImage-1avdnr {
-	background-image: url(/assets/8e6c29d2bf270e2c0c915c5407da5975.svg)
-}
-
-.theme-light .header-15DlI7 {
-	color: #4f545c
-}
-
-.theme-light .description-2CV4UT strong {
-	color: #000;
-	font-weight: 500
-}
-
-.theme-light .description-2CV4UT {
-	color: #72767d
 }
 
 
@@ -14656,6 +14561,10 @@ to {
 	text-decoration: none
 }
 
+.cancelAllButton-16p7ma {
+	margin: 0 auto 0 0
+}
+
 
 .premiumPromo-3oM7cT {
 	-ms-flex-direction: column;
@@ -17606,8 +17515,11 @@ to {
 	visibility: hidden
 }
 
+.theme-light .copyInput-2rOSt7 {
+	background-color: rgba(79,84,92,.02)
+}
+
 .theme-light .copyInputDefault-21sXtF {
-	background-color: rgba(79,84,92,.02);
 	border-color: rgba(79,84,92,.3)
 }
 
@@ -17627,8 +17539,11 @@ to {
 	color: rgba(79,84,92,.3)
 }
 
+.theme-dark .copyInput-2rOSt7 {
+	background-color: rgba(0,0,0,.1)
+}
+
 .theme-dark .copyInputDefault-21sXtF {
-	background-color: rgba(0,0,0,.1);
 	border-color: rgba(0,0,0,.3)
 }
 
@@ -29729,17 +29644,19 @@ to {
 
 .subText-DCCW9J {
 	font-size: 12px;
-	font-weight: 600;
-	line-height: 15px
+	line-height: 16px
+}
+
+.subTextHeader-1ji2yF,.subTextRow-2uM_Mp {
+	
+}
+
+.subTextHeader-1ji2yF {
+	font-weight: 600
 }
 
 .codeText-1b8znN {
-	-moz-user-select: text;
-	-ms-user-select: text;
-	-webkit-user-select: text;
-	line-height: 19px;
-	margin-bottom: 4px;
-	user-select: text
+	margin-bottom: 8px
 }
 
 .headerText-3E97pX {
@@ -29800,8 +29717,12 @@ to {
 	padding: 20px
 }
 
-.theme-dark .subText-DCCW9J {
+.theme-dark .subTextHeader-1ji2yF {
 	color: #72767d
+}
+
+.theme-dark .subTextRow-2uM_Mp {
+	color: #b9bbbe
 }
 
 .theme-dark .gameNameLink-m75zYC {
@@ -29825,8 +29746,12 @@ to {
 	background: #72767d
 }
 
-.theme-light .subText-DCCW9J {
+.theme-light .subTextHeader-1ji2yF {
 	color: #72767d
+}
+
+.theme-light .subTextRow-2uM_Mp {
+	color: #b9bbbe
 }
 
 .theme-light .bodyButtonColor-3yTLJ1 {
@@ -38026,10 +37951,6 @@ to {
 
 .statusWithMobile-152_jv {
 	margin-right: 4px
-}
-
-.mobileIndicatorWithLink-qenf9b {
-	margin-top: 4px
 }
 
 .stop-animations .title-3qD0b- {
@@ -54884,4 +54805,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.b658ada7a9522709057a.css.map*/
+/*# sourceMappingURL=0.fe4a0cc488b930d8b1dd.css.map*/
