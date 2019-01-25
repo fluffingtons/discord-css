@@ -28513,6 +28513,11 @@ to {
 	padding: 11px
 }
 
+.premiumCircle-3jgziV {
+	background-image: -webkit-gradient(linear,right top,left top,from(#b3aeff),to(#738ef5));
+	background-image: linear-gradient(270deg,#b3aeff,#738ef5)
+}
+
 .smallHeader-2h-9-U {
 	font-size: 12px;
 	font-weight: 500;
@@ -34635,6 +34640,10 @@ to {
 }
 
 
+.breadcrumbs-SOzMJD {
+	overflow: hidden
+}
+
 .breadcrumbWrapper-WmDjgG {
 	-ms-flex-align: center;
 	-ms-flex-positive: 0;
@@ -34645,8 +34654,15 @@ to {
 	display: -ms-flexbox;
 	display: flex;
 	flex-grow: 0;
-	font-size: 11px;
 	font-weight: 600
+}
+
+.breadcrumbClickWrapper-TpEb92,.breadcrumbFinalWrapper-3WqsGi {
+	overflow: hidden
+}
+
+.breadcrumb-OALf_a {
+	font-size: 11px
 }
 
 .breadcrumbArrow-1bJVKv {
@@ -50576,13 +50592,13 @@ to {
 	width: 100%
 }
 
-.featuredGame-1EfWhT {
+.header-2Qd56c {
 	font-size: 12px;
 	margin-top: 12px;
 	text-transform: uppercase
 }
 
-.featuredGame-1EfWhT,.title-1Qzsze {
+.header-2Qd56c,.title-1Qzsze {
 	-moz-user-select: text;
 	-ms-user-select: text;
 	-webkit-user-select: text;
@@ -50662,11 +50678,11 @@ to {
 	color: #fff
 }
 
-.theme-dark .featuredGame-1EfWhT {
+.theme-dark .header-2Qd56c {
 	color: #dcddde
 }
 
-.theme-light .featuredGame-1EfWhT,.theme-light .itemDescription-234GLf,.theme-light .title-1Qzsze {
+.theme-light .header-2Qd56c,.theme-light .itemDescription-234GLf,.theme-light .title-1Qzsze {
 	color: #4f545c
 }
 
@@ -50706,7 +50722,7 @@ to {
 	line-height: 40px
 }
 
-.featuredGame-1EfWhT {
+.header-2Qd56c {
 	font-size: 14px
 }
 
@@ -51260,6 +51276,42 @@ to {
 
 .theme-dark .filterLabel-2yQNPl {
 	color: #b9bbbe
+}
+
+
+.breadcrumb-22XhB5 {
+	cursor: pointer;
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.breadcrumb-22XhB5: hover {
+	text-decoration: underline
+}
+
+.activeBreadcrumb-2mAmuI {
+	cursor: default;
+	font-weight: 600
+}
+
+.activeBreadcrumb-2mAmuI: hover {
+	text-decoration: none
+}
+
+.separator-cGFynj {
+	margin: 0 2px
+}
+
+.theme-light .activeBreadcrumb-2mAmuI,.theme-light .breadcrumb-22XhB5: hover {
+	color: #747f8d
+}
+
+.theme-dark .activeBreadcrumb-2mAmuI,.theme-dark .breadcrumb-22XhB5: hover {
+	color: #fff
 }
 
 
@@ -54806,4 +54858,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.eb28766ef5a4db2fd974.css.map*/
+/*# sourceMappingURL=0.22d41f66c3c408ea789f.css.map*/
