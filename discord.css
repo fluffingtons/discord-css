@@ -30490,6 +30490,15 @@ to {
 	top: -1px
 }
 
+.guildsDiscover-oiBX_l {
+	display: inline-block
+}
+
+.guildsDiscoverInner-wC7iEN {
+	position: relative;
+	top: 3px
+}
+
 .downloadAppButton-3EFlA6 {
 	-webkit-transition: color .2s ease;
 	display: block;
@@ -30628,7 +30637,7 @@ to {
 	color: #535559
 }
 
-.theme-light .guildsAdd-21_IdK: hover {
+.theme-light .guildsAdd-21_IdK.selected-ML3OIq,.theme-light .guildsAdd-21_IdK: hover {
 	border-color: hsla(0,0%,100%,.75);
 	color: hsla(0,0%,100%,.75)
 }
@@ -30711,7 +30720,7 @@ to {
 	color: #535559
 }
 
-.theme-dark .guildsAdd-21_IdK: hover {
+.theme-dark .guildsAdd-21_IdK.selected-ML3OIq,.theme-dark .guildsAdd-21_IdK: hover {
 	border-color: hsla(0,0%,100%,.75);
 	color: hsla(0,0%,100%,.75)
 }
@@ -37959,7 +37968,8 @@ to {
 
 .wrapper-39oAo3 {
 	border-radius: 5px;
-	margin: 12px 0;
+	margin-bottom: 30px;
+	margin-top: 12px;
 	padding: 16px;
 	width: 100%
 }
@@ -42263,6 +42273,493 @@ html .tabBadge-3smxHS {
 .theme-dark .actionIcon-h73Pge: hover {
 	background-color: rgba(24,25,28,.3);
 	opacity: 1
+}
+
+
+.card-3DjzTQ {
+	-ms-flex-direction: column;
+	-ms-flex-pack: end;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: end;
+	-webkit-transition: -webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
+	border-radius: 5px;
+	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-end;
+	overflow: hidden;
+	position: relative;
+	transition: -webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
+	transition: box-shadow .2s ease-out,transform .2s ease-out;
+	transition: box-shadow .2s ease-out,transform .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out
+}
+
+.splash-3N0nhD {
+	-o-object-fit: cover;
+	-webkit-transform: scale(1);
+	-webkit-transition: opacity .2s,-webkit-transform .2s ease-out;
+	display: block;
+	height: 100%;
+	left: 0;
+	object-fit: cover;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	transform: scale(1);
+	transition: opacity .2s,-webkit-transform .2s ease-out;
+	transition: opacity .2s,transform .2s ease-out;
+	transition: opacity .2s,transform .2s ease-out,-webkit-transform .2s ease-out;
+	width: 100%
+}
+
+.fade-rdt5qH,.loaded-1eBnjq .splash-3N0nhD {
+	opacity: 1
+}
+
+.fade-rdt5qH {
+	-webkit-transition: opacity .3s ease-out;
+	bottom: 0;
+	left: 0;
+	margin: -1px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: opacity .3s ease-out
+}
+
+.guildInfo-2wGKIg {
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0 16px 16px;
+	position: relative
+}
+
+.guildIcon-3W0pfo {
+	margin-right: 12px;
+	position: relative
+}
+
+.avatar-22otdK {
+	height: 48px;
+	width: 48px
+}
+
+.verifiedIcon-1vpk3S {
+	bottom: 0;
+	height: 16px;
+	position: absolute;
+	right: 0;
+	width: 16px
+}
+
+.title-OqQvkN {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.2;
+	margin-bottom: 2px
+}
+
+.memberInfo-3r4FKx {
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.3
+}
+
+.dotOnline-8Ag7EB {
+	-ms-flex-negative: 0;
+	border-radius: 50%;
+	flex-shrink: 0;
+	height: 8px;
+	margin-right: 4px;
+	width: 8px
+}
+
+.viewButton-3jDZqV {
+	-webkit-transform: translate3d(0,12px,0);
+	-webkit-transition: opacity .2s,-webkit-transform .2s ease-out;
+	bottom: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	transform: translate3d(0,12px,0);
+	transition: opacity .2s,-webkit-transform .2s ease-out;
+	transition: opacity .2s,transform .2s ease-out;
+	transition: opacity .2s,transform .2s ease-out,-webkit-transform .2s ease-out
+}
+
+.viewButtonVisible-2AtUPc {
+	-webkit-transform: translateZ(0);
+	opacity: 1;
+	transform: translateZ(0)
+}
+
+.cardHovered-15wbb- {
+	-webkit-transform: translateY(-1px);
+	transform: translateY(-1px)
+}
+
+.cardHovered-15wbb- .fade-rdt5qH {
+	opacity: .8
+}
+
+.cardHovered-15wbb- .splash-3N0nhD {
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: scale(1.01) translateZ(0);
+	backface-visibility: hidden;
+	transform: scale(1.01) translateZ(0)
+}
+
+.loading-17PYl_ {
+	border-radius: 5px
+}
+
+.theme-dark .loading-17PYl_ {
+	background-color: #40444b
+}
+
+.theme-dark .loaded-1eBnjq .fade-rdt5qH {
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(30%,transparent),to(#000));
+	background: linear-gradient(180deg,transparent 30%,#000)
+}
+
+.theme-light .loading-17PYl_ {
+	background-color: #e6e6e8
+}
+
+.theme-light .loaded-1eBnjq .fade-rdt5qH {
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(30%,transparent),to(#000));
+	background: linear-gradient(180deg,transparent 30%,#000)
+}
+
+.theme-dark .cardHovered-15wbb-,.theme-dark .loading-17PYl_ .cardHovered-15wbb-,.theme-light .cardHovered-15wbb-,.theme-light .loading-17PYl_ .cardHovered-15wbb- {
+	-webkit-box-shadow: inset 0 0 0 transparent,0 9px 20px rgba(0,0,0,.2);
+	background-color: rgba(0,0,0,.2);
+	box-shadow: inset 0 0 0 transparent,0 9px 20px rgba(0,0,0,.2)
+}
+
+.theme-dark .title-OqQvkN,.theme-light .title-OqQvkN {
+	color: #fff
+}
+
+.theme-dark .memberInfo-3r4FKx,.theme-light .memberInfo-3r4FKx {
+	color: #b9bbbe
+}
+
+.theme-dark .dotOnline-8Ag7EB,.theme-light .dotOnline-8Ag7EB {
+	background-color: #43b581
+}
+
+
+.searchBox-3Y2Vi7 {
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+	border-radius: 3px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 18px;
+	overflow: hidden;
+	padding-right: 16px;
+	position: relative
+}
+
+.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv {
+	background: transparent;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	height: auto;
+	padding: 12px
+}
+
+.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: : -webkit-input-placeholder {
+	font-weight: 500
+}
+
+.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: -ms-input-placeholder {
+	font-weight: 500
+}
+
+.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: : placeholder {
+	font-weight: 500
+}
+
+.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: focus,.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: hover {
+	border: none
+}
+
+.searchBoxInputWrapper-nKncfu {
+	-ms-flex: 1;
+	-webkit-box-flex: 1;
+	flex: 1
+}
+
+.clear-U3WkKp {
+	line-height: 0
+}
+
+.clearIcon-2N9YIn {
+	-webkit-transform: rotate(90deg);
+	-webkit-transform-origin: center;
+	cursor: pointer;
+	transform: rotate(90deg);
+	transform-origin: center
+}
+
+.searchIcon-1a1-yA {
+	-ms-flex-negative: 0;
+	-webkit-transition: color .2s ease;
+	cursor: pointer;
+	flex-shrink: 0;
+	transition: color .2s ease
+}
+
+.clearIcon-2N9YIn,.searchIcon-1a1-yA {
+	height: 1.4em;
+	width: 1.4em
+}
+
+.theme-light .searchBox-3Y2Vi7 {
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+	background-color: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.2)
+}
+
+.theme-light .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: : -webkit-input-placeholder {
+	color: #72767d
+}
+
+.theme-light .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: -ms-input-placeholder {
+	color: #72767d
+}
+
+.theme-light .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: : placeholder {
+	color: #72767d
+}
+
+.theme-light .clear-U3WkKp: focus .clearIcon-2N9YIn,.theme-light .clearIcon-2N9YIn: hover {
+	color: #36393f
+}
+
+.theme-light .clearIcon-2N9YIn,.theme-light .searchIcon-1a1-yA {
+	color: rgba(79,84,92,.6)
+}
+
+.theme-light .filterLabel-2yQNPl {
+	color: #000
+}
+
+.theme-dark .searchBox-3Y2Vi7 {
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+	background-color: #4f545c;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.2)
+}
+
+.theme-dark .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: : -webkit-input-placeholder {
+	color: hsla(0,0%,100%,.3)
+}
+
+.theme-dark .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: -ms-input-placeholder {
+	color: hsla(0,0%,100%,.3)
+}
+
+.theme-dark .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: : placeholder {
+	color: hsla(0,0%,100%,.3)
+}
+
+.theme-dark .clear-U3WkKp: focus .clearIcon-2N9YIn,.theme-dark .clearIcon-2N9YIn: hover {
+	color: #f6f6f7
+}
+
+.theme-dark .clearIcon-2N9YIn,.theme-dark .searchIcon-1a1-yA {
+	color: hsla(0,0%,100%,.3)
+}
+
+.theme-dark .filterLabel-2yQNPl {
+	color: #b9bbbe
+}
+
+
+.pageWrapper-1PgVDX {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%
+}
+
+.spinner-mxCcnk {
+	height: 100%
+}
+
+.bg-AYqtMd {
+	height: auto;
+	left: 70px;
+	position: absolute;
+	top: 0;
+	width: calc(100% - 70px)
+}
+
+.body-2lagau {
+	margin: 0 auto;
+	max-width: 1280px;
+	padding: 100px 40px
+}
+
+.search-JQJ-3r {
+	-ms-flex-align: center;
+	-ms-flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 80px
+}
+
+.mainHeader-1i17pL {
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 40px;
+	margin-bottom: 24px
+}
+
+.searchBox-26HYGw {
+	width: 100%
+}
+
+.emptySearchResults-1ba__I {
+	border-radius: 10px;
+	letter-spacing: -.02em;
+	margin: 80px auto 0;
+	text-align: center;
+	width: 404px
+}
+
+.emptySearchImage-1qOMLW {
+	height: 202px;
+	width: 404px
+}
+
+.emptySearchTitle-2zDhhZ {
+	font-size: 24px;
+	line-height: 30px;
+	margin-top: 20px
+}
+
+.emptySearchDescription-2AmfE4 {
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 8px
+}
+
+.sectionHeader-1Hee-5 {
+	font-size: 18px;
+	line-height: 1.2;
+	margin-bottom: 16px;
+	margin-top: 60px
+}
+
+.guildList-1ItbxP {
+	-ms-flex-direction: row;
+	-ms-flex-wrap: wrap;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: -8px
+}
+
+.guildCard-2arfcG {
+	margin: 8px;
+	width: calc(100% - 16px)
+}
+
+@media (min-width: 600px) {
+	.mainHeader-1i17pL {
+	font-size: 26px
+}
+
+.searchBox-26HYGw {
+	width: 80%
+}
+
+.guildCard-2arfcG {
+	width: calc(50% - 16px)
+}
+
+
+}
+
+@media (min-width: 1000px) {
+	.mainHeader-1i17pL {
+	font-size: 32px
+}
+
+.searchBox-26HYGw {
+	width: 50%
+}
+
+.guildCard-2arfcG {
+	width: calc(33.33333% - 16px)
+}
+
+
+}
+
+.theme-dark .pageWrapper-1PgVDX {
+	background-color: #36393f;
+	color: #fff
+}
+
+.theme-dark .emptySearchResults-1ba__I {
+	background: -webkit-gradient(linear,left top,left bottom,from(rgba(54,57,63,0)),to(#36393f));
+	background: linear-gradient(180deg,rgba(54,57,63,0),#36393f 100%)
+}
+
+.theme-dark .emptySearchImage-1qOMLW {
+	background-image: url(/assets/131dcaaa628405e6d0ebee7708111c7a.svg)
+}
+
+.theme-dark .emptySearchDescription-2AmfE4,.theme-dark .emptySearchTitle-2zDhhZ {
+	color: #f6f6f7
+}
+
+.theme-light .pageWrapper-1PgVDX {
+	background-color: #fff;
+	color: #4f545c
+}
+
+.theme-light .emptySearchResults-1ba__I {
+	background: -webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,0)),to(#fff));
+	background: linear-gradient(180deg,hsla(0,0%,100%,0),#fff 100%)
+}
+
+.theme-light .emptySearchImage-1qOMLW {
+	background-image: url(/assets/d0320d29cdef93b8e2baf889a28d32e0.svg)
+}
+
+.theme-light .emptySearchDescription-2AmfE4,.theme-light .emptySearchTitle-2zDhhZ {
+	color: #36393f
 }
 
 
@@ -51506,134 +52003,6 @@ to {
 }
 
 
-.searchBox-3Y2Vi7 {
-	-ms-flex-align: center;
-	-webkit-box-align: center;
-	align-items: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	overflow: hidden;
-	padding-right: 10px;
-	position: relative
-}
-
-.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv {
-	background: transparent;
-	border: none;
-	font-size: 14px;
-	font-weight: 500;
-	height: auto
-}
-
-.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: : -webkit-input-placeholder {
-	font-weight: 500
-}
-
-.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: -ms-input-placeholder {
-	font-weight: 500
-}
-
-.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: : placeholder {
-	font-weight: 500
-}
-
-.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: focus,.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: hover {
-	border: none
-}
-
-.searchBoxInputWrapper-nKncfu {
-	-ms-flex: 1;
-	-webkit-box-flex: 1;
-	flex: 1
-}
-
-.clearIcon-2N9YIn {
-	-webkit-transform: rotate(90deg);
-	-webkit-transform-origin: center;
-	cursor: pointer;
-	transform: rotate(90deg);
-	transform-origin: center
-}
-
-.searchIcon-1a1-yA {
-	-ms-flex-negative: 0;
-	-webkit-transition: color .2s ease;
-	cursor: pointer;
-	flex-shrink: 0;
-	transition: color .2s ease
-}
-
-.clearIcon-2N9YIn,.searchIcon-1a1-yA {
-	height: 1em;
-	width: 1em
-}
-
-.theme-light .searchBox-3Y2Vi7 {
-	background-color: #fff
-}
-
-.theme-light .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: : -webkit-input-placeholder {
-	color: #72767d
-}
-
-.theme-light .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: -ms-input-placeholder {
-	color: #72767d
-}
-
-.theme-light .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: : placeholder {
-	color: #72767d
-}
-
-.theme-light .searchIconActive-2F8SoM {
-	color: #000
-}
-
-.theme-light .clearIcon-2N9YIn: hover {
-	color: #36393f
-}
-
-.theme-light .clearIcon-2N9YIn,.theme-light .searchIcon-1a1-yA {
-	color: rgba(79,84,92,.6)
-}
-
-.theme-light .filterLabel-2yQNPl {
-	color: #000
-}
-
-.theme-dark .searchBox-3Y2Vi7 {
-	background-color: #4f545c
-}
-
-.theme-dark .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: : -webkit-input-placeholder {
-	color: hsla(0,0%,100%,.3)
-}
-
-.theme-dark .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: -ms-input-placeholder {
-	color: hsla(0,0%,100%,.3)
-}
-
-.theme-dark .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv: : placeholder {
-	color: hsla(0,0%,100%,.3)
-}
-
-.theme-dark .searchIconActive-2F8SoM {
-	color: #fff
-}
-
-.theme-dark .clearIcon-2N9YIn: hover {
-	color: #f6f6f7
-}
-
-.theme-dark .clearIcon-2N9YIn,.theme-dark .searchIcon-1a1-yA {
-	color: hsla(0,0%,100%,.3)
-}
-
-.theme-dark .filterLabel-2yQNPl {
-	color: #b9bbbe
-}
-
-
 .breadcrumb-22XhB5 {
 	cursor: pointer;
 	display: block;
@@ -51795,34 +52164,7 @@ to {
 }
 
 .filterByTitle-1b4n21 {
-	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-	border-radius: 3px;
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-	font-size: 20px;
-	padding-right: 16px;
-	position: relative;
 	width: 100%
-}
-
-.filterByTitle-1b4n21 .filterByTitleInput-2U3yVW {
-	font-size: 20px;
-	padding: 16px;
-	position: relative
-}
-
-.filterByTitle-1b4n21 .filterByTitleInput-2U3yVW: : -webkit-input-placeholder {
-	font-size: 20px;
-	font-weight: 500
-}
-
-.filterByTitle-1b4n21 .filterByTitleInput-2U3yVW: -ms-input-placeholder {
-	font-size: 20px;
-	font-weight: 500
-}
-
-.filterByTitle-1b4n21 .filterByTitleInput-2U3yVW: : placeholder {
-	font-size: 20px;
-	font-weight: 500
 }
 
 .spinner-1drEWI {
@@ -55213,4 +55555,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.a2f3859d92bbf7f1759c.css.map*/
+/*# sourceMappingURL=0.6da0e67da2dc899df9b1.css.map*/
