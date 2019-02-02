@@ -20671,9 +20671,19 @@ to {
 }
 
 .endContainer-1ZDW8j {
-	padding-bottom: 32px;
 	padding-top: 32px;
 	text-align: center
+}
+
+.endContainer-1ZDW8j: after {
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: "";
+	display: block;
+	height: 220px;
+	margin: 0 auto;
+	width: 100%
 }
 
 .endText-3SrwuD {
@@ -20690,7 +20700,8 @@ to {
 	display: -ms-flexbox;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center
+	justify-content: center;
+	margin-bottom: 32px
 }
 
 .searchSuggestion-2K8OBX {
@@ -20852,6 +20863,10 @@ to {
 	background: rgba(79,84,92,.6)
 }
 
+.theme-dark .endContainer-1ZDW8j: after {
+	background-image: url(/assets/0c735bf91232f2a2266e6ba9d6753565.svg)
+}
+
 .theme-dark .endText-3SrwuD {
 	color: #b9bbbe
 }
@@ -20887,6 +20902,10 @@ to {
 
 .theme-light .endText-3SrwuD {
 	color: #72767d
+}
+
+.theme-light .endContainer-1ZDW8j: after {
+	background-image: url(/assets/3b24a631844102c844f8a27d9634b6fc.svg)
 }
 
 .theme-light .searchSuggestion-2K8OBX.searchSuggestion-2K8OBX: hover {
@@ -42923,8 +42942,7 @@ html .tabBadge-3smxHS {
 
 
 .pageWrapper-1PgVDX {
-	background-repeat: no-repeat;
-	background-size: 100%;
+	position: relative;
 	width: 100%
 }
 
@@ -42934,16 +42952,22 @@ html .tabBadge-3smxHS {
 
 .bg-AYqtMd {
 	height: auto;
-	left: 70px;
 	position: absolute;
-	top: 0;
-	width: calc(100% - 70px)
+	width: 100%
 }
 
 .body-2lagau {
 	margin: 0 auto;
 	max-width: 1280px;
-	padding: 100px 40px
+	padding: 0 40px 100px
+}
+
+.pageHeader-3615mp {
+	height: 100px
+}
+
+.platform-osx .pageHeaderDrag-OPlmbm {
+	-webkit-app-region: drag
 }
 
 .search-JQJ-3r {
@@ -55613,4 +55637,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.92c5c85f22a4ffc7dfce.css.map*/
+/*# sourceMappingURL=0.0db05022539492977933.css.map*/
