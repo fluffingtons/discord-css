@@ -24016,7 +24016,6 @@ to {
 	-webkit-transition: opacity .2s,-webkit-transform .2s ease;
 	bottom: 12px;
 	left: 12px;
-	opacity: 0;
 	position: absolute;
 	transform: translate3d(0,12px,0);
 	transition: opacity .2s,-webkit-transform .2s ease;
@@ -24026,8 +24025,15 @@ to {
 
 .tileBuyButtonVisible-2QYmxC {
 	-webkit-transform: translateZ(0);
-	opacity: 1;
 	transform: translateZ(0)
+}
+
+.tileBuyButton-2W4Mu-,.tileBuyButton-2W4Mu-: disabled {
+	opacity: 0
+}
+
+.tileBuyButtonVisible-2QYmxC,.tileBuyButtonVisible-2QYmxC: disabled {
+	opacity: 1
 }
 
 .tilePrice-dqknBb {
@@ -45710,6 +45716,62 @@ html .tabBadge-3smxHS {
 }
 
 
+.alternativeSkus-1IZIkB {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-top: -4px
+}
+
+.alternativeSku-2r0c9j,.alternativeSkus-1IZIkB {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.alternativeSku-2r0c9j {
+	-ms-flex-align: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	align-items: center;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 12px;
+	justify-content: center;
+	line-height: 16px;
+	margin: 4px 4px 0 0;
+	padding: 4px 8px
+}
+
+.alternativeSkuDefault-1yqWuK,.alternativeSkuSelected-3Qhw9n {
+	
+}
+
+.selectedIcon-1VX7G3 {
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	height: 16px;
+	margin-right: 4px;
+	width: 16px
+}
+
+.theme-dark .alternativeSku-2r0c9j,.theme-light .alternativeSku-2r0c9j {
+	color: #fff
+}
+
+.theme-dark .alternativeSkuSelected-3Qhw9n,.theme-light .alternativeSkuSelected-3Qhw9n {
+	background-color: #7289da
+}
+
+.theme-dark .alternativeSkuDefault-1yqWuK,.theme-light .alternativeSkuDefault-1yqWuK {
+	background-color: #4f545c
+}
+
+.theme-dark .alternativeSkuDefault-1yqWuK: hover,.theme-light .alternativeSkuDefault-1yqWuK: hover {
+	background-color: #292b2f
+}
+
+
 .title-2xCQKy {
 	font-size: 14px;
 	font-weight: 600;
@@ -45890,6 +45952,10 @@ html .tabBadge-3smxHS {
 	padding: 0
 }
 
+.alternativeSkus-1Av0rq {
+	margin: 10px 0
+}
+
 .countdownSection-8BWHXa {
 	border-bottom: 1px solid;
 	margin-bottom: 20px;
@@ -45955,7 +46021,7 @@ html .tabBadge-3smxHS {
 	margin-top: 8px
 }
 
-.giftButton-729eVL {
+.secondaryBuyButton-2c9gx_ {
 	margin-top: 8px
 }
 
@@ -57190,4 +57256,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.b226e928fc4de7413f60.css.map*/
+/*# sourceMappingURL=0.99447aeec836e3d29370.css.map*/
