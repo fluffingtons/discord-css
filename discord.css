@@ -36927,6 +36927,81 @@ to {
 }
 
 
+.title-2xCQKy {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.14;
+	margin-bottom: 12px;
+	padding-top: 20px;
+	text-transform: uppercase
+}
+
+.title-2xCQKy: first-child {
+	padding-top: 0
+}
+
+.sku-epQEb_ {
+	-ms-flex-align: center;
+	-ms-flex-pack: justify;
+	-webkit-box-align: center;
+	-webkit-box-pack: justify;
+	align-items: center;
+	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 0
+}
+
+.skuNormal-3h1es- {
+	border-bottom: 1px solid transparent
+}
+
+.skuLast-WnrIv2,.skuNormal-3h1es- {
+	
+}
+
+.name-u2zgy7 {
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.24
+}
+
+.price-NUANu6 {
+	border-radius: 3px;
+	font-size: 14px;
+	line-height: 1.71;
+	margin-left: 20px;
+	padding: 2px 8px
+}
+
+.collapseButton-32NMMH {
+	margin-top: 20px
+}
+
+.theme-dark .title-2xCQKy,.theme-light .title-2xCQKy {
+	color: #f6f6f7
+}
+
+.theme-dark .skuNormal-3h1es-,.theme-light .skuNormal-3h1es- {
+	border-bottom-color: #36393f
+}
+
+.theme-dark .sku-epQEb_: hover .name-u2zgy7,.theme-light .sku-epQEb_: hover .name-u2zgy7 {
+	color: #f6f6f7
+}
+
+.theme-dark .name-u2zgy7,.theme-light .name-u2zgy7 {
+	color: #b9bbbe
+}
+
+.theme-dark .price-NUANu6,.theme-light .price-NUANu6 {
+	background-color: #4f545c;
+	color: #f6f6f7
+}
+
+
 .section-foaVwT: first-child {
 	border-radius: 3px 3px 0 0
 }
@@ -43948,7 +44023,7 @@ to {
 .card-3SDdMD {
 	-webkit-transform: translateY(0);
 	-webkit-transition: -webkit-box-shadow .16s ease-out,-webkit-transform .16s ease-out;
-	border-radius: 4px 4px 0 0;
+	border-radius: 4px;
 	overflow: hidden;
 	transform: translateY(0);
 	transition: -webkit-box-shadow .16s ease-out,-webkit-transform .16s ease-out;
@@ -44023,6 +44098,37 @@ to {
 	margin-top: 16px
 }
 
+.fullWidth-HGjWth {
+	-ms-flex-align: center;
+	-ms-flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row
+}
+
+.fullWidthContent-3n7j5n {
+	max-width: 50%;
+	padding: 8px
+}
+
+.fullWidthAsset-pze5cc {
+	-ms-flex-preferred-size: calc(50% - 24px);
+	border-radius: 4px;
+	flex-basis: calc(50% - 24px);
+	margin: 16px 16px 16px auto;
+	overflow: hidden
+}
+
+.coloredBackground-37Z6Gv {
+	background: url(/assets/0858a3392fd80f98d8957ad7c3e195d3.svg) no-repeat 100% 0,linear-gradient(270.22deg,#a29dff .09%,#637ff1 99.55%);
+	opacity: 1%
+}
+
 .theme-dark .card-3SDdMD: hover {
 	-webkit-box-shadow: 0 8px 16px rgba(0,0,0,.24);
 	box-shadow: 0 8px 16px rgba(0,0,0,.24)
@@ -44038,6 +44144,10 @@ to {
 	border-bottom-color: #292b2f
 }
 
+.theme-dark .coloredText-1kAd0O {
+	color: #fff
+}
+
 .theme-light .card-3SDdMD {
 	-webkit-box-shadow: inset 0 0 0 1px #e3e5e8,0 0 0 transparent;
 	box-shadow: inset 0 0 0 1px #e3e5e8,0 0 0 transparent
@@ -44046,6 +44156,10 @@ to {
 .theme-light .card-3SDdMD: hover {
 	-webkit-box-shadow: inset 0 0 0 0 #e3e5e8,0 8px 16px rgba(0,0,0,.16);
 	box-shadow: inset 0 0 0 0 #e3e5e8,0 8px 16px rgba(0,0,0,.16)
+}
+
+.theme-light .coloredText-1kAd0O {
+	color: #fff
 }
 
 
@@ -45151,8 +45265,16 @@ to {
 	background-image: url(/assets/c486dc65ce2877eeb18e4c39bb49507a.svg)
 }
 
+.theme-dark .whiteButton-1lwF-y {
+	color: #7289da
+}
+
 .theme-light .layout-1cQCv2 {
 	background-image: url(/assets/8c1fd3ecbbf620ec49cecda2aa53f256.svg)
+}
+
+.theme-light .whiteButton-1lwF-y {
+	color: #7289da
 }
 
 
@@ -50480,7 +50602,8 @@ to {
 }
 
 .subscriptionLegal-Bv3Hj1 {
-	font-size: 10px;
+	font-size: 12px;
+	line-height: 14px;
 	margin-top: 20px
 }
 
@@ -50535,8 +50658,12 @@ to {
 	color: #4f545c
 }
 
-.theme-light .checkboxLabel-3WoD3k,.theme-light .subscriptionLegal-Bv3Hj1 {
+.theme-light .checkboxLabel-3WoD3k {
 	color: #b9bbbe
+}
+
+.theme-light .subscriptionLegal-Bv3Hj1 {
+	color: #72767d
 }
 
 
@@ -54423,6 +54550,10 @@ to {
 	background-image: url(/assets/2a085ed9c86f3613935a6a8667ba8b89.svg)
 }
 
+.profileBadgeHypeSquadOnlineHouse3KOH-s5aYpz {
+	background-image: url(/assets/f6c858e4d1ac3fb7ba75646244410454.svg)
+}
+
 .profileBadgeEarlySupporter-PQB_0a {
 	background-image: url(/assets/ce15562552e3d70c56d5408cfeed2ffd.svg);
 	width: 28px
@@ -54459,6 +54590,10 @@ to {
 
 .topSectionNormal-2-vo2m .profileBadgeHypeSquadOnlineHouse3-1YbjMX {
 	background-image: url(/assets/9fdc63ef8a3cc1617c7586286c34e4f1.svg)
+}
+
+.topSectionNormal-2-vo2m .profileBadgeHypeSquadOnlineHouse3KOH-s5aYpz {
+	background-image: url(/assets/6481784048fd484e77e63dcc9c2c34cb.svg)
 }
 
 .topSectionNormal-2-vo2m .profileBadgeEarlySupporter-PQB_0a {
@@ -57940,4 +58075,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.8397d1cfa37c596910f5.css.map*/
+/*# sourceMappingURL=0.75e799fa28cddf00336f.css.map*/
