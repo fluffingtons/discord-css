@@ -34214,6 +34214,53 @@ to {
 }
 
 
+.container-3MhwyK {
+	-ms-flex-pack: justify;
+	-webkit-box-pack: justify;
+	background: #f04747;
+	color: #fff;
+	justify-content: space-between;
+	opacity: .9;
+	padding: 10px
+}
+
+.container-3MhwyK,.content-11txp9 {
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.content-11txp9 {
+	-ms-flex-pack: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	line-height: 20px;
+	margin: 0 auto
+}
+
+.icon-3k-51I {
+	height: 19px;
+	margin-right: 10px;
+	width: 19px
+}
+
+.closeButtonInner-29OMGI {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.closeIcon-t9P9iZ {
+	height: 24px;
+	justify-self: flex-end;
+	margin-right: none;
+	width: 24px
+}
+
+
 .live-2o_S8y {
 	font-size: 12px;
 	text-transform: uppercase
@@ -34357,15 +34404,31 @@ to {
 	align-items: center;
 	background: #000;
 	color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	height: 100%;
 	justify-content: center;
 	position: relative
 }
 
-.root-25RxKh,.videoControls-3glNbo {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex
+.empty-3QTNdl {
+	background-color: rgba(0,0,0,.6);
+	height: 100%
+}
+
+.emptyText-24fkOd {
+	color: #f6f6f7;
+	font-size: 32px;
+	line-height: 44px;
+	margin-bottom: 16px
+}
+
+.error-3f6qRT,.videoControls-3glNbo {
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0
 }
 
 .videoControls-3glNbo {
@@ -34376,12 +34439,11 @@ to {
 	background: -webkit-gradient(linear,left top,left bottom,from(#000),color-stop(10%,transparent),color-stop(90%,transparent),to(#000));
 	background: linear-gradient(#000,transparent 10%,transparent 90%,#000);
 	bottom: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	flex-direction: column;
-	left: 0;
 	padding: 20px;
-	position: absolute;
-	right: 0;
-	top: 0;
 	transition: opacity .2s ease-in-out
 }
 
@@ -41177,6 +41239,10 @@ html .tabBadge-3smxHS {
 	background-image: url(/assets/645aa01801c6b15e1e542c65cc7141cb.svg)
 }
 
+.buttonScreenShareDisabled-1xwK5y {
+	background-image: url(/assets/2bd344e80300a4953311da183379a6f6.svg)
+}
+
 .buttonInfo-3nkbOt {
 	background-image: url(/assets/9ff6ceb7abcc4920dd468c954f12685b.svg)
 }
@@ -41205,7 +41271,7 @@ html .tabBadge-3smxHS {
 	background-color: transparent
 }
 
-.theme-dark .button-2KyEfG: hover,.theme-light .button-2KyEfG: hover {
+.theme-dark .button-2KyEfG: hover: not(.buttonScreenShareDisabled-1xwK5y),.theme-light .button-2KyEfG: hover: not(.buttonScreenShareDisabled-1xwK5y) {
 	background-color: rgba(24,25,28,.3);
 	opacity: 1
 }
@@ -58818,4 +58884,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.ba67f305f62bda9c5d62.css.map*/
+/*# sourceMappingURL=0.213a90242b749b46d84e.css.map*/
