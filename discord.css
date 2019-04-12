@@ -4004,25 +4004,6 @@ to {
 }
 
 
-.container-SaXBYZ {
-	word-wrap: break-word
-}
-
-.content-KhOrDM {
-	padding-bottom: 20px
-}
-
-.header-3OkTu9 {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap
-}
-
-.mobile-3RfRhZ {
-	width: 100%
-}
-
-
 .container-14fypd {
 	word-wrap: break-word
 }
@@ -5371,6 +5352,25 @@ to {
 
 .downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ .downloadButton-1bWXpg {
 	background-color: #7289da
+}
+
+
+.container-SaXBYZ {
+	word-wrap: break-word
+}
+
+.content-KhOrDM {
+	padding-bottom: 20px
+}
+
+.header-3OkTu9 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.mobile-3RfRhZ {
+	width: 100%
 }
 
 
@@ -6770,13 +6770,21 @@ to {
 	min-height: 40px
 }
 
-.Select .Select-control {
-	padding-top: 3px
+.Select .Select-option,.Select .Select-value {
+	-ms-flex-align: center;
+	-webkit-box-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
 }
 
-.Select .Select-control div {
-	line-height: 34px;
-	padding-top: 2px
+.Select .Select-value-label {
+	overflow: hidden
+}
+
+.Select .Select-control {
+	padding-top: 3px
 }
 
 .Select .Select-option {
@@ -34145,165 +34153,6 @@ to {
 }
 
 
-.preview-1J7HCB {
-	max-width: 800px;
-	width: 80%
-}
-
-.video-3apIqu {
-	background-size: cover;
-	border-radius: 4px;
-	height: 450px;
-	margin-bottom: 16px;
-	position: relative;
-	width: 100%
-}
-
-.videoCover-1eRxPX {
-	-ms-flex-align: center;
-	-ms-flex-pack: center;
-	-webkit-box-align: center;
-	-webkit-box-pack: center;
-	-webkit-transition: background-color .2s ease-out;
-	align-items: center;
-	background-color: transparent;
-	cursor: pointer;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	height: 100%;
-	justify-content: center;
-	position: absolute;
-	transition: background-color .2s ease-out;
-	width: 100%
-}
-
-.videoCover-1eRxPX: hover {
-	background-color: rgba(0,0,0,.3)
-}
-
-.videoCover-1eRxPX: hover .watchButton-2CxyEb {
-	background-color: rgba(4,4,5,0)
-}
-
-.watchButton-2CxyEb {
-	-webkit-transition: background-color .2s ease-out;
-	background-color: rgba(4,4,5,.8);
-	color: #fff;
-	font-size: 16px;
-	padding: 12px 16px;
-	transition: background-color .2s ease-out
-}
-
-.liveButton-3_SCV3 {
-	bottom: 20px;
-	font-size: 12px;
-	left: 20px;
-	letter-spacing: .5px;
-	padding: 0 4px;
-	position: absolute;
-	text-transform: uppercase
-}
-
-.userInfo-2ztAD3 {
-	margin-left: 8px
-}
-
-.userInfo-2ztAD3 .username-3NvjYW {
-	font-weight: 500
-}
-
-.viewers-3KoRrG {
-	-ms-flex-align: center;
-	-webkit-box-align: center;
-	align-items: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex
-}
-
-.viewerIcon-3DJpQX {
-	height: 20px;
-	margin-right: 8px;
-	width: 20px
-}
-
-.overflow-1__H--,.viewer-2vE_QM {
-	margin-left: -4px
-}
-
-.overflow-1__H-- {
-	-ms-flex-align: center;
-	-ms-flex-pack: center;
-	-webkit-box-align: center;
-	-webkit-box-pack: center;
-	align-items: center;
-	border-radius: 20px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	font-size: 16px;
-	font-weight: 600;
-	height: 40px;
-	justify-content: center;
-	letter-spacing: .5px;
-	width: 40px;
-	z-index: 2
-}
-
-.theme-dark .container-1aOYsb {
-	background-color: #18191c
-}
-
-.theme-dark .video-3apIqu {
-	background-color: #4f545c
-}
-
-.theme-dark .username-3NvjYW {
-	color: #f6f6f7
-}
-
-.theme-dark .activity-aQuXme,.theme-dark .viewerIcon-3DJpQX {
-	color: #b9bbbe
-}
-
-.theme-dark .overflow-1__H--,.theme-dark .viewer-2vE_QM {
-	-webkit-box-shadow: -2px 0 0 1px #18191c;
-	box-shadow: -2px 0 0 1px #18191c
-}
-
-.theme-dark .overflow-1__H-- {
-	background-color: #36393f;
-	color: #b9bbbe
-}
-
-.theme-light .container-1aOYsb {
-	background-color: #fff
-}
-
-.theme-light .video-3apIqu {
-	background-color: #4f545c
-}
-
-.theme-light .username-3NvjYW {
-	color: #36393f
-}
-
-.theme-light .activity-aQuXme,.theme-light .viewerIcon-3DJpQX {
-	color: #72767d
-}
-
-.theme-light .overflow-1__H--,.theme-light .viewer-2vE_QM {
-	-webkit-box-shadow: -2px 0 0 1px #fff;
-	box-shadow: -2px 0 0 1px #fff
-}
-
-.theme-light .overflow-1__H-- {
-	background-color: #b9bbbe;
-	color: #4f545c
-}
-
-
 .memberListItem-2ZX2pl {
 	border-radius: 4px;
 	margin: 8px -8px;
@@ -34596,11 +34445,22 @@ to {
 	margin-bottom: 16px
 }
 
-.error-3f6qRT,.videoControls-3glNbo {
+.error-3f6qRT,.paused-3oG15i {
 	left: 0;
 	position: absolute;
 	right: 0;
 	top: 0
+}
+
+.paused-3oG15i {
+	background-color: rgba(0,0,0,.4);
+	bottom: 0
+}
+
+.pausedText-3jel3J {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px
 }
 
 .videoControls-3glNbo {
@@ -34615,7 +34475,11 @@ to {
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: column;
+	left: 0;
 	padding: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
 	transition: opacity .2s ease-in-out
 }
 
@@ -34841,6 +34705,7 @@ to {
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: column;
+	height: 100%;
 	width: 100%
 }
 
@@ -34886,14 +34751,6 @@ to {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap
-}
-
-.contentContainer-uZeV2c {
-	-ms-flex: 1 1 auto;
-	-webkit-box-flex: 1;
-	flex: 1 1 auto;
-	height: 100%;
-	width: 100%
 }
 
 .theme-dark .container-2oTpPc,.theme-dark .title-21A_-H {
@@ -43522,8 +43379,8 @@ to {
 }
 
 .wrapper-1U5SlS {
-	position: relative;
-	top: -2px
+	overflow: hidden;
+	position: relative
 }
 
 .icon-JJBzjE {
@@ -56550,11 +56407,11 @@ to {
 }
 
 
-.flexWrapper-2XwHyu {
+.flexWrapper-1BPkcR {
 	height: 100%
 }
 
-.image-OvfJ7f {
+.image-1UZKuP {
 	background-image: url(/assets/e9baf4b505eb54129f832556ea16538e.svg);
 	background-position: 50%;
 	background-repeat: no-repeat;
@@ -56564,12 +56421,12 @@ to {
 	width: 254px
 }
 
-.message-2oaBva {
+.message-1_UJh2 {
 	margin: 12px 0;
 	text-align: center
 }
 
-.card-2EwTPs {
+.card-2EIMue {
 	background: #36393f;
 	border-color: #36393f;
 	height: 100vh;
@@ -56578,7 +56435,7 @@ to {
 }
 
 @media (min-width: 486px) {
-	.card-2EwTPs {
+	.card-2EIMue {
 	height: auto;
 	margin: 16px;
 	max-width: 600px;
@@ -59231,4 +59088,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.b9396286586dee7f794d.css.map*/
+/*# sourceMappingURL=0.5d20d84d191dce8f967d.css.map*/
