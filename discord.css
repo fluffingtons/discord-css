@@ -21666,6 +21666,10 @@ to {
 	transform: translateY(0)
 }
 
+.giftCodeContainer-1Psq5S {
+	width: 100%
+}
+
 
 .container-3-pyIM {
 	display: -webkit-box;
@@ -34025,18 +34029,19 @@ to {
 
 
 .popout-3fRpdY {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
 	height: 100vh;
 	background-color: #2f3136
 }
 
-.content-2RRmGk,.popout-3fRpdY {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal
+.draggable-1F9boB {
+	-webkit-app-region: drag
 }
 
 .content-2RRmGk {
@@ -34044,6 +34049,11 @@ to {
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
 	-webkit-box-align: center;
@@ -34087,7 +34097,8 @@ to {
 	position: absolute;
 	bottom: calc(100% + 16px);
 	left: -80px;
-	display: none
+	display: none;
+	-webkit-app-region: no-drag
 }
 
 
@@ -34323,6 +34334,12 @@ to {
 	width: 20px;
 	height: 20px;
 	color: #faa61a
+}
+
+.closeIcon-3bCS3E {
+	width: 20px;
+	height: 20px;
+	margin-left: 8px
 }
 
 .inviteButton-lANZf7 {
@@ -57157,4 +57174,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.9442d8cfdb1e1742642c.css.map*/
+/*# sourceMappingURL=0.85fc80be50ff9193834b.css.map*/
