@@ -4493,7 +4493,8 @@ to {
 	right: 0;
 	bottom: 0;
 	background: none!important;
-	pointer-events: none
+	pointer-events: none;
+	z-index: 1002
 }
 
 .layer-v9HyYc {
@@ -48733,11 +48734,15 @@ to {
 	font-size: 16px
 }
 
+.closeButton-g8-Rd4 {
+	padding: 0;
+	margin: 0 18px
+}
+
 .giftIcon-2Pjbiy {
 	width: 24px;
 	height: 24px;
-	margin-top: 6px;
-	margin-left: 16px
+	margin-left: 18px
 }
 
 .theme-dark .tierNoneCard-peD7hV {
@@ -59174,4 +59179,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.fb9f244544dae76bb0e5.css.map*/
+/*# sourceMappingURL=0.837c50dc7d0b44a0e3a9.css.map*/
