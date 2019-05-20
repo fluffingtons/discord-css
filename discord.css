@@ -48487,12 +48487,6 @@ to {
 	height: 100%
 }
 
-.live-1uF5oE {
-	position: absolute;
-	top: 8px;
-	right: 8px
-}
-
 
 .body-Ogsp8i {
 	padding: 10px
@@ -48519,8 +48513,36 @@ to {
 	cursor: pointer
 }
 
-.previewContainer-12UlHl: hover {
-	opacity: .6
+.previewContainer-12UlHl: hover .previewHover-1tGzfF {
+	opacity: 1
+}
+
+.previewHover-1tGzfF {
+	-webkit-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	cursor: pointer;
+	background: rgba(0,0,0,.6);
+	line-height: 18px;
+	font-weight: 600
+}
+
+.white-WjN64k {
+	color: #fff
 }
 
 .fallback-B4V3l3 {
@@ -48744,6 +48766,15 @@ to {
 	position: relative
 }
 
+.tierMarker-5HkGJ_,.tierMarkerGroup-xg6A1d {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
 .tierMarker-5HkGJ_ {
 	position: absolute;
 	border-radius: 50%;
@@ -48754,22 +48785,16 @@ to {
 	cursor: pointer;
 	-webkit-transition: all .2s ease;
 	transition: all .2s ease;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center
+	align-items: center
 }
 
 .tierMarkerAccomplished-2MiXeg,.tierMarkerInProgress-24LMzJ {
 	
 }
 
-.tierMarkerBackground-3q29am,.tierMarkerSelected-3qBqh0 {
+.selectedTier-1JkO7i .tierMarker-5HkGJ_,.tierMarkerBackground-3q29am {
 	width: 32px;
 	height: 32px;
 	left: -16px;
@@ -48794,7 +48819,15 @@ to {
 	height: 16px
 }
 
-.theme-dark .barBackground-2EEiLw {
+.tierMarkerLabel-2PluTw {
+	margin-top: 36px;
+	white-space: nowrap;
+	position: absolute;
+	font-size: 14px;
+	font-weight: 600
+}
+
+.theme-dark .barBackground-2EEiLw,.theme-dark .tierMarkerInProgress-24LMzJ {
 	background-color: #202225
 }
 
@@ -48802,11 +48835,15 @@ to {
 	background-color: #36393f
 }
 
-.theme-dark .tierMarkerInProgress-24LMzJ {
-	background-color: #8ea1e1
+.theme-dark .tierMarkerLabel-2PluTw {
+	color: #72767d
 }
 
-.theme-light .barBackground-2EEiLw {
+.theme-dark .selectedTier-1JkO7i .tierMarkerLabel-2PluTw {
+	color: #fff
+}
+
+.theme-light .barBackground-2EEiLw,.theme-light .tierMarkerInProgress-24LMzJ {
 	background-color: #ebedef
 }
 
@@ -48814,8 +48851,12 @@ to {
 	background-color: #fff
 }
 
-.theme-light .tierMarkerInProgress-24LMzJ {
-	background-color: #ebedef
+.theme-light .tierMarkerLabel-2PluTw {
+	color: #9099a4
+}
+
+.theme-light .selectedTier-1JkO7i .tierMarkerLabel-2PluTw {
+	color: #000
 }
 
 .theme-dark .barForeground-3KglC8,.theme-light .barForeground-3KglC8 {
@@ -48827,13 +48868,17 @@ to {
 	background-image: linear-gradient(90deg,#b473f5,#e292aa)
 }
 
-.theme-dark .tierMarkerSelected-3qBqh0,.theme-light .tierMarkerSelected-3qBqh0 {
+.theme-dark .selectedTier-1JkO7i .tierMarker-5HkGJ_,.theme-light .selectedTier-1JkO7i .tierMarker-5HkGJ_ {
 	-webkit-box-shadow: 0 4px 8px rgba(0,0,0,.24);
 	box-shadow: 0 4px 8px rgba(0,0,0,.24)
 }
 
 .theme-dark .currentTierIcon-2gcTCn,.theme-light .currentTierIcon-2gcTCn {
 	color: #fff
+}
+
+.theme-dark .tierMarkerInProgress-24LMzJ .currentTierIcon-2gcTCn.tier3Icon-Ku4Ahe,.theme-light .tierMarkerInProgress-24LMzJ .currentTierIcon-2gcTCn.tier3Icon-Ku4Ahe {
+	color: #ff73fa
 }
 
 
@@ -48857,7 +48902,7 @@ to {
 }
 
 .carouselContainer-2-vIZS {
-	margin: 32px -20px 0;
+	margin: 46px -20px 0;
 	position: relative
 }
 
@@ -49025,7 +49070,7 @@ to {
 }
 
 .manageSubscriptionLink-ph1USM {
-	font-size: 16px;
+	font-size: 14px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -49115,7 +49160,7 @@ to {
 }
 
 .theme-light .giftIcon-2Pjbiy {
-	color: #4f545c
+	color: #747f8d
 }
 
 .theme-light .tierHeaderLocked-1s2JJz {
@@ -49140,10 +49185,6 @@ to {
 
 .theme-dark .closeIcon-3_iQ6l,.theme-light .closeIcon-3_iQ6l {
 	color: #b9bbbe
-}
-
-.theme-dark .tierNoneCardAchieved-YFFPYm,.theme-light .tierNoneCardAchieved-YFFPYm {
-	background-image: url(/assets/98cef9da054093513658510a674a9894.svg)
 }
 
 .theme-dark .tierHeaderUnlocked-1n-OTI,.theme-light .tierHeaderUnlocked-1n-OTI {
@@ -59581,4 +59622,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.2e020a24da5450914421.css.map*/
+/*# sourceMappingURL=0.829efdb2390882762803.css.map*/
