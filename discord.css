@@ -4498,6 +4498,15 @@ to {
 	border-top-color: #000
 }
 
+.theme-dark .tooltipGrey-1hnvTt,.theme-light .tooltipGrey-1hnvTt {
+	background-color: #36393f;
+	color: #fff
+}
+
+.theme-dark .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK,.theme-light .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK {
+	border-top-color: #36393f
+}
+
 .theme-dark .tooltipBrand-g03Nz8,.theme-light .tooltipBrand-g03Nz8 {
 	color: #f8f9fd;
 	background-color: #7289da
@@ -36052,12 +36061,11 @@ to {
 	margin: 0
 }
 
-.description-3e3UuC {
-	margin-bottom: 8px
+.description-3e3UuC,.dropdown-1X9bWn {
+	margin-bottom: 16px
 }
 
 .dropdown-1X9bWn {
-	margin-bottom: 16px;
 	max-height: 100px
 }
 
@@ -36142,15 +36150,11 @@ to {
 }
 
 .selectorButton-wjWyGe: hover {
-	background-color: #202225
+	background-color: #292b2f
 }
 
 .selectorButtonSelected-336oUc {
 	background-color: #7289da
-}
-
-.selectorButtonSelected-336oUc: hover {
-	background-color: #4e5d94
 }
 
 .selectorText-1J97Wl {
@@ -36403,6 +36407,22 @@ to {
 
 .headerDivider-2DWkTN {
 	margin: 0 16px
+}
+
+.headerTitle-1EzOnI {
+	width: 100%
+}
+
+.headerInfoTitle-aOf05F {
+	-ms-flex-negative: 1;
+	flex-shrink: 1
+}
+
+.headerInfo-d6Lj1E {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #b9bbbe
 }
 
 .title-PQPhFf {
@@ -59772,4 +59792,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.378a15808d09ca678470.css.map*/
+/*# sourceMappingURL=0.da1ca14aeb71902bd3e8.css.map*/
