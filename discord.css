@@ -27622,7 +27622,8 @@ to {
 .ellipsisText-jjCRgk {
 	overflow: hidden;
 	max-width: 100%;
-	text-overflow: ellipsis
+	text-overflow: ellipsis;
+	font-weight: 500
 }
 
 .gameIcon-1Yb_wn {
@@ -27674,7 +27675,20 @@ to {
 }
 
 .voiceUserList-2E9MFf {
-	margin-left: 5px
+	margin-left: 5px;
+	cursor: default
+}
+
+.userListOverflow-1_8APR {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-weight: 700;
+	height: 24px;
+	min-width: 24px;
+	line-height: 24px;
+	border-radius: 50%;
+	padding: 0 5px
 }
 
 .scrollerBottomSeparator-2-synr {
@@ -27702,6 +27716,11 @@ to {
 	box-shadow: 0 -1px 0 hsla(0,0%,100%,.04)
 }
 
+.theme-dark .userListOverflow-1_8APR {
+	background-color: #4f545c;
+	color: #f6f6f7
+}
+
 .theme-light .card-2qG0dv {
 	border-color: transparent
 }
@@ -27717,6 +27736,11 @@ to {
 .theme-light .scrollerBottomSeparator-2-synr {
 	-webkit-box-shadow: 0 -1px 0 rgba(54,57,63,.1);
 	box-shadow: 0 -1px 0 rgba(54,57,63,.1)
+}
+
+.theme-light .userListOverflow-1_8APR {
+	background-color: #fff;
+	color: #72767d
 }
 
 
@@ -28707,19 +28731,17 @@ to {
 
 .tier-2c9-hT {
 	position: absolute;
-	border-radius: 50%
+	left: 4px;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px
 }
 
-.tierAccomplished-2eXPdI,.tierDefault-2qaRkD,.tierInProgress-3mBoXq {
-	width: 16px;
-	height: 16px;
-	left: 4px
+.tierAccomplished-2eXPdI,.tierCurrent-Lw7-4E,.tierDefault-2qaRkD,.tierInProgress-3mBoXq {
+	
 }
 
 .tierCurrent-Lw7-4E {
-	width: 24px;
-	height: 24px;
-	left: 0;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -28732,8 +28754,8 @@ to {
 }
 
 .currentTierIcon-EGY5eG {
-	width: 16px;
-	height: 16px
+	width: 10px;
+	height: 10px
 }
 
 .foregroundTooltip-_9t78D {
@@ -49507,6 +49529,23 @@ to {
 
 
 .container-PNkimc {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	min-height: 0;
 	position: relative;
 	background-color: #2f3136;
 	contain: layout
@@ -59733,4 +59772,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.218e892b6d9155608a8e.css.map*/
+/*# sourceMappingURL=0.378a15808d09ca678470.css.map*/
