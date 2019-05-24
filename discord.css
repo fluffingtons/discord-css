@@ -9151,10 +9151,10 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 	justify-content: center;
 	pointer-events: none;
 	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0
+	top: -.05px;
+	left: .05px;
+	right: 0;
+	bottom: 0
 }
 
 
@@ -18272,7 +18272,7 @@ to {
 	align-items: center;
 	height: 28px;
 	cursor: pointer;
-	margin-right: 10px
+	margin-right: 8px
 }
 
 .content-ySCtCx,.noSearchResultsContainer-1dVofo {
@@ -26223,11 +26223,11 @@ to {
 }
 
 .theme-light .tierPillStar-1-QHbI {
-	color: #fff
+	color: #747f8d
 }
 
 .theme-light .tierPillGem-3GUUMP {
-	color: #4f545c
+	color: #fff
 }
 
 
@@ -26474,7 +26474,7 @@ to {
 }
 
 .theme-light .header-Qk7iwL {
-	color: #fff;
+	color: #000;
 	background-color: #e3e5e8
 }
 
@@ -27695,9 +27695,9 @@ to {
 	font-weight: 700;
 	height: 24px;
 	min-width: 24px;
-	line-height: 24px;
+	line-height: 25px;
 	border-radius: 50%;
-	padding: 0 5px
+	padding: 0 5px 0 4px
 }
 
 .scrollerBottomSeparator-2-synr {
@@ -28518,7 +28518,7 @@ to {
 .progressBar-2Hd4f8 {
 	position: relative;
 	height: 24px;
-	margin-top: 32px
+	margin: 32px 16px 0
 }
 
 .bar-_YsHvC {
@@ -28626,6 +28626,10 @@ to {
 	background-color: #36393f
 }
 
+.theme-dark .currentTierIcon-2gcTCn {
+	color: #fff
+}
+
 .theme-dark .tierMarkerLabel-2PluTw {
 	color: #72767d
 }
@@ -28640,6 +28644,14 @@ to {
 
 .theme-light .tierMarkerBackground-3q29am {
 	background-color: #fff
+}
+
+.theme-light .tierMarkerInProgress-24LMzJ .currentTierIcon-2gcTCn {
+	color: #4f5660
+}
+
+.theme-light .tierMarkerAccomplished-2MiXeg .currentTierIcon-2gcTCn {
+	color: #fff
 }
 
 .theme-light .tierMarkerLabel-2PluTw {
@@ -28662,10 +28674,6 @@ to {
 .theme-dark .selectedTier-1JkO7i .tierMarker-5HkGJ_,.theme-light .selectedTier-1JkO7i .tierMarker-5HkGJ_ {
 	-webkit-box-shadow: 0 4px 8px rgba(0,0,0,.24);
 	box-shadow: 0 4px 8px rgba(0,0,0,.24)
-}
-
-.theme-dark .currentTierIcon-2gcTCn,.theme-light .currentTierIcon-2gcTCn {
-	color: #fff
 }
 
 .theme-dark .tierMarkerInProgress-24LMzJ .currentTierIcon-2gcTCn.tier3Icon-Ku4Ahe,.theme-light .tierMarkerInProgress-24LMzJ .currentTierIcon-2gcTCn.tier3Icon-Ku4Ahe {
@@ -29395,7 +29403,7 @@ to {
 
 .closeButton-g8-Rd4 {
 	padding: 0;
-	margin: 0 auto 0 16px
+	margin: 0 24px
 }
 
 .giftIcon-2Pjbiy {
@@ -36600,9 +36608,18 @@ to {
 	line-height: 18px
 }
 
+.miniPlayer-3Ms77e .backButton-1ek-Ij {
+	margin-right: 4px;
+	color: #b9bbbe
+}
+
 .miniPlayer-3Ms77e .headerTitle-1EzOnI: hover {
 	text-decoration: underline;
 	cursor: pointer
+}
+
+.miniPlayer-3Ms77e .headerTitle-1EzOnI: hover .backButton-1ek-Ij {
+	color: #fff
 }
 
 .miniPlayer-3Ms77e .headerBar-qN9GBP {
@@ -47929,7 +47946,8 @@ to {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	height: 266px;
+	height: 100%;
+	min-height: 266px;
 	border-radius: 8px;
 	-webkit-transition: background .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
 	transition: background .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
@@ -48000,7 +48018,7 @@ to {
 	flex-direction: column;
 	-ms-flex-line-pack: stretch;
 	align-content: stretch;
-	margin: 0 16px 16px
+	padding: 0 16px 16px
 }
 
 .guildInfo-2wGKIg,.title-OqQvkN {
@@ -48040,14 +48058,13 @@ to {
 .description-2QALGo {
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
-	flex: 1 1 auto;
-	margin-bottom: 8px
+	flex: 1 1 auto
 }
 
 .memberInfo-3r4FKx {
 	-webkit-box-flex: 0;
-	-ms-flex: 0 1 auto;
-	flex: 0 1 auto;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
 	justify-self: flex-end;
 	margin-top: 4px
 }
@@ -48251,6 +48268,11 @@ to {
 	display: grid;
 	grid-gap: 16px;
 	grid-template-columns: repeat(auto-fill,256px);
+	grid-auto-rows: -webkit-min-content;
+	grid-auto-rows: min-content;
+	-webkit-box-align: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
 	margin: auto
 }
 
@@ -59792,4 +59814,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.da1ca14aeb71902bd3e8.css.map*/
+/*# sourceMappingURL=0.7edd634daebc547abece.css.map*/
