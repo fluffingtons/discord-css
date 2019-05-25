@@ -6137,7 +6137,7 @@ to {
 
 
 .fullArt-2izgMA {
-	margin: 36px 0 20px;
+	margin: 38px 0 20px;
 	background: url(/assets/5cead3f236ff233c59ebbf9caeda1b84.svg);
 	width: 100%;
 	height: 93px;
@@ -6147,6 +6147,14 @@ to {
 
 .header-1CDBgT {
 	margin: 0
+}
+
+.content-Ulq9NI {
+	font-weight: 500
+}
+
+.modalCloseButton-ZynU77 {
+	margin: -4px
 }
 
 
@@ -23091,6 +23099,52 @@ to {
 }
 
 
+.error-20ZZpF {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 3px;
+	font-size: 14px;
+	line-height: 1.3;
+	font-weight: 500;
+	padding: 8px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.error-20ZZpF a {
+	color: #fff;
+	font-weight: 600
+}
+
+.error-20ZZpF a: hover {
+	text-decoration: underline
+}
+
+.icon-25oV0D {
+	width: 24px;
+	height: 24px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0
+}
+
+.text-1ebFA_ {
+	margin-left: 10px;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1
+}
+
+.theme-dark .error-20ZZpF,.theme-light .error-20ZZpF {
+	color: #fff;
+	background-color: #f04747
+}
+
+
 .row-2grg9k {
 	padding-top: 20px
 }
@@ -23176,52 +23230,6 @@ to {
 
 .horizonal-2R4X-v .button-1vm4ZO: last-child {
 	margin-right: 0
-}
-
-
-.error-2YUmia {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	border-radius: 3px;
-	font-size: 14px;
-	line-height: 1.3;
-	font-weight: 500;
-	padding: 8px;
-	width: 100%;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box
-}
-
-.error-2YUmia a {
-	color: #fff;
-	font-weight: 600
-}
-
-.error-2YUmia a: hover {
-	text-decoration: underline
-}
-
-.icon-1nNweT {
-	width: 24px;
-	height: 24px;
-	-ms-flex-negative: 0;
-	flex-shrink: 0
-}
-
-.text-3wi4_V {
-	margin-left: 10px;
-	-webkit-box-flex: 1;
-	-ms-flex: 1;
-	flex: 1
-}
-
-.theme-dark .error-2YUmia,.theme-light .error-2YUmia {
-	color: #fff;
-	background-color: #f04747
 }
 
 
@@ -26093,6 +26101,29 @@ to {
 }
 
 
+.innerError-1cLjks {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.errorText-39yVe- {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-right: 16px
+}
+
+.errorCloseIcon-3hJ8k3 {
+	width: 14px;
+	height: 14px;
+	cursor: pointer
+}
+
+
 .content-2bjdSf {
 	padding-bottom: 16px;
 	display: -webkit-box;
@@ -26163,29 +26194,7 @@ to {
 	left: 0;
 	bottom: 0;
 	right: 0;
-	padding: 16px
-}
-
-.innerError-3b2VLY {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center
-}
-
-.errorText-1-8hox {
-	-webkit-box-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	margin-right: 16px
-}
-
-.errorCloseIcon-2xsQ5Q {
-	width: 14px;
-	height: 14px;
-	cursor: pointer
+	margin: 16px
 }
 
 .theme-dark .guildName-16fFuT {
@@ -28060,6 +28069,12 @@ to {
 }
 
 .body-1II2X1 {
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.body-1II2X1,.gameWrapper-36OLxh {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -28077,21 +28092,16 @@ to {
 	height: 30px
 }
 
-.gameNameWrapper-2voiv8 {
-	overflow: hidden;
-	margin-bottom: -1px;
-	margin-left: 10px;
-	-webkit-box-flex: 1;
-	-ms-flex: 1 1 auto;
-	flex: 1 1 auto
-}
-
 .gameName-1Zhof6 {
 	display: -webkit-box;
+	margin-bottom: -1px;
+	margin-left: 10px;
 	-webkit-line-clamp: 2;
 	-webkit-box-orient: vertical;
 	white-space: normal;
-	font-size: 14px
+	font-size: 14px;
+	line-height: 15px;
+	overflow: hidden
 }
 
 .actions-U3K8f5 {
@@ -28128,10 +28138,6 @@ to {
 
 .theme-dark .gameName-1Zhof6,.theme-light .gameName-1Zhof6 {
 	color: hsla(0,0%,100%,.8)
-}
-
-.theme-dark .clickableGameWrapper-27sM7R: hover,.theme-light .clickableGameWrapper-27sM7R: hover {
-	background-color: rgba(24,25,28,.3)
 }
 
 .theme-dark .clickableGameWrapper-27sM7R: hover .gameName-1Zhof6,.theme-light .clickableGameWrapper-27sM7R: hover .gameName-1Zhof6 {
@@ -29419,6 +29425,18 @@ to {
 	font-size: 16px;
 	line-height: 24px;
 	display: inline-block
+}
+
+.footer-1o3nCu {
+	overflow-x: visible
+}
+
+.error-2tC7D1 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 16px
 }
 
 .theme-dark .tierNoneCard-peD7hV {
@@ -48032,8 +48050,7 @@ to {
 	-ms-flex-align: center;
 	align-items: center;
 	width: 100%;
-	font-weight: 500;
-	margin-bottom: 8px
+	font-weight: 600
 }
 
 .verifiedIcon-1vpk3S {
@@ -48058,15 +48075,15 @@ to {
 .description-2QALGo {
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
-	flex: 1 1 auto
+	flex: 1 1 auto;
+	margin: 8px 0
 }
 
 .memberInfo-3r4FKx {
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 auto;
 	flex: 0 0 auto;
-	justify-self: flex-end;
-	margin-top: 4px
+	justify-self: flex-end
 }
 
 .memberCount-1a8ALW,.memberInfo-3r4FKx {
@@ -48145,6 +48162,10 @@ to {
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6)
 }
 
+.theme-dark .guildName-1yURO5 {
+	color: #fff
+}
+
 .theme-light .card-3DjzTQ {
 	background: #fff;
 	-webkit-box-shadow: 0 0 0 1px rgba(185,187,190,.3);
@@ -48159,6 +48180,10 @@ to {
 	background-color: #fff;
 	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.1),0 0 0 1px rgba(185,187,190,.3);
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.1),0 0 0 1px rgba(185,187,190,.3)
+}
+
+.theme-light .guildName-1yURO5 {
+	color: #23262a
 }
 
 .theme-dark .dotOnline-8Ag7EB,.theme-light .dotOnline-8Ag7EB {
@@ -48387,6 +48412,19 @@ to {
 	font-weight: 500
 }
 
+.channelNotices-41mJbj .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP {
+	background: #282b30 url(/assets/4c381134591972696cfa83ce4ba56f68.svg) no-repeat center 23px;
+	padding: 155px 20px 20px
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP .btn-11C5_u {
+	font-weight: 500
+}
+
+.channelNotices-41mJbj .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP p {
+	margin: 0
+}
+
 .channelNotices-41mJbj .channelNotice-1-XFjC .close-relY5R {
 	position: absolute;
 	right: 16px;
@@ -48419,8 +48457,7 @@ to {
 	padding: 8px 0;
 	font-size: 14px;
 	line-height: 16px;
-	border-radius: 3px;
-	border: 1px solid rgba(0,0,0,.6)
+	border-radius: 3px
 }
 
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u: active {
@@ -59814,4 +59851,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.7edd634daebc547abece.css.map*/
+/*# sourceMappingURL=0.01a715d0d3b28bc0d799.css.map*/
