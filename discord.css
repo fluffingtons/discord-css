@@ -29446,6 +29446,14 @@ to {
 	display: inline-block
 }
 
+.blurb-2l3plc p {
+	margin-bottom: 0
+}
+
+.blurb-2l3plc p: first-child,.blurb-2l3plc p: last-child {
+	margin: 0
+}
+
 .footer-1o3nCu {
 	overflow-x: visible
 }
@@ -36126,8 +36134,16 @@ to {
 	background-image: url(/assets/2ceb472e89545af8543aa44b072b910d.svg)
 }
 
+.theme-dark .description-3e3UuC {
+	color: #f6f6f7
+}
+
 .theme-light .art-1sIvad {
 	background-image: url(/assets/0e88c0d5ad220379d8e2438dd6444222.svg)
+}
+
+.theme-light .description-3e3UuC {
+	color: #2e3338
 }
 
 
@@ -48006,6 +48022,101 @@ to {
 }
 
 
+.pageControlContainer-3czZwE {
+	bottom: 0;
+	width: 100%;
+	margin-top: 16px
+}
+
+.pageControl-1aUwvK {
+	margin: auto;
+	padding: 4px 0
+}
+
+.pageButton-MknE-_,.pageControl-1aUwvK {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: -webkit-min-content;
+	width: -moz-min-content;
+	width: min-content
+}
+
+.pageButton-MknE-_ {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	height: 28px;
+	min-width: 28px;
+	padding: 6px;
+	margin: 6px;
+	cursor: pointer
+}
+
+.roundButton-2CW1Hh {
+	min-width: 28px;
+	border-radius: 14px
+}
+
+.endButton-3wGL3C {
+	padding: 0 8px
+}
+
+.endButtonInner-7u9q7X {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.gap-1iPNJp {
+	width: 28px;
+	margin: 8px 4px;
+	text-align: center
+}
+
+.iconCaret-xW8tLA {
+	display: inline-block;
+	width: 1em;
+	height: 1em
+}
+
+.iconCaret-xW8tLA: first-child {
+	margin-right: 8px
+}
+
+.iconCaret-xW8tLA: last-child {
+	margin-left: 8px
+}
+
+.theme-dark .pageButton-MknE-_: hover {
+	background-color: #292b2f;
+	color: #dcddde
+}
+
+.theme-dark .activeButton-1BJAiN,.theme-dark .activeButton-1BJAiN: hover {
+	color: #fff;
+	background-color: #7289da
+}
+
+.theme-light .pageButton-MknE-_: hover {
+	background-color: #ebedef;
+	color: #2e3338
+}
+
+.theme-light .activeButton-1BJAiN,.theme-light .activeButton-1BJAiN: hover {
+	color: #fff;
+	background-color: #7289da
+}
+
+
 .card-3DjzTQ {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -48015,7 +48126,7 @@ to {
 	-ms-flex-direction: column;
 	flex-direction: column;
 	height: 100%;
-	min-height: 266px;
+	min-height: 284px;
 	border-radius: 8px;
 	-webkit-transition: background .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
 	transition: background .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
@@ -48143,8 +48254,8 @@ to {
 }
 
 .memberCount-1a8ALW {
-	font-size: 12px;
-	line-height: 16px;
+	font-size: 0.75rem;
+	line-height: 1rem;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
@@ -60026,4 +60137,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.20374d1bd23a26efa829.css.map*/
+/*# sourceMappingURL=0.75766c49beacb3baab5b.css.map*/
