@@ -48360,24 +48360,24 @@ to {
 	transition: opacity .2s
 }
 
-.viewButtonVisible-2AtUPc {
-	opacity: 1
+.loading-17PYl_ {
+	border-radius: 5px
 }
 
-.cardHovered-15wbb- {
+.card-3DjzTQ: focus,.card-3DjzTQ: hover {
 	-webkit-transform: translateY(-1px);
 	transform: translateY(-1px)
 }
 
-.cardHovered-15wbb- .splash-3N0nhD {
+.card-3DjzTQ: focus .splash-3N0nhD,.card-3DjzTQ: hover .splash-3N0nhD {
 	-webkit-transform: scale(1.01) translateZ(0);
 	transform: scale(1.01) translateZ(0);
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden
 }
 
-.loading-17PYl_ {
-	border-radius: 5px
+.card-3DjzTQ: focus .viewButton-3jDZqV,.card-3DjzTQ: hover .viewButton-3jDZqV {
+	opacity: 1
 }
 
 .theme-dark .card-3DjzTQ {
@@ -48388,10 +48388,14 @@ to {
 	background-color: #40444b
 }
 
-.theme-dark .cardHovered-15wbb-,.theme-dark .loading-17PYl_ .cardHovered-15wbb- {
+.theme-dark .card-3DjzTQ: hover {
 	background-color: #18191c;
 	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6);
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6)
+}
+
+.theme-dark .card-3DjzTQ: focus {
+	background-color: #18191c
 }
 
 .theme-dark .guildName-1yURO5 {
@@ -48408,10 +48412,14 @@ to {
 	background-color: #e6e6e8
 }
 
-.theme-light .cardHovered-15wbb-,.theme-light .loading-17PYl_ .cardHovered-15wbb- {
+.theme-light .card-3DjzTQ: hover {
 	background-color: #fff;
 	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.1),0 0 0 1px rgba(185,187,190,.3);
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.1),0 0 0 1px rgba(185,187,190,.3)
+}
+
+.theme-light .card-3DjzTQ: focus {
+	background-color: #fff
 }
 
 .theme-light .guildName-1yURO5 {
@@ -48645,16 +48653,18 @@ to {
 }
 
 .channelNotices-41mJbj .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP {
-	background: #282b30 url(/assets/4c381134591972696cfa83ce4ba56f68.svg) no-repeat center 23px;
-	padding: 155px 20px 20px
+	background: #282b30 url(/assets/c88e15accf612aef3b209311aaee9f29.svg) no-repeat center 23px;
+	padding: 116px 20px 20px
 }
 
-.channelNotices-41mJbj .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP .btn-11C5_u {
-	font-weight: 500
+.channelNotices-41mJbj .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP .message-3SOT5P .btn-11C5_u {
+	font-weight: 500;
+	margin-top: 20px
 }
 
-.channelNotices-41mJbj .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP p {
-	margin: 0
+.channelNotices-41mJbj .channelNotice-1-XFjC.premiumGuildSubscription-3oKecP .textLargeGuild-3s_k9p {
+	margin-left: 1px;
+	margin-right: 1px
 }
 
 .channelNotices-41mJbj .channelNotice-1-XFjC .close-relY5R {
@@ -60208,4 +60218,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.c72ea0d0dc76cde964f2.css.map*/
+/*# sourceMappingURL=0.e645505cf09569337381.css.map*/
