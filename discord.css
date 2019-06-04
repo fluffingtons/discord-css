@@ -3892,12 +3892,12 @@ to {
 }
 
 .theme-dark .tooltipGrey-1hnvTt,.theme-light .tooltipGrey-1hnvTt {
-	background-color: #36393f;
+	background-color: #202225;
 	color: #fff
 }
 
 .theme-dark .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK,.theme-light .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK {
-	border-top-color: #36393f
+	border-top-color: #202225
 }
 
 .theme-dark .tooltipBrand-g03Nz8,.theme-light .tooltipBrand-g03Nz8 {
@@ -20894,7 +20894,8 @@ to {
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 2;
 	text-overflow: ellipsis;
-	overflow: hidden
+	overflow: hidden;
+	word-wrap: break-word
 }
 
 .shareButton-3w0M74 {
@@ -28883,7 +28884,8 @@ to {
 
 
 .titleBlurb-2y0XJX {
-	margin-bottom: 40px
+	margin-bottom: 40px;
+	margin-right: 20px
 }
 
 .content-22JeIO {
@@ -29346,6 +29348,10 @@ to {
 	width: 0
 }
 
+.carouselItem-g4c5Xp {
+	height: 100%
+}
+
 .carouselItemSelected-JFUsnG {
 	-webkit-user-select: text;
 	-moz-user-select: text;
@@ -29362,21 +29368,39 @@ to {
 }
 
 .tierNoneContainer-3hhK3h {
-	text-align: center
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	border-radius: 4px;
+	padding: 20px;
+	height: 100%
 }
 
 .tierNoneCard-peD7hV,.tierNoneCardAchieved-YFFPYm {
-	height: 140px;
+	height: 99px;
+	background-size: contain;
 	background-position: 50%;
-	background-repeat: no-repeat;
-	margin-top: 20px
+	background-repeat: no-repeat
 }
 
 .tierNoneText-2OvCv7 {
 	text-transform: uppercase;
 	font-size: 12px;
+	line-height: 16px;
 	font-weight: 600;
-	margin-top: 55px
+	margin: 20px 20px 0;
+	text-align: center
 }
 
 .tierDefaultUnlocked-3OzMTb {
@@ -29538,6 +29562,10 @@ to {
 	margin: 16px
 }
 
+.theme-dark .tierNoneContainer-3hhK3h {
+	background-color: #2f3136
+}
+
 .theme-dark .tierNoneCard-peD7hV {
 	background-image: url(/assets/8af9cae9917c64f6b043e6d126e1d75c.svg)
 }
@@ -29577,6 +29605,11 @@ to {
 .theme-dark .boostCount-UFqabz {
 	color: #dcddde;
 	background-color: #202225
+}
+
+.theme-light .tierNoneContainer-3hhK3h {
+	background-color: #fff;
+	border: 1px solid #ebedef
 }
 
 .theme-light .tierNoneCard-peD7hV {
@@ -36386,13 +36419,8 @@ to {
 
 
 .popoutWrapper-eJpzc1 {
-	position: absolute;
-	padding-bottom: 16px;
+	position: relative;
 	left: -30px;
-	bottom: 22px;
-	-webkit-transition: .2s ease-in-out;
-	transition: .2s ease-in-out;
-	z-index: 100;
 	width: 200px;
 	height: auto
 }
@@ -36492,25 +36520,11 @@ to {
 	overflow: hidden
 }
 
-.keepOpen-3Y7PRz {
-	visibility: visible;
-	opacity: 1;
-	-webkit-transform: translateY(0);
-	transform: translateY(0)
-}
-
-.hideOnMouseLeave-1Mp7bX {
-	visibility: hidden;
-	opacity: 0;
-	-webkit-transform: translateY(8px);
-	transform: translateY(8px)
-}
-
 .theme-dark .memberListHeader-3PX9UB,.theme-light .memberListHeader-3PX9UB {
 	color: #b9bbbe
 }
 
-.theme-dark .memberListItem-2QQgFD: hover,.theme-light .memberListItem-2QQgFD: hover {
+.theme-dark .memberListItem-2QQgFD: not(.popoutDisabled-1sb3_F): hover,.theme-light .memberListItem-2QQgFD: not(.popoutDisabled-1sb3_F): hover {
 	background-color: #202225
 }
 
@@ -36603,12 +36617,11 @@ to {
 	height: 200px;
 	background-image: url(/assets/33715a0239611123e6088a88a59bd22f.svg);
 	background-position: 50%;
-	background-repeat: no-repeat;
-	margin-bottom: 20px
+	background-repeat: no-repeat
 }
 
-.emptyText-24fkOd {
-	margin-bottom: 8px
+.emptyImage-1Y9CaI,.emptyText-24fkOd {
+	margin-bottom: 16px
 }
 
 .paused-3oG15i {
@@ -36655,6 +36668,9 @@ to {
 }
 
 .bottomControls-UTyHwG {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
@@ -36664,16 +36680,17 @@ to {
 	line-height: 0
 }
 
-.bottomControls-UTyHwG,.controlIcon-3l2HCa {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex
+.volumeSlider-XQocF6 {
+	padding: 3px 6px
 }
 
 .controlIcon-3l2HCa {
 	width: 24px;
 	height: 24px;
-	color: #b9bbbe
+	color: #b9bbbe;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
 }
 
 .controlIcon-3l2HCa.activeButton-235n82,.controlIcon-3l2HCa: hover {
@@ -36758,6 +36775,10 @@ to {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 18px
+}
+
+.miniPlayer-3Ms77e .emptyText-24fkOd {
+	margin-bottom: 8px
 }
 
 .miniPlayer-3Ms77e .backButton-1ek-Ij {
@@ -49364,7 +49385,14 @@ to {
 }
 
 .streamPreviewWrapper-2DSWOK {
-	padding-left: 8px
+	padding-left: 8px;
+	opacity: 0;
+	-webkit-transition: opacity .3s ease;
+	transition: opacity .3s ease
+}
+
+.streamPreviewWrapper-2DSWOK.mounted-26niXS {
+	opacity: 1
 }
 
 .streamPreview-2-WUWT {
@@ -60219,4 +60247,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.bc3382155843a6d979b0.css.map*/
+/*# sourceMappingURL=0.a7afe9a0a535e5776b1e.css.map*/
