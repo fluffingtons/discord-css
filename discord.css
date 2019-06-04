@@ -28552,36 +28552,21 @@ to {
 }
 
 
-.singleItemWrapper-1AvlNV {
-	width: 100%
-}
-
-.carousel-18mXWH,.singleItemWrapper-1AvlNV {
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none
-}
-
-.carousel-18mXWH {
+.carousel-3oRTGR {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 	position: relative
 }
 
-.item-287JPa {
+.item-2UY_HI {
 	-webkit-box-flex: 1;
 	-ms-flex: 1 0 100%;
 	flex: 1 0 100%
-}
-
-.singleItem-3vMkVo {
-	margin: 0 auto
-}
-
-.viewport-W8LvWa {
-	overflow: hidden
 }
 
 
@@ -29316,8 +29301,16 @@ to {
 }
 
 .carouselContainer-2-vIZS {
-	margin: 46px -20px 0;
+	margin: 46px -12px 0 -20px;
 	position: relative
+}
+
+.carouselInner-3KarDz>div: first-child {
+	padding-left: 22px
+}
+
+.carouselInner-3KarDz>div: last-child {
+	padding-right: 22px
 }
 
 .carouselGradientEdge-2W94ou {
@@ -39609,6 +39602,39 @@ to {
 
 .perkTileLarge-2nM6f_ {
 	width: 100%
+}
+
+
+.singleItemWrapper-1AvlNV {
+	width: 100%
+}
+
+.carousel-18mXWH,.singleItemWrapper-1AvlNV {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.carousel-18mXWH {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative
+}
+
+.item-287JPa {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 0 100%;
+	flex: 1 0 100%
+}
+
+.singleItem-3vMkVo {
+	margin: 0 auto
+}
+
+.viewport-W8LvWa {
+	overflow: hidden
 }
 
 
@@ -60247,4 +60273,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.a7afe9a0a535e5776b1e.css.map*/
+/*# sourceMappingURL=0.afbef5ef6eb1a1d18b8a.css.map*/
