@@ -23846,7 +23846,6 @@ to {
 
 .input-31cgnL {
 	width: 100%;
-	z-index: 1;
 	min-width: 0;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -36580,12 +36579,9 @@ to {
 	width: 100%
 }
 
-.headerInfoTitle-aOf05F {
-	-ms-flex-negative: 1;
-	flex-shrink: 1
-}
-
 .headerInfo-d6Lj1E {
+	-ms-flex-negative: 1;
+	flex-shrink: 1;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
@@ -44904,8 +44900,9 @@ to {
 }
 
 .member-1q7VfX .ownerHelpIcon-3ItaBx {
-	margin-left: 4px;
-	cursor: default
+	cursor: default;
+	width: 14px;
+	height: 14px
 }
 
 .member-1q7VfX .roleWrapper-1Hde_V {
@@ -44954,6 +44951,10 @@ to {
 	fill: #4f545c
 }
 
+.theme-light .member-1q7VfX .ownerHelpIcon-3ItaBx {
+	color: #4f545c
+}
+
 .theme-dark .pruneLink-3V7wes {
 	color: #f04747
 }
@@ -44979,6 +44980,10 @@ to {
 
 .theme-dark .member-1q7VfX .overflowIconFg-QMRRFI {
 	fill: #fff
+}
+
+.theme-dark .member-1q7VfX .ownerHelpIcon-3ItaBx {
+	color: #f6f6f7
 }
 
 
@@ -45077,6 +45082,11 @@ to {
 	height: 180px
 }
 
+.iconError-3G2IfP {
+	margin-top: 8px;
+	text-align: center
+}
+
 .guildSettingsOverviewNotice-2VluqV {
 	border-radius: 4px
 }
@@ -45106,6 +45116,10 @@ to {
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2)
 }
 
+.theme-dark .iconError-3G2IfP {
+	color: #f04747
+}
+
 .theme-dark .divider-3wNib3 {
 	border-color: rgba(114,118,125,.3)
 }
@@ -45122,6 +45136,10 @@ to {
 .theme-light .avatarUploader-2yeaMv .avatarUploaderInner-3SDRO_: hover {
 	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.1),inset 0 0 120px rgba(0,0,0,.6);
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.1),inset 0 0 120px rgba(0,0,0,.6)
+}
+
+.theme-light .iconError-3G2IfP {
+	color: #f04747
 }
 
 .theme-light .avatarUploaderDisabled-310UAf .avatarUploaderInner-3SDRO_: hover {
@@ -60273,4 +60291,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.afbef5ef6eb1a1d18b8a.css.map*/
+/*# sourceMappingURL=0.4ccf7dc186243efae75c.css.map*/
