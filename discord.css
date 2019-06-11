@@ -12380,6 +12380,7 @@ to {
 }
 
 .select-3QW7at {
+	position: relative;
 	z-index: 4
 }
 
@@ -59087,6 +59088,18 @@ to {
 }
 
 
+.videoDev-1wRRjc {
+	position: absolute;
+	z-index: -1
+}
+
+.overlay-2zxlBT,.videoDev-1wRRjc {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0
+}
+
 .overlay-2zxlBT {
 	contain: layout size;
 	position: fixed;
@@ -59094,15 +59107,12 @@ to {
 	color: #fff
 }
 
-.overlay-2zxlBT,.overlayBackground-2Ja_LP {
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0
-}
-
 .overlayBackground-2Ja_LP {
 	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 	-webkit-transition: opacity .2s ease;
 	transition: opacity .2s ease
 }
@@ -60384,4 +60394,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.089b107e7472586f7c5e.css.map*/
+/*# sourceMappingURL=0.db98e8ccc16270b8837d.css.map*/
