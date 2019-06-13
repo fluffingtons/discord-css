@@ -2448,7 +2448,8 @@ to {
 	height: 100%;
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
-	flex: 1 1 auto
+	flex: 1 1 auto;
+	contain: layout paint style
 }
 
 .scrolling-CehiO2>* {
@@ -30483,7 +30484,8 @@ to {
 	-ms-flex: 1;
 	flex: 1;
 	overflow: hidden;
-	z-index: 0
+	z-index: 0;
+	contain: layout style paint
 }
 
 .messages-3amgkR {
@@ -31635,10 +31637,45 @@ to {
 	transform: scaleX(-1)
 }
 
-.spinner-2UBgbJ {
+.previewWrapper-39cUHY {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	opacity: 0;
+	-webkit-transition: opacity .5s ease;
+	transition: opacity .5s ease
+}
+
+.previewWrapper-39cUHY.loading-35BNuU {
+	opacity: 1
+}
+
+.previewImage-1yEFD0 {
+	width: 100%;
+	-o-object-fit: contain;
+	object-fit: contain;
+	-webkit-filter: blur(10px);
+	filter: blur(10px)
+}
+
+.emptyPreviewWrapper-14RNSK {
+	margin: auto;
+	width: 100%
+}
+
+.emptyPreview-2kuSNe {
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,.8)
+	background: linear-gradient(120deg,#1e1f22,#292b2f);
+	opacity: .6
+}
+
+.spinner-2UBgbJ {
+	position: absolute;
+	width: 100%;
+	height: 100%
 }
 
 
@@ -36518,17 +36555,14 @@ to {
 .viewersIcon-F76mss {
 	width: 24px;
 	height: 24px;
+	color: #b9bbbe;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	margin-right: 4px
 }
 
-.viewersIcon-F76mss,.viewersIcon-F76mss: hover {
-	color: #b9bbbe
-}
-
-.viewersIcon-F76mss.activeButton-374USU {
+.viewersIcon-F76mss.activeButton-374USU,.viewersIcon-F76mss: hover {
 	color: #fff
 }
 
@@ -36632,15 +36666,21 @@ to {
 	height: 200px;
 	background-image: url(/assets/33715a0239611123e6088a88a59bd22f.svg);
 	background-position: 50%;
-	background-repeat: no-repeat
-}
-
-.emptyImage-1Y9CaI,.emptyText-24fkOd {
+	background-repeat: no-repeat;
 	margin-bottom: 16px
 }
 
+.emptyText-24fkOd {
+	margin-bottom: 16px;
+	padding: 0 50px;
+	text-align: center
+}
+
 .paused-3oG15i {
-	background-color: rgba(0,0,0,.6);
+	background-color: rgba(0,0,0,.6)
+}
+
+.paused-3oG15i,.videoControls-3glNbo {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -36648,16 +36688,7 @@ to {
 	left: 0
 }
 
-.pausedText-3jel3J {
-	
-}
-
 .videoControls-3glNbo {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
 	-webkit-transition: opacity .2s ease-in-out;
 	transition: opacity .2s ease-in-out;
 	background: -webkit-gradient(linear,left top,left bottom,from(#000),color-stop(15%,transparent),color-stop(85%,transparent),to(#000));
@@ -36789,7 +36820,8 @@ to {
 .miniPlayer-3Ms77e .supportingText-F26MRP {
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 18px
+	line-height: 18px;
+	margin-top: 4px
 }
 
 .miniPlayer-3Ms77e .emptyText-24fkOd {
@@ -36797,12 +36829,22 @@ to {
 }
 
 .miniPlayer-3Ms77e .backButton-1ek-Ij {
-	margin-right: 4px;
+	margin-right: 1px;
 	color: #b9bbbe
 }
 
+.miniPlayer-3Ms77e .headerTitle-1EzOnI {
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	border-bottom: 1px solid transparent;
+	margin: 0;
+	width: 100%;
+	line-height: 20px
+}
+
 .miniPlayer-3Ms77e .headerTitle-1EzOnI: hover {
-	text-decoration: underline;
+	border-bottom: 1px solid #fff;
 	cursor: pointer
 }
 
@@ -49545,14 +49587,17 @@ to {
 }
 
 .streamPreviewWrapper-2DSWOK {
-	padding-left: 8px;
+	padding-left: 10px;
 	opacity: 0;
-	-webkit-transition: opacity .3s ease;
-	transition: opacity .3s ease
+	-webkit-transition: opacity 25ms ease .15s,left 25ms ease-in 125ms;
+	transition: opacity 25ms ease .15s,left 25ms ease-in 125ms;
+	position: relative;
+	left: 7px
 }
 
 .streamPreviewWrapper-2DSWOK.mounted-26niXS {
-	opacity: 1
+	opacity: 1;
+	left: 0
 }
 
 .streamPreview-2-WUWT {
@@ -56551,8 +56596,16 @@ to {
 	background-image: url(/assets/2a085ed9c86f3613935a6a8667ba8b89.svg)
 }
 
-.profileBadgeHypeSquadOnlineHouse3KOH-s5aYpz {
-	background-image: url(/assets/f6c858e4d1ac3fb7ba75646244410454.svg)
+.profileBadgeHypeSquadOnlineHouse1Winner-3OGyO6 {
+	background-image: url(/assets/75f75c3142b8d44ea7052c2bcb9a9043.svg)
+}
+
+.profileBadgeHypeSquadOnlineHouse2Winner-3GW5Sm {
+	background-image: url(/assets/d4a8fe68fc5f40c8a778f858881a7b84.svg)
+}
+
+.profileBadgeHypeSquadOnlineHouse3Winner-2iVu11 {
+	background-image: url(/assets/5dc48a7859a00e7d95ad8382156aab84.svg)
 }
 
 .profileBadgeEarlySupporter-PQB_0a {
@@ -56609,8 +56662,16 @@ to {
 	background-image: url(/assets/9fdc63ef8a3cc1617c7586286c34e4f1.svg)
 }
 
-.topSectionNormal-2-vo2m .profileBadgeHypeSquadOnlineHouse3KOH-s5aYpz {
-	background-image: url(/assets/6481784048fd484e77e63dcc9c2c34cb.svg)
+.topSectionNormal-2-vo2m .profileBadgeHypeSquadOnlineHouse1Winner-3OGyO6 {
+	background-image: url(/assets/26a2dc8c9d70955a988cb377eec84c22.svg)
+}
+
+.topSectionNormal-2-vo2m .profileBadgeHypeSquadOnlineHouse2Winner-3GW5Sm {
+	background-image: url(/assets/88d4f11bee9ea34fee59973b33353da0.svg)
+}
+
+.topSectionNormal-2-vo2m .profileBadgeHypeSquadOnlineHouse3Winner-2iVu11 {
+	background-image: url(/assets/3245b2cd85b787b195ea8f6e10ef5790.svg)
 }
 
 .topSectionNormal-2-vo2m .profileBadgeEarlySupporter-PQB_0a {
@@ -60394,4 +60455,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.db98e8ccc16270b8837d.css.map*/
+/*# sourceMappingURL=0.c51a7bca91c6ac0bc160.css.map*/
