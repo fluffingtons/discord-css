@@ -2451,6 +2451,10 @@ to {
 	flex: 1 1 auto
 }
 
+.containStyles-2a-Dzo {
+	contain: layout paint style
+}
+
 .scrolling-CehiO2>* {
 	pointer-events: none
 }
@@ -48540,7 +48544,7 @@ to {
 	height: 28px;
 	min-width: 28px;
 	padding: 6px;
-	margin: 6px;
+	margin: 4px;
 	cursor: pointer
 }
 
@@ -48551,6 +48555,14 @@ to {
 
 .endButton-3wGL3C {
 	padding: 0 8px
+}
+
+.endButton-3wGL3C: first-child {
+	padding-right: 12px
+}
+
+.endButton-3wGL3C: last-child {
+	padding-left: 12px
 }
 
 .endButtonInner-7u9q7X {
@@ -48575,11 +48587,11 @@ to {
 }
 
 .iconCaret-xW8tLA: first-child {
-	margin-right: 8px
+	margin-right: 4px
 }
 
 .iconCaret-xW8tLA: last-child {
-	margin-left: 8px
+	margin-left: 4px
 }
 
 .theme-dark .pageButton-MknE-_: hover {
@@ -48613,7 +48625,9 @@ to {
 	flex-direction: column;
 	height: 100%;
 	min-height: 284px;
+	overflow: hidden;
 	border-radius: 8px;
+	position: relative;
 	-webkit-transition: background .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
 	transition: background .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
 	transition: box-shadow .2s ease-out,transform .2s ease-out,background .2s ease-out;
@@ -48621,16 +48635,50 @@ to {
 	cursor: pointer
 }
 
-.card-3DjzTQ,.cardHeader-Int16m {
-	overflow: hidden;
-	position: relative
+@-webkit-keyframes placeholderPulse-3szywu {
+	0% {
+	opacity: .6
+}
+
+50% {
+	opacity: .8
+}
+
+to {
+	opacity: .6
+}
+
+
+}
+
+@keyframes placeholderPulse-3szywu {
+	0% {
+	opacity: .6
+}
+
+50% {
+	opacity: .8
+}
+
+to {
+	opacity: .6
+}
+
+
+}
+
+.cardPlaceholder-1zrbbe {
+	-webkit-animation: placeholderPulse-3szywu 1.8s ease-in-out infinite;
+	animation: placeholderPulse-3szywu 1.8s ease-in-out infinite
 }
 
 .cardHeader-Int16m {
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 144px;
 	flex: 0 0 144px;
-	display: block
+	position: relative;
+	display: block;
+	overflow: hidden
 }
 
 .splash-3N0nhD {
@@ -48723,7 +48771,7 @@ to {
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
-	margin: 8px 0
+	margin: 8px 0 16px
 }
 
 .memberInfo-3r4FKx {
@@ -48795,12 +48843,16 @@ to {
 	opacity: 1
 }
 
-.theme-dark .card-3DjzTQ {
+.theme-dark .card-3DjzTQ,.theme-dark .cardPlaceholder-1zrbbe {
 	background: #202225
 }
 
 .theme-dark .loading-17PYl_ {
 	background-color: #40444b
+}
+
+.theme-dark .description-2QALGo {
+	color: #b9bbbe
 }
 
 .theme-dark .card-3DjzTQ: hover {
@@ -48821,6 +48873,10 @@ to {
 	background: #fff;
 	-webkit-box-shadow: 0 0 0 1px rgba(185,187,190,.3);
 	box-shadow: 0 0 0 1px rgba(185,187,190,.3)
+}
+
+.theme-light .cardPlaceholder-1zrbbe {
+	background: #ebedef
 }
 
 .theme-light .loading-17PYl_ {
@@ -48879,29 +48935,59 @@ to {
 	-webkit-app-region: drag
 }
 
-.search-JQJ-3r {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	margin-bottom: 80px
-}
-
 .mainHeader-1i17pL {
 	font-size: 32px;
 	font-weight: 600;
 	line-height: 40px;
+	text-align: center;
 	margin-bottom: 24px
 }
 
+.search-JQJ-3r {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-bottom: 80px
+}
+
 .searchBox-26HYGw {
-	width: 100%
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 80%;
+	flex: 0 1 80%;
+	position: relative
+}
+
+.searchBoxInput-uJ66lD {
+	z-index: 2
+}
+
+.searchHelpText-19imBp {
+	position: absolute;
+	bottom: 0;
+	margin-left: 12px;
+	font-weight: 500;
+	-webkit-transition: bottom .08s ease-out;
+	transition: bottom .08s ease-out;
+	z-index: 1
+}
+
+.searchHelpTextVisible-1mRnNd {
+	bottom: -26px
+}
+
+.languageSelector-1R8fPE {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 140px;
+	flex: 0 0 140px;
+	margin-left: 8px;
+	height: 47px
 }
 
 .emptySearchResults-1ba__I {
@@ -48965,12 +49051,10 @@ to {
 	width: 800px
 }
 
-.mainHeader-1i17pL {
-	font-size: 26px
-}
-
 .searchBox-26HYGw {
-	width: 80%
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 70%;
+	flex: 0 1 70%
 }
 
 
@@ -48981,12 +49065,10 @@ to {
 	width: 1072px
 }
 
-.mainHeader-1i17pL {
-	font-size: 32px
-}
-
 .searchBox-26HYGw {
-	width: 50%
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 60%;
+	flex: 0 1 60%
 }
 
 
@@ -50569,7 +50651,8 @@ to {
 }
 
 .scrollerWrap-1IAIlv {
-	width: 90px
+	width: 90px;
+	contain: layout paint style
 }
 
 .scroller-2TZvBN {
@@ -58526,6 +58609,10 @@ to {
 }
 
 
+.flexFix-3qrOQM {
+	min-height: 0
+}
+
 .guildWidgetSidebar-ZsmPr0 {
 	position: relative;
 	width: 240px
@@ -60663,4 +60750,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.cb25397d774343da4c28.css.map*/
+/*# sourceMappingURL=0.6332bb6bf5ce64659c84.css.map*/
