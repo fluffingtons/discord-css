@@ -5265,14 +5265,21 @@ to {
 
 
 .backdrop-1wrmKB {
+	z-index: 1000;
+	opacity: 0;
+	contain: strict
+}
+
+.backdrop-1wrmKB,.backdropWithLayer-3_uhz4 {
 	position: fixed;
 	top: 0;
 	right: 0;
 	bottom: 0;
-	left: 0;
-	z-index: 1000;
-	opacity: 0;
-	contain: strict
+	left: 0
+}
+
+.backdropWithLayer-3_uhz4 {
+	pointer-events: all
 }
 
 
@@ -5935,6 +5942,31 @@ to {
 
 .theme-light .itemSubMenu-1vN_Yn: hover {
 	background: #f6f6f7 url(/assets/48072c077a73774c670f5752a21d2c5b.svg) no-repeat 155px 50%
+}
+
+
+.backdrop-29yll0 {
+	background-color: #000
+}
+
+.backdrop-29yll0,.layer-2KE1M9 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0
+}
+
+.layer-2KE1M9 {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
 }
 
 
@@ -50500,7 +50532,8 @@ to {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	width: 72px
+	width: 72px;
+	contain: layout style
 }
 
 .listItemWrapper-3X98Pc: active {
@@ -60750,4 +60783,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.6332bb6bf5ce64659c84.css.map*/
+/*# sourceMappingURL=0.88354d6b5fe39308a4e4.css.map*/
