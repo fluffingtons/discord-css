@@ -19076,6 +19076,35 @@ to {
 	vertical-align: -.4em
 }
 
+.embedSuppressButton-1FonMn {
+	opacity: 0;
+	position: absolute;
+	top: -2px;
+	right: -20px;
+	cursor: pointer;
+	padding: 2px
+}
+
+.theme-dark .embedSuppressButton-1FonMn {
+	color: #72767d
+}
+
+.theme-dark .embedSuppressButton-1FonMn: hover {
+	color: #dcddde
+}
+
+.theme-light .embedSuppressButton-1FonMn {
+	color: #c7ccd1
+}
+
+.theme-light .embedSuppressButton-1FonMn: hover {
+	color: #747f8d
+}
+
+.embed-IeVjo6: hover .embedSuppressButton-1FonMn {
+	opacity: 1
+}
+
 .embedPill-1Zntps {
 	width: 4px;
 	background-color: #cacbce;
@@ -60785,4 +60814,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.115342f44142b6694bb4.css.map*/
+/*# sourceMappingURL=0.beb9b8f9fbf2bc6f841b.css.map*/
