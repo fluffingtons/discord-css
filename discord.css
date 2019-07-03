@@ -4068,7 +4068,7 @@ to {
 }
 
 .theme-dark .infoLink-1mhIP6 {
-	color: #b9bbbe
+	color: #b9bbbe!important
 }
 
 .theme-dark .copyLink-2P6ziV: before {
@@ -4076,7 +4076,7 @@ to {
 }
 
 .theme-dark .buildDetails-22M_TX,.theme-dark .copyLink-2P6ziV: hover,.theme-dark .infoLink-1mhIP6: hover {
-	color: #f6f6f7
+	color: #f6f6f7!important
 }
 
 .theme-dark .copyLink-2P6ziV.copied-2kz8Mo,.theme-dark .copyLink-2P6ziV.copied-2kz8Mo: hover {
@@ -4092,7 +4092,7 @@ to {
 }
 
 .theme-light .infoLink-1mhIP6 {
-	color: #4f5660
+	color: #4f5660!important
 }
 
 .theme-light .copyLink-2P6ziV: before {
@@ -4100,7 +4100,7 @@ to {
 }
 
 .theme-light .buildDetails-22M_TX,.theme-light .copyLink-2P6ziV: hover,.theme-light .infoLink-1mhIP6: hover {
-	color: #23262a
+	color: #23262a!important
 }
 
 .theme-light .copyLink-2P6ziV.copied-2kz8Mo,.theme-light .copyLink-2P6ziV.copied-2kz8Mo: hover {
@@ -23672,6 +23672,39 @@ to {
 }
 
 
+.spacing-2P-ODW {
+	
+}
+
+.spacingTop-3Dhr0L {
+	
+}
+
+.message-2qRu38 {
+	position: relative;
+	border-radius: 3px;
+	overflow: hidden
+}
+
+.message-2qRu38 .message-group {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 10px
+}
+
+.theme-dark .message-2qRu38 {
+	background-color: #36393f;
+	-webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
+	box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2)
+}
+
+.theme-light .message-2qRu38 {
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 0 1px rgba(185,187,190,.3),0 2px 10px 0 rgba(0,0,0,.1);
+	box-shadow: 0 0 0 1px rgba(185,187,190,.3),0 2px 10px 0 rgba(0,0,0,.1)
+}
+
+
 .container-1If-HZ {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
@@ -23886,39 +23919,6 @@ to {
 
 .theme-light .discriminator-byOsvi {
 	color: #b9bbbe
-}
-
-
-.spacing-2P-ODW {
-	
-}
-
-.spacingTop-3Dhr0L {
-	
-}
-
-.message-2qRu38 {
-	position: relative;
-	border-radius: 3px;
-	overflow: hidden
-}
-
-.message-2qRu38 .message-group {
-	margin-left: 0;
-	margin-right: 0;
-	padding: 10px
-}
-
-.theme-dark .message-2qRu38 {
-	background-color: #36393f;
-	-webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
-	box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2)
-}
-
-.theme-light .message-2qRu38 {
-	background-color: #fff;
-	-webkit-box-shadow: 0 0 0 1px rgba(185,187,190,.3),0 2px 10px 0 rgba(0,0,0,.1);
-	box-shadow: 0 0 0 1px rgba(185,187,190,.3),0 2px 10px 0 rgba(0,0,0,.1)
 }
 
 
@@ -30270,10 +30270,6 @@ to {
 
 .icon-n8WYF4 {
 	margin-right: 8px
-}
-
-.theme-dark .blankButton-22cPU3 {
-	color: #fff
 }
 
 
@@ -44104,7 +44100,7 @@ html .tabBadge-3smxHS {
 	margin-left: 1px
 }
 
-.ping-1sxZBI.status-_2Z-j- {
+.pingStatus-skcDCF {
 	margin-right: 12px;
 	margin-left: 0;
 	width: 20px;
@@ -44203,11 +44199,11 @@ html .tabBadge-3smxHS {
 	text-decoration: underline
 }
 
-.statusGuildVideo-1nd9fH {
+.statusWithPopout-3lyyuH {
 	cursor: pointer
 }
 
-.statusGuildVideo-1nd9fH: hover {
+.statusWithPopout-3lyyuH: hover {
 	text-decoration: underline
 }
 
@@ -61327,4 +61323,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.4bc42b554cdee0220764.css.map*/
+/*# sourceMappingURL=0.5c403a473ad6c88a7cd9.css.map*/
