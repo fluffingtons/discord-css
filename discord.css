@@ -29042,12 +29042,16 @@ to {
 }
 
 .container-2Thooq .avatar-3JE4B3 {
-	margin: 0 10px 0 0;
+	margin: 0;
 	cursor: pointer
 }
 
 .container-2Thooq .avatar-3JE4B3: hover {
 	opacity: .8
+}
+
+.avatarWrapper-3YA-_G {
+	margin-right: 10px
 }
 
 .nameTag-LxtdSI {
@@ -31835,7 +31839,10 @@ to {
 
 
 .videoHeight-Qp_9vC {
-	position: relative
+	position: relative;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto
 }
 
 .videoHeight-Qp_9vC.animated-UtE465 {
@@ -44073,6 +44080,17 @@ html .tabBadge-3smxHS {
 }
 
 
+.hotspot-WcPUtD {
+	border-radius: 50%;
+	width: 8px;
+	height: 8px
+}
+
+.theme-dark .hotspot-WcPUtD,.theme-light .hotspot-WcPUtD {
+	background-color: #f04747
+}
+
+
 .container-1UB9sr {
 	background: rgba(32,34,37,.3);
 	color: #fff;
@@ -44215,14 +44233,10 @@ html .tabBadge-3smxHS {
 }
 
 .hotspot-1Kz9ab {
-	border-radius: 50%;
-	width: 8px;
-	height: 8px;
 	position: absolute;
 	top: 1px;
 	right: 1px;
-	border: 2px solid #2f3136;
-	background-color: #f04747
+	border: 2px solid #2f3136
 }
 
 .customStatusContainer-pHFGrE {
@@ -50595,11 +50609,7 @@ to {
 }
 
 .hotspot-1E-7dC {
-	border-radius: 50%;
-	width: 8px;
-	height: 8px;
-	margin-left: 11px;
-	background-color: #f04747
+	margin-left: 11px
 }
 
 .theme-dark .premiumGuildIcon-BhwtRn,.theme-light .premiumGuildIcon-BhwtRn {
@@ -61323,4 +61333,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.5c403a473ad6c88a7cd9.css.map*/
+/*# sourceMappingURL=0.eb64ce93b76b8bb83ec9.css.map*/
