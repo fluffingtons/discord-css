@@ -45478,8 +45478,8 @@ to {
 
 .wrapper-2B2Wx1 {
 	position: absolute;
-	top: -4px;
-	bottom: -4px;
+	top: 0;
+	bottom: 0;
 	left: 0;
 	right: 0;
 	display: -webkit-box;
@@ -45666,22 +45666,21 @@ to {
 	transform: translateY(1px) translateZ(0)
 }
 
-.dragPlaceholder-ejbpFM {
+.placeholderMask-3K9THS {
+	display: block
+}
+
+.dragInner-_SHftW {
 	width: 48px;
-	height: 48px;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	border-width: 1px;
-	border-style: dashed;
-	border-radius: 50%
+	height: 48px
 }
 
 .theme-dark .iconBadge-2wi9r4,.theme-light .iconBadge-2wi9r4 {
 	background-color: #4f545c
 }
 
-.theme-dark .dragPlaceholder-ejbpFM,.theme-light .dragPlaceholder-ejbpFM {
-	border-color: #72767d
+.theme-dark .dragInner-_SHftW,.theme-light .dragInner-_SHftW {
+	background-color: #2f3136
 }
 
 
@@ -61654,4 +61653,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.d321f29989efad36011a.css.map*/
+/*# sourceMappingURL=0.96a4621bd8de673b6def.css.map*/
