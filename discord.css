@@ -18930,6 +18930,77 @@ to {
 }
 
 
+.root-1gCeng {
+	background-color: #fff;
+	border-radius: 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	pointer-events: all;
+	position: relative
+}
+
+.small-3iVZYw {
+	width: 440px;
+	max-height: 660px;
+	min-height: 200px
+}
+
+.medium-2RE1hE {
+	width: 600px;
+	max-height: 800px
+}
+
+.large-3lXhLH,.medium-2RE1hE {
+	min-height: 400px
+}
+
+.large-3lXhLH {
+	min-width: 800px;
+	max-width: 960px
+}
+
+.theme-dark .root-1gCeng {
+	background-color: #36393f;
+	-webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
+	box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2)
+}
+
+.theme-light .root-1gCeng {
+	background: #fff;
+	-webkit-box-shadow: 0 0 0 1px rgba(185,187,190,.3),0 2px 10px 0 rgba(0,0,0,.1);
+	box-shadow: 0 0 0 1px rgba(185,187,190,.3),0 2px 10px 0 rgba(0,0,0,.1)
+}
+
+
+.modal-SN2Box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 16px
+}
+
+.image-1XD_iw {
+	margin-bottom: 20px
+}
+
+.body-2EgyBy {
+	margin: 16px 0
+}
+
+
 .bottomMargin-3rKQFe {
 	margin-bottom: 16px
 }
@@ -29180,53 +29251,6 @@ to {
 }
 
 
-.root-1gCeng {
-	background-color: #fff;
-	border-radius: 5px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	pointer-events: all;
-	position: relative
-}
-
-.small-3iVZYw {
-	width: 440px;
-	max-height: 660px;
-	min-height: 200px
-}
-
-.medium-2RE1hE {
-	width: 600px;
-	max-height: 800px
-}
-
-.large-3lXhLH,.medium-2RE1hE {
-	min-height: 400px
-}
-
-.large-3lXhLH {
-	min-width: 800px;
-	max-width: 960px
-}
-
-.theme-dark .root-1gCeng {
-	background-color: #36393f;
-	-webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2);
-	box-shadow: 0 0 0 1px rgba(32,34,37,.6),0 2px 10px 0 rgba(0,0,0,.2)
-}
-
-.theme-light .root-1gCeng {
-	background: #fff;
-	-webkit-box-shadow: 0 0 0 1px rgba(185,187,190,.3),0 2px 10px 0 rgba(0,0,0,.1);
-	box-shadow: 0 0 0 1px rgba(185,187,190,.3),0 2px 10px 0 rgba(0,0,0,.1)
-}
-
-
 .form-31hL4w {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -39466,6 +39490,170 @@ html .tabBadge-3smxHS {
 }
 
 
+.row-1Lmx44 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.clickable-VxMZ3b {
+	cursor: pointer
+}
+
+.headerCell-2jGIdL,.headerCellContent-1pLtOr {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.headerCellContent-1pLtOr {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: 18px
+}
+
+.stickyHeader-r2k9DK {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2
+}
+
+.spacerHeader-3eoEE2 {
+	visibility: hidden
+}
+
+.sortIcon-3wW2NW {
+	width: 18px;
+	height: 18px;
+	margin-left: 4px
+}
+
+.theme-dark .headerCellSorted-1JR4Ny {
+	color: #fff
+}
+
+.theme-light .headerCellSorted-1JR4Ny {
+	color: #4f545c
+}
+
+
+.overviewStats-1qa3eB {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.overviewStat-17mKFu {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 600
+}
+
+.inlineIcon-a-E7AV {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.lastUpdated-2-eENf {
+	font-size: 14px
+}
+
+.tableHeader-PBGz8L {
+	padding: 0 8px
+}
+
+.row-_dKwg4 {
+	padding: 16px 8px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.date-w6LYAm {
+	width: 10%
+}
+
+.date-w6LYAm,.post-171Pq4 {
+	padding-right: 16px
+}
+
+.post-171Pq4 {
+	width: 50%;
+	max-height: 46px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: pre;
+	cursor: pointer
+}
+
+.reach-2YE1OX {
+	padding-right: 16px;
+	text-align: right
+}
+
+.netGain-kdAiTS,.reach-2YE1OX {
+	width: 20%
+}
+
+.netGain-kdAiTS,.netGainValue-1oFssm,.reach-2YE1OX {
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end
+}
+
+.emptyImage-34sEPE {
+	height: 150px;
+	background-image: url(/assets/33715a0239611123e6088a88a59bd22f.svg);
+	background-position: 50%;
+	background-repeat: no-repeat;
+	margin-bottom: 16px
+}
+
+.emptyState-22g1Ec {
+	text-align: center
+}
+
+.emptyHeader-eSdDAa {
+	margin-bottom: 8px
+}
+
+.theme-dark .overviewStat-17mKFu,.theme-dark .post-171Pq4 {
+	color: #fff
+}
+
+.theme-dark .date-w6LYAm,.theme-dark .lastUpdated-2-eENf,.theme-dark .netGain-kdAiTS,.theme-dark .reach-2YE1OX {
+	color: #b9bbbe
+}
+
+.theme-dark .row-_dKwg4: nth-child(odd) {
+	background-color: #2f3136
+}
+
+.theme-light .overviewStat-17mKFu,.theme-light .post-171Pq4 {
+	color: #23262a
+}
+
+.theme-light .date-w6LYAm,.theme-light .lastUpdated-2-eENf,.theme-light .netGain-kdAiTS,.theme-light .reach-2YE1OX {
+	color: #4f5660
+}
+
+.theme-light .row-_dKwg4: nth-child(odd) {
+	background-color: #f8f9f9
+}
+
+
 .integration-1Oc3ZW {
 	border-width: 0
 }
@@ -42559,55 +42747,6 @@ to {
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto
-}
-
-
-.row-1Lmx44 {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex
-}
-
-.clickable-VxMZ3b {
-	cursor: pointer
-}
-
-.headerCell-2jGIdL,.headerCellContent-1pLtOr {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex
-}
-
-.headerCellContent-1pLtOr {
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	min-height: 18px
-}
-
-.stickyHeader-r2k9DK {
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 2
-}
-
-.spacerHeader-3eoEE2 {
-	visibility: hidden
-}
-
-.sortIcon-3wW2NW {
-	width: 18px;
-	height: 18px;
-	margin-left: 4px
-}
-
-.theme-dark .headerCellSorted-1JR4Ny {
-	color: #fff
-}
-
-.theme-light .headerCellSorted-1JR4Ny {
-	color: #4f545c
 }
 
 
@@ -61567,4 +61706,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.ebd894d9e63992417c27.css.map*/
+/*# sourceMappingURL=0.74d2a8765d0869d2ca3e.css.map*/
