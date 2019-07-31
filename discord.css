@@ -30437,20 +30437,43 @@ form.form-3Jkagj {
 	margin: 0
 }
 
-.description-3e3UuC,.dropdown-1X9bWn {
-	margin-bottom: 16px
+.emojis-1OEe-v {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto
 }
 
-.dropdown-1X9bWn {
-	max-height: 100px
-}
-
-.art-1sIvad {
-	margin: 40px 0;
-	width: 100%;
-	height: 96px;
+.sprite-1EptVa {
+	background-image: url(/assets/4e51af83c4879cf313ad553bdc20dcf7.png);
 	background-position: 50%;
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
+	width: 44px;
+	height: 44px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	cursor: pointer;
+	-webkit-transition: -webkit-transform .2s ease;
+	transition: -webkit-transform .2s ease;
+	transition: transform .2s ease;
+	transition: transform .2s ease,-webkit-transform .2s ease
+}
+
+.sprite-1EptVa.selected-26aw7r,.sprite-1EptVa: hover {
+	-webkit-filter: none;
+	filter: none
+}
+
+.sprite-1EptVa: hover {
+	-webkit-transform: scale(1.06);
+	transform: scale(1.06)
+}
+
+.content-1YU-ab {
+	overflow: visible
+}
+
+.content-1YU-ab>* {
+	margin-bottom: 16px
 }
 
 .theme-dark .art-1sIvad {
@@ -30743,7 +30766,7 @@ form.form-3Jkagj {
 .volumeButtonSlider-3U2qy1 {
 	position: absolute;
 	bottom: calc(100% + 16px);
-	left: -80px;
+	left: -78px;
 	display: none;
 	-webkit-app-region: no-drag
 }
@@ -30908,12 +30931,6 @@ form.form-3Jkagj {
 	color: #faa61a
 }
 
-.closeIcon-3bCS3E {
-	width: 20px;
-	height: 20px;
-	margin-left: 8px
-}
-
 .inviteIcon-o7g3BV {
 	margin-top: 2px
 }
@@ -30935,11 +30952,14 @@ form.form-3Jkagj {
 	right: 8px
 }
 
+.liveBetaWrapper-2HWabX {
+	margin-left: 8px
+}
+
 .liveBeta-3K4NVr {
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex;
-	margin-left: 8px
+	display: flex
 }
 
 .beta-1XYacl {
@@ -39591,7 +39611,7 @@ html .tabBadge-3smxHS {
 }
 
 .post-171Pq4 {
-	width: 40%;
+	width: 50%;
 	max-height: 46px;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -39605,7 +39625,7 @@ html .tabBadge-3smxHS {
 }
 
 .netGain-kdAiTS,.reach-2YE1OX {
-	width: 20%
+	width: 15%
 }
 
 .netGain-kdAiTS,.netGainValue-1oFssm,.reach-2YE1OX {
@@ -41331,6 +41351,11 @@ to {
 
 .applicationStreamingPreviewWrapper-GnrvWN: hover .applicationStreamingHoverWrapper-1EroyS {
 	opacity: 1
+}
+
+.applicationStreamingPreviewSize-22YsLA {
+	height: 100%;
+	width: 100%
 }
 
 .applicationStreamingHoverWrapper-1EroyS {
@@ -61707,4 +61732,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.1dd107609e62f2708117.css.map*/
+/*# sourceMappingURL=0.abb5bf82382c9e3648bc.css.map*/
