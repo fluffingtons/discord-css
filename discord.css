@@ -30154,6 +30154,21 @@ form.form-3Jkagj {
 	margin-left: 16px
 }
 
+.avatarsAndCtaWrapper-3kcNHK {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 0;
+	-ms-flex: 0;
+	flex: 0;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
 .ownerAvatar-3lOj7q {
 	-ms-flex-item-align: start;
 	align-self: flex-start;
@@ -30223,21 +30238,26 @@ form.form-3Jkagj {
 	border-radius: 50%
 }
 
+.overflow-1ceHuw {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: .5px
+}
+
 .editButton-2hqzXE,.joinButton-1J7jrj {
 	padding: 0 16px;
 	font-weight: 600;
 	min-width: 110px
 }
 
-@media (max-width: 1000px) {
-	.contentWrapper-wOi93K {
-	-ms-flex-preferred-size: 50%;
-	flex-basis: 50%
+@media (max-width: 1200px) {
+	.avatarsAndCtaWrapper-3kcNHK {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 0 100%;
+	flex: 1 0 100%
 }
 
 .memberAvatars-3XWC_E {
-	-ms-flex-preferred-size: 40%;
-	flex-basis: 40%;
 	margin-left: 4px
 }
 
@@ -30257,12 +30277,9 @@ form.form-3Jkagj {
 	border: none
 }
 
-.theme-dark .listing-fwZBWU: hover,.theme-dark .unavailableBanner-1_CSoZ: hover {
-	background-color: #40444b
-}
-
-.theme-dark .emptyMember-1_LiLK,.theme-dark .unknownMember-2YZ6Xj {
-	background-color: #72767d
+.theme-dark .emptyMember-1_LiLK,.theme-dark .overflow-1ceHuw,.theme-dark .unknownMember-2YZ6Xj {
+	background-color: #72767d;
+	color: #b9bbbe
 }
 
 .theme-dark .description-3fVu7I,.theme-dark .owner-1uiGBX,.theme-dark .unavailableBanner-1_CSoZ {
@@ -30277,12 +30294,9 @@ form.form-3Jkagj {
 	border-left: 4px solid #7289da
 }
 
-.theme-light .listing-fwZBWU: hover {
-	background-color: #ebedef
-}
-
-.theme-light .emptyMember-1_LiLK,.theme-light .unknownMember-2YZ6Xj {
-	background-color: #c7ccd1
+.theme-light .emptyMember-1_LiLK,.theme-light .overflow-1ceHuw,.theme-light .unknownMember-2YZ6Xj {
+	background-color: #c7ccd1;
+	color: #747f8d
 }
 
 .theme-light .description-3fVu7I,.theme-light .owner-1uiGBX,.theme-light .unavailableBanner-1_CSoZ {
@@ -30359,8 +30373,23 @@ form.form-3Jkagj {
 	flex-direction: column
 }
 
+.emptyStateTitle-32Ng_K {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	text-transform: none
+}
+
 .theme-light .divider-drYsXG {
 	background-color: rgba(185,187,190,.3)
+}
+
+.theme-dark .emptyStateTitle-32Ng_K {
+	color: #fff
+}
+
+.theme-dark .emptyStateNote-1Tb-4- {
+	color: #b9bbbe
 }
 
 .theme-dark .divider-drYsXG {
@@ -61732,4 +61761,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.abb5bf82382c9e3648bc.css.map*/
+/*# sourceMappingURL=0.7c3b8ae4e52d5165a875.css.map*/
