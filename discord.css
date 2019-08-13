@@ -13710,14 +13710,13 @@ to {
 }
 
 .art-3vtzHG {
-	background: url(/assets/878a842ad634c0076d412a0a7c8c1279.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: absolute;
 	top: 0;
 	left: 50%;
-	-webkit-transform: translateY(-50%) translateX(-50%);
-	transform: translateY(-50%) translateX(-50%);
+	-webkit-transform: translateY(-75%) translateX(-50%);
+	transform: translateY(-75%) translateX(-50%);
 	width: 186px;
 	height: 71.25px
 }
@@ -13725,11 +13724,11 @@ to {
 .headerText-1h7zBw {
 	color: #fff;
 	font-weight: 500;
-	margin-top: 28px
+	margin-top: 14px
 }
 
 .button-1ZJXzu {
-	margin-top: 16px;
+	margin-top: 14px;
 	height: 32px
 }
 
@@ -13747,6 +13746,14 @@ to {
 	top: 100%;
 	left: 50%;
 	margin-left: -5px
+}
+
+.theme-dark .art-3vtzHG {
+	background-image: url(/assets/3f258942a91dc893c4655df950927acd.svg)
+}
+
+.theme-light .art-3vtzHG {
+	background-image: url(/assets/33cb6c3abef39ad4eafc354170a13876.svg)
 }
 
 
@@ -30027,72 +30034,6 @@ form.form-3Jkagj {
 }
 
 
-.closeButton-1pHSGS {
-	position: absolute;
-	top: 14px;
-	right: 14px
-}
-
-.title-2mcTOP {
-	margin: 0
-}
-
-.emojis-1OEe-v {
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto
-}
-
-.sprite-1EptVa {
-	background-image: url(/assets/4e51af83c4879cf313ad553bdc20dcf7.png);
-	background-position: 50%;
-	background-repeat: no-repeat;
-	width: 44px;
-	height: 44px;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	cursor: pointer;
-	-webkit-transition: -webkit-transform .2s ease;
-	transition: -webkit-transform .2s ease;
-	transition: transform .2s ease;
-	transition: transform .2s ease,-webkit-transform .2s ease
-}
-
-.sprite-1EptVa.selected-26aw7r,.sprite-1EptVa: hover {
-	-webkit-filter: none;
-	filter: none
-}
-
-.sprite-1EptVa: hover {
-	-webkit-transform: scale(1.06);
-	transform: scale(1.06)
-}
-
-.content-1YU-ab {
-	overflow: visible
-}
-
-.content-1YU-ab>* {
-	margin-bottom: 16px
-}
-
-.theme-dark .art-1sIvad {
-	background-image: url(/assets/2ceb472e89545af8543aa44b072b910d.svg)
-}
-
-.theme-dark .description-3e3UuC {
-	color: #f6f6f7
-}
-
-.theme-light .art-1sIvad {
-	background-image: url(/assets/0e88c0d5ad220379d8e2438dd6444222.svg)
-}
-
-.theme-light .description-3e3UuC {
-	color: #2e3338
-}
-
-
 .hotspot-WcPUtD {
 	border-radius: 50%;
 	width: 8px;
@@ -30144,6 +30085,50 @@ form.form-3Jkagj {
 
 .theme-dark .item-3T2z1R {
 	border-color: #18191c
+}
+
+
+.closeButton-39TzFB {
+	position: absolute;
+	top: 14px;
+	right: 14px
+}
+
+.title-2OUr3b {
+	margin: 0
+}
+
+.content-V0FFHk {
+	overflow: visible
+}
+
+.content-V0FFHk>* {
+	margin-bottom: 24px
+}
+
+
+.art-3XU-tu {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	width: 238.48px;
+	height: 95.7px;
+	margin: 0 auto 20px
+}
+
+.theme-dark .art-3XU-tu {
+	background-image: url(/assets/2ceb472e89545af8543aa44b072b910d.svg)
+}
+
+.theme-dark .description-2vyrxs {
+	color: #f6f6f7
+}
+
+.theme-light .art-3XU-tu {
+	background-image: url(/assets/0e88c0d5ad220379d8e2438dd6444222.svg)
+}
+
+.theme-light .description-2vyrxs {
+	color: #2e3338
 }
 
 
@@ -30398,6 +30383,99 @@ form.form-3Jkagj {
 }
 
 
+.headerContainer-8EGVnw {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.header-32KAke,.ratingBody-jwhymE {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	text-align: center
+}
+
+.ratingBody-jwhymE {
+	margin-top: 8px
+}
+
+.footer-2wTL-P {
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.emojis-3NR3qX {
+	width: 240px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.emoji-Ydjlry {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 64px;
+	cursor: pointer;
+	-webkit-transition: -webkit-transform .2s ease;
+	transition: -webkit-transform .2s ease;
+	transition: transform .2s ease;
+	transition: transform .2s ease,-webkit-transform .2s ease
+}
+
+.emoji-Ydjlry.selected-cQv90c {
+	-webkit-filter: none;
+	filter: none
+}
+
+.emoji-Ydjlry: hover {
+	-webkit-transform: scale(1.06);
+	transform: scale(1.06)
+}
+
+.emojiSad-2nUV70 {
+	background-image: url(/assets/f398f47b3dd4aeb243f194eeb7d8e313.svg)
+}
+
+.emojiSad-2nUV70.selected-cQv90c,.emojiSad-2nUV70: hover {
+	background-image: url(/assets/9bccf834edfbb31d3b8bd3d72e279f6c.svg)
+}
+
+.emojiNeutral-3GwmFW {
+	background-image: url(/assets/115f4a86ade9be08d25a497ebbeae35b.svg)
+}
+
+.emojiNeutral-3GwmFW.selected-cQv90c,.emojiNeutral-3GwmFW: hover {
+	background-image: url(/assets/83942d9e1bfaf1e07b77a68504607b72.svg)
+}
+
+.emojiHappy-3qJNmV {
+	background-image: url(/assets/219b9b9d4d6d6e48fc4e0682157f9b2d.svg)
+}
+
+.emojiHappy-3qJNmV.selected-cQv90c,.emojiHappy-3qJNmV: hover {
+	background-image: url(/assets/d211ec6a4c42a1a38e79323b40511eeb.svg)
+}
+
+.theme-dark .header-32KAke {
+	color: #fff
+}
+
+.theme-dark .ratingBody-jwhymE {
+	color: #dcddde
+}
+
+.theme-light .header-32KAke {
+	color: #747f8d
+}
+
+.theme-light .ratingBody-jwhymE {
+	color: #e3e5e8
+}
+
+
 .root-25RxKh {
 	height: 100%;
 	width: 100%;
@@ -30459,7 +30537,7 @@ form.form-3Jkagj {
 .emptyImage-1Y9CaI {
 	width: 100%;
 	height: 200px;
-	background-image: url(/assets/33715a0239611123e6088a88a59bd22f.svg);
+	background-image: url(/assets/4b9c3419c57d838c4076abc9d34dbea7.svg);
 	background-position: 50%;
 	background-repeat: no-repeat;
 	margin-bottom: 16px
@@ -42844,10 +42922,13 @@ to {
 .emptyPreviewImage-IBznSI {
 	width: 100%;
 	height: 80px;
-	background-image: url(/assets/219dc7718feb5b42e1c5f6b1ea0e19b8.svg);
 	background-position: 50%;
 	background-repeat: no-repeat;
 	margin-bottom: 10px
+}
+
+.theme-dark .emptyPreviewImage-IBznSI,.theme-light .emptyPreviewImage-IBznSI {
+	background-image: url(/assets/c308fe7d53002aa34201625e2a2f27dd.svg)
 }
 
 .theme-dark .emptyPreviewText-2IOfAL,.theme-light .emptyPreviewText-2IOfAL {
@@ -46365,6 +46446,14 @@ to {
 
 .containerDefault-1ZnADq.selected-37j_iU .userLimit-64AFxe,.iconVisibility-1bOqu7: hover .userLimit-64AFxe {
 	display: none
+}
+
+.lfgBadge-1wmy7_ {
+	background-color: #40444b
+}
+
+.containerDefault-1ZnADq.selected-37j_iU .lfgBadge-1wmy7_,.iconVisibility-1bOqu7: hover .lfgBadge-1wmy7_ {
+	background-color: #8e9297
 }
 
 
@@ -61917,4 +62006,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.b3e8cded03e05a4f0c2c.css.map*/
+/*# sourceMappingURL=0.3f3697376ad51de0c305.css.map*/
