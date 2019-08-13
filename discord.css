@@ -6217,14 +6217,6 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 }
 
 
-.select-2TCrqx.error-3S-7y9 .errorMessage-1Y9q-X {
-	font-size: 14px;
-	line-height: 20px;
-	margin-top: 8px;
-	color: #f04747
-}
-
-
 .checkbox-3kaeSU {
 	cursor: pointer;
 	display: -webkit-box;
@@ -7977,6 +7969,14 @@ to {
 }
 
 
+}
+
+
+.select-2TCrqx.error-3S-7y9 .errorMessage-1Y9q-X {
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 8px;
+	color: #f04747
 }
 
 
@@ -17477,6 +17477,47 @@ to {
 	line-height: 20px;
 	text-align: center;
 	color: #747f8d
+}
+
+.premiumRetentionNotice-2F9O9e {
+	background-color: #f8f9f9;
+	border-radius: 4px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 8px;
+	margin: 8px;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 16px
+}
+
+.premiumRetentionNoticeIcon-oPnRIp {
+	min-width: 22px;
+	height: 24px;
+	margin-right: 8px;
+	margin-top: 2px
+}
+
+.premiumRetentionNoticeClose-13p8rf {
+	width: 16px;
+	height: 16px;
+	color: #9099a4;
+	cursor: pointer
+}
+
+.premiumRetentionNoticeClose-13p8rf: hover {
+	color: #4f5660
+}
+
+.premiumRetentionNoticeContent-1U1AGf {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column
 }
 
 .theme-dark .emojiPicker-3m1S-j .dimmer-3iH-5D,.theme-light .emojiPicker-3m1S-j .dimmer-3iH-5D {
@@ -29705,7 +29746,11 @@ form.form-3Jkagj {
 
 .description-3fVu7I {
 	line-height: 20px;
-	margin-bottom: 2px
+	margin-bottom: 2px;
+	word-break: break-word;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto
 }
 
 .age-CD7WsI,.owner-1uiGBX {
@@ -61872,4 +61917,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.4c0e97205d782ac8975f.css.map*/
+/*# sourceMappingURL=0.b3e8cded03e05a4f0c2c.css.map*/
