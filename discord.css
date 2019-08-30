@@ -28666,6 +28666,62 @@ to {
 }
 
 
+.base-PmTxvP {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 8px;
+	min-width: 16px;
+	min-height: 16px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto
+}
+
+.numberBadge-2s8kKX {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.textBadge-1iylP6 {
+	padding: 0 6px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden
+}
+
+.iconBadge-2NuvG9 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 16px;
+	height: 16px
+}
+
+.icon-3s6X1M {
+	padding: 2px;
+	width: 100%;
+	height: 100%
+}
+
+
 .live-2o_S8y {
 	padding: 0 6px;
 	border-radius: 16px;
@@ -30561,6 +30617,25 @@ to {
 	color: var(--foreground-effect-1)
 }
 
+.peekIcon-_XXlwJ {
+	-webkit-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
+	color: var(--foreground-1);
+	position: absolute;
+	padding: 8px;
+	border-radius: 50%;
+	background-color: var(--background-3);
+	opacity: 0
+}
+
+.leftPeek-1ZDJkq {
+	right: 40px
+}
+
+.rightPeek-hdN9c4 {
+	left: 40px
+}
+
 .carouselContainer-2U7ci9 {
 	-webkit-transition: opacity .5s ease;
 	transition: opacity .5s ease;
@@ -30568,12 +30643,28 @@ to {
 	position: relative
 }
 
+.carouselContainer-2U7ci9: hover .showPeek-2h6B-z .peekIcon-_XXlwJ {
+	opacity: .95
+}
+
+.carouselContainer-2U7ci9: hover .showPeek-2h6B-z.fade-3OePbZ {
+	cursor: pointer;
+	pointer-events: auto
+}
+
 .fade-3OePbZ {
 	position: absolute;
 	top: 0;
 	height: 100%;
 	width: 160px;
-	z-index: 2
+	z-index: 2;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	pointer-events: none
 }
 
 .leftFade-2haDgw {
@@ -31863,6 +31954,10 @@ to {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center
+}
+
+.gameWrapper-36OLxh {
+	min-width: 0
 }
 
 .clickableGameWrapper-27sM7R {
@@ -35464,62 +35559,6 @@ to {
 
 .theme-light .description-1M003G {
 	color: #747f8d
-}
-
-
-.base-PmTxvP {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	border-radius: 8px;
-	min-width: 16px;
-	min-height: 16px;
-	font-size: 12px;
-	line-height: 16px;
-	font-weight: 600;
-	color: #fff;
-	text-align: center;
-	-webkit-box-flex: 0;
-	-ms-flex: 0 0 auto;
-	flex: 0 0 auto
-}
-
-.numberBadge-2s8kKX {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center
-}
-
-.textBadge-1iylP6 {
-	padding: 0 6px;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	overflow: hidden
-}
-
-.iconBadge-2NuvG9 {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	width: 16px;
-	height: 16px
-}
-
-.icon-3s6X1M {
-	padding: 2px;
-	width: 100%;
-	height: 100%
 }
 
 
@@ -62503,4 +62542,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.044ce55b5e27c4d881a3.css.map*/
+/*# sourceMappingURL=0.b8ece22894a671ee5e3d.css.map*/
