@@ -36354,60 +36354,11 @@ form.form-3Jkagj {
 }
 
 
-.lfgActionsContainer-26h2Ds {
-	margin-top: -20px;
-	margin-bottom: 8px
-}
-
-.lfgAction-1sOX_7 {
-	margin-left: 15px;
-	cursor: pointer;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center
-}
-
-.actionIcon-1353uw {
-	margin-right: 3px
-}
-
-@media (max-width: 1000px) {
-	.lfgActionsContainer-26h2Ds {
-	margin: 8px 0
-}
-
-
-}
-
-.theme-dark .lfgAction-1sOX_7 {
-	color: #b9bbbe
-}
-
-.theme-dark .lfgAction-1sOX_7: hover {
-	color: #fff
-}
-
-.theme-light .lfgAction-1sOX_7 {
-	color: #747f8d
-}
-
-.theme-light .lfgAction-1sOX_7: hover {
-	color: #000
-}
-
-
 .listing-fwZBWU {
 	padding: 16px;
 	margin-bottom: 16px;
 	-webkit-transition: background .1s ease-out;
 	transition: background .1s ease-out
-}
-
-.listing-fwZBWU: last-child {
-	margin-bottom: 5px
 }
 
 .full-2WzA6i {
@@ -36465,7 +36416,7 @@ form.form-3Jkagj {
 	hyphens: auto
 }
 
-.age-CD7WsI,.owner-1uiGBX {
+.ownerAndAge-3jwmWh {
 	font-size: 14px;
 	line-height: 18px
 }
@@ -36544,7 +36495,7 @@ form.form-3Jkagj {
 .joinButton-1J7jrj,.viewButton-1im2gD {
 	padding: 0 16px;
 	font-weight: 600;
-	min-width: 110px
+	min-width: 85px
 }
 
 .error-3YY4lo {
@@ -36577,11 +36528,11 @@ form.form-3Jkagj {
 	color: #b9bbbe
 }
 
-.theme-dark .description-3fVu7I,.theme-dark .owner-1uiGBX,.theme-dark .unavailableBanner-1_CSoZ {
+.theme-dark .description-3fVu7I,.theme-dark .unavailableBanner-1_CSoZ {
 	color: #fff
 }
 
-.theme-dark .age-CD7WsI {
+.theme-dark .ownerAndAge-3jwmWh {
 	color: #b9bbbe
 }
 
@@ -36594,8 +36545,12 @@ form.form-3Jkagj {
 	color: #747f8d
 }
 
-.theme-light .description-3fVu7I,.theme-light .owner-1uiGBX,.theme-light .unavailableBanner-1_CSoZ {
+.theme-light .description-3fVu7I,.theme-light .unavailableBanner-1_CSoZ {
 	color: #2e3338
+}
+
+.theme-light .ownerAndAge-3jwmWh {
+	color: #4f5660
 }
 
 .unavailableBanner-1_CSoZ {
@@ -36642,7 +36597,7 @@ form.form-3Jkagj {
 }
 
 .divider-drYsXG {
-	margin: 20px 0;
+	margin: 20px 16px;
 	height: 1px
 }
 
@@ -47194,7 +47149,12 @@ to {
 	display: none
 }
 
+.lfgUserLimit-1L7GKG {
+	display: block
+}
+
 .lfgBadge-1wmy7_ {
+	padding: 0 5px;
 	background-color: #40444b;
 	color: #8e9297
 }
@@ -62521,4 +62481,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.295c3924f5082a82fd7a.css.map*/
+/*# sourceMappingURL=0.b7a983c20fd696346554.css.map*/
