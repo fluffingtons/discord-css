@@ -4328,7 +4328,7 @@ to {
 	font-weight: 500
 }
 
-.theme-dark.platform-win .markup-2BOw-j {
+.theme-dark.platform-web .markup-2BOw-j,.theme-dark.platform-win .markup-2BOw-j {
 	font-weight: 400
 }
 
@@ -4818,7 +4818,7 @@ to {
 	font-weight: 500
 }
 
-.theme-dark.platform-win .labelSelected-1I1cDg {
+.theme-dark.platform-web .labelSelected-1I1cDg,.theme-dark.platform-win .labelSelected-1I1cDg {
 	font-weight: 400
 }
 
@@ -4832,7 +4832,7 @@ to {
 	font-weight: 500
 }
 
-.theme-dark.platform-win .description-3_Ncsb {
+.theme-dark.platform-web .description-3_Ncsb,.theme-dark.platform-win .description-3_Ncsb {
 	font-weight: 400
 }
 
@@ -6969,19 +6969,19 @@ ol,ul {
 	-webkit-font-smoothing: antialiased
 }
 
-.theme-dark.platform-win : : -webkit-input-placeholder,.theme-dark.platform-win input,.theme-dark.platform-win select,.theme-dark.platform-win textarea {
+.theme-dark.platform-web : : -webkit-input-placeholder,.theme-dark.platform-web input,.theme-dark.platform-web select,.theme-dark.platform-web textarea,.theme-dark.platform-win : : -webkit-input-placeholder,.theme-dark.platform-win input,.theme-dark.platform-win select,.theme-dark.platform-win textarea {
 	font-weight: 400
 }
 
-.theme-dark.platform-win : : -moz-placeholder,.theme-dark.platform-win input,.theme-dark.platform-win select,.theme-dark.platform-win textarea {
+.theme-dark.platform-web : : -moz-placeholder,.theme-dark.platform-web input,.theme-dark.platform-web select,.theme-dark.platform-web textarea,.theme-dark.platform-win : : -moz-placeholder,.theme-dark.platform-win input,.theme-dark.platform-win select,.theme-dark.platform-win textarea {
 	font-weight: 400
 }
 
-.theme-dark.platform-win : -ms-input-placeholder,.theme-dark.platform-win input,.theme-dark.platform-win select,.theme-dark.platform-win textarea {
+.theme-dark.platform-web : -ms-input-placeholder,.theme-dark.platform-web input,.theme-dark.platform-web select,.theme-dark.platform-web textarea,.theme-dark.platform-win : -ms-input-placeholder,.theme-dark.platform-win input,.theme-dark.platform-win select,.theme-dark.platform-win textarea {
 	font-weight: 400
 }
 
-.theme-dark.platform-win : : placeholder,.theme-dark.platform-win input,.theme-dark.platform-win select,.theme-dark.platform-win textarea {
+.theme-dark.platform-web : : placeholder,.theme-dark.platform-web input,.theme-dark.platform-web select,.theme-dark.platform-web textarea,.theme-dark.platform-win : : placeholder,.theme-dark.platform-win input,.theme-dark.platform-win select,.theme-dark.platform-win textarea {
 	font-weight: 400
 }
 
@@ -14344,7 +14344,7 @@ to {
 	text-decoration: underline
 }
 
-.theme-dark.platform-win .operations-36ENbA {
+.theme-dark.platform-web .operations-36ENbA,.theme-dark.platform-win .operations-36ENbA {
 	font-weight: 400
 }
 
@@ -14442,7 +14442,7 @@ to {
 	font-weight: 500
 }
 
-.theme-dark.platform-win .localBotMessage-1cGMdw {
+.theme-dark.platform-web .localBotMessage-1cGMdw,.theme-dark.platform-win .localBotMessage-1cGMdw {
 	font-weight: 400
 }
 
@@ -14526,7 +14526,7 @@ to {
 	margin-left: .3rem
 }
 
-.theme-dark.platform-win .timestampCozy-2hLAPV {
+.theme-dark.platform-web .timestampCozy-2hLAPV,.theme-dark.platform-win .timestampCozy-2hLAPV {
 	font-weight: 400
 }
 
@@ -14586,7 +14586,7 @@ to {
 	text-decoration: underline
 }
 
-.theme-dark.platform-win .username-_4ZSMR {
+.theme-dark.platform-web .username-_4ZSMR,.theme-dark.platform-win .username-_4ZSMR {
 	font-weight: 500
 }
 
@@ -14702,7 +14702,7 @@ to {
 	color: var(--interactive-active)
 }
 
-.theme-dark.platform-win .item-2J1YMK {
+.theme-dark.platform-web .item-2J1YMK,.theme-dark.platform-win .item-2J1YMK {
 	font-weight: 400
 }
 
@@ -14730,7 +14730,8 @@ to {
 .autocompleteRow-2OthDa {
 	padding: 0 8px;
 	font-size: 14px;
-	line-height: 16px
+	line-height: 16px;
+	font-weight: 500
 }
 
 .autocompleteRowVertical-q1K4ky {
@@ -16147,7 +16148,7 @@ to {
 	color: var(--text-muted)
 }
 
-.theme-dark.platform-win .textArea-2Spzkt {
+.theme-dark.platform-web .textArea-2Spzkt,.theme-dark.platform-win .textArea-2Spzkt {
 	font-weight: 400
 }
 
@@ -18218,7 +18219,7 @@ to {
 	color: #87909c!important
 }
 
-.theme-dark.platform-win .embedProvider-3k5pfl {
+.theme-dark.platform-web .embedProvider-3k5pfl,.theme-dark.platform-win .embedProvider-3k5pfl {
 	font-weight: 400
 }
 
@@ -18386,7 +18387,7 @@ to {
 	letter-spacing: 0
 }
 
-.theme-dark.platform-win .embedFooterText-28V_Wb {
+.theme-dark.platform-web .embedFooterText-28V_Wb,.theme-dark.platform-win .embedFooterText-28V_Wb {
 	font-weight: 400
 }
 
@@ -18442,7 +18443,7 @@ to {
 	font-weight: 500
 }
 
-.theme-dark.platform-win .embedFieldName-NFrena {
+.theme-dark.platform-web .embedFieldName-NFrena,.theme-dark.platform-win .embedFieldName-NFrena {
 	font-weight: 400
 }
 
@@ -18452,7 +18453,7 @@ to {
 	white-space: pre-line
 }
 
-.theme-dark.platform-win .embedFieldValue-nELq2s {
+.theme-dark.platform-web .embedFieldValue-nELq2s,.theme-dark.platform-win .embedFieldValue-nELq2s {
 	font-weight: 400
 }
 
@@ -19135,7 +19136,7 @@ to {
 	overflow: hidden
 }
 
-.theme-dark.platform-win .filename-3eBB_v {
+.theme-dark.platform-web .filename-3eBB_v,.theme-dark.platform-win .filename-3eBB_v {
 	font-weight: 400
 }
 
@@ -20961,7 +20962,8 @@ to {
 	-webkit-box-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
-	margin-left: 1.5rem
+	margin-left: 1.5rem;
+	font-weight: 500
 }
 
 .content-2M3n_H a {
@@ -20971,6 +20973,10 @@ to {
 
 .content-2M3n_H .actionAnchor-gzc_5z {
 	color: var(--text-link)
+}
+
+.theme-dark.platform-web .content-2M3n_H,.theme-dark.platform-win .content-2M3n_H {
+	font-weight: 400
 }
 
 .icon-2Po-VO {
@@ -21003,7 +21009,7 @@ to {
 	color: var(--text-muted)
 }
 
-.theme-dark.platform-win .timestamp-1E3uAL {
+.theme-dark.platform-web .timestamp-1E3uAL,.theme-dark.platform-win .timestamp-1E3uAL {
 	font-weight: 400
 }
 
@@ -33698,7 +33704,7 @@ to {
 	color: var(--header-secondary)
 }
 
-.theme-dark.platform-win .topic-TCb_qw {
+.theme-dark.platform-web .topic-TCb_qw,.theme-dark.platform-win .topic-TCb_qw {
 	font-weight: 400
 }
 
@@ -52605,7 +52611,8 @@ to {
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
-	flex-direction: column
+	flex-direction: column;
+	max-height: 660px
 }
 
 .divider-1que2t {
@@ -59914,4 +59921,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.eb62f195357c9fe6138f.css.map*/
+/*# sourceMappingURL=0.c0f8cc08bd792cdd5471.css.map*/
