@@ -34107,8 +34107,8 @@ to {
 
 .noScroll-41HX24 {
 	-webkit-box-flex: 1;
-	-ms-flex: 1 0 auto;
-	flex: 1 0 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
 	overflow: visible;
 	padding: 0 20px
 }
@@ -34845,8 +34845,12 @@ to {
 
 .popout-1k352f {
 	border-radius: 4px;
-	height: 100%;
+	height: auto;
 	padding: 8px 16px
+}
+
+.scroller-2TWLdF {
+	max-height: 70vh
 }
 
 .viewers-3jBi-s {
@@ -44822,23 +44826,37 @@ to {
 	background-color: var(--text-muted)
 }
 
+.disabled-fu08eR {
+	opacity: .5
+}
+
+.disabled-fu08eR: hover {
+	opacity: 1
+}
+
 
 .body-Ogsp8i {
 	padding: 10px
 }
 
 .streamPreviewWrapper-2DSWOK {
-	padding-left: 10px;
+	padding-left: 16px;
 	opacity: 0;
-	-webkit-transition: opacity 25ms ease .15s,left 25ms ease-in 125ms;
-	transition: opacity 25ms ease .15s,left 25ms ease-in 125ms;
+	-webkit-transition: opacity .15s ease,-webkit-transform 125ms ease-in;
+	transition: opacity .15s ease,-webkit-transform 125ms ease-in;
+	transition: opacity .15s ease,transform 125ms ease-in;
+	transition: opacity .15s ease,transform 125ms ease-in,-webkit-transform 125ms ease-in;
 	position: relative;
-	left: 7px
+	-webkit-transform: translate3d(8px,0,0) scale(.98);
+	transform: translate3d(8px,0,0) scale(.98);
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
 }
 
 .streamPreviewWrapper-2DSWOK.mounted-26niXS {
 	opacity: 1;
-	left: 0
+	-webkit-transform: translateZ(0) scale(1);
+	transform: translateZ(0) scale(1)
 }
 
 .streamPreview-2-WUWT {
@@ -59895,4 +59913,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.5e99b5dc39ce6d671a3f.css.map*/
+/*# sourceMappingURL=0.50e8ce4376ea2c6f26bc.css.map*/
