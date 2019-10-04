@@ -30856,7 +30856,7 @@ to {
 	border-radius: 5px;
 	margin-top: 12px;
 	margin-bottom: 30px;
-	padding: 16px;
+	padding: 16px 8px;
 	width: 100%;
 	background-color: var(--background-secondary);
 	color: var(--text-normal)
@@ -30871,12 +30871,17 @@ to {
 	justify-content: space-between;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
-	align-items: center
+	align-items: center;
+	height: 20px
 }
 
 .image-3XsqGc {
-	height: 44px;
-	margin-right: 12px
+	height: 60px;
+	margin-right: 12px;
+	margin-left: 8px;
+	margin-bottom: -8px;
+	-ms-flex-item-align: end;
+	align-self: flex-end
 }
 
 .button-1YxJv4 {
@@ -60387,4 +60392,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.cf4767226404ecabb71d.css.map*/
+/*# sourceMappingURL=0.c3826f978a59eac2f4aa.css.map*/
