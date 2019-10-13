@@ -31137,11 +31137,12 @@ to {
 .image-1XD_iw {
 	width: 280px;
 	margin-top: -96px;
-	margin-bottom: 20px
+	margin-bottom: 32px
 }
 
 .body-2EgyBy {
-	margin: 8px 0 16px
+	margin: 16px 0 32px;
+	font-weight: 500
 }
 
 
@@ -31175,16 +31176,19 @@ to {
 	background-size: cover;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
-	justify-content: center
+	justify-content: center;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px
 }
 
 .formMargin-f9sZDL {
-	margin-bottom: 32px
+	margin-bottom: 24px
 }
 
 .content-wjJP6h {
 	z-index: 2;
-	margin-top: 32px
+	margin-top: 32px;
+	font-weight: 500
 }
 
 .noScroll-38vYzX {
@@ -31198,7 +31202,8 @@ to {
 	display: flex;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
-	align-items: center
+	align-items: center;
+	font-weight: 500
 }
 
 .icon-n8WYF4 {
@@ -31206,25 +31211,31 @@ to {
 	margin-left: 2px
 }
 
+.channelContainer-1x3D6I {
+	background-color: var(--background-secondary);
+	border-radius: 4px;
+	margin-left: 16px;
+	min-width: 240px;
+	max-width: 320px;
+	overflow: hidden
+}
+
 .channel-2PJTLY {
 	background-color: var(--background-modifier-selected);
-	padding: 8px;
-	border-radius: 4px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	margin-left: 16px;
-	min-width: 240px;
-	max-width: 320px
+	padding: 8px
 }
 
 .channelName-2HcGlq {
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	overflow: hidden
+	overflow: hidden;
+	font-weight: 500
 }
 
 .channelIcon-3ci4bV {
@@ -60765,4 +60776,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.f65ccb8adee346ea7cc9.css.map*/
+/*# sourceMappingURL=0.a27a84ba2f3342771583.css.map*/
