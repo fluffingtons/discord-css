@@ -5795,10 +5795,6 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 	flex-shrink: 0
 }
 
-.text-QRmRFG {
-	display: inline
-}
-
 
 .pro-1T8RK7 {
 	text-transform: uppercase
@@ -8786,6 +8782,13 @@ to {
 	font-size: 14px;
 	line-height: 18px;
 	color: #fff
+}
+
+.customStatusText-3YJeRZ {
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text
 }
 
 .headerNormal-T_seeN .customStatus-1bh2V9 {
@@ -30587,7 +30590,9 @@ to {
 
 
 .modal-2qGx28 {
-	width: 375px
+	width: 375px;
+	border-radius: 4px;
+	overflow: hidden
 }
 
 .container-2VkGtz {
@@ -30666,13 +30671,14 @@ to {
 .skipButton-9sjGxc {
 	width: 100%;
 	text-align: center;
-	font-size: 16px;
-	color: var(--interactive-normal);
-	margin: 16px 0
+	font-size: 14px;
+	opacity: .5;
+	color: var(--text-muted);
+	margin: 4px 0
 }
 
 .skipButton-9sjGxc: hover {
-	color: var(--interactive-hover);
+	color: var(--text-normal);
 	text-decoration: underline
 }
 
@@ -56140,7 +56146,11 @@ to {
 .customStatusText-39gdCI {
 	color: #fff;
 	font-size: 14px;
-	line-height: 18px
+	line-height: 18px;
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text
 }
 
 .customStatusEmoji-3BvdMX {
@@ -59951,4 +59961,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.f97ea15ed00b1a710e6a.css.map*/
+/*# sourceMappingURL=0.cf98896edeab1e4bb1a2.css.map*/
