@@ -8775,13 +8775,27 @@ to {
 }
 
 .customStatus-1bh2V9 {
-	margin-top: 8px;
+	margin-top: 10px;
 	text-align: center;
 	width: 100%;
 	overflow-wrap: break-word;
 	font-size: 14px;
 	line-height: 18px;
 	color: #fff
+}
+
+.customStatus-1bh2V9 .customStatusEmoji-7MXCgv {
+	width: 20px;
+	height: 20px
+}
+
+.customStatus-1bh2V9 .customStatusEmoji-7MXCgv: not(: last-child) {
+	margin-right: 8px
+}
+
+.customStatus-1bh2V9 .customStatusEmoji-7MXCgv.customStatusSoloEmoji-XOvnMc {
+	width: 32px;
+	height: 32px
 }
 
 .customStatusText-3YJeRZ {
@@ -8793,10 +8807,6 @@ to {
 
 .headerNormal-T_seeN .customStatus-1bh2V9 {
 	color: var(--header-secondary)
-}
-
-.customStatusEmoji-7MXCgv {
-	margin-right: 8px
 }
 
 .theme-dark .headerNormal-T_seeN {
@@ -56127,17 +56137,6 @@ to {
 	padding: 20px
 }
 
-.topSectionNormal-2-vo2m .activityHeader-1PExlk,.topSectionNormal-2-vo2m .customStatusText-39gdCI {
-	color: var(--header-secondary)
-}
-
-.activityHeader-1PExlk {
-	color: #fff;
-	text-transform: uppercase;
-	margin-bottom: 8px;
-	font-weight: 600
-}
-
 .customStatusText-39gdCI {
 	color: #fff;
 	font-size: 14px;
@@ -56148,8 +56147,29 @@ to {
 	user-select: text
 }
 
-.customStatusEmoji-3BvdMX {
+.customStatus-154i-H .customStatusEmoji-3BvdMX {
+	width: 20px;
+	height: 20px
+}
+
+.customStatus-154i-H .customStatusEmoji-3BvdMX: not(: last-child) {
 	margin-right: 8px
+}
+
+.customStatus-154i-H .customStatusEmoji-3BvdMX.customStatusSoloEmoji-192Z_4 {
+	width: 32px;
+	height: 32px
+}
+
+.topSectionNormal-2-vo2m .activityHeader-1PExlk,.topSectionNormal-2-vo2m .customStatusText-39gdCI {
+	color: var(--header-secondary)
+}
+
+.activityHeader-1PExlk {
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	font-weight: 600
 }
 
 .headerInfo-30uryT {
@@ -59956,4 +59976,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.39408b5977f126d7444a.css.map*/
+/*# sourceMappingURL=0.c0bcabf975c361333ce3.css.map*/
