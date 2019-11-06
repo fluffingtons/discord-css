@@ -10741,8 +10741,8 @@ to {
 }
 
 .customStatus-1bh2V9 .customStatusEmoji-7MXCgv.customStatusSoloEmoji-XOvnMc {
-	width: 32px;
-	height: 32px
+	width: 48px;
+	height: 48px
 }
 
 .customStatusText-3YJeRZ {
@@ -12432,9 +12432,9 @@ to {
 }
 
 .emoji.jumboable {
-	width: 2rem;
-	height: 2rem;
-	min-height: 2rem
+	width: 3rem;
+	height: 3rem;
+	min-height: 3rem
 }
 
 .loading-Ags1CY {
@@ -30018,6 +30018,16 @@ to {
 	cursor: not-allowed
 }
 
+.buttonWrapper-39BXRZ {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.button-1K5eWc: not(: last-child) {
+	margin-right: 8px
+}
+
 .theme-light .notAllowedIcon-3j9AKY {
 	fill: #4f545c
 }
@@ -31819,17 +31829,48 @@ to {
 	margin-right: 0
 }
 
-.memberDot-2lKyRO {
+.dotOnline-8Ag7EB {
 	border-radius: 50%;
 	width: 8px;
 	height: 8px;
 	margin-right: 4px;
 	-ms-flex-negative: 0;
-	flex-shrink: 0
+	flex-shrink: 0;
+	background-color: #43b581
 }
 
-.dotOffline-3DXoDy,.dotOnline-8Ag7EB {
-	
+.dotOffline-3DXoDy {
+	background-color: #b9bbbe
+}
+
+.premiumCount-1ueJkC {
+	position: absolute;
+	top: 16px;
+	left: 16px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 4px;
+	background-color: rgba(32,34,37,.5);
+	padding: 4px
+}
+
+.premiumCountText-_B510D {
+	color: #fff;
+	margin-left: 4px;
+	font-weight: 600
+}
+
+.premiumGuildIcon-19m_xr {
+	width: 12px;
+	height: 12px;
+	margin-right: 4px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	color: #ff73fa
 }
 
 .viewButton-3jDZqV {
@@ -31913,14 +31954,6 @@ to {
 
 .theme-light .guildName-1yURO5 {
 	color: #23262a
-}
-
-.theme-dark .dotOnline-8Ag7EB,.theme-light .dotOnline-8Ag7EB {
-	background-color: #43b581
-}
-
-.theme-dark .dotOffline-3DXoDy,.theme-light .dotOffline-3DXoDy {
-	background-color: #b9bbbe
 }
 
 
@@ -57565,8 +57598,8 @@ to {
 }
 
 .customStatus-154i-H .customStatusEmoji-3BvdMX.customStatusSoloEmoji-192Z_4 {
-	width: 32px;
-	height: 32px
+	width: 48px;
+	height: 48px
 }
 
 .topSectionNormal-2-vo2m .activityHeader-1PExlk,.topSectionNormal-2-vo2m .customStatusText-39gdCI {
@@ -61384,4 +61417,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.5b61bdff756904055df3.css.map*/
+/*# sourceMappingURL=0.4c3f37fbaa10edb6bdf3.css.map*/
