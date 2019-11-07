@@ -11902,11 +11902,9 @@ to {
 
 @media only screen and (max-width: 500px) {
 	.oauth2Authorize-1i7dh_ .authorizeInner-2_0fZk {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	-ms-flex-item-align: stretch;
+	align-self: stretch;
+	border-radius: 0;
 	width: auto
 }
 
@@ -12793,10 +12791,13 @@ code {
 	--deprecated-text-input-prefix: #b9bbbe
 }
 
+.appMount-3lHmkl,body,html {
+	height: 100%;
+	width: 100%
+}
+
 .appMount-3lHmkl {
 	position: absolute;
-	width: 100vw;
-	height: 100vh;
 	overflow: hidden;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -16661,7 +16662,10 @@ to {
 	-webkit-user-select: text;
 	-moz-user-select: text;
 	-ms-user-select: text;
-	user-select: text
+	user-select: text;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto
 }
 
 .containerCozy-jafyvG {
@@ -34045,7 +34049,7 @@ to {
 
 
 .container-2OH5nX {
-	padding: 20px
+	padding: 80px 20px 20px
 }
 
 .header-37a0R7 {
@@ -34456,6 +34460,22 @@ to {
 	overflow-x: hidden;
 	background-color: var(--background-primary);
 	contain: layout size
+}
+
+.privateChannelMessages-3f72E- {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.privateChannelPlaceholder-1RnK2C {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1
 }
 
 .scrollerWrap-2su1QI {
@@ -61417,4 +61437,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.4c3f37fbaa10edb6bdf3.css.map*/
+/*# sourceMappingURL=0.bfe2c03c1a83caf6401a.css.map*/
