@@ -40339,6 +40339,57 @@ html .invoiceCancelRow-1YYT42 {
 	margin: 0
 }
 
+.xboxPromotion-zo6w6K {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background-image: -webkit-gradient(linear,left top,right top,from(#b473f5),to(#e292aa));
+	background-image: linear-gradient(90deg,#b473f5,#e292aa);
+	padding: 8px 16px;
+	font-size: 12px;
+	line-height: 16px;
+	border-radius: 4px;
+	margin: 32px 0;
+	color: #fff
+}
+
+.xboxPromotion-zo6w6K a {
+	color: #fff;
+	text-decoration: underline
+}
+
+.xboxPromotionLogos-g138mT {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 16px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.xboxPromotionLogoPremium-3a7Iza {
+	width: 42px;
+	height: 42px;
+	margin-right: 8px
+}
+
+.xboxPromotionLogoXbox-2A4tgL {
+	width: 130px;
+	height: 47px;
+	background-image: url(/assets/93dcfc8506912b3bc9e38bca76f868be.svg);
+	margin-right: 8px
+}
+
+.xboxPromotionTitle-1LLLtu {
+	margin-bottom: 2px;
+	text-transform: uppercase;
+	font-weight: 700
+}
+
 .theme-light .title-2a5mvx {
 	color: #4f545c
 }
@@ -43609,13 +43660,11 @@ to {
 	color: #202225
 }
 
-.noticePremiumGrandfathered-ollUxF {
-	background-image: -webkit-gradient(linear,right top,left top,from(#b3aeff),to(#738ef5));
-	background-image: linear-gradient(270deg,#b3aeff,#738ef5);
+.noticePremium-12Zvj9 {
 	color: #fff
 }
 
-.noticePremiumGrandfathered-ollUxF .premiumIcon-2lve6h {
+.noticePremium-12Zvj9 .premiumIcon-2lve6h {
 	position: relative;
 	top: 6px;
 	margin-right: 8px;
@@ -43623,8 +43672,22 @@ to {
 	height: 24px
 }
 
-.noticePremiumGrandfathered-ollUxF .button-1MICoQ: hover {
+.noticePremiumTier1-3Zywvl {
+	background-image: -webkit-gradient(linear,right top,left top,from(#b3aeff),to(#738ef5));
+	background-image: linear-gradient(270deg,#b3aeff,#738ef5)
+}
+
+.noticePremiumTier1-3Zywvl .button-1MICoQ: hover {
 	color: #7289da
+}
+
+.noticePremiumTier2-s9Txmq {
+	background-image: -webkit-gradient(linear,right top,left top,from(#e292aa),to(#b473f5));
+	background-image: linear-gradient(270deg,#e292aa,#b473f5)
+}
+
+.noticePremiumTier2-s9Txmq .button-1MICoQ: hover {
+	color: #e292aa
 }
 
 .noticeInfo-3_iTE1 {
@@ -44463,6 +44526,118 @@ html .tabBadge-3smxHS {
 }
 
 
+.modalRoot-3CDhTv {
+	overflow: visible
+}
+
+.modalContent-zYZfKF {
+	overflow: hidden;
+	width: 440px
+}
+
+.modalCloseButton-1YWZbe {
+	position: absolute;
+	top: 12px;
+	right: 12px
+}
+
+.headerText-37wvTb {
+	margin-top: 8px;
+	text-align: center
+}
+
+.headerContainer-1RqDZH {
+	overflow: visible;
+	position: relative
+}
+
+.header-VW1ZRy {
+	padding-top: 52px;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.art-1Va19s {
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+	width: 300px;
+	height: 120px;
+	background-image: url(/assets/f6c22e729e8546947eb67d1e67c24697.svg)
+}
+
+.plan-2S1isr {
+	background-color: var(--background-secondary);
+	border-radius: 4px;
+	padding: 16px;
+	margin-bottom: 16px
+}
+
+.plan-2S1isr,.planInfoContainer-2vBjqE {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.planInfoContainer-2vBjqE {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1
+}
+
+.planDuration-rJbCgE {
+	color: var(--interactive-normal);
+	text-transform: uppercase;
+	font-weight: 600
+}
+
+.subHeader-1yeRTt {
+	color: var(--header-secondary);
+	text-transform: uppercase;
+	margin-bottom: 8px
+}
+
+.confirmationEmail-3XJExV {
+	margin-top: 8px;
+	margin-bottom: 16px;
+	color: var(--header-secondary)
+}
+
+.backButtonContainer-vfpOkb {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	padding: 8px 0
+}
+
+.backButton-3ptQg1 {
+	color: var(--interactive-active);
+	font-size: 14px;
+	line-height: 18px
+}
+
+.backButton-3ptQg1: hover {
+	text-decoration: underline
+}
+
+
 .card-2UDoCi {
 	cursor: pointer
 }
@@ -44641,6 +44816,20 @@ html .tabBadge-3smxHS {
 
 .loading-3EO0OS {
 	margin-top: 40px
+}
+
+.xboxGamePassIcon-3r8XIu {
+	background: url(/assets/977b07ee9069ef7dbf22c1438697d693.svg);
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-right: 10px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0
+}
+
+.xboxGamePassCardDescription-3ecPzr p {
+	margin: 0
 }
 
 .theme-dark .emptyStateHeader-1ADtcL,.theme-dark .header-2HrZI4 {
@@ -61306,4 +61495,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.43e9ae16e49d00423033.css.map*/
+/*# sourceMappingURL=0.ff219d35eadc845b5e10.css.map*/
