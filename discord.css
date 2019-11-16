@@ -1,13 +1,3 @@
-.anchor-3Z-8Bb {
-	color: var(--text-link);
-	text-decoration: none
-}
-
-.anchorUnderlineOnHover-2ESHQB: hover {
-	text-decoration: underline
-}
-
-
 @-webkit-keyframes spinner-wandering-cubes-1eyF3t {
 	25% {
 	-webkit-transform: translateX(22px) rotate(-90deg) scale(.5);
@@ -4035,6 +4025,16 @@ to {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column
+}
+
+
+.anchor-3Z-8Bb {
+	color: var(--text-link);
+	text-decoration: none
+}
+
+.anchorUnderlineOnHover-2ESHQB: hover {
+	text-decoration: underline
 }
 
 
@@ -16847,7 +16847,7 @@ to {
 	visibility: hidden
 }
 
-.buttonContainer-37UsAw>.popout-open,.content-3dzVd8: hover .buttonContainer-37UsAw {
+.content-3dzVd8: hover .buttonContainer-37UsAw {
 	visibility: visible
 }
 
@@ -17002,22 +17002,14 @@ to {
 	color: var(--interactive-hover)
 }
 
-.button-3Jq0g9: active {
-	color: var(--interactive-active)
+.button-3Jq0g9.active-2kfJ92,.button-3Jq0g9: active {
+	color: var(--interactive-active);
+	visibility: visible
 }
 
 .icon-3UTRNc {
 	width: 1rem;
-	height: 1rem;
-	color: var(--interactive-normal)
-}
-
-.icon-3UTRNc: hover {
-	color: var(--interactive-hover)
-}
-
-.icon-3UTRNc: active {
-	color: var(--interactive-active)
+	height: 1rem
 }
 
 .container-3cGP6G {
@@ -51764,7 +51756,7 @@ html .invoiceCancelRow-3mYhFX {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	padding: 0 10px;
+	padding: 0 8px;
 	margin-bottom: 1px
 }
 
@@ -51782,7 +51774,7 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .avatarWrapper-2yR4wp {
-	margin-right: 10px
+	margin-right: 8px
 }
 
 .nameTag-3uD-yy {
@@ -52065,7 +52057,7 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 .gameIcon-1Yb_wn {
-	margin-right: 10px;
+	margin-right: 8px;
 	color: var(--interactive-normal)
 }
 
@@ -52171,7 +52163,7 @@ html .invoiceCancelRow-3mYhFX {
 .warningIcon-3QR_yC {
 	width: 20px;
 	height: 20px;
-	margin-right: 10px;
+	margin-right: 8px;
 	-ms-flex-negative: 0;
 	flex-shrink: 0
 }
@@ -52263,7 +52255,7 @@ html .invoiceCancelRow-3mYhFX {
 
 
 .panel-24C3ux {
-	padding: 10px;
+	padding: 8px;
 	border-bottom: 1px solid var(--background-modifier-accent);
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 auto;
@@ -52368,7 +52360,7 @@ html .invoiceCancelRow-3mYhFX {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	border-bottom: 1px solid var(--background-modifier-accent);
-	padding: 12px 10px;
+	padding: 8px;
 	-ms-flex-negative: 0;
 	flex-shrink: 0
 }
@@ -52729,7 +52721,7 @@ html .invoiceCancelRow-3mYhFX {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	padding: 10px;
+	padding: 8px;
 	-ms-flex-negative: 0;
 	flex-shrink: 0;
 	border-bottom: 1px solid var(--background-modifier-accent)
@@ -61495,4 +61487,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.fee6d0ea69bd8322518c.css.map*/
+/*# sourceMappingURL=0.d238227afec968866f66.css.map*/
