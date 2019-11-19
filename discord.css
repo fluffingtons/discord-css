@@ -13511,9 +13511,6 @@ to {
 }
 
 .themedPopout-1TrfdI .header-2Kf7Yu {
-	-webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
-	box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
-	z-index: 2;
 	border-radius: 5px 5px 0 0
 }
 
@@ -13528,6 +13525,17 @@ to {
 	font-weight: 500;
 	font-size: 13px;
 	color: rgba(115,127,141,.3)
+}
+
+.themedPopout-1TrfdI .header-2Kf7Yu+: after {
+	-webkit-box-shadow: inset 0 2px 3px 0 rgba(0,0,0,.1);
+	box-shadow: inset 0 2px 3px 0 rgba(0,0,0,.1);
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 4px
 }
 
 .themedPopout-1TrfdI .footer-1K57q_ {
@@ -27210,6 +27218,10 @@ to {
 	background: url(/assets/53947b826826947323199b1a83733067.svg)
 }
 
+.themeOverrideLight-3bx_5B.icon-RTGJu3.targetIntegration-3rnyMN,.theme-light .icon-RTGJu3.targetIntegration-3rnyMN {
+	background: url(/assets/ece3d003ce0ffb0cf09a0f7881873075.svg)
+}
+
 .themeOverrideLight-3bx_5B.icon-RTGJu3.targetInvite-1RQBlr,.theme-light .icon-RTGJu3.targetInvite-1RQBlr {
 	background: url(/assets/c428699bc4a1e93837f27f90b12c09e3.svg)
 }
@@ -27264,6 +27276,10 @@ to {
 
 .themeOverrideDark-1u5Vo0.icon-RTGJu3.targetEmoji-3vhPhM,.theme-dark .icon-RTGJu3.targetEmoji-3vhPhM {
 	background: url(/assets/7a9bf92329dad473ef0383ae75367215.svg)
+}
+
+.themeOverrideDark-1u5Vo0.icon-RTGJu3.targetIntegration-3rnyMN,.theme-dark .icon-RTGJu3.targetIntegration-3rnyMN {
+	background: url(/assets/da8463a04b4a289801d2516f50eb4c19.svg)
 }
 
 .themeOverrideDark-1u5Vo0.icon-RTGJu3.targetInvite-1RQBlr,.theme-dark .icon-RTGJu3.targetInvite-1RQBlr {
@@ -52329,6 +52345,10 @@ html .invoiceCancelRow-3mYhFX {
 	cursor: pointer
 }
 
+.gameIconWrapper-1YByCI {
+	position: relative
+}
+
 .gameIcon-2YB8Et,.screenshareIcon-2redWJ {
 	width: 32px;
 	height: 32px
@@ -52346,7 +52366,7 @@ html .invoiceCancelRow-3mYhFX {
 	color: #fff
 }
 
-.screenshareBadge-3oT2al {
+.liveBadge-yuNuMC {
 	position: absolute;
 	bottom: -4px;
 	right: -4px;
@@ -52354,6 +52374,7 @@ html .invoiceCancelRow-3mYhFX {
 	height: 14px;
 	padding: 2px;
 	background-color: var(--deprecated-panel-background);
+	color: #fff;
 	border-radius: 50%
 }
 
@@ -61527,4 +61548,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.bcfb2cee4b06e48dd4f1.css.map*/
+/*# sourceMappingURL=0.7217f569553336978f34.css.map*/
