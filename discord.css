@@ -7502,9 +7502,7 @@ h4.title-3KTIjF,h5.title-3KTIjF,h6.title-3KTIjF {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	position: relative;
-	width: 16px;
-	height: 16px
+	position: relative
 }
 
 .flowerStar-1GeTsn {
@@ -27856,8 +27854,7 @@ to {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	width: 400px;
-	padding: 32px;
-	overflow: visible
+	padding: 32px
 }
 
 .image-3kXKTd {
@@ -27872,6 +27869,10 @@ to {
 
 .body-3klDhE {
 	margin-bottom: 32px
+}
+
+.root-1Kk1RQ {
+	overflow: visible
 }
 
 
@@ -28449,7 +28450,7 @@ to {
 
 .description--8OK6G {
 	text-align: center;
-	margin-bottom: 32px
+	margin-bottom: 24px
 }
 
 .checklist-2PoK4y {
@@ -44839,6 +44840,10 @@ to {
 	height: 14px
 }
 
+.decorator-3MaMCZ {
+	margin-left: 4px
+}
+
 
 .empty-388osJ {
 	fill: var(--background-primary);
@@ -47941,6 +47946,14 @@ to {
 	transform: translateY(1px) translateZ(0)
 }
 
+.listItemTooltip-CDcY8J {
+	max-width: 196px;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	word-wrap: break-word
+}
+
 .placeholderMask-3K9THS {
 	display: block
 }
@@ -47961,6 +47974,10 @@ to {
 
 .dragInner-_SHftW {
 	background-color: var(--background-primary)
+}
+
+.theme-dark .listItemTooltip-CDcY8J,.theme-light .listItemTooltip-CDcY8J {
+	color: #fff
 }
 
 
@@ -48196,6 +48213,52 @@ to {
 	background: var(--background-primary);
 	color: var(--header-primary);
 	border: 1px solid #f04747
+}
+
+
+.row-2OVM4t {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.row-2OVM4t+.row-2OVM4t {
+	margin-top: 8px
+}
+
+.rowGuildName-X4ae9_ {
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start
+}
+
+.rowIcon-1I2aBs {
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	margin-right: 8px
+}
+
+.activityIcon-c4ew_N {
+	width: 20px;
+	height: 20px
+}
+
+.guildNameText-74xXQn {
+	word-wrap: break-word;
+	min-width: 0
+}
+
+.guildNameTextLimitedSize-1BHdMK {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden
+}
+
+.theme-dark .activityIcon-c4ew_N,.theme-light .activityIcon-c4ew_N {
+	color: #b9bbbe
 }
 
 
@@ -62225,4 +62288,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.266028c3144f4b3ef940.css.map*/
+/*# sourceMappingURL=0.3a0dfd618f404165d864.css.map*/
