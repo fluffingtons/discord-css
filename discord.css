@@ -27910,17 +27910,22 @@ to {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	width: 400px;
-	padding: 32px
+	padding: 32px;
+	overflow: visible
 }
 
 .image-3kXKTd {
-	width: 280px;
-	margin-top: -96px;
+	width: 300px;
+	margin-top: -136px;
 	margin-bottom: 32px
 }
 
 .header-2cTU9t {
 	margin-bottom: 16px
+}
+
+.title-24-Ern {
+	margin-bottom: 8px
 }
 
 .body-3klDhE {
@@ -28422,7 +28427,17 @@ to {
 
 .header-2Y0-A- {
 	background-color: var(--background-tertiary);
-	padding: 16px
+	padding: 16px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.headerIcon-2S6VR5 {
+	margin-right: 16px
 }
 
 .checklistItem-37OOck {
@@ -28432,11 +28447,14 @@ to {
 	padding: 16px
 }
 
-.divider-MyCBoG {
+.separator-1COOpU {
+	content: "";
 	height: 1px;
-	width: 100%;
+	background-color: var(--background-modifier-accent);
+	position: relative;
+	border: none;
 	margin: 0 16px;
-	background-color: var(--background-modifier-accent)
+	display: block
 }
 
 .checklistIcon-6Kez2J {
@@ -28493,7 +28511,7 @@ to {
 .image-3rvd0n {
 	height: 110px;
 	width: 100%;
-	background-image: url(/assets/4b9c3419c57d838c4076abc9d34dbea7.svg);
+	background-image: url(/assets/4bb32037d9d2e8240d1315ddaf4e4b85.svg);
 	background-repeat: no-repeat;
 	background-position: 50%;
 	margin: 64px 0 32px
@@ -28646,7 +28664,8 @@ to {
 	width: -moz-min-content;
 	width: min-content;
 	min-width: 210px;
-	margin: auto
+	margin: auto;
+	font-weight: 600
 }
 
 .checklist-3Y6Fqp {
@@ -29469,15 +29488,42 @@ to {
 }
 
 
+.modal-3E8VRr,.modalRoot-1woFSg {
+	overflow: visible
+}
+
+.modal-3E8VRr {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 16px
+}
+
 .header-2Q64JQ {
 	text-align: center;
-	margin-bottom: 24px;
-	margin-top: 32px
+	margin-bottom: 16px
+}
+
+.image-1j3iUd {
+	margin-top: -156px
 }
 
 .title-1POJ_I {
-	margin-top: 20px;
+	margin-top: 16px;
 	margin-bottom: 8px
+}
+
+.byline-lT_lnw {
+	font-style: italic
 }
 
 .close-AeLfzH {
@@ -29489,17 +29535,28 @@ to {
 .content-2sIOFL {
 	border-radius: 8px;
 	background-color: var(--background-secondary);
-	margin: 8px 0
+	margin-top: 16px
 }
 
 .item-2MjizN {
-	padding: 16px;
+	padding: 16px
+}
+
+.item-2MjizN,.itemWithCTA-3LTxl1 {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center
+}
+
+.itemWithCTA-3LTxl1 {
+	padding: 16px 16px 8px
+}
+
+.itemCta-1lK8Po {
+	padding: 0 0 16px 56px
 }
 
 .separator-21eqch {
@@ -29516,22 +29573,6 @@ to {
 	-ms-flex-negative: 0;
 	flex-shrink: 0;
 	margin-right: 16px
-}
-
-.footer-3e47yS {
-	margin-bottom: 16px
-}
-
-.background-3B77Ax {
-	background-repeat: no-repeat
-}
-
-.theme-dark .background-3B77Ax {
-	background-image: url(/assets/00be7f6ca68f1915a80ae01f061718e5.svg)
-}
-
-.theme-light .background-3B77Ax {
-	background-image: url(/assets/ec594c6768af37f96532258288f443b6.svg)
 }
 
 
@@ -62392,4 +62433,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.9334e22178acb9d8e503.css.map*/
+/*# sourceMappingURL=0.a5e3ffeaf08a158cd8b9.css.map*/
