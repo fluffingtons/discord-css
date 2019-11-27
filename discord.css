@@ -29698,8 +29698,17 @@ to {
 	right: 12px
 }
 
-.container-3D9Ahb {
-	height: 540px
+.footer-1mNUAh {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
 }
 
 
@@ -46572,6 +46581,65 @@ to {
 }
 
 
+.channelNotice-3hkOiI {
+	padding: 20px;
+	position: relative;
+	-webkit-box-shadow: inset 0 -1px 0 var(--background-modifier-accent);
+	box-shadow: inset 0 -1px 0 var(--background-modifier-accent)
+}
+
+.close-ZKR0Rw {
+	position: absolute;
+	right: 16px;
+	top: 12px;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	color: var(--interactive-normal);
+	z-index: 1
+}
+
+.close-ZKR0Rw: hover {
+	color: var(--interactive-hover)
+}
+
+.message-Gpd3zh {
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--text-normal);
+	margin-top: 8px;
+	text-align: center
+}
+
+.guildAffinityPremiumSubscriptionButton-3dyYEq {
+	margin-top: 16px
+}
+
+.premiumGuildAnimationWrapper-14ilC1 {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	overflow: hidden;
+	width: 100%;
+	z-index: 0
+}
+
+.premiumGuildAnimation-RcsCE4 {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+	height: 110px;
+	width: 350px
+}
+
+
 .menu-Sp6bN1 {
 	border-radius: 4px;
 	width: 220px;
@@ -62530,4 +62598,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.dd8a940d2b1a9078e556.css.map*/
+/*# sourceMappingURL=0.1f0d9d5303be4bb46e60.css.map*/
