@@ -3901,7 +3901,37 @@ to {
 	bottom: 0;
 	left: 0;
 	right: 0;
+	contain: strict;
 	pointer-events: all
+}
+
+.enter-1qIQaf,.exit-1xyzxd {
+	-webkit-transition-duration: .15s;
+	transition-duration: .15s;
+	-webkit-transition-property: opacity,-webkit-transform;
+	transition-property: opacity,-webkit-transform;
+	transition-property: transform,opacity;
+	transition-property: transform,opacity,-webkit-transform;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out
+}
+
+.enter-1qIQaf {
+	opacity: 0;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1)
+}
+
+.enterActive-14DLLh,.enterDone-2zvtsK,.exit-1xyzxd {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1)
+}
+
+.exitActive-JZFsGn,.exitDone-2Q591Q {
+	opacity: 0;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1)
 }
 
 
@@ -25165,8 +25195,16 @@ to {
 	text-align: center
 }
 
-.progressBar-2CopYy {
-	margin-top: 64px
+.progressBarWrapper-15RqAy {
+	margin-top: 64px;
+	min-height: 24px;
+	opacity: 0;
+	-webkit-transition: opacity .2s ease;
+	transition: opacity .2s ease
+}
+
+.progressBarWrapperVisible-3L7cSB {
+	opacity: 1
 }
 
 .carouselContainer-2-vIZS {
@@ -62976,4 +63014,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.8bef2d3759465b68b2e7.css.map*/
+/*# sourceMappingURL=0.e5ba02f652c5fed08768.css.map*/
