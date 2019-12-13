@@ -21858,7 +21858,20 @@ to {
 	display: flex
 }
 
+.guildName-2hvnt_ {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
 .guildBadge-1w1qIy {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
 	margin-right: 8px
 }
 
@@ -54189,6 +54202,14 @@ html .invoiceCancelRow-3mYhFX {
 	text-decoration: underline
 }
 
+.statusWithPopout-3ZfFol {
+	cursor: pointer
+}
+
+.statusWithPopout-3ZfFol: hover {
+	text-decoration: underline
+}
+
 .hotspot-2bOhC8 {
 	position: absolute;
 	top: 1px;
@@ -63051,4 +63072,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.fbdd1999e7469944d207.css.map*/
+/*# sourceMappingURL=0.6b718934bc54a186800f.css.map*/
