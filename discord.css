@@ -57677,6 +57677,14 @@ to {
 
 }
 
+@media (max-width: 830px) {
+	.authBoxExpanded-2jqaBe {
+	width: 480px
+}
+
+
+}
+
 .title-jXR8lp {
 	font-size: 26px;
 	line-height: 32px
@@ -57930,7 +57938,9 @@ to {
 
 .qrLogin-1AOZMt {
 	position: relative;
-	overflow: hidden
+	overflow: hidden;
+	width: 240px;
+	height: 344px
 }
 
 .qrLogin-1AOZMt,.qrLoginInner-c_7ePj {
@@ -58005,6 +58015,19 @@ to {
 	margin-top: 16px
 }
 
+.verticalSeparator-3huAjp {
+	margin: 0 32px;
+	border: 1px solid var(--background-modifier-accent)
+}
+
+@media (max-width: 830px) {
+	.qrLogin-1AOZMt,.verticalSeparator-3huAjp {
+	display: none
+}
+
+
+}
+
 
 .needAccount-23l_Wh {
 	font-size: 14px;
@@ -58017,16 +58040,6 @@ to {
 	margin-bottom: 0;
 	vertical-align: bottom;
 	padding: 0
-}
-
-.verticalSeparator-1vWqQo {
-	margin: 0 32px;
-	border: 1px solid var(--background-modifier-accent)
-}
-
-.qrLogin-15qj2L {
-	width: 240px;
-	height: 344px
 }
 
 .mainLoginContainer-1ddwnR {
@@ -63119,4 +63132,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.7078363694c364e1d689.css.map*/
+/*# sourceMappingURL=0.6d5ce863d5ef8c445c30.css.map*/
