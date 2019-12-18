@@ -38257,6 +38257,12 @@ to {
 	margin: 0
 }
 
+.friend-3KALPe .checkbox-22U-7- {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto
+}
+
 .friend-3KALPe .match-23yWrF {
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -41035,7 +41041,7 @@ html .invoiceCancelRow-1YYT42 {
 	border-radius: 3px;
 	font-size: 12px;
 	line-height: 1.25;
-	padding: 6px 6px 6px 32px;
+	padding: 8px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -41049,9 +41055,13 @@ html .invoiceCancelRow-1YYT42 {
 }
 
 .grandfatheredIcon-18y60L {
-	width: 20px;
-	height: 20px;
-	margin-right: 4px
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	-ms-flex-item-align: start;
+	align-self: flex-start
 }
 
 .subscriptionRows-1fgok1 {
@@ -47072,6 +47082,14 @@ to {
 	color: var(--interactive-active)
 }
 
+.itemHighlighted-1DpT7C {
+	background-color: var(--background-modifier-hover)
+}
+
+.itemActive-2V2HNc {
+	background-color: var(--background-modifier-active)
+}
+
 .item-1GzJrl {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -50874,7 +50892,17 @@ to {
 }
 
 .title-2jLbtf {
-	cursor: pointer
+	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.experimentDate-2ymg99 {
+	color: var(--channels-default)
 }
 
 
@@ -63132,4 +63160,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.6d5ce863d5ef8c445c30.css.map*/
+/*# sourceMappingURL=0.441acdade5d0b163b17f.css.map*/
