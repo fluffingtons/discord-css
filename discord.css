@@ -4240,6 +4240,10 @@ to {
 	color: var(--header-secondary)
 }
 
+.colorStatusYellow-3sKKh2 {
+	color: #faa61a
+}
+
 
 .size10-tblYdA {
 	font-size: 10px;
@@ -4779,7 +4783,7 @@ to {
 }
 
 
-a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,ul,var {
+a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,table,tbody,td,tfoot,th,thead,tr,tt,ul,var {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -28521,23 +28525,22 @@ to {
 	padding: 24px
 }
 
-.failureBlock-3-onV8,.modalHeader-5MokOG {
-	margin-bottom: 24px
+.modalHeader-5MokOG {
+	margin-bottom: 16px
 }
 
-.header-2CNWxa {
+.marginAfter-IiM3ZP {
 	margin-bottom: 8px
-}
-
-.note-3ZdblF {
-	color: var(--header-secondary);
-	margin: 8px 0
 }
 
 .separator-2dUoVV {
 	width: 100%;
 	height: 1px;
 	background-color: var(--background-modifier-accent);
+	margin: 24px 0
+}
+
+.failingBlock-1afrol {
 	margin-bottom: 24px
 }
 
@@ -28545,6 +28548,45 @@ to {
 	position: absolute;
 	top: 12px;
 	right: 12px
+}
+
+.progressWrapper-2feR8- {
+	position: relative;
+	height: 8px;
+	margin: 16px 0 8px
+}
+
+.progressBackground-2EKw_J {
+	width: 100%;
+	background-color: var(--background-secondary)
+}
+
+.progressBackground-2EKw_J,.progressBar-35txIi {
+	position: absolute;
+	height: 8px;
+	border-radius: 4px
+}
+
+.progressBar-35txIi {
+	-webkit-transition: background-color .2s ease;
+	transition: background-color .2s ease
+}
+
+.labelWrapper-3nyUcr {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.requirement-HjiNzo {
+	text-align: right
+}
+
+.bold-1t9kNq {
+	font-weight: 600
 }
 
 
@@ -63162,4 +63204,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.dcaa3f57804f947bc2b5.css.map*/
+/*# sourceMappingURL=0.6dbc9034639d44b25857.css.map*/
