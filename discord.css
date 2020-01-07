@@ -4146,21 +4146,21 @@ to {
 }
 
 
-.container-SaXBYZ {
+.container-1HKDLE {
 	word-wrap: break-word
 }
 
-.content-KhOrDM {
+.content-2oypg3 {
 	padding-bottom: 20px
 }
 
-.header-3OkTu9 {
+.header-2kr4wt {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden
 }
 
-.mobile-3RfRhZ {
+.mobile-2Om1iQ {
 	width: 100%
 }
 
@@ -9431,8 +9431,14 @@ to {
 }
 
 
-.muteUntilText-2yYtek {
-	padding: 8px
+.itemWithUntilTime-2JCy91 {
+	padding: 6px 8px
+}
+
+.name-2k0v4t {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden
 }
 
 
@@ -16363,7 +16369,7 @@ to {
 .slateTextArea-1Mkdgw {
 	caret-color: var(--text-normal);
 	position: absolute;
-	left: 10px;
+	left: 0;
 	right: 10px;
 	text-align: left;
 	word-break: break-word
@@ -16378,7 +16384,7 @@ to {
 }
 
 .placeholder-37qJjk {
-	left: 10px;
+	left: 0;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	position: absolute;
@@ -16388,6 +16394,10 @@ to {
 	-ms-user-select: none;
 	user-select: none;
 	white-space: nowrap
+}
+
+.placeholder-37qJjk,.slateTextArea-1Mkdgw {
+	padding: 11px 10px
 }
 
 
@@ -16458,8 +16468,8 @@ to {
 	width: 100%;
 	height: 22px;
 	min-height: 22px;
-	padding: 11px 10px;
-	color: var(--text-normal)
+	color: var(--text-normal);
+	padding: 11px 10px
 }
 
 .textArea-12jD-V: : -webkit-input-placeholder {
@@ -16498,6 +16508,10 @@ to {
 	text-overflow: ellipsis;
 	overflow: hidden;
 	color: var(--text-muted)
+}
+
+.textAreaSlate-1ZzRVj {
+	padding: 0
 }
 
 @media (-webkit-max-device-pixel-ratio: 1) {
@@ -17926,6 +17940,8 @@ to {
 }
 
 .container-3ISnnM: after {
+	background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),to(rgba(0,0,0,.1)));
+	background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.1));
 	content: "";
 	height: 8px;
 	position: absolute;
@@ -17977,11 +17993,6 @@ to {
 	height: 280px
 }
 
-.theme-dark .container-3ISnnM: after {
-	-webkit-box-shadow: inset 0 -7px 12px -7px rgba(0,0,0,.3);
-	box-shadow: inset 0 -7px 12px -7px rgba(0,0,0,.3)
-}
-
 .theme-dark .header-1TOWci {
 	-webkit-box-shadow: 0 1px 0 0 rgba(24,25,28,.3),0 1px 2px 0 rgba(24,25,28,.3);
 	box-shadow: 0 1px 0 0 rgba(24,25,28,.3),0 1px 2px 0 rgba(24,25,28,.3)
@@ -17997,11 +18008,6 @@ to {
 
 .theme-light .container-3ISnnM {
 	background-color: #f6f6f7
-}
-
-.theme-light .container-3ISnnM: after {
-	-webkit-box-shadow: inset 0 -7px 12px -7px rgba(0,0,0,.15);
-	box-shadow: inset 0 -7px 12px -7px rgba(0,0,0,.15)
 }
 
 .theme-light .header-1TOWci {
@@ -23214,7 +23220,7 @@ to {
 }
 
 .confirmationAnimation-23ieIm {
-	width: 440px;
+	width: 400px;
 	height: 140px;
 	margin-bottom: 32px
 }
@@ -42111,103 +42117,16 @@ html .invoiceCancelRow-1YYT42 {
 }
 
 .verticalButtons-2VzPi6 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
-	flex-direction: column
-}
-
-.verticalButtons-2VzPi6,.xboxPromotion-1k0m0c {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
+	flex-direction: column;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center
-}
-
-.xboxPromotion-1k0m0c {
-	background-image: -webkit-gradient(linear,left top,right top,from(#b473f5),to(#e292aa));
-	background-image: linear-gradient(90deg,#b473f5,#e292aa);
-	padding: 8px 16px;
-	font-size: 12px;
-	line-height: 16px;
-	border-radius: 4px;
-	margin: 32px 0;
-	color: #fff
-}
-
-.xboxPromotion-1k0m0c a {
-	color: #fff;
-	text-decoration: underline
-}
-
-.marketingRefreshXboxPromotion-2wWfah {
-	background-color: var(--background-secondary);
-	background-image: none;
-	color: var(--text-normal);
-	margin-bottom: 16px;
-	margin-top: 0;
-	padding: 16px
-}
-
-.marketingRefreshXboxPromotion-2wWfah a {
-	color: var(--text-link)
-}
-
-.marketingRefreshXboxPromotionNitroWheel-3pkRQj {
-	background-image: -webkit-gradient(linear,left top,left bottom,from(#b473f5),to(#e292aa));
-	background-image: linear-gradient(#b473f5,#e292aa);
-	border-radius: 4px;
-	color: #fff;
-	margin-right: 8px;
-	padding: 4px;
-	width: 32px;
-	height: 32px
-}
-
-.xboxPromotionLogos-I8aD8s {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	font-size: 16px;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center
-}
-
-.xboxPromotionLogoPremium-v03NNs {
-	width: 42px;
-	height: 42px;
-	margin-right: 8px
-}
-
-.xboxPromotionLogoXbox-1R0jHX {
-	width: 130px;
-	height: 47px;
-	background-image: url(/assets/9480e314100aefd156308df890f9f7ab.svg);
-	margin-right: 8px
-}
-
-.marketingRefreshXboxPromotionLogoXbox-2qj0z4 {
-	background-position: 50%;
-	background-repeat: no-repeat;
-	margin-left: 8px;
-	margin-right: 16px
-}
-
-.xboxPromotionTitle-3qCRBQ {
-	margin-bottom: 2px;
-	text-transform: uppercase;
-	font-weight: 700
-}
-
-.marketingRefreshXboxPromotion-2wWfah .xboxPromotionTitle-3qCRBQ {
-	color: var(--header-primary)
-}
-
-.marketingRefreshXboxPromotionDescription-JJGCJg {
-	color: var(--text-normal)
 }
 
 .theme-light .title-UzqlUY {
@@ -42234,10 +42153,6 @@ html .invoiceCancelRow-1YYT42 {
 
 .theme-light .iconIncluded-24npcq {
 	color: #8ea1e1
-}
-
-.theme-light .marketingRefreshXboxPromotionLogoXbox-2qj0z4 {
-	background-image: url(/assets/7cc31593a97e8eddbea8221730d53ee0.svg)
 }
 
 .theme-light .planOption-2fnccy .marketingRefreshMonthButton-15TXCf {
@@ -42282,10 +42197,6 @@ html .invoiceCancelRow-1YYT42 {
 
 .theme-dark .gemIndicatorContainer-2eT4k1 {
 	background-color: #18191c
-}
-
-.theme-dark .marketingRefreshXboxPromotionLogoXbox-2qj0z4 {
-	background-image: url(/assets/08c5e8ac1ebb88b7fbc9d784fe19a7de.svg)
 }
 
 
@@ -46291,118 +46202,6 @@ html .tabBadge-3smxHS {
 }
 
 
-.modalRoot-3CDhTv {
-	overflow: visible
-}
-
-.modalContent-zYZfKF {
-	overflow: hidden;
-	width: 440px
-}
-
-.modalCloseButton-1YWZbe {
-	position: absolute;
-	top: 12px;
-	right: 12px
-}
-
-.headerText-37wvTb {
-	margin-top: 8px;
-	text-align: center
-}
-
-.headerContainer-1RqDZH {
-	overflow: visible;
-	position: relative
-}
-
-.header-VW1ZRy {
-	padding-top: 52px;
-	width: 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center
-}
-
-.art-1Va19s {
-	background-size: contain;
-	background-repeat: no-repeat;
-	position: absolute;
-	top: 0;
-	left: 50%;
-	-webkit-transform: translateY(-50%) translateX(-50%);
-	transform: translateY(-50%) translateX(-50%);
-	width: 300px;
-	height: 120px;
-	background-image: url(/assets/f6c22e729e8546947eb67d1e67c24697.svg)
-}
-
-.plan-2S1isr {
-	background-color: var(--background-secondary);
-	border-radius: 4px;
-	padding: 16px;
-	margin-bottom: 16px
-}
-
-.plan-2S1isr,.planInfoContainer-2vBjqE {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex
-}
-
-.planInfoContainer-2vBjqE {
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-box-flex: 1;
-	-ms-flex-positive: 1;
-	flex-grow: 1
-}
-
-.planDuration-rJbCgE {
-	color: var(--interactive-normal);
-	text-transform: uppercase;
-	font-weight: 600
-}
-
-.subHeader-1yeRTt {
-	color: var(--header-secondary);
-	text-transform: uppercase;
-	margin-bottom: 8px
-}
-
-.confirmationEmail-3XJExV {
-	margin-top: 8px;
-	margin-bottom: 16px;
-	color: var(--header-secondary)
-}
-
-.backButtonContainer-vfpOkb {
-	-webkit-box-flex: 1;
-	-ms-flex-positive: 1;
-	flex-grow: 1;
-	padding: 8px 0
-}
-
-.backButton-3ptQg1 {
-	color: var(--interactive-active);
-	font-size: 14px;
-	line-height: 18px
-}
-
-.backButton-3ptQg1: hover {
-	text-decoration: underline
-}
-
-
 .card-7JP0BX {
 	border-radius: 5px;
 	overflow: hidden;
@@ -46669,20 +46468,6 @@ html .tabBadge-3smxHS {
 
 .loading-3EO0OS {
 	margin-top: 40px
-}
-
-.xboxGamePassIcon-3r8XIu {
-	background: url(/assets/977b07ee9069ef7dbf22c1438697d693.svg);
-	width: 40px;
-	height: 40px;
-	display: block;
-	margin-right: 10px;
-	-ms-flex-negative: 0;
-	flex-shrink: 0
-}
-
-.xboxGamePassCardDescription-3ecPzr p {
-	margin: 0
 }
 
 .theme-dark .emptyStateHeader-1ADtcL,.theme-dark .header-2HrZI4 {
@@ -49266,74 +49051,6 @@ to {
 }
 
 
-.blobContainer-239gwq: active {
-	position: relative;
-	-webkit-transform: translateY(1px) translateZ(0);
-	transform: translateY(1px) translateZ(0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden
-}
-
-.pill-31IEus {
-	position: absolute;
-	left: 0;
-	top: 0
-}
-
-.sorting-3G576C {
-	pointer-events: none
-}
-
-@-webkit-keyframes wobble-2shAxW {
-	0%,to {
-	-webkit-transform: rotate(0);
-	transform: rotate(0)
-}
-
-25% {
-	-webkit-transform: rotate(2deg);
-	transform: rotate(2deg)
-}
-
-75% {
-	-webkit-transform: rotate(-2deg);
-	transform: rotate(-2deg)
-}
-
-
-}
-
-@keyframes wobble-2shAxW {
-	0%,to {
-	-webkit-transform: rotate(0);
-	transform: rotate(0)
-}
-
-25% {
-	-webkit-transform: rotate(2deg);
-	transform: rotate(2deg)
-}
-
-75% {
-	-webkit-transform: rotate(-2deg);
-	transform: rotate(-2deg)
-}
-
-
-}
-
-.wobble-2shAxW {
-	-webkit-animation-name: wobble-2shAxW;
-	animation-name: wobble-2shAxW;
-	-webkit-animation-duration: .2s;
-	animation-duration: .2s;
-	-webkit-animation-iteration-count: infinite;
-	animation-iteration-count: infinite;
-	-webkit-transform-origin: 50% 30%;
-	transform-origin: 50% 30%
-}
-
-
 .wrapper-21YSNc {
 	position: relative;
 	width: 72px
@@ -49492,6 +49209,74 @@ to {
 
 .theme-dark .activityIcon-c4ew_N,.theme-light .activityIcon-c4ew_N {
 	color: #b9bbbe
+}
+
+
+.blobContainer-239gwq: active {
+	position: relative;
+	-webkit-transform: translateY(1px) translateZ(0);
+	transform: translateY(1px) translateZ(0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden
+}
+
+.pill-31IEus {
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.sorting-3G576C {
+	pointer-events: none
+}
+
+@-webkit-keyframes wobble-2shAxW {
+	0%,to {
+	-webkit-transform: rotate(0);
+	transform: rotate(0)
+}
+
+25% {
+	-webkit-transform: rotate(2deg);
+	transform: rotate(2deg)
+}
+
+75% {
+	-webkit-transform: rotate(-2deg);
+	transform: rotate(-2deg)
+}
+
+
+}
+
+@keyframes wobble-2shAxW {
+	0%,to {
+	-webkit-transform: rotate(0);
+	transform: rotate(0)
+}
+
+25% {
+	-webkit-transform: rotate(2deg);
+	transform: rotate(2deg)
+}
+
+75% {
+	-webkit-transform: rotate(-2deg);
+	transform: rotate(-2deg)
+}
+
+
+}
+
+.wobble-2shAxW {
+	-webkit-animation-name: wobble-2shAxW;
+	animation-name: wobble-2shAxW;
+	-webkit-animation-duration: .2s;
+	animation-duration: .2s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 30%;
+	transform-origin: 50% 30%
 }
 
 
@@ -49825,6 +49610,11 @@ to {
 
 .error-3C5PHt {
 	
+}
+
+
+.content-mK72R6 {
+	padding-bottom: 20px
 }
 
 
@@ -58250,7 +58040,7 @@ to {
 
 @media (max-width: 830px) {
 	.authBoxExpanded-2jqaBe {
-	width: 480px
+	max-width: 480px
 }
 
 
@@ -60710,38 +60500,6 @@ to {
 }
 
 
-}
-
-
-.body-2pTwQW {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	padding: 32px 0 16px;
-	text-align: center
-}
-
-.title-3v0tbr {
-	font-size: 24px;
-	line-height: 30px;
-	font-weight: 700;
-	color: var(--header-primary);
-	margin-bottom: 8px
-}
-
-.bodyText-2CL5Px {
-	color: var(--interactive-normal);
-	font-size: 16px;
-	line-height: 20px;
-	font-weight: 500;
-	margin-bottom: 16px
 }
 
 
@@ -63703,4 +63461,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.d47c33bdd5c185925803.css.map*/
+/*# sourceMappingURL=0.18bdd2919a51521c1cd2.css.map*/
