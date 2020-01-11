@@ -3268,6 +3268,7 @@ to {
 }
 
 .header-2tA9Os {
+	border-radius: 5px 5px 0 0;
 	-webkit-transition: -webkit-box-shadow .1s ease-out;
 	transition: -webkit-box-shadow .1s ease-out;
 	transition: box-shadow .1s ease-out;
@@ -4749,6 +4750,18 @@ to {
 	width: 100%
 }
 
+.fullscreenOnMobile-1bD22y {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 0;
+	max-height: none;
+	overflow-y: auto;
+	width: 100%
+}
+
 
 }
 
@@ -4928,7 +4941,8 @@ code {
 	--background-tertiary: #202225;
 	--background-accent: #4f545c;
 	--background-floating: #18191c;
-	--background-mobile-header: #2f3136;
+	--background-mobile-primary: #36393f;
+	--background-mobile-secondary: #2f3136;
 	--background-modifier-hover: rgba(79,84,92,0.16);
 	--background-modifier-active: rgba(79,84,92,0.24);
 	--background-modifier-selected: rgba(79,84,92,0.32);
@@ -4969,7 +4983,8 @@ code {
 	--background-tertiary: #e3e5e8;
 	--background-accent: #747f8d;
 	--background-floating: #fff;
-	--background-mobile-header: #fff;
+	--background-mobile-primary: #f8f9f9;
+	--background-mobile-secondary: #fff;
 	--background-modifier-hover: rgba(116,127,141,0.08);
 	--background-modifier-active: rgba(116,127,141,0.16);
 	--background-modifier-selected: rgba(116,127,141,0.24);
@@ -9312,7 +9327,7 @@ to {
 	box-sizing: border-box;
 	border-radius: 4px;
 	padding: 16px;
-	width: 400px;
+	width: 432px;
 	height: 104px;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
@@ -22143,7 +22158,7 @@ to {
 	background-color: var(--background-secondary);
 	border-radius: 4px;
 	padding: 16px;
-	width: 400px;
+	width: 432px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box
 }
@@ -22345,9 +22360,8 @@ to {
 
 .button-3To2tQ.buttonSize-DbrWhv {
 	height: 40px;
-	min-width: 80px;
-	padding-left: 10px;
-	padding-right: 10px
+	padding-left: 20px;
+	padding-right: 20px
 }
 
 .guildIconExpired-2Qcq05 {
@@ -24309,13 +24323,46 @@ to {
 	cursor: pointer
 }
 
-.cannonWrapper-1fCcAD {
-	position: absolute
-}
-
 .cannon-3Yq1jm,.cannonWrapper-1fCcAD {
+	position: absolute;
 	width: 100%;
 	height: 100%
+}
+
+.easterEggAnimation-1vLcI9 {
+	position: absolute;
+	width: 196px;
+	height: 196px
+}
+
+.easterEggAnimationTopLeft-jwXGvO {
+	top: 0;
+	left: 0;
+	-webkit-transform: scale(-1);
+	transform: scale(-1)
+}
+
+.easterEggAnimationTopRight-1KUngj {
+	top: 0;
+	right: 0;
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1)
+}
+
+.easterEggAnimationBottomLeft-3526mm {
+	bottom: 0;
+	left: 0;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1)
+}
+
+.easterEggAnimationBottomRight-MAuKgd {
+	bottom: 0;
+	right: 0
+}
+
+.easterEggAnimationHideLeaf-zpkMGS .userPremiumGuildSubscriptionLeaf,.easterEggAnimationHideLeaf-zpkMGS .userPremiumGuildSubscriptionLeafParent {
+	visibility: hidden
 }
 
 
@@ -35455,7 +35502,7 @@ to {
 	border-radius: 5px;
 	margin-top: 12px;
 	margin-bottom: 30px;
-	padding: 16px 8px;
+	padding: 16px 0;
 	width: 100%;
 	background-color: var(--background-tertiary)
 }
@@ -35473,10 +35520,13 @@ to {
 	height: 20px
 }
 
+.content-c_0cLD {
+	margin-left: 16px
+}
+
 .image-3XsqGc {
 	height: 60px;
 	margin-right: 12px;
-	margin-left: 8px;
 	margin-bottom: -8px;
 	-ms-flex-item-align: end;
 	align-self: flex-end
@@ -35509,11 +35559,13 @@ to {
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: row;
-	flex-direction: row
+	flex-direction: row;
+	margin-right: 12px
 }
 
 .countdown-1saXFt {
-	color: var(--text-muted)
+	color: var(--text-muted);
+	margin-right: 16px
 }
 
 
@@ -38507,10 +38559,7 @@ to {
 .modal-1sor29 {
 	font-size: 13px;
 	white-space: pre-wrap;
-	word-wrap: break-word
-}
-
-.size-JLvFeT {
+	word-wrap: break-word;
 	width: 490px;
 	max-height: 800px
 }
@@ -42699,16 +42748,103 @@ html .invoiceCancelRow-1YYT42 {
 }
 
 .verticalButtons-2VzPi6 {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
-	flex-direction: column;
+	flex-direction: column
+}
+
+.verticalButtons-2VzPi6,.xboxPromotion-1k0m0c {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center
+}
+
+.xboxPromotion-1k0m0c {
+	background-image: -webkit-gradient(linear,left top,right top,from(#b473f5),to(#e292aa));
+	background-image: linear-gradient(90deg,#b473f5,#e292aa);
+	padding: 8px 16px;
+	font-size: 12px;
+	line-height: 16px;
+	border-radius: 4px;
+	margin: 32px 0;
+	color: #fff
+}
+
+.xboxPromotion-1k0m0c a {
+	color: #fff;
+	text-decoration: underline
+}
+
+.marketingRefreshXboxPromotion-2wWfah {
+	background-color: var(--background-secondary);
+	background-image: none;
+	color: var(--text-normal);
+	margin-bottom: 16px;
+	margin-top: 0;
+	padding: 16px
+}
+
+.marketingRefreshXboxPromotion-2wWfah a {
+	color: var(--text-link)
+}
+
+.marketingRefreshXboxPromotionNitroWheel-3pkRQj {
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#b473f5),to(#e292aa));
+	background-image: linear-gradient(#b473f5,#e292aa);
+	border-radius: 4px;
+	color: #fff;
+	margin-right: 8px;
+	padding: 4px;
+	width: 32px;
+	height: 32px
+}
+
+.xboxPromotionLogos-I8aD8s {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 16px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.xboxPromotionLogoPremium-v03NNs {
+	width: 42px;
+	height: 42px;
+	margin-right: 8px
+}
+
+.xboxPromotionLogoXbox-1R0jHX {
+	width: 130px;
+	height: 47px;
+	background-image: url(/assets/9480e314100aefd156308df890f9f7ab.svg);
+	margin-right: 8px
+}
+
+.marketingRefreshXboxPromotionLogoXbox-2qj0z4 {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	margin-left: 8px;
+	margin-right: 16px
+}
+
+.xboxPromotionTitle-3qCRBQ {
+	margin-bottom: 2px;
+	text-transform: uppercase;
+	font-weight: 700
+}
+
+.marketingRefreshXboxPromotion-2wWfah .xboxPromotionTitle-3qCRBQ {
+	color: var(--header-primary)
+}
+
+.marketingRefreshXboxPromotionDescription-JJGCJg {
+	color: var(--text-normal)
 }
 
 .theme-light .title-UzqlUY {
@@ -42735,6 +42871,10 @@ html .invoiceCancelRow-1YYT42 {
 
 .theme-light .iconIncluded-24npcq {
 	color: #8ea1e1
+}
+
+.theme-light .marketingRefreshXboxPromotionLogoXbox-2qj0z4 {
+	background-image: url(/assets/7cc31593a97e8eddbea8221730d53ee0.svg)
 }
 
 .theme-light .planOption-2fnccy .marketingRefreshMonthButton-15TXCf {
@@ -42779,6 +42919,10 @@ html .invoiceCancelRow-1YYT42 {
 
 .theme-dark .gemIndicatorContainer-2eT4k1 {
 	background-color: #18191c
+}
+
+.theme-dark .marketingRefreshXboxPromotionLogoXbox-2qj0z4 {
+	background-image: url(/assets/08c5e8ac1ebb88b7fbc9d784fe19a7de.svg)
 }
 
 
@@ -46783,6 +46927,118 @@ html .tabBadge-3smxHS {
 }
 
 
+.modalRoot-3CDhTv {
+	overflow: visible
+}
+
+.modalContent-zYZfKF {
+	overflow: hidden;
+	width: 440px
+}
+
+.modalCloseButton-1YWZbe {
+	position: absolute;
+	top: 12px;
+	right: 12px
+}
+
+.headerText-37wvTb {
+	margin-top: 8px;
+	text-align: center
+}
+
+.headerContainer-1RqDZH {
+	overflow: visible;
+	position: relative
+}
+
+.header-VW1ZRy {
+	padding-top: 52px;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.art-1Va19s {
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+	width: 300px;
+	height: 120px;
+	background-image: url(/assets/f6c22e729e8546947eb67d1e67c24697.svg)
+}
+
+.plan-2S1isr {
+	background-color: var(--background-secondary);
+	border-radius: 4px;
+	padding: 16px;
+	margin-bottom: 16px
+}
+
+.plan-2S1isr,.planInfoContainer-2vBjqE {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.planInfoContainer-2vBjqE {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1
+}
+
+.planDuration-rJbCgE {
+	color: var(--interactive-normal);
+	text-transform: uppercase;
+	font-weight: 600
+}
+
+.subHeader-1yeRTt {
+	color: var(--header-secondary);
+	text-transform: uppercase;
+	margin-bottom: 8px
+}
+
+.confirmationEmail-3XJExV {
+	margin-top: 8px;
+	margin-bottom: 16px;
+	color: var(--header-secondary)
+}
+
+.backButtonContainer-vfpOkb {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	padding: 8px 0
+}
+
+.backButton-3ptQg1 {
+	color: var(--interactive-active);
+	font-size: 14px;
+	line-height: 18px
+}
+
+.backButton-3ptQg1: hover {
+	text-decoration: underline
+}
+
+
 .card-7JP0BX {
 	border-radius: 5px;
 	overflow: hidden;
@@ -47049,6 +47305,20 @@ html .tabBadge-3smxHS {
 
 .loading-3EO0OS {
 	margin-top: 40px
+}
+
+.xboxGamePassIcon-3r8XIu {
+	background: url(/assets/977b07ee9069ef7dbf22c1438697d693.svg);
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-right: 10px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0
+}
+
+.xboxGamePassCardDescription-3ecPzr p {
+	margin: 0
 }
 
 .theme-dark .emptyStateHeader-1ADtcL,.theme-dark .header-2HrZI4 {
@@ -50155,6 +50425,10 @@ to {
 	-moz-user-select: text;
 	-ms-user-select: text;
 	user-select: text
+}
+
+.versionHash-2gXjIB {
+	text-transform: none
 }
 
 
@@ -55046,11 +55320,6 @@ html .invoiceCancelRow-3mYhFX {
 
 .white-3xi-nx {
 	color: #fff
-}
-
-.sparkline-3A-8OK {
-	height: 30px;
-	margin-bottom: 8px
 }
 
 .secured-1Yihly {
@@ -60610,6 +60879,38 @@ to {
 }
 
 
+.body-2pTwQW {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 32px 0 16px;
+	text-align: center
+}
+
+.title-3v0tbr {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+	color: var(--header-primary);
+	margin-bottom: 8px
+}
+
+.bodyText-2CL5Px {
+	color: var(--interactive-normal);
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+	margin-bottom: 16px
+}
+
+
 @media (max-width: 485px) {
 	.wrapper-6URcxg {
 	width: 100%;
@@ -63568,4 +63869,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.174bd092e70a576313ad.css.map*/
+/*# sourceMappingURL=0.2b925fd47993ff992e1e.css.map*/
