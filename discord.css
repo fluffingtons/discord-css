@@ -18184,7 +18184,8 @@ to {
 	left: 0;
 	right: 10px;
 	text-align: left;
-	word-break: break-word
+	word-break: break-word;
+	white-space: break-spaces!important
 }
 
 .slateTextArea-1Mkdgw pre {
@@ -51134,19 +51135,13 @@ to {
 }
 
 .fontScaleSmall-368quy {
-	font-size: 12px
+	font-size: 12px;
+	color: var(--text-normal)
 }
 
 .fontScaleLarge-3xtq7i {
-	font-size: 24px
-}
-
-.theme-light .fontScaleLarge-3xtq7i,.theme-light .fontScaleSmall-368quy {
-	color: #4f545c
-}
-
-.theme-dark .fontScaleLarge-3xtq7i,.theme-dark .fontScaleSmall-368quy {
-	color: #f6f6f7
+	font-size: 24px;
+	color: var(--text-normal)
 }
 
 
@@ -63954,4 +63949,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.a073805b79e2220744a8.css.map*/
+/*# sourceMappingURL=0.0fd74da9eacca3b22696.css.map*/
