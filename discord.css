@@ -37267,6 +37267,10 @@ to {
 
 }
 
+.mutualGuilds-fFoaKv a+a {
+	margin-left: 6px
+}
+
 .moreMutualGuildsBtn-3B956T {
 	width: 30px;
 	height: 30px;
@@ -37276,9 +37280,6 @@ to {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	color: var(--header-secondary);
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
@@ -37291,14 +37292,13 @@ to {
 	cursor: pointer
 }
 
-a+a {
-	margin-left: 6px
+.actions-2rWlOj,.moreMutualGuildsBtn-3B956T {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
 }
 
 .actions-2rWlOj {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
 	margin-left: auto
 }
 
@@ -64422,4 +64422,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.fa0099fe5bc9baadcf4b.css.map*/
+/*# sourceMappingURL=0.5c2f3663e1a12a3e2010.css.map*/
