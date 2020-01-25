@@ -47918,7 +47918,8 @@ to {
 	font-weight: 500;
 	text-align: center;
 	position: relative;
-	padding: 0 28px 4px 4px;
+	padding-left: 4px;
+	padding-right: 28px;
 	z-index: 101;
 	-ms-flex-negative: 0;
 	flex-shrink: 0;
@@ -48134,6 +48135,8 @@ to {
 
 .button-1MICoQ {
 	font-weight: 500;
+	position: relative;
+	top: 6px;
 	border: 1px solid hsla(0,0%,100%,.25);
 	border-radius: 3px;
 	height: 24px;
@@ -48141,6 +48144,7 @@ to {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 10px;
 	line-height: 22px;
 	-webkit-transition: background-color .2s ease,color .2s ease,border-color .2s ease;
@@ -64488,4 +64492,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.4db76658af751ec99def.css.map*/
+/*# sourceMappingURL=0.84d3d5ce812c86763986.css.map*/
