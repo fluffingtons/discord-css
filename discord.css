@@ -9697,6 +9697,10 @@ to {
 	line-height: 18px
 }
 
+.grandfatheredUpgradeNote-2adumE {
+	margin: 16px 0
+}
+
 @media (max-width: 485px) {
 	.shaker-3mRr7I {
 	position: absolute;
@@ -37028,10 +37032,11 @@ to {
 
 .actionButton-uPB8Fs {
 	cursor: pointer;
-	width: 40px;
-	height: 40px;
+	width: 36px;
+	height: 36px;
 	border-radius: 50%;
 	color: var(--interactive-normal);
+	background-color: var(--background-secondary);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -37044,12 +37049,15 @@ to {
 	margin-left: 10px
 }
 
+.actionButton-uPB8Fs.highlight-Lf97TE {
+	background-color: var(--background-tertiary)
+}
+
 .actionButton-uPB8Fs: first-child {
 	margin-left: 0
 }
 
 .actionButton-uPB8Fs: hover {
-	background-color: var(--background-modifier-hover);
 	color: var(--interactive-hover)
 }
 
@@ -37064,22 +37072,16 @@ to {
 }
 
 .actionButton-uPB8Fs.actionAccept-LV-szU: hover {
-	background-color: #43b581!important;
-	color: #fff
+	color: #43b581!important
 }
 
 .actionButton-uPB8Fs.actionDeny-de_uKj: hover {
-	background-color: #f04747!important;
-	color: #fff
+	color: #f04747!important
 }
 
-
-.peopleList-3c4jOR {
-	padding-top: 2px;
-	padding-bottom: 20px;
-	overflow-x: hidden;
-	background-color: var(--background-primary);
-	contain: layout
+.icon-35-fSh {
+	width: 20px;
+	height: 20px
 }
 
 
@@ -37114,6 +37116,29 @@ to {
 	border-radius: 8px;
 	margin: 0 10px 0 20px;
 	padding: 16px 10px
+}
+
+
+.activity-2myFBH {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.text-3MU_QQ {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 14px
+}
+
+.customStatusEmoji-1o3-7b {
+	margin-right: 4px;
+	width: 16px;
+	height: 16px
 }
 
 
@@ -37179,6 +37204,46 @@ to {
 }
 
 
+.listItemContents-95HL3L {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.actions-1SQwjn,.listItemContents-95HL3L {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+
+.peopleList-3c4jOR {
+	padding-top: 2px;
+	padding-bottom: 20px;
+	overflow-x: hidden;
+	background-color: var(--background-primary);
+	contain: layout
+}
+
+
+.onlineStatusGroupTitle-6ObdV6 {
+	margin: 16px 20px 8px 30px;
+	color: var(--header-secondary)
+}
+
+.emptyStateContainer-1CIF6q {
+	position: relative;
+	width: 100%;
+	height: 100%
+}
+
+
 .listItemContents-3g2ElX {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -37192,81 +37257,6 @@ to {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between
-}
-
-
-.activity-2myFBH {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center
-}
-
-.text-3MU_QQ {
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	overflow: hidden;
-	font-size: 14px
-}
-
-.customStatusEmoji-1o3-7b {
-	margin-right: 4px;
-	width: 16px;
-	height: 16px
-}
-
-
-.onlineStatusGroupTitle-6ObdV6 {
-	margin: 16px 20px 8px 30px;
-	color: var(--header-secondary)
-}
-
-.listItemContents-393nCb {
-	-webkit-box-flex: 1;
-	-ms-flex-positive: 1;
-	flex-grow: 1;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between
-}
-
-.actions-3F-Dro,.listItemContents-393nCb {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex
-}
-
-.actions-3F-Dro {
-	visibility: hidden
-}
-
-.moreMenu-1jOHx_ {
-	padding: 4px 4px 4px 8px;
-	color: var(--interactive-normal)
-}
-
-.moreMenu-1jOHx_: hover {
-	color: var(--interactive-hover)
-}
-
-.moreMenuIcon-2ttdzT {
-	width: 24px;
-	height: 24px
-}
-
-.actions-3F-Dro.rowActive-3TFSOl {
-	visibility: visible
-}
-
-.emptyStateContainer-1CIF6q {
-	position: relative;
-	width: 100%;
-	height: 100%
 }
 
 
@@ -44119,7 +44109,7 @@ html .invoiceCancelRow-1YYT42 {
 	border-radius: 3px;
 	font-size: 12px;
 	line-height: 1.25;
-	padding: 8px;
+	padding: 8px 16px 8px 8px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -44130,6 +44120,13 @@ html .invoiceCancelRow-1YYT42 {
 	background-image: linear-gradient(270deg,#b3aeff,#738ef5);
 	color: #fff;
 	margin-bottom: 16px
+}
+
+.grandfatheredMessageText-mSdgqp {
+	margin-right: 16px;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1
 }
 
 .grandfatheredIcon-18y60L {
@@ -47921,8 +47918,7 @@ to {
 	font-weight: 500;
 	text-align: center;
 	position: relative;
-	padding-left: 4px;
-	padding-right: 28px;
+	padding: 0 28px 4px 4px;
 	z-index: 101;
 	-ms-flex-negative: 0;
 	flex-shrink: 0;
@@ -48138,8 +48134,6 @@ to {
 
 .button-1MICoQ {
 	font-weight: 500;
-	position: relative;
-	top: 6px;
 	border: 1px solid hsla(0,0%,100%,.25);
 	border-radius: 3px;
 	height: 24px;
@@ -48147,7 +48141,6 @@ to {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	display: inline-block;
-	vertical-align: top;
 	margin-left: 10px;
 	line-height: 22px;
 	-webkit-transition: background-color .2s ease,color .2s ease,border-color .2s ease;
@@ -64495,4 +64488,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.aa80c9c6592560193b70.css.map*/
+/*# sourceMappingURL=0.4db76658af751ec99def.css.map*/
