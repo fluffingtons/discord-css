@@ -17336,12 +17336,21 @@ to {
 }
 
 .sampleLink-KPFu3I {
-	font-size: 14px
+	font-size: 12px;
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text
 }
 
 .inputWrapper-51e5iN {
-	margin-top: 40px;
+	margin-top: 50px;
 	margin-bottom: 8px
+}
+
+.inputWrapperWithCTA-2BVxMY {
+	margin-top: 16px;
+	margin-bottom: 36px
 }
 
 .input-UJ9Tr3 {
@@ -17364,6 +17373,10 @@ to {
 
 .errorText-e-pqGW {
 	margin-left: 4px
+}
+
+.connectCTA-37DS2Y {
+	text-align: center
 }
 
 .theme-dark .title-2CFvp_ {
@@ -21917,6 +21930,57 @@ to {
 
 .theme-light .guildIconBase-2U7aA8,.theme-light .guildName-vhRkcC,.theme-light .memberInfo-28ncC0 {
 	color: #4f5660
+}
+
+
+.popout-1gottU {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 240px;
+	padding: 24px 16px;
+	border-radius: 8px;
+	overflow: hidden;
+	line-height: 20px;
+	text-align: center
+}
+
+.staffBadge-1rb4zq {
+	background-image: url(/assets/7cfd90c8062139e4804a1fa59f564731.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50%;
+	width: 8px;
+	height: 8px
+}
+
+.nameWrapper-QNCe2G {
+	margin-top: 16px
+}
+
+.header-384ngR {
+	margin-left: 8px
+}
+
+.description-27T9tS {
+	margin-top: 8px
+}
+
+.avatar-3cG477 {
+	width: 100px;
+	height: 100px;
+	border-radius: 16px
+}
+
+.theme-dark .popout-1gottU {
+	background-color: #202225;
+	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6);
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6)
+}
+
+.theme-light .popout-1gottU {
+	background-color: #f8f9f9;
+	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(185,187,190,.3);
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(185,187,190,.3)
 }
 
 
@@ -56512,12 +56576,11 @@ html .invoiceCancelRow-3mYhFX {
 
 
 .ping-2NgC8E {
-	width: 24px;
-	height: 24px;
+	width: 14px;
+	height: 14px;
 	display: block;
-	margin-right: 8px;
+	margin-right: 4px;
 	margin-left: 0;
-	padding: 4px;
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 auto;
 	flex: 0 0 auto
@@ -56540,7 +56603,8 @@ html .invoiceCancelRow-3mYhFX {
 	align-items: center;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	overflow: hidden
+	overflow: hidden;
+	padding-bottom: 2px
 }
 
 .rtcConnectionStatusConnected-VRZDjy {
@@ -56615,6 +56679,60 @@ html .invoiceCancelRow-3mYhFX {
 
 .customStatusContainer-3MngWi {
 	position: relative
+}
+
+.noiseCancellationPopout-iRK2A0 {
+	background: var(--background-floating);
+	-webkit-box-shadow: var(--elevation-high);
+	box-shadow: var(--elevation-high);
+	width: 240px;
+	border-radius: 4px;
+	padding: 16px
+}
+
+.noiseCancellationPopoutTile-3yKJFk {
+	margin-top: 0;
+	margin-bottom: 4px;
+	font-weight: 500;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	cursor: pointer;
+	overflow: hidden;
+	word-wrap: break-word;
+	color: var(--header-primary);
+	font-size: 16px;
+	line-height: 24px
+}
+
+.noiseCancellationTooltip-h4yuQJ {
+	max-width: 200px;
+	text-align: center
+}
+
+.noiseCancellationFooterText-3Vykkd {
+	margin-top: 20px;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--header-secondary);
+	margin-bottom: 8px
+}
+
+.krispLogo-a9msDI {
+	width: 44px;
+	height: 20px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50%
+}
+
+.theme-light .krispLogo-a9msDI {
+	background-image: url(/assets/ebfb23f0cdb11b1871ed8beb3f9ec0ee.svg)
+}
+
+.theme-dark .krispLogo-a9msDI {
+	background-image: url(/assets/c28317e203e00b2d7390d5ece2399228.svg)
 }
 
 
@@ -64492,4 +64610,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.84d3d5ce812c86763986.css.map*/
+/*# sourceMappingURL=0.020c1c7cc37af8319364.css.map*/
