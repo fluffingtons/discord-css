@@ -2799,21 +2799,20 @@ to {
 	z-index: 1
 }
 
-.scrollbar-2rkZSL * {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box
-}
-
 .pad-29zQak {
-	position: absolute;
-	top: 0;
-	bottom: 0;
 	left: -1px;
 	width: 1px
 }
 
-.track-1JN30G {
+.pad-29zQak,.track-1JN30G {
+	position: absolute;
+	top: 0;
 	bottom: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.track-1JN30G {
 	-webkit-box-flex: 1;
 	-ms-flex-positive: 1;
 	flex-grow: 1;
@@ -2825,13 +2824,18 @@ to {
 }
 
 .thumb-2JwNFC,.track-1JN30G {
-	position: absolute;
-	top: 0;
 	right: 0;
-	left: 0;
 	border: 3px solid transparent;
 	border-radius: 8px;
 	background-clip: content-box
+}
+
+.thumb-2JwNFC {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
 }
 
 .scrollerFade-1Ijw5y .scroller-2FKFPG: : -webkit-scrollbar-thumb,.scrollerFade-1Ijw5y .scroller-2FKFPG: : -webkit-scrollbar-track {
@@ -2960,6 +2964,11 @@ to {
 	left: -2px
 }
 
+.scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scrollbar-2rkZSL .thumb-2JwNFC,.scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scrollbar-2rkZSL .track-1JN30G,.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scrollbar-2rkZSL .thumb-2JwNFC,.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scrollbar-2rkZSL .track-1JN30G {
+	width: 8px;
+	border: 2px solid transparent
+}
+
 .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG: : -webkit-scrollbar {
 	width: 0
 }
@@ -3004,14 +3013,15 @@ to {
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scrollbar-2rkZSL .track-1JN30G {
+	width: 14px;
 	background-color: #2f3136;
 	border: 3px solid #36393f;
 	border-radius: 8px
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scrollbar-2rkZSL .thumb-2JwNFC {
+	width: 14px;
 	background-color: #202225;
-	border: 3px solid #36393f;
 	border-radius: 8px
 }
 
@@ -23044,22 +23054,14 @@ to {
 	padding-bottom: .125rem
 }
 
-.reactions-12N0jA .reactionBtn-3N03Zj {
-	opacity: 0
-}
-
-.reactions-12N0jA: hover .reactionBtn-3N03Zj: hover {
-	opacity: 1
-}
-
 .icon-2uw6mp,.reactionBtn-3N03Zj {
 	width: 1rem;
 	height: 1rem
 }
 
 .reactionBtn-3N03Zj {
-	margin-top: .125rem;
 	cursor: pointer;
+	visibility: hidden;
 	color: var(--interactive-normal)
 }
 
@@ -23071,13 +23073,8 @@ to {
 	color: var(--interactive-active)
 }
 
-.reactions-12N0jA .reactionBtn-3N03Zj.active-1pv5EN,.reactions-12N0jA: hover .reactionBtn-3N03Zj {
-	opacity: 1;
+.reactionBtn-3N03Zj.active-1pv5EN,.reactions-12N0jA: hover .reactionBtn-3N03Zj {
 	visibility: visible
-}
-
-.inline-2bcWBc {
-	margin-left: .375rem
 }
 
 .reaction-1hd86g {
@@ -35462,10 +35459,6 @@ to {
 	display: block;
 	-o-object-fit: contain;
 	object-fit: contain
-}
-
-.publishIcon-2lAr-x .icon-3Gkjwa {
-	color: #7289da
 }
 
 @media only screen and (max-width: 970px) {
@@ -62042,4 +62035,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.6f7ff2ae18e81326e28d.css.map*/
+/*# sourceMappingURL=0.d874e43f0ed5a0d5bd84.css.map*/
