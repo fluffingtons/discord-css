@@ -18719,21 +18719,25 @@ to {
 }
 
 
-.container-3FojY8 {
+.compact-T3H92H,.container-3FojY8,.cozy-3raOZG {
 	position: relative;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto
+}
+
+.container-3FojY8 {
 	padding: .125rem 16px .125rem 72px;
 	word-wrap: break-word;
 	-webkit-user-select: text;
 	-moz-user-select: text;
 	-ms-user-select: text;
 	user-select: text;
-	-webkit-box-flex: 0;
-	-ms-flex: 0 0 auto;
-	flex: 0 0 auto;
-	min-height: 1.375rem
+	min-height: 1.375rem;
+	overflow: hidden
 }
 
-.compact-T3H92H {
+.compact-T3H92H .container-3FojY8 {
 	padding: .125rem 1rem .125rem 80px;
 	text-indent: calc(-80px - -1rem)
 }
@@ -18750,22 +18754,12 @@ to {
 	cursor: pointer
 }
 
-.messageCompact-14sG6N {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column
-}
-
-.headerCompact-1DAisC {
+.compact-T3H92H .header-23xsNx {
 	display: inline;
 	display: contents
 }
 
-.headerCozy-2H1QuU {
+.cozy-3raOZG .header-23xsNx {
 	position: relative;
 	line-height: 1.375rem;
 	min-height: 1.375rem;
@@ -18776,17 +18770,12 @@ to {
 	margin-left: -72px
 }
 
-.a11y-font-scaled-down .cozy-3raOZG,.a11y-font-scaled-down .headerCozy-2H1QuU {
+.a11y-font-scaled-down .cozy-3raOZG .container-3FojY8,.a11y-font-scaled-down .cozy-3raOZG .header-23xsNx {
 	padding-left: 4.5rem
 }
 
-.a11y-font-scaled-down .headerCozy-2H1QuU {
+.a11y-font-scaled-down .cozy-3raOZG .header-23xsNx {
 	margin-left: -4.5rem
-}
-
-.headerCozyMeta-3x4ZlY {
-	white-space: nowrap;
-	color: var(--text-muted)
 }
 
 .buttonContainer-DHceWr {
@@ -18895,10 +18884,6 @@ to {
 	white-space: nowrap
 }
 
-.background-opacity-high .messageCompact-14sG6N: hover .timestampVisibleOnHover-2bQeI4,.background-opacity-low .messageCompact-14sG6N: hover .timestampVisibleOnHover-2bQeI4,.background-opacity-medium .messageCompact-14sG6N: hover .timestampVisibleOnHover-2bQeI4 {
-	color: #f6f6f7
-}
-
 .timestampVisibleOnHover-2bQeI4 {
 	opacity: 0;
 	pointer-events: none
@@ -18918,7 +18903,7 @@ to {
 	vertical-align: baseline
 }
 
-.headerCompact-1DAisC .username-1A8OIy,.headerCozy-2H1QuU .username-1A8OIy {
+.compact-T3H92H .username-1A8OIy,.cozy-3raOZG .username-1A8OIy {
 	margin-right: .25rem
 }
 
@@ -18974,11 +18959,20 @@ to {
 	left: 0;
 	height: 1.375rem;
 	line-height: 1.375rem;
-	width: 3.5rem;
+	width: 56px;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
-	user-select: none
+	user-select: none;
+	margin: 0
+}
+
+.a11y-font-scaled-up .timestampCozyAlt-1Hs08c {
+	font-size: 12Px
+}
+
+.a11y-font-scaled-down .timestampCozyAlt-1Hs08c {
+	width: 3.5rem
 }
 
 
@@ -62107,4 +62101,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.9f682c3751c30ec975c7.css.map*/
+/*# sourceMappingURL=0.62394101de9d063788ba.css.map*/
