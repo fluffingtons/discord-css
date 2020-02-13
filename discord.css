@@ -17381,7 +17381,7 @@ to {
 }
 
 
-.popout-1-tTyR {
+.popout-6p6fkZ {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	width: 240px;
@@ -17392,7 +17392,7 @@ to {
 	text-align: center
 }
 
-.staffBadge-2vq1VD {
+.staffBadge-3NsEoM {
 	background-image: url(/assets/7cfd90c8062139e4804a1fa59f564731.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -17401,31 +17401,31 @@ to {
 	height: 8px
 }
 
-.nameWrapper-9Od4ka {
+.nameWrapper-2D9_np {
 	margin-top: 16px
 }
 
-.header-qtKC9W {
+.header-NC1A_A {
 	margin-left: 8px
 }
 
-.description-2Zg8mN {
+.description-1u26oc {
 	margin-top: 8px
 }
 
-.avatar-2Q3Tgv {
+.avatar-Ylrxl9 {
 	width: 100px;
 	height: 100px;
 	border-radius: 16px
 }
 
-.theme-dark .popout-1-tTyR {
+.theme-dark .popout-6p6fkZ {
 	background-color: #202225;
 	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6);
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(32,34,37,.6)
 }
 
-.theme-light .popout-1-tTyR {
+.theme-light .popout-6p6fkZ {
 	background-color: #f8f9f9;
 	-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(185,187,190,.3);
 	box-shadow: 0 2px 10px 0 rgba(0,0,0,.2),0 0 0 1px rgba(185,187,190,.3)
@@ -31396,6 +31396,27 @@ to {
 }
 
 
+.button-2Nu6xU {
+	width: 100%;
+	padding: 8px 0;
+	line-height: 18px;
+	text-transform: uppercase;
+	border-color: #2e3757;
+	margin-top: 8px
+}
+
+
+.buttonsContainer-1I7ocQ {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.buttonSection-1P9203 {
+	width: 100%
+}
+
+
 .prefixInput-14nUik {
 	padding: 11px;
 	border-width: 1px;
@@ -31513,16 +31534,6 @@ to {
 	-webkit-box-flex: 1;
 	-ms-flex-positive: 1;
 	flex-grow: 1
-}
-
-
-.button-2Nu6xU {
-	width: 100%;
-	padding: 8px 0;
-	line-height: 18px;
-	text-transform: uppercase;
-	border-color: #2e3757;
-	margin-top: 8px
 }
 
 
@@ -40614,22 +40625,50 @@ html .invoiceCancelRow-1YYT42 {
 }
 
 .verticalButtons-2VzPi6 {
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column
-}
-
-.verticalButtons-2VzPi6,.xboxPromotion-1k0m0c {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center
 }
 
+.promotions-3PAPP4 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(322px,1fr));
+	grid-gap: 8px
+}
+
+.promotions-3PAPP4: not(: empty) {
+	margin-top: 32px
+}
+
+.promotionBanner-1fCSab {
+	padding: 16px;
+	border-radius: 4px;
+	background-color: var(--background-secondary)
+}
+
+.promotionBannerHeader-oD1nsw {
+	text-transform: uppercase;
+	margin-bottom: 4px
+}
+
+.promotionBannerDescription-yIE86E {
+	color: var(--header-secondary)
+}
+
 .xboxPromotion-1k0m0c {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	background-image: -webkit-gradient(linear,left top,right top,from(#b473f5),to(#e292aa));
 	background-image: linear-gradient(90deg,#b473f5,#e292aa);
 	padding: 8px 16px;
@@ -40645,72 +40684,49 @@ html .invoiceCancelRow-1YYT42 {
 	text-decoration: underline
 }
 
-.marketingRefreshXboxPromotion-2wWfah {
-	background-color: var(--background-secondary);
-	background-image: none;
-	color: var(--text-normal);
-	margin-bottom: 16px;
-	margin-top: 0;
-	padding: 16px
-}
-
-.marketingRefreshXboxPromotion-2wWfah a {
-	color: var(--text-link)
-}
-
-.marketingRefreshXboxPromotionNitroWheel-3pkRQj {
-	background-image: -webkit-gradient(linear,left top,left bottom,from(#b473f5),to(#e292aa));
-	background-image: linear-gradient(#b473f5,#e292aa);
-	border-radius: 4px;
-	color: #fff;
-	margin-right: 8px;
-	padding: 4px;
-	width: 32px;
-	height: 32px
-}
-
-.xboxPromotionLogos-I8aD8s {
+.bannerPromotionLogos-UxSYy5 {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	font-size: 16px;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
-	align-items: center
+	align-items: center;
+	margin-bottom: 16px
 }
 
-.xboxPromotionLogoPremium-v03NNs {
-	width: 42px;
-	height: 42px;
-	margin-right: 8px
-}
-
-.xboxPromotionLogoXbox-1R0jHX {
-	width: 130px;
-	height: 47px;
-	background-image: url(/assets/9480e314100aefd156308df890f9f7ab.svg);
-	margin-right: 8px
-}
-
-.marketingRefreshXboxPromotionLogoXbox-2qj0z4 {
-	background-position: 50%;
+.bannerPromotionLogoOther-3uaTEs {
 	background-repeat: no-repeat;
-	margin-left: 8px;
-	margin-right: 16px
+	background-size: 100%;
+	background-position: 50%;
+	margin-left: 8px
 }
 
-.xboxPromotionTitle-3qCRBQ {
+.bannerPromotionLogoPremium-2cB301 {
+	width: 32px;
+	height: 32px;
+	padding: 4px;
+	border-radius: 4px;
+	margin-right: 8px;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#b473f5),to(#e292aa));
+	background-image: linear-gradient(#b473f5,#e292aa);
+	color: #fff
+}
+
+.bannerPromotionTitle-3B_tCo {
 	margin-bottom: 2px;
 	text-transform: uppercase;
 	font-weight: 700
 }
 
-.marketingRefreshXboxPromotion-2wWfah .xboxPromotionTitle-3qCRBQ {
-	color: var(--header-primary)
+.xboxLogo-3Xe7Mg {
+	width: 131px;
+	height: 30px
 }
 
-.marketingRefreshXboxPromotionDescription-JJGCJg {
-	color: var(--text-normal)
+.funimationLogo-14DqGN {
+	width: 200px;
+	height: 30px
 }
 
 .theme-light .title-UzqlUY {
@@ -40739,8 +40755,12 @@ html .invoiceCancelRow-1YYT42 {
 	color: #8ea1e1
 }
 
-.theme-light .marketingRefreshXboxPromotionLogoXbox-2qj0z4 {
-	background-image: url(/assets/7cc31593a97e8eddbea8221730d53ee0.svg)
+.theme-light .xboxLogo-3Xe7Mg {
+	background-image: url(/assets/ce78ab9c673bdde52bc89b0ce1a9d27b.svg)
+}
+
+.theme-light .funimationLogo-14DqGN {
+	background-image: url(/assets/53d92f05d05b2f74a78ec942e6c47440.png)
 }
 
 .theme-light .planOption-2fnccy .marketingRefreshMonthButton-15TXCf {
@@ -40787,8 +40807,12 @@ html .invoiceCancelRow-1YYT42 {
 	background-color: #18191c
 }
 
-.theme-dark .marketingRefreshXboxPromotionLogoXbox-2qj0z4 {
-	background-image: url(/assets/08c5e8ac1ebb88b7fbc9d784fe19a7de.svg)
+.theme-dark .xboxLogo-3Xe7Mg {
+	background-image: url(/assets/ce78ab9c673bdde52bc89b0ce1a9d27b.svg)
+}
+
+.theme-dark .funimationLogo-14DqGN {
+	background-image: url(/assets/9a8dd23b370dbbb11de22865ca603604.png)
 }
 
 
@@ -50606,6 +50630,76 @@ to {
 }
 
 
+.modalRoot-OtXY7l {
+	overflow: visible
+}
+
+.modalContent-1K5MZp {
+	overflow: hidden;
+	width: 440px
+}
+
+.content-1OUQ3t {
+	padding-bottom: 16px
+}
+
+.modalCloseButton-1Mz02I {
+	position: absolute;
+	top: 12px;
+	right: 12px
+}
+
+.headerText-3pmfw3 {
+	margin-top: 8px;
+	text-align: center
+}
+
+.headerContainer-2tl_83 {
+	overflow: visible;
+	position: relative
+}
+
+.header-3FbLXj {
+	padding-top: 52px;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.art-2fyFsg {
+	background-image: url(/assets/a9f20b1122cfc9eaa2d9690624853599.svg);
+	background-position: top;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+	width: 300px;
+	height: 120px
+}
+
+.subHeader-2K2Mw9 {
+	color: var(--header-secondary);
+	text-transform: uppercase;
+	margin-bottom: 8px
+}
+
+.confirmationEmail-1AtWMt {
+	color: var(--header-secondary);
+	margin-top: 8px
+}
+
+
 .modalRoot-3CDhTv {
 	overflow: visible
 }
@@ -50613,6 +50707,10 @@ to {
 .modalContent-zYZfKF {
 	overflow: hidden;
 	width: 440px
+}
+
+.content-1CY8oK {
+	padding-bottom: 16px
 }
 
 .modalCloseButton-1YWZbe {
@@ -50660,19 +50758,22 @@ to {
 }
 
 .plan-2S1isr {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 	background-color: var(--background-secondary);
 	border-radius: 4px;
-	padding: 16px;
+	padding: 16px
+}
+
+.plan-2S1isr: not(: last-child) {
 	margin-bottom: 16px
 }
 
-.plan-2S1isr,.planInfoContainer-2vBjqE {
+.planInfoContainer-2vBjqE {
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex
-}
-
-.planInfoContainer-2vBjqE {
+	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
@@ -50696,7 +50797,6 @@ to {
 
 .confirmationEmail-3XJExV {
 	margin-top: 8px;
-	margin-bottom: 16px;
 	color: var(--header-secondary)
 }
 
@@ -50977,18 +51077,31 @@ to {
 	margin-top: 40px
 }
 
-.xboxGamePassIcon-2to-VL {
-	background: url(/assets/977b07ee9069ef7dbf22c1438697d693.svg);
+.promotionCardDescriptionWithCode-3YtJQp {
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+	cursor: text
+}
+
+.promotionIcon-3FDeSa {
 	width: 40px;
 	height: 40px;
 	display: block;
 	margin-right: 10px;
 	-ms-flex-negative: 0;
-	flex-shrink: 0
+	flex-shrink: 0;
+	border-radius: 4px
 }
 
-.xboxGamePassCardDescription-1RHBxH p {
-	margin: 0
+.xboxGamePassIcon-2to-VL {
+	background: url(/assets/977b07ee9069ef7dbf22c1438697d693.svg)
+}
+
+.funimationIcon-1WU3NH {
+	background: url(/assets/0708148beeac0b7c44ab538b95abe49e.svg);
+	background-size: 100%
 }
 
 .theme-dark .emptyStateHeader-248f_b {
@@ -61762,4 +61875,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.d461450a7df1852a67ab.css.map*/
+/*# sourceMappingURL=0.78aab3353171e2333710.css.map*/
