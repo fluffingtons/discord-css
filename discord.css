@@ -20814,7 +20814,8 @@ to {
 	position: relative;
 	border-radius: 4px;
 	border: 1px solid var(--background-tertiary);
-	background-color: var(--background-secondary)
+	background-color: var(--background-secondary);
+	max-height: 200px
 }
 
 .successModal-3oCWTh {
@@ -23530,10 +23531,21 @@ to {
 	padding: 10px 4px 10px 18px
 }
 
+.channelItemCategory-2uKga- {
+	padding: 10px 4px 5px 8px
+}
+
 .channelName-zpr8tJ {
 	color: var(--channels-default);
 	font-size: 16px;
 	line-height: 16px
+}
+
+.channelItemCategory-2uKga- .channelName-zpr8tJ {
+	font-size: 12px;
+	line-height: 14px;
+	text-transform: uppercase;
+	font-weight: 600
 }
 
 .channelNameUnread-1J_UP0 {
@@ -23873,12 +23885,20 @@ to {
 	font-weight: 600
 }
 
-.template-1dZv66: hover: not([disabled]),.templateSelected-3nmENR {
+.template-1dZv66: hover: not([disabled]) {
+	background: var(--background-modifier-hover)
+}
+
+.templateSelected-3nmENR {
 	border-color: #7289da
 }
 
 .templateEmphasized-2AIL66 {
 	background: #e3e7f8
+}
+
+.templateEmphasized-2AIL66: hover: not([disabled]) {
+	background: #c7d0f0
 }
 
 .grid-1iFiyq .templateIcon-39n0d- {
@@ -62402,4 +62422,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.74a1b3f835486231a509.css.map*/
+/*# sourceMappingURL=0.5982d0ce2e0c3253cd1a.css.map*/
