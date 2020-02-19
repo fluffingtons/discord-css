@@ -21347,20 +21347,34 @@ to {
 
 .createArt-3ny-Eu {
 	width: 130px;
+	height: 96px;
 	background-image: url(/assets/845d431ebfc24e13a0b31f7e64fc612b.png)
 }
 
-.createArt-3ny-Eu,.joinArt-3IJzgu {
-	height: 96px
+.createArt-3ny-Eu.green-1YZmc- {
+	background-image: url(/assets/991f6008d486eeedfcd9fb6952833695.svg)
 }
 
 .joinArt-3IJzgu {
 	width: 215px;
+	height: 96px;
 	background-image: url(/assets/8fb52ec5260dfe6c5b93d211d3b6ecde.png)
 }
 
 .createButton-10kei0 {
 	width: 100%
+}
+
+.joinButton-mnDqn8 {
+	width: 100%;
+	margin-top: 8px
+}
+
+.divider-2M_N-r {
+	width: 100%;
+	margin-top: 24px;
+	height: 1px;
+	background-color: var(--background-tertiary)
 }
 
 .joinContainer-O1ctTR {
@@ -21371,6 +21385,10 @@ to {
 .instructions-WfAcQr {
 	margin-top: 24px;
 	text-align: center
+}
+
+.instructions-WfAcQr.join-1dgmT- {
+	margin-top: 16px
 }
 
 .joinLabel-3e2it2 {
@@ -21401,8 +21419,11 @@ to {
 
 .footer-30huEV {
 	background-color: var(--background-tertiary);
-	padding: 20px 32px;
-	text-align: center
+	padding: 16px;
+	text-align: center;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end
 }
 
 
@@ -62428,4 +62449,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.f08953ed300ded89fa9a.css.map*/
+/*# sourceMappingURL=0.bc3b2734feaa7ae88e38.css.map*/
