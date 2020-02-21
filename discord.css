@@ -9028,20 +9028,12 @@ to {
 	display: block
 }
 
-.theme-dark .animationContainer-cNePAf {
-	color: #fff
+.animationContainer-cNePAf {
+	color: var(--header-primary)
 }
 
-.theme-dark .shine-KMI5j7 {
+.shine-KMI5j7 {
 	color: hsla(0,0%,100%,.5)
-}
-
-.theme-light .animationContainer-cNePAf {
-	color: #7289da
-}
-
-.theme-light .shine-KMI5j7 {
-	color: rgba(114,137,218,.2)
 }
 
 
@@ -21364,7 +21356,8 @@ to {
 .joinInput-2btDQG {
 	-webkit-box-flex: 1;
 	-ms-flex-positive: 1;
-	flex-grow: 1
+	flex-grow: 1;
+	margin-right: 8px
 }
 
 .joinButton-mnDqn8 {
@@ -51409,46 +51402,33 @@ to {
 	mask: radial-gradient(100% 100% at top left,hsla(0,0%,100%,.6) 0,hsla(0,0%,100%,0) 100%)
 }
 
+.body-SKIE6r {
+	background-color: var(--background-secondary)
+}
+
+.header-1RC2Wb {
+	background-color: var(--background-tertiary);
+	color: var(--header-primary)
+}
+
+.header-1RC2Wb: hover {
+	background-color: var(--background-modifier-hover)
+}
+
 .theme-dark .card-7JP0BX {
-	background-color: #36393f;
 	color: #f6f6f7
-}
-
-.theme-dark .header-1RC2Wb {
-	background-color: #2f3136
-}
-
-.theme-dark .header-1RC2Wb: hover {
-	background-color: rgba(32,34,37,.6)
 }
 
 .theme-dark .splashArt-3yFzRe {
 	background-image: url(/assets/976b56da8d86af63aef4f55afb553a9f.png)
 }
 
-.theme-dark .body-SKIE6r {
-	background-color: rgba(79,84,92,.3)
-}
-
 .theme-light .card-7JP0BX {
-	background-color: #f6f6f7;
 	color: #36393f
-}
-
-.theme-light .header-1RC2Wb {
-	background-color: rgba(220,221,222,.6)
-}
-
-.theme-light .header-1RC2Wb: hover {
-	background-color: #dcddde
 }
 
 .theme-light .splashArt-3yFzRe {
 	background-image: url(/assets/171a53265b4d807b208e80f1acba3762.png)
-}
-
-.theme-light .body-SKIE6r {
-	background-color: #fff
 }
 
 
@@ -51510,18 +51490,6 @@ to {
 	line-height: 19px
 }
 
-.gameNameLink-1DJEts {
-	
-}
-
-.gameNameLink-1DJEts: hover {
-	text-decoration: underline
-}
-
-.gameNameLink-1DJEts: hover.gameNameLinkDisabled-1ibZhT {
-	text-decoration: none
-}
-
 .expandIcon-3v5EV8 {
 	margin-left: 8px;
 	cursor: pointer
@@ -51537,10 +51505,6 @@ to {
 
 .theme-dark .subTextRow-2vP_Z7 {
 	color: #b9bbbe
-}
-
-.theme-dark .gameNameLink-1DJEts {
-	color: #fff
 }
 
 .theme-dark .giftCodeRow-24nTuI {
@@ -51578,10 +51542,6 @@ to {
 
 .theme-light .bodyButtonColor-ptbdFu: active {
 	background: #b9bbbe
-}
-
-.theme-light .gameNameLink-1DJEts {
-	color: #4f545c
 }
 
 
@@ -62421,4 +62381,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.fe4287effd150804597b.css.map*/
+/*# sourceMappingURL=0.afac1676fb2d559107b7.css.map*/
