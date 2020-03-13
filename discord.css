@@ -6081,7 +6081,12 @@ img[alt] {
 .subtitle-1izn1t {
 	font-size: 20px;
 	height: 40px;
-	margin-top: 8px
+	margin-top: 8px;
+	overflow: hidden;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%
 }
 
 .subtitle-1izn1t strong {
@@ -17045,7 +17050,7 @@ to {
 
 .divider-2gQcba {
 	border: 1px solid var(--background-modifier-accent);
-	margin-bottom: 24px
+	margin: 24px 0
 }
 
 .previewSection-1h_5aj {
@@ -59087,12 +59092,11 @@ to {
 }
 
 .scrollerInner-vPeaVu {
-	padding: 16px
+	padding: 16px 9px 16px 16px
 }
 
 .createButton-2XJ7jN {
-	margin-top: 12px;
-	margin-bottom: 24px
+	margin-top: 12px
 }
 
 
@@ -62021,4 +62025,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.c11a53c2fb505002f1e9.css.map*/
+/*# sourceMappingURL=0.1eface27c61f6bd101bd.css.map*/
