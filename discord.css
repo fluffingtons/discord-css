@@ -17169,16 +17169,14 @@ to {
 	padding-top: 24px
 }
 
-.createButton-2P9-0g {
-	-webkit-box-flex: 1;
-	-ms-flex: 1 1 auto;
-	flex: 1 1 auto
-}
-
-.closeButton-1fWYbi {
-	position: absolute;
-	right: 12px;
-	top: 12px
+.modalFooter-Xu2eIR {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
 }
 
 
@@ -38233,6 +38231,14 @@ to {
 	bottom: 0;
 	left: 0;
 	z-index: 100
+}
+
+.platform-win .videoHeight-Qp_9vC.normal-1jW0uq {
+	height: calc(50vh - 22px)
+}
+
+.platform-win .videoHeight-Qp_9vC.noChat-3nt48u {
+	height: calc(100vh - 22px)
 }
 
 .video-1FfuMD {
@@ -62523,4 +62529,4 @@ to {
 
 
 
-/*# sourceMappingURL=0.1da50a2bf9c88ff72062.css.map*/
+/*# sourceMappingURL=0.c208e6953a447fbd4810.css.map*/
