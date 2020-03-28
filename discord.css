@@ -19071,7 +19071,14 @@ to {
 
 .channelIcon-2s1R00 {
 	margin-right: 8px;
-	width: 20px
+	width: 20px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0
+}
+
+.channelText-7rGec8 {
+	overflow: hidden;
+	text-overflow: ellipsis
 }
 
 .rolesWrapper-2yOx9S {
@@ -57264,26 +57271,16 @@ to {
 	line-height: 16px
 }
 
-.attribution-aTC3hS,.quote-3aooyW,.status-1JTY3j {
+.text-3c9Zq1 {
+	position: relative;
+	top: -20px
+}
+
+.body-2Vra9D,.title-3JMOhC {
 	
 }
 
-.attribution-aTC3hS {
-	margin-top: -10px;
-	margin-bottom: 10px;
-	font-size: 10px
-}
-
-.attribution-aTC3hS a {
-	color: var(--text-normal);
-	text-decoration: none
-}
-
-.attribution-aTC3hS a: hover {
-	text-decoration: underline
-}
-
-.quote-3aooyW {
+.title-3JMOhC {
 	margin-bottom: 10px;
 	color: var(--header-primary);
 	font-style: italic;
@@ -63496,4 +63493,4 @@ img[alt] {
 
 
 
-/*# sourceMappingURL=1.0daf96cd68f766c9a093.css.map*/
+/*# sourceMappingURL=1.ad723c4b2468a57440e3.css.map*/
