@@ -14535,7 +14535,7 @@ to {
 	-webkit-box-flex: 0;
 	-ms-flex: 0 0 auto;
 	flex: 0 0 auto;
-	padding-right: 48px;
+	padding-right: 16px;
 	min-height: 1.375rem
 }
 
@@ -24151,6 +24151,10 @@ to {
 	-webkit-box-shadow: 0 0 0 4px var(--focus-primary);
 	box-shadow: 0 0 0 4px var(--focus-primary);
 	pointer-events: none
+}
+
+.message-2qnXI6 {
+	padding-right: 48px!important
 }
 
 .message-2qnXI6.selected-2P5D_Z,.mouse-mode.full-motion .message-2qnXI6: hover {
@@ -45012,7 +45016,7 @@ to {
 }
 
 .hasMore-3e72_v,.loadingMore-sPqUXZ {
-	margin: 10px 6px 6px 19px;
+	margin: 16px 6px 16px 16px;
 	height: 32px
 }
 
@@ -60741,6 +60745,13 @@ to {
 	color: var(--deprecated-quickswitcher-input-placeholder)
 }
 
+.autocompleteQuerySymbol-1kyGZ5 {
+	background-color: var(--background-tertiary);
+	padding: 2px;
+	border-radius: 4px;
+	font-family: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace
+}
+
 .scrollerOuter-3FLELE {
 	position: relative;
 	z-index: 0;
@@ -60761,38 +60772,9 @@ to {
 	padding-right: 17px
 }
 
-.tipsWithoutResults-lGY-De,.tipsWithResults-HhTE9b {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	overflow: hidden;
-	font-size: 12px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	border-top: 1px solid var(--background-modifier-accent);
-	color: var(--text-muted)
-}
-
-.tipsWithoutResults-lGY-De {
-	margin-top: 10px
-}
-
-.tipsWithResults-HhTE9b {
-	margin-top: 0
-}
-
-.tipsListNav-2AYmjC {
-	height: 23px
-}
-
-.tipsListNav-2AYmjC,.tipsMiscControls-vCHjy1 {
-	-webkit-box-flex: 1;
-	-ms-flex: 1;
-	flex: 1
-}
-
-.tipsMiscControls-vCHjy1 {
-	text-align: right
+.protip-1b9XPC {
+	padding: 10px 0;
+	border-top: 1px solid var(--background-modifier-accent)
 }
 
 .emptyState-2gL-9T {
@@ -64431,4 +64413,4 @@ img[alt] {
 
 
 
-/*# sourceMappingURL=1.8b89b4fcacedf7a35c7a.css.map*/
+/*# sourceMappingURL=1.af8d7350982761b5715a.css.map*/
