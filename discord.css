@@ -18912,6 +18912,20 @@ to {
 }
 
 
+.iconContainer-2B0ixr {
+	height: 80px;
+	position: relative;
+	width: 80px
+}
+
+.filledIcon-2eb7eA {
+	background-color: var(--background-secondary-alt);
+	border-radius: 80px;
+	height: 80px;
+	width: 80px
+}
+
+
 .avatar-1Mj8bY,.guildIcon-1k02sK {
 	margin-bottom: 20px
 }
@@ -19004,19 +19018,6 @@ to {
 	flex-direction: column;
 	margin-bottom: 16px;
 	margin-top: 32px
-}
-
-.iconContainer-bjV4n2 {
-	height: 80px;
-	position: relative;
-	width: 80px
-}
-
-.filledIcon-1XDeR9 {
-	background-color: var(--background-secondary-alt);
-	border-radius: 80px;
-	height: 80px;
-	width: 80px
 }
 
 .guidelines-1yD5nc {
@@ -25200,6 +25201,44 @@ to {
 
 .spinner-1uaTw2 {
 	margin-top: 32px
+}
+
+.tutorial-i_drPV {
+	background-color: var(--background-primary);
+	border-radius: 8px;
+	margin: 16px 9px 16px 16px;
+	padding: 16px 32px 16px 16px;
+	position: relative
+}
+
+.protip-3WJi2b {
+	display: inline;
+	text-transform: uppercase
+}
+
+.closeTutorial-i7W5ZI {
+	color: var(--text-normal);
+	cursor: pointer;
+	position: absolute;
+	top: 16px;
+	right: 16px
+}
+
+
+.badge-2qGa_k {
+	position: relative
+}
+
+.badge-2qGa_k: after {
+	content: "";
+	width: 8px;
+	height: 8px;
+	background-color: #f04747;
+	border-radius: 8px;
+	border: 2px solid var(--background-primary);
+	position: absolute;
+	bottom: 0;
+	right: 0
 }
 
 
@@ -50342,6 +50381,14 @@ to {
 	width: 48px
 }
 
+.users-i_3-kL.video-3cIPIl.extraLong-20tV2M {
+	width: 56px
+}
+
+.users-i_3-kL.extraLong-20tV2M {
+	width: 36px
+}
+
 .total-3tKGEB {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -50349,6 +50396,10 @@ to {
 	position: relative;
 	padding: 0 6px 0 0;
 	background-color: var(--background-tertiary)
+}
+
+.total-3tKGEB.extraLong-20tV2M {
+	width: 28px
 }
 
 .total-3tKGEB: after {
@@ -60279,6 +60330,128 @@ to {
 }
 
 
+.container-1aw48f {
+	border-radius: 8px;
+	border: 1px solid var(--background-modifier-accent);
+	background-color: var(--background-primary);
+	margin-bottom: 8px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	cursor: pointer
+}
+
+.container-1aw48f: hover {
+	background-color: var(--background-modifier-hover)
+}
+
+.container-1aw48f: focus {
+	background-color: var(--background-modifier-selected)
+}
+
+.container-1aw48f: active {
+	background-color: var(--background-modifier-active)
+}
+
+.image-1jl5rf {
+	margin: 8px 8px 8px 16px
+}
+
+.text-felgbd {
+	font-weight: 700;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.arrow-2tEk2G {
+	margin-left: auto;
+	margin-right: 16px
+}
+
+
+.container-AXE_-F {
+	max-height: 580px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.header-332AYN {
+	padding: 0 8px 0 16px;
+	-webkit-box-flex: 0;
+	-ms-flex-positive: 0;
+	flex-grow: 0
+}
+
+.closeButton-g0PESJ {
+	position: absolute;
+	top: 12px;
+	right: 12px
+}
+
+.templatesList-24mIGX {
+	margin-top: 24px;
+	padding: 0 8px 8px 16px;
+	width: 416px;
+	height: 450px
+}
+
+.title-14_K2w {
+	margin-top: 32px;
+	font-weight: 700
+}
+
+.subtitle-2RYjdB,.title-14_K2w {
+	text-align: center
+}
+
+.subtitle-2RYjdB {
+	margin-top: 8px
+}
+
+.optionHeader-nRl81c {
+	margin-top: 24px;
+	margin-bottom: 8px;
+	font-weight: 700;
+	text-transform: uppercase
+}
+
+.createServer-1ecGLq {
+	margin-top: 32px;
+	margin-bottom: 32px;
+	width: 408px
+}
+
+.uploadIcon-2ymWuS {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	color: var(--interactive-normal)
+}
+
+.nameInput-3owNy1 {
+	margin-top: 32px
+}
+
+.guidelines-qzV0Vf {
+	margin-top: 8px
+}
+
+.backButton-3zE0EY {
+	color: var(--interactive-normal)
+}
+
+
 .form-236Xmo {
 	width: 520px;
 	position: relative
@@ -64704,4 +64877,4 @@ img[alt] {
 
 
 
-/*# sourceMappingURL=1.9753eaa63747a47d5080.css.map*/
+/*# sourceMappingURL=1.b4cf1461ba91ae2ce937.css.map*/
