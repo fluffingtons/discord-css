@@ -25204,24 +25204,37 @@ to {
 }
 
 .tutorial-i_drPV {
-	background-color: var(--background-primary);
+	background-color: var(--background-tertiary);
 	border-radius: 8px;
 	margin: 16px 9px 16px 16px;
-	padding: 16px 32px 16px 16px;
-	position: relative
+	padding: 16px
 }
 
-.protip-3WJi2b {
-	display: inline;
-	text-transform: uppercase
+.tutorial-i_drPV,.tutorialIcon-G9i5Ne {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
 }
 
-.closeTutorial-i7W5ZI {
-	color: var(--text-normal);
-	cursor: pointer;
-	position: absolute;
-	top: 16px;
-	right: 16px
+.tutorialIcon-G9i5Ne {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: var(--background-primary);
+	border-radius: 40px;
+	color: var(--interactive-normal);
+	height: 40px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 40px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	margin-right: 16px
+}
+
+.tutorialButton-Ts-4Za {
+	margin-top: 8px
 }
 
 
@@ -64877,4 +64890,4 @@ img[alt] {
 
 
 
-/*# sourceMappingURL=1.4e36d31e2c43ea3cfa4d.css.map*/
+/*# sourceMappingURL=1.82a3380728b807c34ce4.css.map*/
