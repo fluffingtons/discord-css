@@ -35218,6 +35218,13 @@ to {
 
 
 .colorPickerCustom-2CWBn2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	padding: 10px;
 	border: 1px solid transparent;
 	width: 220px
@@ -50529,18 +50536,29 @@ to {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	margin-bottom: 16px
+	margin-bottom: 16px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
 }
 
-.category-2yEqfb {
+.categoryPill-34fszg {
 	margin-right: 8px;
 	padding: 4px 8px;
+	text-align: center
+}
+
+.categoryPill-34fszg .categoryLabel-2G3r2V {
 	color: var(--text-muted)
 }
 
-.category-2yEqfb.selected-1dONk0 {
+.categoryPill-34fszg.selected-1dONk0 {
 	background-color: #7289da;
 	border-radius: 8px;
+	color: #fff
+}
+
+.categoryPill-34fszg.selected-1dONk0 .categoryLabel-2G3r2V {
 	color: #fff
 }
 
@@ -65830,4 +65848,4 @@ img[alt] {
 
 
 
-/*# sourceMappingURL=1.82a85110caf1bd5f5d35.css.map*/
+/*# sourceMappingURL=1.dad73b2677bcf8d103c7.css.map*/
