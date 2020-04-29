@@ -26003,6 +26003,10 @@ to {
 	padding-right: 0
 }
 
+.message-2g38UB .mention {
+	pointer-events: none
+}
+
 .messages-3G3erD .message-2g38UB: first-of-type {
 	margin-top: 0
 }
@@ -50814,7 +50818,8 @@ to {
 .categoryPill-34fszg {
 	margin-right: 8px;
 	padding: 4px 8px;
-	text-align: center
+	text-align: center;
+	cursor: pointer
 }
 
 .categoryPill-34fszg .categoryLabel-2G3r2V {
@@ -50831,10 +50836,6 @@ to {
 	color: #fff
 }
 
-
-.container-2zflaQ {
-	padding: 16px
-}
 
 .container-2zflaQ,.content-1BENPf {
 	display: -webkit-box;
@@ -50864,27 +50865,31 @@ to {
 	align-items: center
 }
 
+.splashContainer-1rUZiJ {
+	height: 135px
+}
+
 .splashImage-37Y0AL {
 	-ms-flex-negative: 0;
 	flex-shrink: 0;
 	-o-object-fit: cover;
 	object-fit: cover;
 	border-radius: 8px;
-	margin-right: 16px;
-	cursor: pointer
+	margin-right: 16px
 }
 
-.avatar-1izvHm {
-	width: 100%;
+.avatar-1izvHm,.splashImage-37Y0AL {
+	cursor: pointer;
 	height: 100%
 }
 
-.avatar-1izvHm,.name-2S4ebg {
-	cursor: pointer
+.avatar-1izvHm {
+	width: 100%
 }
 
 .name-2S4ebg {
-	margin-left: 8px
+	margin-left: 8px;
+	cursor: pointer
 }
 
 .name-2S4ebg: hover {
@@ -50917,26 +50922,17 @@ to {
 
 .memberCount-3waKfJ {
 	font-size: 12px;
-	line-height: 16px;
-	margin-right: 16px
+	line-height: 16px
 }
 
-.memberCount-3waKfJ: last-child {
-	margin-right: 0
-}
-
-.dotOnline-260i1g {
+.dotSeparator-vID2Hz {
 	border-radius: 50%;
-	width: 8px;
-	height: 8px;
-	margin-right: 4px;
+	width: 4px;
+	height: 4px;
+	margin: 0 8px;
 	-ms-flex-negative: 0;
 	flex-shrink: 0;
-	background-color: #43b581
-}
-
-.dotOffline-2JUrNX {
-	background-color: #b9bbbe
+	background-color: var(--interactive-muted)
 }
 
 .emojiContainer-1u-_sQ {
@@ -50945,7 +50941,7 @@ to {
 	display: -ms-flexbox;
 	display: flex;
 	padding: 0 4px;
-	border-radius: 4px;
+	border-radius: 8px;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center
@@ -66117,4 +66113,4 @@ img[alt] {
 
 
 
-/*# sourceMappingURL=1.7ffe9bd9eede00f6dd57.css.map*/
+/*# sourceMappingURL=1.5d7837080c77ea60f8ce.css.map*/
