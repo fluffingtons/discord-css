@@ -50192,12 +50192,15 @@ to {
 	overflow: hidden;
 	border-radius: 8px;
 	position: relative;
+	cursor: pointer;
+	background-color: var(--activity-card-background)
+}
+
+.card-3DjzTQ,.iconMask-3b8GzQ {
 	-webkit-transition: background .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
 	transition: background .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
 	transition: box-shadow .2s ease-out,transform .2s ease-out,background .2s ease-out;
-	transition: box-shadow .2s ease-out,transform .2s ease-out,background .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
-	cursor: pointer;
-	background-color: var(--activity-card-background)
+	transition: box-shadow .2s ease-out,transform .2s ease-out,background .2s ease-out,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out
 }
 
 .card-3DjzTQ: focus,.card-3DjzTQ: hover {
@@ -50406,7 +50409,7 @@ to {
 	background-color: var(--background-secondary-alt)
 }
 
-.theme-dark .card-3DjzTQ: hover,.theme-dark .iconMask-3b8GzQ: hover {
+.theme-dark .card-3DjzTQ: hover,.theme-dark .card-3DjzTQ: hover .iconMask-3b8GzQ,.theme-dark .iconMask-3b8GzQ: hover,.theme-dark .iconMask-3b8GzQ: hover .iconMask-3b8GzQ {
 	background-color: var(--background-tertiary)
 }
 
@@ -50422,7 +50425,8 @@ to {
 
 
 .guildListSection-2CS8vH {
-	width: 100%
+	width: 100%;
+	margin-bottom: 32px
 }
 
 .title-39LwT4 {
@@ -50437,10 +50441,6 @@ to {
 	display: grid;
 	grid-gap: 16px;
 	grid-template-rows: repeat(2,auto);
-	height: 656px;
-	overflow-y: hidden;
-	padding: 5px;
-	margin: -5px;
 	grid-template-columns: repeat(2,minmax(290px,384px))
 }
 
@@ -50626,7 +50626,6 @@ to {
 }
 
 .searchIcon-1a1-yA {
-	cursor: pointer;
 	-ms-flex-negative: 0;
 	flex-shrink: 0;
 	-webkit-transition: color .2s ease;
@@ -50732,7 +50731,8 @@ to {
 	border-radius: 8px;
 	background-color: #fff;
 	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,.2)
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+	padding-right: 8px
 }
 
 .search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
@@ -50755,28 +50755,6 @@ to {
 
 .search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng: : placeholder {
 	color: #72767d
-}
-
-.search-1iTphC .searchBox-2_mAlO .searchIcons-3Y2jrn,.search-1iTphC .searchBox-2_mAlO .searchIcons-3Y2jrn: focus,.search-1iTphC .searchBox-2_mAlO .searchIcons-3Y2jrn: hover {
-	color: #36393f
-}
-
-.search-1iTphC .searchBox-2_mAlO .searchIcons-3Y2jrn {
-	color: rgba(79,84,92,.6)
-}
-
-.searchHelpText-25bFZ4 {
-	z-index: 1;
-	position: absolute;
-	bottom: 0;
-	font-weight: 500;
-	margin-left: 12px;
-	-webkit-transition: bottom .08s ease-out;
-	transition: bottom .08s ease-out
-}
-
-.searchHelpTextVisible-3JHwse {
-	bottom: -26px
 }
 
 .searchPage-3GKAdT .search-1iTphC {
@@ -51355,8 +51333,11 @@ to {
 }
 
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp {
-	background-color: #7289da;
 	color: #fff
+}
+
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
+	background-color: #7289da
 }
 
 
@@ -66113,4 +66094,4 @@ img[alt] {
 
 
 
-/*# sourceMappingURL=1.5d7837080c77ea60f8ce.css.map*/
+/*# sourceMappingURL=1.f670ec0e0cc2326690ae.css.map*/
