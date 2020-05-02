@@ -50699,6 +50699,10 @@ to {
 }
 
 
+.container-2zflaQ {
+	cursor: pointer
+}
+
 .container-2zflaQ,.content-1BENPf {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -50728,34 +50732,40 @@ to {
 }
 
 .splashContainer-1rUZiJ {
-	height: 135px
+	height: 135px;
+	border-radius: 8px;
+	margin-right: 16px;
+	overflow: hidden;
+	-ms-flex-negative: 0;
+	flex-shrink: 0
 }
 
 .splashImage-37Y0AL {
-	-ms-flex-negative: 0;
-	flex-shrink: 0;
+	height: 100%;
 	-o-object-fit: cover;
 	object-fit: cover;
-	border-radius: 8px;
-	margin-right: 16px
-}
-
-.avatar-1izvHm,.splashImage-37Y0AL {
-	cursor: pointer;
-	height: 100%
+	-webkit-transition: -webkit-transform .2s ease-out;
+	transition: -webkit-transform .2s ease-out;
+	transition: transform .2s ease-out;
+	transition: transform .2s ease-out,-webkit-transform .2s ease-out
 }
 
 .avatar-1izvHm {
-	width: 100%
+	width: 100%;
+	height: 100%
 }
 
-.name-2S4ebg {
-	margin-left: 8px;
+.avatar-1izvHm,.name-2S4ebg {
 	cursor: pointer
 }
 
-.name-2S4ebg: hover {
-	text-decoration: underline
+.name-2S4ebg {
+	margin-left: 8px
+}
+
+.hover-5Ebo7F .splashImage-37Y0AL {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05)
 }
 
 .guildBadge-3eWG1R {
@@ -66133,4 +66143,4 @@ img[alt] {
 
 
 
-/*# sourceMappingURL=1.39fc401df6429b3e2de1.css.map*/
+/*# sourceMappingURL=1.ff0bb30a00457ba149a3.css.map*/
